@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="upgrading-oxygen-transformation-scenarios">
+  <title>Upgrading oXygen Transformation scenarios</title>
+  <conbody>
+    <p>Before importing the transformation scenarios, open the <wintitle>Transformation
+        Scenarios</wintitle> window and ensure that the <uicontrol>Show all scenarios</uicontrol> is
+      set:</p>
+    <fig id="fig_ts1_ggh_ghb">
+      <image href="img-show-all-scenarios.jpeg" alt="???" id="image_at1_ggh_ghb"/>
+    </fig>
+    <p>Remove any existing 'MiramoPDF' transformation scenarios (pre Oxygen vs 21 only), then
+      reimport the 'MiramoPDF.scenarios' from the
+        <filepath>&lt;dita-ot&gt;plugins/com.miramo.mmpdf/integration/oxygen</filepath> folder (see
+        <xref href="integrating-with-oxygen.dita"/> for more information).</p>
+  </conbody>
+</concept>

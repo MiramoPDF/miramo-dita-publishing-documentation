@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="modifying-dita2mmpdf-default-transformation">
+	<title>Modifying the dita2mmpdf default transformation</title>
+	<conbody>
+		<p>Edit the 'cfg/xsl/custom.xsl' stylesheet to add &lt;xsl:template&gt;s to achieve the required mapping from DITA elements and attributes to MiramoXML elements and attributes. (See the mmComposer reference guide for a detailed description of the MiramoXML file format).</p>
+		<p>&lt;xsl:template&gt;s added here may either override or add to the &lt;xsl:template&gt;s defined in the default DITA to MiramoXML stylesheets, map2miramo.xsl and topic2miramo.xsl. Here is a simple example where if the &lt;p&gt; @outputclass value is specified, it is used as the &lt;ParaDef&gt; format name. If the @outputclass value is empty, the default template match is applied using &lt;xsl:apply-imports/&gt;.</p>
+		<codeblock>&lt;xsl:template match="*[contains(@class,' topic/p ')]">
+	&lt;xsl:choose>
+		&lt;xsl:when test="string-length(@outputclass) != 0">
+			&lt;xsl:call-template name="makePara">
+				&lt;xsl:with-param name="paraDefName">
+					&lt;xsl:value-of select="@outputclass"/>
+				&lt;/xsl:with-param>
+			&lt;/xsl:call-template>
+		&lt;/xsl:when>
+		&lt;xsl:otherwise>
+			&lt;xsl:apply-imports/>
+		&lt;/xsl:otherwise>
+	&lt;/xsl:choose>
+&lt;/xsl:template></codeblock>
+	</conbody>
+</concept>

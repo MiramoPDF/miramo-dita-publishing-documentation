@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="command-line-interface" xml:lang="en-us">
+    <title>Command line interface</title>
+    <topicref href="command-line-interface.dita">
+        <topicref href="running-demo.dita"/>
+        <topicref href="creating-pdf-using-dita2mmpdf.dita">
+            <topicref href="using-different-template-ditaval-filter.dita"/>
+            <topicref href="using-dev-option-to-display-formatting-properties-in-output-pdf.dita"/>
+            <topicref href="using-different-dita-input-file.dita"/>
+        </topicref>
+        <topicref href="creating-pdf-using-dita-command.dita"/>
+        <topicref href="using-ant-to-build-dita2mmpdf-target.dita"/>
+    </topicref>
+</map>

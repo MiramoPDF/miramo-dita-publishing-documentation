@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="changing-localization-text">
+  <title>Changing localization text</title>
+  <conbody>
+    <p>By default, localization text strings are located in the plugin folder's
+        <filepath>cfg/strings/*.xml</filepath> files. If you wish to keep a copy of the strings
+      folder elsewhere, copy the folder and set the<xref
+        href="ant-build-parameters.dita#ant-build-parameters/mmpdf-localization-strings-dir"
+        >mmpdf:localization-strings.dir</xref> ant build parameter to the new location.</p>
+    <note type="important">Do not change the localization text in the original
+        <filepath>com.miramo.mmpdf/cfg/strings</filepath> folder, the changes will be overwritten if
+      you upgrade.</note>
+    <p>Each language specific .xml file contains a set of &lt;str&gt; elements, each of which maps
+      to a MiramoXML language dependent &lt;VarDef&gt; whose name is prefixed with 'lang-'.</p>
+    <p>Every MiramoDesigner DITA template contains a set of language independent placeholder
+      variables (&lt;VarDef&gt;s), which can be inserted into background text frames, or used as a
+      building block, for example within a cross-reference (&lt;XRefDef&gt;) format definition.</p>
+    <p>Here is a screenshot of a language specific variable 'lang-contents' which has been inserted
+      into the header of a Contents PageDef:</p>
+    <fig id="fig_idy_dp3_ghb">
+      <image href="img-lang-contents-header.jpeg" alt="???" id="image_zbz_dp3_ghb"/>
+    </fig>
+    <p>Below is a language independent Cross Reference format which uses the lang-figure and
+      lang-onpage &lt;VarDefs&gt;:</p>
+    <fig id="fig_qsk_gp3_ghb">
+      <image href="img-cross-ref-format-example.jpeg" alt="???" id="image_x1m_gp3_ghb"/>
+    </fig>
+    <p>When the DITA is rendered to PDF, the placeholder variable will be replaced by the language
+      specific string taken from the appropriate cfg/strings//language.xml, determined by the
+      xml:lang setting applicable to the current document or chapter.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="upgrading-existing-plugin-customizations">
+	<title>Upgrading existing plugin customizations</title>
+	<conbody>
+		<p>The MiramoPDF DITA-OT plugin customization structure has been significantly reworked in
+			version 1.6, so the recommended upgrade procedure for upgrading from earlier versions is
+			to create a new customization from scratch using the instructions given in <xref
+				href="creating-new-com-example-my-mmpdf-plugin.dita"/>, then reapply any changes you
+			have made to the 'cfg/custom.xsl' to the new plugin folder.</p>
+		<p>For upgrading from version 1.6 and above, when installing a new version of the MiramoPDF
+			DITA-OT plugin it may be necessary to update the 'build.xml' file for all existing
+			customizations, so that parameters passed to the &lt;xslt&gt; target (eg
+			'my-mmpdf.merged2miramoxml') which maps from merged DITA to MiramoXML match those in the
+			com.example.mmpdf/build.xml file to take advantage of any new 'ant' build
+			parameters.</p>
+		<p>An example of the &lt;param&gt; values given in version 1.6 <b>com.example.my-mmpdf</b>
+			is shown below. As new build parameters are introduced, the list of &lt;param&gt; values
+			passed to the custom XSL stylesheet will need to be updated to reflect the new
+			parameters:</p>
+		<codeblock>&lt;xslt in="${topic.merged.file}" out="${miramoxml.file}"
+style="${dita.plugin.com.example.my-mmpdf.dir}/xsl/dita2miramo.xsl">
+	&lt;xmlcatalog refid="dita.catalog"/>
+	&lt;param name="transtype" expression="${transtype}"/>
+	&lt;param name="images.dir" expression="${mmpdf:images.dir}"/>
+	&lt;param name="images.suffix" expression="${mmpdf:images.suffix}"/>
+	&lt;param name="defaultImageUnits"
+        expression="${mmpdf:defaultImageUnits}"/>
+	&lt;param name="showStatus" expression="${mmpdf:showStatus}"/>
+	&lt;param name="includeCover" expression="${mmpdf:includeCover}"/>
+	&lt;param name="includeTOC" expression="${mmpdf:includeTOC}"/>
+	&lt;param name="includeIndex" expression="${mmpdf:includeIndex}"/>
+	&lt;param name="metadataprecedence"
+        expression="${mmpdf:metadataprecedence}"/>
+	&lt;param name="defaultCellVerticalAlignment"
+        expression="${mmpdf:defaultCellVerticalAlignment}"/>
+	&lt;param name="defaultImageAlignment"
+        expression="${mmpdf:defaultImageAlignment}"/>
+	&lt;param name="args.rellinks" expression="${args.rellinks}"/>
+	&lt;param name="args.draft" expression="${args.draft}"/>
+	&lt;param name="formatSectionTitleAsTopicTitle"
+        expression="${mmpdf:formatSectionTitleAsTopicTitle}"/>
+	&lt;param name="mfd.file.path" expression="${mfd.file.path}"/>
+	&lt;param name="tableBorders" expression="${mmpdf:tableBorders}"/>
+	&lt;param name="localization-strings.dir"
+        expression="${mmpdf:localization-strings.dir}"/>
+&lt;/xslt></codeblock>
+	</conbody>
+</concept>

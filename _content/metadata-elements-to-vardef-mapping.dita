@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-US" id="metadata-elements-to-vardef-mapping">
+  <title>Metadata elements to &lt;VarDef&gt; mapping</title>
+  <conbody>
+    <p>Metadata elements in the DITA are mapped to MiramoXML &lt;VarDef&gt; elements which are used
+      to populate MiramoDesigner variable placeholders inserted in background (running header
+      footer) text frames in the MFD template. The variables listed in<xref
+        href="#metadata-elements-to-vardef-mapping/MiramoDesigner-metadata-variables" format="dita"
+      /> are available in the default template and are populated from metadata elements, if present
+      and not empty.</p>
+    <p>In addition, certain DITA metadata elements are mapped to MiramoXML &lt;MetaData&gt; elements
+      which are used to populate PDF metadata.</p>
+    <p>For example, the following DITA &lt;author&gt; element:</p>
+    <codeblock>&lt;author&gt;Howe Tuduit&lt;/author&gt;</codeblock>
+    <p>is mapped to this &lt;MiramoXML&gt;:</p>
+    <codeblock>&lt;VarDef varDef="author"&gt;Howe Tuduit&lt;/VarDef&gt;
+&lt;MetaData name="creator"&gt;Howe Tuduit&lt;/MetaData&gt;</codeblock>
+    <p>PDF metadata may be viewed using a tool such as Adobe Acrobat, or interrogated by third-party
+      software. See <xref
+        href="#metadata-elements-to-vardef-mapping/DITA-to-PDF-xmp-metadata-mapping" format="dita"
+      />, and <xref href="adobe-acrobat-pdf-properties-populated-from-dita-elements.dita"/> .</p>
+    <p>Metadata &lt;data&gt; or &lt;othermeta&gt; elements may be used to extend the set of
+      variables and/or PDF metadata:</p>
+    <ul>
+      <li>&lt;data&gt; elements are mapped to a &lt;VarDef&gt; whose name is mapped from the
+        &lt;data&gt; element @name attribute.</li>
+      <li>a &lt;data&gt; element with @outputclass attribute set to 'mmpdf:metadata:name' may be
+        used to map to a MiramoXML &lt;MetaData&gt; element, which is used to populate PDF
+        metadata.</li>
+    </ul>
+    <table id="MiramoDesigner-metadata-variables">
+      <title>MiramoDesigner metadata variables</title>
+      <tgroup cols="2">
+        <colspec colname="c1" colwidth="50*"/>
+        <colspec colname="c2" colwidth="50*"/>
+        <tbody valign="top">
+          <row>
+            <entry align="left" valign="middle"><p>author</p></entry>
+            <entry align="left" valign="middle"><p>featnum</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>booklibrary</p></entry>
+            <entry align="left" valign="middle"><p>mainbooktitle</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>brand</p></entry>
+            <entry align="left" valign="middle"><p>prognum</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>booktitlealt</p></entry>
+            <entry align="left" valign="middle"><p>prodinfo</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>category</p></entry>
+            <entry align="left" valign="middle"><p>prodname</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>component</p></entry>
+            <entry align="left" valign="middle"><p>platform</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>copyrholder</p></entry>
+            <entry align="left" valign="middle"><p>series</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>copyryear</p></entry>
+            <entry align="left" valign="middle"><p>vrmlist (space separated list of
+              versions)</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>emailaddress</p></entry>
+            <entry align="left" valign="middle"><p>vrmversion, vrmrelease,
+              vrmmodification</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>See <xref href="adobe-acrobat-pdf-properties-populated-from-dita-elements.dita"/>for a
+      screenshot illustrating the PDF document properties populated from the taskbook.ditamap
+      supplied in the samples/ taskbook folder.</p>
+    <table id="DITA-to-PDF-xmp-metadata-mapping">
+      <title>DITA to PDF xmp metadata mapping</title>
+      <tgroup cols="3">
+        <colspec colname="c1" colwidth="33*"/>
+        <colspec colname="c2" colwidth="33*"/>
+        <colspec colname="c3" colwidth="33*"/>
+        <tbody valign="top">
+          <row>
+            <entry align="left" valign="middle"><p>DITA source element/attribute</p></entry>
+            <entry valign="middle"><p>MiramoXML &lt;MetaData&gt; @name</p></entry>
+            <entry align="left" valign="middle"><p>PDF xmp metadata element</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>author</p></entry>
+            <entry align="left" valign="middle"><p>creator</p></entry>
+            <entry align="left" valign="middle"><p>dc:creator</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>keyword</p></entry>
+            <entry align="left" valign="top"><p>keywords</p></entry>
+            <entry align="left" valign="middle"><p>pdf:Keywords</p><p>dc:subject</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"
+                ><p>bookmap/@title</p><p>bookmap/title</p><p>bookmap/mainbooktitle</p><p>map/@title</p><p>map/title</p></entry>
+            <entry align="left" valign="top"><p>title</p></entry>
+            <entry align="left" valign="top"><p>dc:title</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>created/@date</p></entry>
+            <entry align="left" valign="middle"><p>createdDate</p><p>YYYY-MM-DD</p></entry>
+            <entry align="left" valign="middle"><p>xmp:CreateDate</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>revised/@modified</p></entry>
+            <entry align="left" valign="middle"><p>modifiedDate</p><p>YYYY-MM-DD</p></entry>
+            <entry align="left" valign="middle"><p>xmp:ModifyDate</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"
+              ><p>copyright/copyrholder</p><p>copyryear/@year</p></entry>
+            <entry align="left" valign="top"><p>rights</p></entry>
+            <entry align="left" valign="top"><p>dc:rights</p></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

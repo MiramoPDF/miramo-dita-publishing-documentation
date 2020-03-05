@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="creating-new-com-example-my-mmpdf-plugin">
+	<title>Manually creating a new custom plugin</title>
+	<conbody>
+		<p>The com.miramo.mmpdf folder includes a sub-folder called com.example.my-mmpdf, and creates a
+      transformation type 'my-mmpdf'. See <xref href="creating-company-specific-plugin.dita"/> for
+      information on creating a company specific plugin with a differently named plugin and
+      transformation type.</p>
+		<p>To create a new custom plugin 'com.example.my-mmpdf', start by copying this folder to the DITA-OT plugins folder so it is at the same level as the original com.miramo.mmpdf folder.</p>
+	</conbody>
+</concept>

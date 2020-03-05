@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="topic_qtk_fth_ghb">
+    <title>Running the demo</title>
+    <conbody>
+        <p> Start a console window, or powershell window and enter:</p>
+        <codeblock>dita2mmpdf -dev</codeblock>
+        <p> If your PATH environment variable is set correctly this will run the <i>dita2mmpdf.cmd
+            </i> script in the<i>[dita-ot install dir][dita-ot install
+                dir]</i>/<i>plugins/com.miramo.mmpdf </i> folder.</p>
+        <note type="note">NOTE that the first time you run the demo it may take several minutes as
+            mmComposerbuilds its internal font cache</note>
+        <p>This calls the <b>dita2mm</b> script to perform a topic merge on the flowers.ditamap, and
+            to produce an intermediate flowers_miramo.xml file. The resulting XML is processed to
+            PDF by Miramo.</p>
+        <p> When Miramo has finished creating the PDF you should see a message like this in the
+            console window:</p>
+        <codeblock> mmComposer: 1 : Completed with 0 errors and 0 warnings.
+PDF file <i>&lt;com.miramo.mmpdf></i>\samples\flowers\flowers.pdf createdFinished.</codeblock>
+    </conbody>
+</concept>

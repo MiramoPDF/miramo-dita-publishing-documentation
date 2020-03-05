@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="customization-map" xml:lang="en-us">
+    <title>Customization</title>
+    <topicref href="customization.dita">
+        <mapref href="reuse/!reuse.ditamap" format="ditamap" processing-role="resource-only"/>
+        
+        <topicref href="customizing-com-miramo-mmpdf-plugin.dita">
+            <topicref href="creating-a-custom-plugin-with-oxygen.dita"/>
+            <topicref href="creating-a-custom-plugin-manually.dita">
+            <topicref href="creating-new-com-example-my-mmpdf-plugin.dita"/>
+            <topicref href="creating-company-specific-plugin.dita"/>
+            <topicref href="running-dita-ot-integration-tool.dita"/>
+            </topicref>
+            <topicref href="com-example-my-mmpdf-files-and-folders.dita"/>
+            <topicref href="setting-default-parameter-values.dita"/>
+            <topicref href="modifying-dita2mmpdf-default-transformation.dita"/>
+        </topicref>
+    </topicref>
+</map>

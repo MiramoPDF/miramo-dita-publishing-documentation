@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="com-example-my-mmpdf-files-and-folders">
+  <title>com.example.my-mmpdf files and folders</title>
+  <conbody>
+    <p>The com.example.my-mmpdf plugin includes the following files and folders:</p>
+    <dl>
+      <dlentry>
+        <dt>&lt;dita-ot-installdir>/plugins/com.example.my-mmpdf</dt>
+        <dd>
+          <p>Source for my-mmpdf plugin:</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>plugin.xml</dt>
+        <dd>
+          <p>Configuration file for the com.example.my-mmpdf plugin which creates a new
+            transformation type 'my-mmpdf'.</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>conductor.xml</dt>
+        <dd>
+          <p>Imports local build.xml</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>build.xml</dt>
+        <dd>
+          <p>Contains the dita2my-mmpdf target, applied by the 'my-mmpdf' transformation type.</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>xsl/dita2miramo.xsl</dt>
+        <dd>
+          <p>Top level stylesheet - modify this file to set default values for xslt parameters</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>cfg/strings/langlist.xml</dt>
+        <dd>
+          <p>Language configuration file including a list of files containing localization
+            strings</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>cfg/strings/*.xml</dt>
+        <dd>
+          <p>Miramo specific localization strings, supplied in addition to the standard DITA-OT
+            localization strings (including those in pdf2)</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>cfg/xsl/custom.xsl</dt>
+        <dd>
+          <p>Modify this file to add xsl stylesheet template match modifications; included by
+            xsl/dita2miramo.xsl</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>cfg/xsl/functionstubs.xsl</dt>
+        <dd>
+          <p>Modify this file to add to or override templates and functions with extension points
+            defined in the com.miramo.mmpdf/xsl/utilities.xsl. Included by cfg/xsl/custom.xsl</p>
+        </dd>
+      </dlentry>
+    </dl>
+  </conbody>
+</concept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="installing-Miramo-dita-ot-plugin-for-first-time">
+  <title>Installing the Miramo DITA-OT plugin for the first time</title>
+  <conbody>
+    <p>These instructions relate to installing and integrating the Miramo DITA-OT plugin into an
+      existing DITA-OT installation folder for the first time. For information on upgrading the
+      plugin see <xref href="upgrading-miramo-dita-ot-plugin.dita"/>.</p>
+    <p>To integrate with your XML authoring tool or DITA CMS, follow the instructions given by your
+      vendor. See Appendices for information on <xref
+        href="installing-integrating-plugin-with-oxygen.dita"/> and <xref
+        href="installing-integrating-plugin-with-xmetal.dita"/>.</p>
+    <p>See <xref href="files-and-folders.dita"/> for a list of files and folders installed in the
+      DITA-OT plugins/ com.miramo.mmpdf folder.</p>
+  </conbody>
+</concept>

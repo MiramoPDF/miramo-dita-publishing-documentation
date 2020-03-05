@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="installing">
+  <title>Installing</title>
+  <conbody>
+    <p>The MiramoPDF DITA-OT plugin <b>com.miramo.mmpdf</b> is designed to be seamlessly integrated
+      with any CMS or XML authoring tool such as oXygen or XMetaL. Alternatively it may be used with
+      a standalone DITA-OT installation via the command line interface. This chapter gives an
+      overview of installing or upgrading the plugin.</p>
+  </conbody>
+</concept>

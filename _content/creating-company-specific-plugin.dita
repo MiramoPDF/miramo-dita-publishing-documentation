@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="creating-company-specific-plugin">
+  <title>Manually creating a company specific plugin</title>
+  <conbody>
+    <p>In some cases it may be necessary to create one or more new plugins with a different names,
+      targets, and transformation types.</p>
+    <p>For example, company ABC Corp might need to create two specializations, com.abc.mmpdfl and
+      com.abc.mmpdf2, which create transformation types mmpdfl and mmpdf2 respectively.</p>
+    <p>To do this, copy the <filepath>plugins/com.miramo.mmpdf/com.example.my-mmpdf</filepath>
+      folder to <filepath>plugins/com.abc.mmpdf1</filepath> and
+        <filepath>plugins/com.abc.mmpdf2</filepath>.</p>
+    <p>Then edit the following files in each of the two new folders com.abc.mmpdf1,
+      com.abc.mmpdf2:</p>
+    <ul id="ul_ypv_h53_ghb">
+      <li>plugin.xml</li>
+      <li>conductor.xml</li>
+      <li>build.xml</li>
+    </ul>
+    <p>Replace all occurrences of 'com.example.my-mmpdf' with com.abc.mmpdf1 or com.abc.mmpdf2</p>
+    <p>Replace all occurrences of 'my-mmpdf' with 'mmpdf1' or 'mmpdf2'</p>
+    <p>Modify xsl/dita2miramo.xsl, cfg/xsl/custom.xsl, cfg/strings/langlist.xml, cfg/strings/*.xml
+      as required</p>
+    <p>Run the DITA-OT integration process</p>
+    <p>The ant targets 'dita2mmpdf1' and 'dita2mmpdf2' will now be available, along
+      with the transformation types 'mmpdf1' and 'mmpdf2'.</p>
+  </conbody>
+</concept>

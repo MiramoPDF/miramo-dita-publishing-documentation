@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="indexes">
+	<title>Indexes</title>
+	<conbody>
+		<p>By default, Indexes are included under the following conditions:</p>
+		<ul id="ul_oxv_nh3_ghb">
+			<li>DITA source contains one or more &lt;indexterm&gt; elements</li>
+			<li>bookmap: bookmap element contains a &lt;booklists&gt; &lt;indexlist&gt; element, for
+        example:</li>
+		</ul>
+		<codeblock>&lt;backmatter>
+   &lt;booklists>
+      &lt;indexlist/>
+   &lt;/booklists></codeblock>
+		<p>To suppress index generation in the above cases, set <b>mmpdf:includeIndex=N</b>
+		</p>
+	</conbody>
+</concept>

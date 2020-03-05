@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="test-integration-xmetal">
+	<title>To test the integration</title>
+	<conbody>
+		<ol outputclass="start(10)">
+			<li>Open a DITA map in XMetaL.</li>
+			<li>Select <menucascade>
+					<uicontrol>File</uicontrol>
+					<uicontrol>Generate Output for DITA Map ...</uicontrol>
+				</menucascade>
+			</li>
+			<li>Select 'MiramoPDF'.</li>
+		</ol>
+	</conbody>
+</concept>

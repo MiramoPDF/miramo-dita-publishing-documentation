@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="using-oxygen-miramopdf-mfd-upgrade-transformation">
+  <title>Using the oXygen 'MiramoPDF MFD upgrade' transformation</title>
+  <conbody>
+    <p>To use the MiramoPDF MFD upgrade scenario:</p>
+    <ul>
+      <li>open the target MFD template as an XML file in oXygen editor</li>
+      <li>apply the MiramoPDF MFD upgrade transformation</li>
+    </ul>
+    <p>This creates a new MFD file 'template_upgraded.mfd' and opens it using MiramoDesigner. The
+      console window will display diagnostic information describing the changes made.</p>
+  </conbody>
+</concept>

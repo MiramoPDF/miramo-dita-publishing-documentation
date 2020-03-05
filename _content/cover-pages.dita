@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="cover-pages">
+  <title>Cover pages</title>
+  <conbody>
+    <p>By default, front cover pages are included under the following conditions: </p>
+    <ul id="ul_gdd_ph3_ghb">
+      <li>map: map element has @title attribute or child &lt;title&gt; element </li>
+      <li>bookmap: bookmap element contains child &lt;booktitle&gt; element</li>
+    </ul>
+    <p>The front cover is added as a result of applying the coverSection SectionDef from the
+      specified MFD file. To suppress cover generation in the above cases, <b>set
+        mmpdf:includeCover=N</b></p>
+    <p>Back cover pages may be added to the PDF generated from a map or bookmap if and only if the
+      ant build parameter mmpdf:includeBackCover is set to Y. In this case the backCoverSection
+      SectionDef is applied to the end of the generated PDF.</p>
+  </conbody>
+</concept>

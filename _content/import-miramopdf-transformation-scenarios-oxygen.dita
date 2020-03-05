@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="import-miramopdf-transformation-scenarios-oxygen">
+	<title>Import MiramoPDF transformation scenarios [oXygen]</title>
+	<conbody>
+		<p>Once the com.miramo.mmpdf folder is installed in the DITA-OT plugins folder, set up the MiramoPDF
+      transformation scenario: Choose options-&gt;import transformation scenarios, then navigate to
+      the MiramoPDF.scenarios file located in the com.miramo.mmpdf/integration/oxygen subfolder (by
+      default,<filepath>[oxygen_install_dir]/frameworks/dita/DITA-OT3.x/plugins/com.miramo.mmpdf/integration/oxygen</filepath>
+      ).</p>
+		<p>This creates the <b>MiramoPDF</b> and <b>MiramoPDF dev</b> (with PDF tooltips) transformation
+      scenarios, which are set up to produce a PDF from the currently edited DITA file, and which
+      can be applied and modified as required. See <xref href="ant-build-parameters.dita"/> for more
+      information.</p>
+	</conbody>
+</concept>

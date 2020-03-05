@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="using-different-dita-input-file">
+  <title>Using a different DITA input file</title>
+  <conbody>
+    <p>To run the DITA file through to a pdf with the same basename as the DITA file, use:</p>
+    <codeblock>dita2mmpdf &lt;path to ditafile&gt;</codeblock>
+    <p>or add the appropriate template file and output PDF name, eg:</p>
+    <codeblock>dita2mmpdf sample.dita mytemplate.mfd mysample.pdf</codeblock>
+    <p>In this case 'mytemplate.mfd' must exist in the
+        <filepath>plugins/com.miramo.mmpdf/mmtemplates</filepath> folder.</p>
+  </conbody>
+</concept>

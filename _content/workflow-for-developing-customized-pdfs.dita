@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="workflow-for-developing-customized-pdfs">
+	<title>Workflow for developing customized PDFs</title>
+	<conbody>
+		<p>The workflow for developing a GUI template for customized PDFs is as follows:</p>
+		<ol>
+			<li>Create a new DITA template (MFD) in the com.miramo.mmpdf/mmtemplates folder</li>
+			<li>Publish DITA content using the new MFD file with PDF tooltips enabled [showProperties=Y]</li>
+			<li>Review the PDF tooltips and decide which format definitions you would like to change</li>
+			<li>Use MiramoDesigner to modify the format definitions in the MFD template</li>
+			<li>Repeat steps 2 to 5 until you're happy with the output</li>
+			<li>Publish to production PDF with tooltips disabled [showProperties=N]</li>
+		</ol>
+	</conbody>
+</concept>

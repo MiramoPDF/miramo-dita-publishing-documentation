@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="running-dita-ot-integration-tool">
+  <title>Running the DITA-OT integration tool</title>
+  <conbody>
+    <p>Next, install the new com.example.my-mmpdf plugin by running the DITA-OT ant integration tool
+      as enabled by your CMS or authoring tool, or using one of the commands below.</p>
+    <p>For oXygen, see <xref href="running-dita-ot-integrator-oxygen.dita"/>.</p>
+    <p>For standalone DITA-OT installations, use:</p>
+    <codeblock>ant -f integrator.xml</codeblock>
+    <p>or use the dita command:</p>
+    <codeblock>dita-ot-dir/bin/dita --install</codeblock>
+    <p>This will create a new transformation type 'my-mmpdf' which you can use in place of the
+      'mmpdf' transfomation type. It will also add a new ant target 'dita2my-mmpdf'.</p>
+    <p>The next stage is to modify the files in the
+        <filepath>plugins/com.example.my-mmpdf</filepath> folder.</p>
+  </conbody>
+</concept>

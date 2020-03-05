@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="creating-pdf-using-dita2mmpdf">
+  <title>Creating a PDF using dita2mmpdf</title>
+  <conbody>
+    <p>The dita2mmpdf script has the following usage:</p>
+    <codeblock>dita2mmpdf [-dev] [-ditaval file.ditaval] [ditafile [template.mfd [pdffile]]]</codeblock>
+  </conbody>
+</concept>

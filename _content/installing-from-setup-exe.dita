@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="installing-from-setup-exe">
+  <title>Installing from the setup.exe</title>
+  <conbody>
+    <p>Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe and navigate to the DITA-OT
+      install root folder, which contains the 'integrator.xml' file. The MiramoDITA-OT plugin source
+      (including samples, command scripts and templates) will be located in the <filepath>[dita-ot
+        install dir]/ plugins/com.miramo.mmpdf</filepath> folder, for example:</p>
+    <p><filepath>C:\program files (x86)\dita-ot-3.3\plugins\com.miramo.mmpdf</filepath></p>
+    <p>The MiramoDITA-OTplugin&lt;vs&gt;setup.exe will run the DITA-OT integrator and will append
+      the com.miramo.mmpdf folder to the PATH environment variable. The plugin is now ready to
+      use.</p>
+    <p>See <xref href="http://www.dita-ot.org" scope="external" format="html">www.dita-ot.org
+      </xref>for more information on installing and integrating DITA-OT plugins.</p>
+  </conbody>
+</concept>

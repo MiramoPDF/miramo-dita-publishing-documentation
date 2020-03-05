@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="gui-template-controlled-formatting">
+  <title>GUI template controlled formatting</title>
+  <conbody>
+    <p>The appearance of the output PDF is controlled by a <b>Miramo Format Definitions</b> (MFD)
+      template - <i>the separation of form and content</i>. Templates are created and modified using
+        <b>MiramoDesigner</b> (MiramoDesigner.exe), the GUI template design tool component of
+        <b>MiramoPDF</b>.</p>
+    <fig id="fig_kc5_sbh_ghb">
+      <image href="img-gui-template.jpeg" alt="???" id="image_x4v_sbh_ghb"/>
+    </fig>
+    <p>The default template (default.mfd) supplied with the plugin provides a single-column layout
+      for rendering MiramoXML to PDF. Here is an example: flowers_ default.pdf.</p>
+    <draft-comment author="whitel">Link to flowers_default.pdf?</draft-comment>
+  </conbody>
+</concept>

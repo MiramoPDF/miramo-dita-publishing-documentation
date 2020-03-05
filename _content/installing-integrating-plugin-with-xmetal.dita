@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="installing-integrating-plugin-with-xmetal">
+	<title>Installing and integrating the plugin with XMetaL</title>
+	<conbody>
+		<p>This section covers integration with XMetaL Author Enterprise 12 and above.</p>
+	</conbody>
+</concept>

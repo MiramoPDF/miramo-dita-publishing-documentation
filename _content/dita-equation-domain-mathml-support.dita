@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="dita-equation-domain-mathml-support">
+  <title>DITA equation domain (&lt;mathml&gt;) support</title>
+  <conbody>
+    <p>The plugin supports the following DITA math elements: </p>
+    <ul id="ul_wqd_dj3_ghb">
+      <li>&lt;equation-block><p>Use the &lt;equation-block&gt; element to represent an equation that is presented as a
+        separate block within a text flow. Block equations can be numbered. &lt;equation-block&gt;
+        elements are wrapped in an 'equation-block' FontDef.</p></li>
+      
+      <li>equation-figure<p>Use the &lt;equation-figure&gt; element to represent an equation that functions as form of
+        figure or display. Display equations are intended to be numbered when numbering is desired.
+        &lt;equation-figure&gt; equations are wrapped in a 'equation-figure' table, which allows for
+        different numbering sequences for equation titles.</p></li>
+      
+      <li>equation-inline<p>Use the &lt;equation-inline&gt; element to represent an equation that is presented inline
+        within a paragraph or similar context. Inline equations are not intended to be numbered.
+        &lt;equation-inline&gt; equations are wrapped in an 'equation-inline' FontDef.</p></li>
+      
+    </ul>
+    <p>'equation-inline' and 'equation-block' FontDefs may be used to set default font
+      characteristics (font family, pointsize and text color) for &lt;mathml&gt; equations.</p>
+  </conbody>
+</concept>

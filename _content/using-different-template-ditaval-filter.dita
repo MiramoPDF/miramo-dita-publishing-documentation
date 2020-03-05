@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="using-different-template-ditaval-filter">
+  <title>Using a different template and/or DITAVAL filter</title>
+  <conbody>
+    <p>To run the flowers sample through using a different 'twocol.mfd' template (not supplied)
+      which you have created in the mmtemplates folder , use this command from the plugins/
+      com.miramo.mmpdf subfolder in the DITA-OT install folder:</p>
+    <codeblock>dita2mmpdf samples/flowers/flowers.ditamap twocol.mfd</codeblock>
+    <p>This will create the file samples/flowers/flowers.pdf (the PDF file defaults to the basename
+      of the DITA file, with a .pdf extension) using the 'twocol.mfd' template (<i>not
+      supplied</i>).</p>
+    <p>To create a differently named PDF, specify it as the last argument to dita2mmpdf, for
+      example:</p>
+    <codeblock>dita2mmpdf samples/flowers/flowers.ditamap twocol.mfd ff.pdf</codeblock>
+    <p>To apply a DITAVAL filter 'print.ditaval' (not supplied) use the -ditaval command line
+      option, eg:</p>
+    <codeblock>dita2mmpdf -ditaval print.ditaval samples/taskbook.ditamap</codeblock>
+  </conbody>
+</concept>

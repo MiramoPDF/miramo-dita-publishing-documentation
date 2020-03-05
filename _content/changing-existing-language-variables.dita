@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="changing-existing-language-variables">
+  <title>Changing existing language variables</title>
+  <conbody>
+    <p>To change the value used to populate a &lt;VarDef&gt; which retrieves the value of a DITA-OT
+      language string, remove the @dita-ot-id attribute and add the required text to the &lt;str&gt;
+      element.</p>
+    <p>For example, to suppress the standard note separator ':' which is added as a label suffix for
+      &lt;note&gt; paragraphs, change from:</p>
+    <codeblock>&lt;str id="lang-note-separator" dita-ot-id="#note-separator"/&gt;</codeblock>
+    <p>to:</p>
+    <codeblock>&lt;str id="lang-note-separator"/&gt;</codeblock>
+    <p>Here is another example where the standard text used to label a &lt;prereq&gt; paragraph is
+      changed from the default DITA-OT string 'Avant de commencer' to 'Avant:' change from:</p>
+    <codeblock>&lt;str id="lang-prereq"&gt;Avant de commencer &lt;/str&gt;</codeblock>
+    <p>to:</p>
+    <codeblock>&lt;str id="lang-prereq"&gt;Avant: &lt;/str&gt;</codeblock>
+    <p>Be sure to run the DITA-OT integration tool to apply the changes: <xref
+        href="running-dita-ot-integration-tool.dita"/>.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="make-oXygen-content-completion-present-outputclass-values">
+  <title>Make oXygen's content completion present the @outputclass values</title>
+  <conbody>
+    <p>To configure oXygen's content completion, it is necessary to copy and paste the match
+      elements contained in the cc_config_miramo.xml file supplied to the DITA framework you are
+      using.</p>
+    <p>The cc_config_miramo.xml file is located here:</p>
+    <p><filepath>[oxygen_install_dir]/frameworks/dita/DITA-OT3.x/plugins/com.miramo.mmpdf/integration/oxygen/
+      cc_config_miramo.xml</filepath></p>
+    <p>and contains entries like this:</p>
+    <codeblock>&lt;match elementName="p" attributeName="outputclass">
+	&lt;items action="append">
+		&lt;item value="mmpdf:span" annotation="Spans title across all columns in multi-column document"/>
+		&lt;item value="mmpdf:pageBreak" annotation="breaks page before title/p/note paragraph"/>
+		&lt;item value="mmpdf:columnBreak" annotation="force title/p/note paragraph to top of next column 
+		    (or page, for singlecolumn documents)"/>
+		&lt;item value="mmpdf:section:name" annotation="start new section using SectionDef 'name'. 
+		    SectionDef is defined in the MFD template"/>
+	&lt;/items>
+&lt;/match></codeblock>
+    <p>Inside your DITA framework there is a configuration file named cc_config.xml. If you are
+      using the built-in DITA framework then this file is located at
+      [OXYGEN_INSTALL_DIR]/frameworks/dita/resources/cc_config.xml.</p>
+    <p>If you don't know exactly what framework you are using or where it is located then you can
+      find out like this: </p>
+    <ol id="ol_fqs_zw3_ghb">
+      <li> Go to <menucascade>
+          <uicontrol>Window</uicontrol>
+          <uicontrol>Show view</uicontrol>
+        </menucascade> and open the Properties view.</li>
+      <li>Open a DITA topic.</li>
+      <li>Look inside the Properties view at the Document type name. Now you know the name of your
+        framework.</li>
+      <li>Go to <menucascade>
+          <uicontrol>Options</uicontrol>
+          <uicontrol>Preferences...</uicontrol>
+        </menucascade>
+      </li>
+      <li>On the Document Type Associations page, identify and edit the framework with the
+        previously discovered name. The Storage field will reveal its location.</li>
+    </ol>
+  </conbody>
+</concept>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="creating-pdf-using-dita-command">
+  <title>Creating a PDF using the <i>dita</i> command</title>
+  <conbody>
+    <p>You can use either the dita command-line tool or ant to transform DITA content to PDF using
+      the Miramo DITA-OT plugin:</p>
+    <codeblock>dita -f mmpdf -i &lt;path to ditafile&gt; [options]</codeblock>
+    <p>The above assumes that folder containing dita.bat is included in the PATH environment
+      variable, for example using the following powershell command:</p>
+    <codeblock>$env:PATH += ";$env:MM_DITA_DIR/bin"</codeblock>
+    <p>Here is an example of using the 'dita' -f mmpdf command line tool to publish flowers.ditamap
+      to a PDF in the default output folder, './out':</p>
+    <codeblock>dita -f mmpdf -i flowers.ditamap</codeblock>
+    <p>Any of the <xref href="ant-build-parameters.dita"/> may be specified, for example to include
+      PDF tooltip properties in the output PDF, and to write to pdf file 'myflowers.pdf' in the
+      current folder:</p>
+    <codeblock>dita -f mmpdf -i flowers.ditamap "-Dmmpdf:showProperties=Y" "-Dpdf.file=myflowers.pdf"</codeblock>
+    <p>See <xref href="http://www.dita-ot.org/2.0/readme/dita-command-properties.html"
+        scope="external" format="html">dita command arguments and options </xref> on the <xref
+        href="http://www.dita-ot.org" scope="external" format="html">http://www.dita-ot.org</xref>
+      website for more information, and <xref href="ant-build-parameters.dita"/> for a list of
+      supported parameter values.</p>
+  </conbody>
+</concept>

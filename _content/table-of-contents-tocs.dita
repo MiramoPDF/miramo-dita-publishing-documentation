@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="table-of-contents-tocs">
+	<title>Table of Contents (TOC)s</title>
+	<conbody>
+		<p>By default, TOCs are included under the following condition:</p>
+		<p>bookmap: bookmap element contains a &lt;booklists&gt; &lt;toc&gt; element, for example:</p>
+		<codeblock>&lt;frontmatter>
+   &lt;booklists>
+      &lt;toc/>
+   &lt;/booklists></codeblock>
+		<p>To suppress TOC generation in the above case, set <b>mmpdf:includeTOC=N</b>
+		</p>
+	</conbody>
+</concept>

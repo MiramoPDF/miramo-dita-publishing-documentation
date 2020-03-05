@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="using-mfdupgrade-command-line-tool">
+  <title>Using the 'mfdupgrade' command line tool</title>
+  <conbody>
+    <p>The 'mfdupgrade.cmd' script is installed in <filepath>c:\program
+        files\Miramo\MiramoPDF</filepath> which is added to the PATH environment variable by the
+      installer.</p>
+    <p>To upgrade your MFD file, start a new DOS command window and enter the following
+      commands:</p>
+    <codeblock>cd "foldercontainingMFDfile" 
+mfdupgrade <b>template</b>.mfd</codeblock>
+    <p>The system will produce a log file 'mfdupgrade.log' in the current folder, and will
+      automatically open the new <b>template_upgraded.mfd</b> using MiramoDesigner.</p>
+    <p>The MM_DITA_DIR environment variable is set to the location of the com.miramo.mmpdf plugin
+      folder during installation of the DITA-OT plugin. The mfdupgrade utility copies any missing or
+      updated Format Definitions from the DITA-OT plugin default template 'default.mfd' located in
+        <filepath>%MM_DITA_DIR%/plugins/ com.miramo.mmpdf/mmtemplates</filepath>.</p>
+  </conbody>
+</concept>

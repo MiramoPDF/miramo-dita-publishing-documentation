@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="configuring-supported-xml-lang-values-langlist-xml">
+	<title>Configuring supported xml:lang values: langlist.xml</title>
+	<conbody>
+		<p>The com.miramo.mmpdf/cfg/strings/langlist.xml file controls the mapping of xml:lang values
+      specified in DITA markup, and configures the filename containing localization text. The
+      'cfg/strings/*.xml' contain language specific strings used to construct language specific
+      variables eg 'lang-table' and 'lang-page' which may be inserted in the MFD template. See <xref
+        href="changing-localization-text.dita"/> for information on changing existing language
+      specific variables, and/or adding new ones.</p>
+		<fig id="fig_pkv_qz3_ghb">
+			<image href="img-lang-languagename-placeholder.jpeg" alt="???" id="image_w5q_mph_ghb"/>
+		</fig>
+		<note type="important">Do not change any of the files in the com.miramo.mmpdf/cfg folder as
+      these will be overwritten when upgrading the plugin. See <xref
+        href="customizing-com-miramo-mmpdf-plugin.dita"/> for information on how to customize
+      language specific variables.</note>
+		<p>Here are some extracts from the default com.miramo.mmpdf/cfg/strings/langlist.xml file,
+      starting at line 169. See comments for an explanation of attribute values:</p>
+		<codeblock>&lt;!--
+   &lt;!-- MiramoPDF plugin config starts here: add or remove entries below
+
+   Each xml:lang value below includes the following attributes:
+    filename
+       specifies file containing language specific strings
+    rtl
+       set to "true" for RTL languages such as Arabic (ar) and Hebrew (he)
+    requiresFontSwitch
+       set to 'true' if language requires a switch to a different (non-latin
+       script) font for example, if a phrase with @xml:lang='zh-cn'
+       (simplified chinese) is encountered within a DITA document with
+       @xml:lang='us-en', this would require a switch to a different fontDef:
+       lang-zh-cn
+    miramoLanguage
+       MiramoXML @language attribute value: controls font script, text
+       direction and hyphenation characteristics
+-->
+&lt;lang xml:lang="en-us" filename="en.xml" miramoLanguage="usEnglish"/>
+
+&lt;lang xml:lang="ar" filename="ar.xml" rtl="true" requiresFontSwitch="true" 
+miramoLanguage="Arabic"/>
+&lt;lang xml:lang="ar-eg" filename="ar.xml" rtl="true"
+requiresFontSwitch="true" miramoLanguage="Arabic"/>
+&lt;lang xml:lang="ar-ae" filename="ar.xml" rtl="true"
+requiresFontSwitch="true" miramoLanguage="Arabic"/>
+&lt;lang xml:lang="be" filename="be.xml"/>
+&lt;lang xml:lang="be-by" filename="be.xml"/>
+&lt;lang xml:lang="bg" filename="bg.xml" miramoLanguage="Bulgarian"/>
+&lt;lang xml:lang="bg-bg" filename="bg.xml" miramoLanguage="Bulgarian"/>
+&lt;lang xml:lang="bs" filename="bs.xml" miramoLanguage="Bosnian"/>
+&lt;lang xml:lang="bs-ba" filename="bs.xml" miramoLanguage="Bosnian"/>
+...</codeblock>
+	<p>To add a support for a new xml:lang value, first create a new localization strings file by
+      copying an existing file and modify the language strings as required. Then add a new entry to
+      the langlist.xml file.,with the filename attribute set to the location of the new language
+      file.</p>
+	<p>Be sure to run the DITA-OT integrator to register your changes.</p>
+</conbody>
+</concept>

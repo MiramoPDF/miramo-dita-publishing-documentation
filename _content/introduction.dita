@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="introduction">
+  <title>Introduction</title>
+  <conbody>
+    <p>Thank you for your interest in the Miramo DITA Open Toolkit (OT) plugin,
+        <b>com.miramo.mmpdf</b>, which provides a simple method for generating high-quality PDFs
+      from DITA on Windows system using <b>MiramoPDF</b>, where formatting is controlled via a GUI
+      template design tool, <b>MiramoDesigner</b>.</p>
+    <p>This Getting Started guide provides the information you need to get up and running publishing
+      your DITA content, fast.</p>
+    <p>The plugin maps DITA to the MiramoXML model, then applies template-controlled formatting
+      using <b>MiramoPDF</b>. It is designed to be easily integrated with your chosen XML authoring
+      tool or content management system, or run with the standalone DITA-OT using a simple command
+      line interface described in <xref href="command-line-interface.dita"/>.</p>
+    <p>See Appendices for information on <xref href="installing-integrating-plugin-with-oxygen.dita"
+      />, and <xref href="installing-integrating-plugin-with-xmetal.dita"/>.</p>
+    <p>The <b>com.miramo.mmpdf</b> plugin is designed to cover standard formatting requirements for
+      DITA document content out of the box, but for bespoke requirements it may be customized to
+      suit your needs - for information see <xref href="customization.dita"/>.</p>
+    <p>If you would like more information about server versions of Miramo, or if you need to publish
+      non-DITA structured data, or would like to produce different output formats (FrameMaker, ePub,
+      Kindle, HTML5 ...) please contact us (email <xref href="mailto:miramo@datazone.com"
+        scope="external" format="html">miramo@datazone.com</xref>, phone +353 64 66 28964), and/or visit our
+        website:<xref href="http://www.miramo.com" scope="external" format="html">
+      http://www.miramo.com</xref>.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="customizing-com-miramo-mmpdf-plugin">
+	<title>Customizing the com.miramo.mmpdf plugin</title>
+	<conbody>
+		<p>The <b>com.miramo.mmpdf</b> plugin is intended to cover most formatting requirements, but in some cases it may be necessary to create a custom plugin which overrides or adds to some of the features supported by the standard plugin.  If so, <b>do not</b> modify the files in the default <term keyref="productname02"/> installation folder (<filepath>DITA-OT3.x\plugins\com.miramo.mmpdf</filepath>), because these files will be overwritten when you install a new version of the <ph keyref="productname02"/>. Create a custom <ph keyref="productname02"/> instead.</p>
+    <fig id="fig_uwd_vpl_k3b">
+      <image href="graphics/default_miramo_dita-ot_plugin.png" outputclass="fmdpi:240" id="image_xlf_nfz_fjb"/>
+      <image href="graphics/custom_miramo_dita-ot_plugin.png" id="image_hc4_wpl_k3b" outputclass="fmdpi:240"/>
+      <dl>
+        <dlentry>
+          <dt>A</dt>
+          <dd><b>Default</b>
+            <ph keyref="productname02"/> folder</dd>
+        </dlentry>
+        <dlentry>
+          <dt>B</dt>
+          <dd><b>Custom</b>
+            <ph keyref="productname02"/> folder</dd>
+        </dlentry>
+      </dl>
+    </fig>
+	  <p>If you have access to <ph keyref="productname03"/> see <xref href="creating-a-custom-plugin-with-oxygen.dita"/>, otherwise follow the instructions in <xref href="creating-new-com-example-my-mmpdf-plugin.dita"/> or <xref href="creating-company-specific-plugin.dita"/></p>
+    <p>It also includes a simple example of working with a new plugin (com.example.my-mmpdf) to create a new transformation type my-mmpdf which includes changes to localization text, default parameter values and to the DITA to MiramoXML transformation.</p>
+	</conbody>
+</concept>

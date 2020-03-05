@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="xml-lang-to-miramoxml-mapping">
+  <title>@xml:lang to MiramoXML mapping</title>
+  <conbody>
+    <p>The DITA-OT processes @xml:lang values encountered in the inputstream as follows:</p>
+    <p>When the DITA-OT plugin encounters an @xml:lang attribute value which differs from the
+      document @xml:lang value, it checks the langlist.xml file to see if a font switch is required
+      (@requiresFontSwitch="true"); if so, it applies the FontDef named 'lang-lower-case(@xml:lang)'
+      - for example, if an Traditional Chinese table like this is encountered in a us-en (US
+      english, default) document:</p>
+    <codeblock>&lt;table xml:lang="zh-TW"&gt;</codeblock>
+    <p>it is mapped to this MiramoXML:</p>
+    <codeblock>&lt;Tbl language="TraditionalChinese"&gt;&lt;!-- language attribute determines
+      hyphenation--&gt;</codeblock>
+    <p>and all the paragraphs within the &lt;table&gt; contents of the &lt;table&gt; are formatted
+      with the FontDef named 'lang-zh-tw'.</p>
+    <p>Similiarly, if a &lt;b&gt; (bold) or &lt;i&gt; (italic) element is encountered within the
+      context of an @xml:lang value which differs from the document @xml:lang, it is mapped to a
+      FontDef named 'b-lower-case(@xml:lang)' or 'i-lower- case(@xml:lang)' - for example, b-zh-tw
+      or i-ar. However, if the language context of the &lt;b&gt; or &lt;i&gt; element is the same as
+      the document language context, the mapping is to FontDef 'b' or 'i', as usual.</p>
+  </conbody>
+</concept>

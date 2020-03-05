@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="topic_qyk_vv3_ghb">
+    <title>Files and folders</title>
+    <conbody>
+        <p> See <xref href="files-and-folders.dita"/> for a list of files and folders which are
+            installed in the <filepath>plugins\com.miramo.mmpdf</filepath> folder.</p>
+    </conbody>
+</concept>

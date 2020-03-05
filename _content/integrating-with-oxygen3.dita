@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="integrating-with-oxygen3">
+	<title>Integrating with oXygen</title>
+	<conbody>
+		<p>The &lt;match&gt; entries for allowing content completion for the MiramoPDF @outputclass values
+  are located in the <filepath>[oxygen_install_dir]/frameworks/dita/DITA-OT3.x/plugins/com.miramo.mmpdf/integration/oxygen/
+    cc_config_miramo.xml</filepath> file.</p>
+		<p>Open it and copy and paste the entries inside the &lt;config&gt; root element in your DITA
+      framework cc_config.xml file.</p>
+	</conbody>
+</concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="upgrading-map" xml:lang="en-us">
+    <title>Upgrading</title>
+    <topicref href="upgrading.dita">
+        <topicref href="upgrading-miramo-dita-ot-plugin.dita"/>
+        <topicref href="upgrading-existing-mfd-files.dita"/>
+        <topicref href="using-mfdupgrade-command-line-tool.dita"/>
+        <topicref href="upgrading-oxygen-transformation-scenarios.dita"/>
+        <topicref href="using-oxygen-miramopdf-mfd-upgrade-transformation.dita"/>
+        <topicref href="upgrading-existing-plugin-customizations.dita"/>
+    </topicref>
+</map>

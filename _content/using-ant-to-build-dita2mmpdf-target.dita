@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="using-ant-to-build-dita2mmpdf-target">
+  <title>Using ant to build the dita2mmpdf target</title>
+  <conbody>
+    <p>Alternatively you can use ant to build the 'dita2mmpdf' target using the following syntax
+      (powershell):</p>
+    <codeblock>ant -f "$env:MM_DITA_DIR/build.xml" ["-Dparam=value" "..."] dita2mmpdf</codeblock>
+    <p>The above assumes that folder containing ant.bat is included in the PATH environment
+      variable, for example using the following powershell command:</p>
+    <codeblock>$env:PATH += ";$env:MM DITA DIR/bin" # powershell</codeblock>
+    <p>Here is an example creating flowers.pdf from the samples/flowers folder by running this
+      command from the powershell:</p>
+    <codeblock>cd "env:MM_DITA_DIR"
+ant -f "$env:MM DITA DIR/build.xml" "-Dargs.input=samples/flowers/
+    flowers.ditamap" "-Dmmpdf:showProperties=Y" "-Dpdf.file=flowers.pdf"
+    dita2mmpdf</codeblock>
+    <p>Here is another example, where the test.ditamap is located in "c:\users\Joanne\documents",
+      and the MFD file is called 'test.mfd' and is located in c:\Users\Joanne\documents:</p>
+    <codeblock>cd c:\Users\Joanne\documents
+ant -f "$env:MM DITA DIR/build.xml" "-Dargs.input=samples/flowers/
+   flowers.ditamap" "-Dmmpdf:showProperties=Y" "-Dmmpdf:mfd.file=test.mfd"
+   "-Dmmpdf:mfd.dir=c:\Users\Joanne\documents" "-Dpdf.file=flowers.pdf"
+   dita2mmpdf</codeblock>
+    <p>See <xref href="ant-build-parameters.dita"/> for a list of parameters supported by the
+      MiramoPDF DITA-OT plugin.</p>
+  </conbody>
+</concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="multilingual-publishing-map" xml:lang="en-us">
+    <title>Multilingual publishing</title>
+    <topicref href="multilingual-publishing.dita">
+        <topicref href="how-many-mfd-or-template-files-will-i-need.dita"/>
+        <topicref href="language-specific-variables.dita">
+            <topicref href="changing-localization-text.dita"/>
+            <topicref href="example-extract-from-the-cfg-strings-fr-xml-file.dita"/>
+            <topicref href="changing-existing-language-variables.dita"/>
+            <topicref href="creating-using-new-language-variable.dita"/>
+        </topicref>
+        <topicref href="configuring-supported-xml-lang-values-langlist-xml.dita"/>
+        <topicref href="xml-lang-to-miramoxml-mapping.dita"/>
+    </topicref>
+</map>

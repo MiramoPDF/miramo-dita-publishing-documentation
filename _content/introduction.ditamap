@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="introduction-map" xml:lang="en-us">
+    <title>Introduction</title>
+    <topicref href="introduction.dita">
+        <topicref href="gui-template-controlled-formatting.dita"/>
+    </topicref>
+</map>

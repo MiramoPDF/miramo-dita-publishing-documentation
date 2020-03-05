@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="example-extract-from-the-cfg-strings-fr-xml-file">
+	<title>Example: extract from the 'cfg/strings/fr.xml' file</title>
+	<conbody>
+		<p>For example, here is an extract from the start of the default 'fr.xml' supplied with the com.example.my-mmpdf plugin:</p>
+		<codeblock>&lt;strings xml:lang="fr">
+&lt;str id="lang-fig">Illustration &lt;/str>
+&lt;str id="lang-table">Tableau &lt;/str>
+&lt;str id="lang-chapter">Chapitre &lt;/str>
+&lt;str id="lang-appendix">Annexe &lt;/str>
+&lt;str id="lang-page">la page&lt;/str>
+&lt;str id="lang-optional">Facultatif :&lt;/str>
+&lt;str id="lang-required">Obligatoire :&lt;/str>
+&lt;str id="lang-onpage"> a la page &lt;/str>
+&lt;str id="lang-prereq" dita-ot-id="task prereq"/>
+&lt;str id="lang-postreq" dita-ot-id="task postreq"/>
+&lt;str id="lang-example" dita-ot-id="task example"/></codeblock>
+		<p>This file is used to populate a set of MiramoDesigner language independent &lt;VarDef&gt;s as
+      follows.</p>
+		<p>If present, @dita-ot-id specifies the DITA-OT language variable or string id to look up,
+      defined in: </p>
+		<sl>
+			<sli>plugin:org.dita.base:xsl/common/strings-*.xml </sli>
+			<sli>plugin:org.dita.pdf2/cfg/common/vars/*.xml</sli>
+		</sl>
+		<p>If there is no @dita-ot-id attribute, the value is taken from the &lt;str&gt; element
+      contents.</p>
+	</conbody>
+</concept>

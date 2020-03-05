@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="files-and-folders">
+  <title>Files and folders</title>
+  <conbody>
+    <p>The <b>com.miramo.mmpdf</b> plugin includes the following files and folders, located in the
+      DITA-OT installation folder selected during installation:</p>
+    <p><filepath>&lt;dita-ot-installdir>/plugins/com.miramo.mmpdf/</filepath></p>
+    <p>Source for <b>com.miramo.mmpdf</b> plugin:</p>
+    <dl>
+      <dlentry>
+        <dt>cfg/</dt>
+        <dd>
+          <p>XSL stylesheet placeholders and language specific localization strings. <b>Do not
+              change the contents of this folder</b> - see <xref
+              href="customizing-com-miramo-mmpdf-plugin.dita"/> for information on generating a
+            custom plugin based on com.miramo.mmpdf and <xref
+              href="ant-build-parameters.dita#ant-build-parameters/mmpdf-localization-strings-dir"
+              >mmpdf:localization-strings.dir</xref>
+          </p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>com.example.my-mmpdf/</dt>
+        <dd>
+          <p>Contains source files for making a specialization of the com.miramo.mmpdf plugin. See
+              <xref href="customizing-com-miramo-mmpdf-plugin.dita"/> for more details.</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>docs/Miramo_DITA-OT_GettingStarted.pdf</dt>
+        <dd>
+          <p>This document</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>images/</dt>
+        <dd>
+          <p>Images used by the com.miramo.mmpdf plugin</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>integration/oxygen/MiramoPDF.scenarios</dt>
+        <dd>
+          <p>The oXygen transformation scenario for producing a PDF from the currently edited DITA
+            file. Import into your oXygen tool using Options-&gt;import transformations</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>integration/xmetal/*</dt>
+        <dd>
+          <p>Files needed for integrating with XMetaL.</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>logos/</dt>
+        <dd>
+          <p>Images and logos used by the com.miramo.mmpdf plugin</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>mmtemplates/</dt>
+        <dd>
+          <p>Miramo Format Definitions default template for DITA publishing:</p>
+          <p>Miramo Format Definitions templates are XML files which can be edited using the
+            MiramoPDF GUI template design tool, <b>MiramoDesigner</b>. </p>
+          <p><b>default.mfd</b></p>
+          <p>default template used for publishing DITA content out of the box</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>samples/flowers/</dt>
+        <dd>
+          <p>The oXygen DITA flowers sample</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>samples/taskbook/</dt>
+        <dd>
+          <p>A modified version of the DITA-OT taskbook (IT book) sample</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>xsl</dt>
+        <dd>
+          <p>XSL stylesheets for mapping DITA to MiramoXML</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>dita2mm.cmd</dt>
+        <dd>
+          <p>Command script for preprocessing a DITA input file to MiramoXML, ready for rendering to
+            PDF. Called by:</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>dita2mmpdf.cmd</dt>
+        <dd>
+          <p>Command script for running the flowers demo, or for producing a PDF from a specified
+            DITA map.</p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>build_dita2mmpdf.xml</dt>
+        <dd>
+          <p>XML file which contains the ant targets for performing topicmerge and translating the
+            DITA content to MiramoXML (Miramo Simple Markup, which represents the document content),
+            and for rendering that document content to PDF using the format definitions in the MFD
+            template.</p>
+        </dd>
+      </dlentry>
+    </dl>
+  </conbody>
+</concept>

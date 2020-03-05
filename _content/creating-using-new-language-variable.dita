@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="creating-using-new-language-variable">
+  <title>Creating and using a new language variable</title>
+  <conbody>
+    <p>First, add new entry for the new &lt;VarDef&gt; to each of the language.xml files you support
+      for publishing your DITA content.</p>
+    <p>Here are two examples added to the language file 'nl.xml' (Dutch language). The first exposes
+      the DITA-OT language string Numerics into a &lt;VarDef&gt; named 'lang-numerics'. The second
+      creates a new &lt;VarDef&gt; named 'lang-languagename':</p>
+    <codeblock>&lt;strings xml:lang="nl"&gt;
+&lt;str id="lang-numerics" dita-ot-id="Numerics"/&gt;
+&lt;str id="lang-languagename"&gt;Nederlands&lt;/str&gt;</codeblock>
+    <p>Next, create matching empty placeholder &lt;VarDef&gt;s 'lang-numerics' and
+      'lang-languagename' in your MFD template:</p>
+    <p>Click on <uicontrol>More</uicontrol> at the bottom of the <wintitle>Format
+        Definitions</wintitle> pane and click on <uicontrol>VarDef</uicontrol> to bring up the
+        <wintitle>Manage Variables</wintitle> dialog, then click on the <uicontrol>Add new user
+        variable</uicontrol> button to add the new lang-numerics and lang- languagename placeholder
+      variables:</p>
+    <fig id="fig_xlq_dq3_ghb">
+      <image href="img-manage-user-variables.jpeg" alt="???" id="image_s4r_dq3_ghb"/>
+    </fig>
+    <p>These placeholder variables can now be inserted in background text frames. Double-click on a
+      background text frame to locate the insertion point, then right-click to bring up the context
+      menu, choose 'Insert variable' and click on 'lang-languagename'. The screenshot on the right
+      shows the $lang-languagename placeholder in a rotated background text frame:</p>
+    <draft-comment author="whitel">Missing image</draft-comment>
+  </conbody>
+</concept>

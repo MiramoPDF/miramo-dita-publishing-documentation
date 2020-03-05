@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="installing-from-zip-file-advanced">
+	<title>Installing from the ZIP file (advanced)</title>
+	<conbody>
+		<p>Extract the MiramoDITA-OTplugin&lt;vs&gt;.zip file into the DITA-OT plugins folder.</p>
+		<p>For oXygen, the built-in DITA-OT plugins folder is located in
+			<filepath>[oxygen_install_dir]/frameworks/
+        dita/DITA-OT3.x/plugins/com.miramo.mmpdf</filepath>, for example:</p>
+		<p>
+			<filepath>C:\program files\Oxygen XML Editor 21\frameworks\dita\DITA-OT3.x\plugins</filepath>
+		</p>
+	</conbody>
+</concept>

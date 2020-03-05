@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="setting-default-parameter-values">
+	<title>Setting default parameter values</title>
+	<conbody>
+		<p>Modify the &lt;xsl:param&gt; and &lt;xsl:variable&gt; definitions in
+			<filepath>custom/xsl/dita2miramo.xsl</filepath> as required. For example, to set all
+      non-inline graphics to be centered rather than start-aligned by default, include this:</p>
+		<codeblock>&lt;!-- Default left/right alignment of images within text column or text frame.
+Allowed values: start center end -->
+&lt;xsl:variable name="defaultImageAlignment">center&lt;/xsl:variable></codeblock>
+	</conbody>
+</concept>

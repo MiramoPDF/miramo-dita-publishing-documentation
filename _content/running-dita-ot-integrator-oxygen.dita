@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="running-dita-ot-integrator-oxygen">
+	<title>Running the DITA-OT integrator [oXygen]</title>
+	<conbody>
+		<p>Start your preferred oXygen product, open a DITA file or map in the editor window and run the
+      predefined transformation scenario called <b>Run DITA OT Integrator</b>: execute it from the
+      Document-&gt;Transformation- &gt;Apply Transformation Scenario(s) dialog box. If the
+      integrator is not visible, select the Show all scenarios option that is available in the
+      Settings drop-down menu.</p>
+	</conbody>
+</concept>
