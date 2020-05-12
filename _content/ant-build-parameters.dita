@@ -184,7 +184,7 @@
               <p>index1</p>
             </entry>
             <entry align="left" valign="middle">
-              <p>Name of  IndexDef to use for generated Index</p>
+              <p>Set IndexDef to use for formatting index - ignored if no indexterms or mmpdf:includeIndex = 'N'</p>
             </entry>
           </row>
           <row>
