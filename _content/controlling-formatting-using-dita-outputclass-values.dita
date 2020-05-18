@@ -22,20 +22,20 @@
         <tbody valign="top">
           <row>
             <entry align="left" valign="middle"><p>mmpdf:span</p></entry>
-            <entry align="left" valign="middle"><p>title, p, note</p></entry>
+            <entry align="left" valign="middle"><p>title, p, note, cmd</p></entry>
             <entry align="left" valign="middle"><p>spans title across all columns in multi-column
                 document</p></entry>
           </row>
           <row>
             <entry align="left" valign="middle"><p>mmpdf:pageBreak</p></entry>
-            <entry align="left" valign="middle"><p>title, p, note</p></entry>
+            <entry align="left" valign="middle"><p>title, p, note, cmd</p></entry>
             <entry align="left" valign="middle"><p>breaks page before title/p/note
               paragraph</p></entry>
           </row>
           <row>
             <entry align="left" valign="middle"><p>mmpdf:columnBreak (alias for
               break-before)</p></entry>
-            <entry align="left" valign="top"><p>title, p, note</p></entry>
+            <entry align="left" valign="top"><p>title, p, note, cmd</p></entry>
             <entry align="left" valign="middle"><p>force title/p/note paragraph to top of next
                 column (or page, for single-column documents)</p></entry>
           </row>
@@ -43,6 +43,17 @@
             <entry align="left" valign="top"><p>mmpdf:fontDef:name</p></entry>
             <entry align="left" valign="top"><p>ph</p></entry>
             <entry align="left" valign="top"><p>apply fontDef name to this phrase</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top">
+              <p>mmpdf:keepTogether:doo/</p>
+            </entry>
+            <entry align="left" valign="top">
+              <p>title, p, note, cmd</p>
+            </entry>
+            <entry align="left" valign="middle">
+              <p>set keepTogether to 'Y' to prevent page or column breaks within the paragraph, for example to prevent page breaks before an &lt;image> anchored within a paragraph with @placement = 'break'</p>
+            </entry>
           </row>
           <row>
             <entry align="left" valign="top"><p>mmpdf:paraDef:name</p></entry>
@@ -53,7 +64,7 @@
           </row>
           <row>
             <entry align="left" valign="top"><p>mmpdf:listName:name</p></entry>
-            <entry align="left" valign="top"><p>&lt;ol&gt;, &lt;ul&gt;</p></entry>
+            <entry align="left" valign="top"><p>ol, ul</p></entry>
             <entry align="left" valign="middle"><p>specify basename for generating listItem
                 paragraph names.</p><p>default: orderedlistitem (&lt;ol&gt;) or
                 unorderedlistitem(&lt;ul&gt;)</p></entry>
@@ -107,13 +118,13 @@
           </row>
           <row>
             <entry align="left" valign="top"><p>mmpdf:withNext:doo/</p></entry>
-            <entry align="left" valign="top"><p>title, p, note</p></entry>
+            <entry align="left" valign="top"><p>title, p, note, cmd</p></entry>
             <entry align="left" valign="middle"><p>set withNext to 'Y' or 'N' to set the paragraph
               keep with next property</p></entry>
           </row>
           <row>
             <entry align="left" valign="top"><p>mmpdf:withPrevious:doo/</p></entry>
-            <entry align="left" valign="top"><p>title, p, note</p></entry>
+            <entry align="left" valign="top"><p>title, p, note, cmd</p></entry>
             <entry align="left" valign="middle"><p>set withPrevious to 'Y' or 'N' to set the
               paragraph keep with previous property</p></entry>
           </row>
