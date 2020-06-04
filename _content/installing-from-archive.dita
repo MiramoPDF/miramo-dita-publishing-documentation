@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="installing-from-setup-exe">
+  <title>Installing from ZIP archive [all platforms]</title>
+  <conbody>
+    <p>Download the Miramo DITA-OT plugin ZIP file from <xref href="http://www.miramo.com" scope="external" format="html">www.miramo.com </xref> into a temporary folder <i>tmpdir</i>, then run the 'dita -install MiramoDITA-OTplugin<i>&lt;vs&gt;</i>.zip' command to install and register the plugin with the DITA-OT, for example:</p>
+    <codeblock>cd <i>tmpdir</i>
+<i>dita-ot-installdir</i>/bin/dita -install MiramoDITA-OTplugin200p01.zip  </codeblock>
+    
+     <p>This will create a new folder, <codeblock><i>dita-ot-installdir</i>/plugins/com.miramo.mmpdf</codeblock></p>
+
+    <p>See <xref href="http://www.dita-ot.org" scope="external" format="html">www.dita-ot.org
+      </xref>for more information on installing and integrating DITA-OT plugins.</p>
+  </conbody>
+</concept>

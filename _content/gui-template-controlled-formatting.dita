@@ -11,8 +11,7 @@
     <fig id="fig_kc5_sbh_ghb">
       <image href="img-gui-template.jpeg" alt="???" id="image_x4v_sbh_ghb"/>
     </fig>
-    <p>The default template (default.mfd) supplied with the plugin provides a single-column layout
-      for rendering MiramoXML to PDF. Here is an example: flowers_ default.pdf.</p>
+    <p>The default template (default.mfd) supplied with the plugin provides a single-column layout for rendering MiramoXML to PDF. Here is an example: <xref href="./graphics/flowers_default.pdf" format="pdf">flowers_default.pdf</xref>.</p>
     <draft-comment author="whitel">Link to flowers_default.pdf?</draft-comment>
   </conbody>
 </concept>

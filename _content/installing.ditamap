@@ -6,6 +6,7 @@
         <topicref href="system-requirements.dita"/>
         <topicref href="installing-Miramo-dita-ot-plugin-for-first-time.dita">
             <topicref href="installing-from-setup-exe.dita"/>
+            <topicref href="installing-from-archive.dita"/>
         </topicref>
         <topicref href="files-and-folders.dita"/>
     </topicref>

@@ -7,16 +7,15 @@
     <p>Before installing the Miramo DITA-OT plugin the following software must be installed and
       working on the target system:</p>
     <ul>
-      <li>DITA-OT version 1.8.5 or above</li>
-      <li><b>MiramoPDF</b> or MiramoEnterprise vs 1.5 or above</li>
+      <li>DITA-OT version 2.4 or above</li>
+      <li><b>MiramoPDF</b> or Miramo Enterprise vs 2.0 or above</li>
     </ul>
-    <p><b>MiramoPDF</b> Personal and Desktop editions run on the following operating systems:</p>
+    <p><b>MiramoPDF</b> Personal edition runs on the following operating systems:</p>
     <ul>
       <li>Windows 7 Professional (64 bit only)</li>
       <li>Windows 8.1 (64 bit only)</li>
       <li>Windows 10</li>
     </ul>
-    <p><b>MiramoPDF</b> Server and Miramo Enterprise editions are available to run on Windows Server
-      operating systems - contact us for more information.</p>
+    <p>Miramo Enterprise is available to run on Windows Server and Linux operating systems - contact us for more information.</p>
   </conbody>
 </concept>
