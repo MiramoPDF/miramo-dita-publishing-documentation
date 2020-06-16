@@ -250,6 +250,11 @@
               'new',</p><p>'deleted' or 'changed' (the 'new' FontDef might be set to set text to
                 Green, for example)</p></entry>
           </row>
+          <row>
+            <entry align="left" valign="top"/>
+            <entry align="left" valign="top"/>
+            <entry align="left" valign="middle"/>
+          </row>
         </tbody>
       </tgroup>
     </table>
