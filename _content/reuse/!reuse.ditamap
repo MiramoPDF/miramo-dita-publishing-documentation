@@ -54,6 +54,13 @@
       </keywords>
     </topicmeta>
   </keydef>
+  <keydef keys="MiramoEnterprise">
+    <topicmeta>
+      <keywords>
+        <keyword>Miramo Enterprise</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
   <keydef keys="com.miramo.mmpdf">
     <topicmeta><keywords><keyword>com.miramo.mmpdf</keyword></keywords></topicmeta>
   </keydef>
