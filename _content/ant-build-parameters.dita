@@ -14,241 +14,426 @@
         <colspec colname="c3" colwidth="43*"/>
         <thead valign="top">
           <row>
-            <entry valign="middle"><p>ant parameter</p></entry>
-            <entry valign="middle"><p>Default value</p></entry>
-            <entry valign="middle"><p>Description</p></entry>
+            <entry valign="middle">
+              <p>ant parameter</p>
+            </entry>
+            <entry valign="middle">
+              <p>Default value</p>
+            </entry>
+            <entry valign="middle">
+              <p>Description</p>
+            </entry>
           </row>
         </thead>
-        <tbody valign="top">         
+        <tbody valign="top">
           <row>
-            <entry align="left" valign="top"><p>args.draft</p></entry>
-            <entry valign="top"><p>no</p></entry>
-            <entry align="left" valign="middle"><p>Set to 'yes' to include draft comments as
-                'comment' paragraphs in the PDF. If @author is specified the comment is wrapped in
-                the correspondingly named FontDef (ignored unless FontDef is defined in the MFD
-                file)</p></entry>
+            <entry>args.input</entry>
+            <entry>${cf}</entry>
+            <entry>Specifies the master file for your documentation project.</entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>args.filter</p></entry>
-            <entry align="left" valign="top"><p>none</p></entry>
-            <entry align="left" valign="middle"><p>Specifies a filter file to be used to include,
-                exclude, or flag content, as part of the DITA- OT preprocessing</p></entry>
+            <entry>clean.temp</entry>
+            <entry>yes</entry>
+            <entry>Specifies whether DITA-OT deletes the files in the temporary directory after it
+              finishes a build. Allowed values: "yes" (default) "no" </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>args.input</p></entry>
-            <entry valign="top"><p>required</p></entry>
-            <entry valign="top"><p>Path to the source content being published.</p></entry>
+            <entry>dita.dir</entry>
+            <entry>${configured.ditaot.dir}</entry>
+            <entry>Specifies where DITA-OT is installed.</entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>args.rellinks</p></entry>
-            <entry align="left" valign="top"><p>none</p></entry>
-            <entry align="left" valign="middle"><p>Specifies which links to include in the output.
-                Values are:</p><p>"none" (default) - no links are included.</p><p>"all" - all links
-                are included.</p><p>"noparent" - no parent links included "nofamily" - parent,
-                child, next, and previous links are not included.</p></entry>
+            <entry>dita.temp.dir</entry>
+            <entry>${cfd}/mmtmp</entry>
+            <entry>Specifies the location of the temporary directory.</entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>clean.temp</p></entry>
-            <entry valign="top"><p>yes</p></entry>
-            <entry align="left" valign="middle"><p>Specifies whether to remove temporary
-                intermediate files from ${dita.temp.dir} May be useful for debugging.</p><p>Allowed
-                values: yes, no</p></entry>
+            <entry>mmpdf:cwd</entry>
+            <entry>${cfd}</entry>
+            <entry>Current working directory for running MiramoPDF, defaults to folder containing
+              dita input Sample values: "" (default) </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>dita.dir</p></entry>
-            <entry valign="top"><p>dita install folder</p></entry>
-            <entry align="left" valign="middle"><p>Absolute path to the DITA Open Toolkit that is
-                being used.</p></entry>
+            <entry>mmpdf:mfd.file</entry>
+            <entry>default.mfd</entry>
+            <entry>Miramo MFD template file, located in ${mfd.dir}, eg default.mfd Sample values:
+              "default.mfd" (default) </entry>
           </row>
           <row>
-            <entry align="left" valign="middle"><p>dita.temp.dir</p></entry>
-            <entry valign="middle"><p>mmtmp</p></entry>
-            <entry align="left" valign="middle"><p>Specifies temporary folder for intermediate
-                files</p></entry>
+            <entry>mmpdf:showProperties</entry>
+            <entry>N</entry>
+            <entry>Set to Y to include PDF tooltips showing Miramo format definitions; N for
+              production Allowed values: "Y" (default) "N" </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>output.dir</p></entry>
-            <entry align="left" valign="middle"><p>folder containing DITA source</p></entry>
-            <entry align="left" valign="middle"><p>Path to folder containing output PDF
-                ${pdf.file}</p></entry>
+            <entry>output.dir</entry>
+            <entry>${cfd}</entry>
+            <entry>Specifies the name and location of the output directory.</entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>pdf.file</p></entry>
-            <entry align="left" valign="middle"><p>input file with file extension replaced by
-                .pdf</p></entry>
-            <entry align="left" valign="top"><p>Name of PDF file to be created in
-              ${output.dir}</p></entry>
+            <entry>pdf.file</entry>
+            <entry>${cfn}.pdf</entry>
+            <entry> Sample values: "${cfd}/${cfn}.pdf" </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>transtype</p></entry>
-            <entry align="left" valign="top"><p>mmpdf</p></entry>
-            <entry align="left" valign="middle"><p>Name of transformation type, modify only if using
-                a customization of the com.miramo.mmpdf plugin</p></entry>
+            <entry>transtype</entry>
+            <entry>mmpdf</entry>
+            <entry>Specifies the output format (transformation type).</entry>
           </row>
           <row>
-            <entry align="left" valign="top">
-              <p>mmpdf:contentsDef</p>
-            </entry>
-            <entry align="left" valign="top">
-              <p>contents1</p>
-            </entry>
-            <entry align="left" valign="middle">
-              <p>Name of  ContentsDef to use for generated TOC</p>
-            </entry>
+            <entry>args.debug</entry>
+            <entry>no</entry>
+            <entry>Specifies whether debugging information is included in the log. Allowed values:
+              "yes" "no" (default) </entry>
           </row>
           <row>
-            <entry align="left" valign="top">
-              <p>mmpdf:chapterContentsDef</p>
-            </entry>
-            <entry align="left" valign="top">
-              <p>chapterTOC</p>
-            </entry>
-            <entry align="left" valign="middle">
-              <p>Name of  ContentsDef to use for mini TOC</p>
-            </entry>
+            <entry>args.draft</entry>
+            <entry>no</entry>
+            <entry>Specifies whether the content of and elements is included in the output. Allowed
+              values: "yes" "no" (default) </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:copyImagesToOutput</p></entry>
-            <entry align="left" valign="top"><p>Y</p></entry>
-            <entry align="left" valign="middle"><p>Set to N to prevent copying images to
-                ${output.dir}. Setting to Y (default) may be required by certain CMSs</p></entry>
+            <entry>args.figurelink.style</entry>
+            <entry/>
+            <entry>Specifies how cross references to figures are styled in output. Allowed values:
+              "NUMBER" "TITLE" "NUMTITLE" </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:cropMarks</p></entry>
-            <entry align="left" valign="top"><p>N</p></entry>
-            <entry align="left" valign="middle"><p>Set to Y to include crop marks in the PDF
-                output</p></entry>
+            <entry>args.filter</entry>
+            <entry/>
+            <entry>Specifies a filter file to be used to include, exclude, or flag content.</entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:cwd</p></entry>
-            <entry align="left" valign="top"><p>system current folder</p></entry>
-            <entry align="left" valign="middle"><p>Current working folder for the mmComposer process
-              - sometimes useful for resolving relative file URLs</p></entry>
+            <entry>args.gen.task.lbl</entry>
+            <entry/>
+            <entry>Specifies whether to generate headings for sections within task topics. Allowed
+              values: "YES" "NO" </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:images.dir</p></entry>
-            <entry align="left" valign="middle"
-              ><p>${dita.dir}\plugins\com.mira</p><p>mo.mmpdf\images</p></entry>
-            <entry align="left" valign="middle"><p>Location of image files used for notes and
-              hazards</p></entry>
+            <entry>args.grammar.cache</entry>
+            <entry>yes</entry>
+            <entry>Specifies whether the grammar-caching feature of the XML parser is used. Allowed
+              values: "yes" (default) "no" </entry>
           </row>
           <row>
-            <entry align="left" valign="top"
-              ><p>mmpdf:defaultCellVerticalAlig</p><p>nment</p></entry>
-            <entry align="left" valign="top"><p>middle</p></entry>
-            <entry align="left" valign="middle"><p>Set default vertical alignment of table cell
-              contents. Override with &lt;entry&gt; @valign attribute.</p></entry>
+            <entry>args.input.dir</entry>
+            <entry/>
+            <entry>Specifies the base directory for your documentation project.</entry>
           </row>
           <row>
-            <entry align="left" valign="top"
-              ><p>mmpdf:formatSectionTitleAsT</p><p>opicTitle</p></entry>
-            <entry align="left" valign="top"><p>Y</p></entry>
-            <entry align="left" valign="middle"><p>Set to N to format section title elements as
-              section_title* paragraphs, set to Y to format section title elements as topic_title*
-              paragraphs</p></entry>
+            <entry>args.output.base</entry>
+            <entry/>
+            <entry>Specifies the name of the output file without file extension.</entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:includeCover</p></entry>
-            <entry align="left" valign="middle">
-              <xref href="cover-pages.dita"/></entry>
-            <entry align="left" valign="top"><p>Set to N to suppress cover generation</p></entry>
-          </row>
-          <row>
-            <entry align="left" valign="top"><p>mmpdf:includeBackCover</p></entry>
-            <entry align="left" valign="middle"><xref href="cover-pages.dita"/></entry>
-            <entry align="left" valign="middle"><p>Set to Y to include back cover for DITA map or
-              bookmap</p></entry>
-          </row>
-          <row>
-            <entry align="left" valign="top"><p>mmpdf:includeChapterTOC</p></entry>
-            <entry align="left" valign="middle"><xref href="table-of-contents-tocs.dita"/></entry>
-            <entry align="left" valign="top">
-              <p>Set to Y to include mini TOCs at the beginning of each chapter</p>
+            <entry>args.rellinks</entry>
+            <entry/>
+            <entry>Specifies which links to include in the output. Allowed values: "none" - No links
+              are included. "all" - All links are included. "noparent" - Parent links are not
+              included. "nofamily" - Parent, child, next, and previous links are not included.
             </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:includeTOC</p></entry>
-            <entry align="left" valign="middle"><xref href="table-of-contents-tocs.dita"/></entry>
-            <entry align="left" valign="top"><p>Set to N to suppress TOC generation</p></entry>
+            <entry>args.tablelink.style</entry>
+            <entry/>
+            <entry>Specifies how cross references to tables are styled. Allowed values: "NUMBER"
+              "TITLE" "NUMTITLE" </entry>
           </row>
           <row>
-            <entry align="left" valign="middle"><p>mmpdf:includeIndex</p></entry>
-            <entry align="left" valign="middle"><xref href="indexes.dita"/></entry>
-            <entry align="left" valign="middle"><p>Set to N to suppress Index generation</p></entry>
+            <entry>clean.output</entry>
+            <entry>no</entry>
+            <entry>The parameter to specify whether or not to clean the output directory before each
+              build. Allowed values: "yes" "no" (default) </entry>
           </row>
           <row>
-            <entry align="left" valign="top">
-              <p>mmpdf:indexDef</p>
+            <entry>conserve-memory</entry>
+            <entry>false</entry>
+            <entry>Conserve memory at the expense of processing speed Allowed values: "true" "false"
+              (default) </entry>
+          </row>
+          <row>
+            <entry>default.language</entry>
+            <entry/>
+            <entry>Specifies the default language for source documents.</entry>
+          </row>
+          <row>
+            <entry>dita.input.valfile</entry>
+            <entry/>
+            <entry>Specifies a filter file to be used to include, exclude, or flag content.</entry>
+          </row>
+          <row>
+            <entry>filter-stage</entry>
+            <entry>early</entry>
+            <entry>Specifies whether filtering is done before all other processing, or after key and
+              conref processing. Allowed values: "early" (default) "late" </entry>
+          </row>
+          <row>
+            <entry>fix.external.refs.com.oxygenxml</entry>
+            <entry>false</entry>
+            <entry>The DITA Open Toolkit usually has problems processing references that point to
+              locations outside of the processed DITA Map directory. This parameter is used to
+              specify whether or not the application should try to fix such references in a
+              temporary files folder before the DITA Open Toolkit is invoked on the fixed
+              references. The fix has no impact on your edited DITA content. Allowed values: "true"
+              "false" (default) </entry>
+          </row>
+          <row>
+            <entry>force-unique</entry>
+            <entry>false</entry>
+            <entry>Generate copy-to attributes to duplicate topicref elements. Allowed values:
+              "true" "false" (default) </entry>
+          </row>
+          <row>
+            <entry>generate.copy.outer</entry>
+            <entry>1</entry>
+            <entry>Specifies whether to generate output files for content that is not located in or
+              beneath the directory containing the DITA map file. Allowed values: "1" (default) - Do
+              not generate output for content that is located outside the DITA map directory. "3" -
+              Shift the output directory so that it contains all output for the publication.
             </entry>
-            <entry align="left" valign="top">
-              <p>index1</p>
+          </row>
+          <row>
+            <entry>generate-debug-attributes</entry>
+            <entry>true</entry>
+            <entry>Specifies whether the @xtrf and @xtrc debugging attributes are generated in the
+              temporary files. Allowed values: "true" (default) - Enables generation of debugging
+              attributes "false" - Disables generation of debugging attributes </entry>
+          </row>
+          <row>
+            <entry>link-crawl</entry>
+            <entry>topic</entry>
+            <entry>Specifies whether to crawl only those topic links found in maps, or all
+              discovered topic links. Allowed values: "map" "topic" (default) </entry>
+          </row>
+          <row>
+            <entry>mmpdf:chapterContentsDef</entry>
+            <entry>chapterTOC</entry>
+            <entry>Set ContentsDef to use for formatting chapter TOC (miniTOC) - ignored unless
+              mmpdf:includeChapterTOC = 'Y' Sample values: "chapterTOC" (default) </entry>
+          </row>
+          <row>
+            <entry>mmpdf:contentsDef</entry>
+            <entry>contents1</entry>
+            <entry>Set ContentsDef to use for formatting TOC - ignored if mmpdf:includeTOC = 'N'
+              Sample values: "contents1" (default) </entry>
+          </row>
+          <row>
+            <entry>mmpdf:copyImagesToOutput</entry>
+            <entry>Y</entry>
+            <entry>Set to Y to enable copy-image preprocessing step which copies image files to
+              $output.dir Allowed values: "Y" (default) "N" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:cropMarks</entry>
+            <entry>N</entry>
+            <entry>Set to Y to include cropmarks in PDF output Allowed values: "N" (default) "Y"
             </entry>
-            <entry align="left" valign="middle">
-              <p>Set IndexDef to use for formatting index - ignored if no indexterms or mmpdf:includeIndex = 'N'</p>
+          </row>
+          <row>
+            <entry>mmpdf:defaultCellVerticalAlignment</entry>
+            <entry/>
+            <entry>Set default vertical aligment of table cell contents Allowed values: "" (default)
+              "top" "middle" "bottom" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:defaultImageAlignment</entry>
+            <entry/>
+            <entry>Set default horizontal aligment for images Allowed values: "" (default) "start"
+              "center" "end" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:defaultImageUnits</entry>
+            <entry>px</entry>
+            <entry>Default units for image width/height values if none specified Sample values: "px"
+              (default) "pt" "mm" "pc" "cm" "dd" "cc" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:formatDefinitionsAsTable</entry>
+            <entry>N</entry>
+            <entry>Set to Y to format definitions list as table rather than paragraphs Allowed
+              values: "N" (default) "Y" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:formatGlossaryAsTable</entry>
+            <entry>N</entry>
+            <entry>Set to Y to format glossary as table rather than paragraphs Allowed values: "N"
+              (default) "Y" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:formatSectionTitleAsTopicTitle</entry>
+            <entry>Y</entry>
+            <entry>Set to N to format section title elements as section_title* paragraphs, set to Y
+              to format section title elements as topic_title* paragraphs Sample values: "Y"
+              (default) "N" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:images.dir</entry>
+            <entry/>
+            <entry>Folder containing images for notes, defaults to
+              ${dita.dir}/plugins/com.miramo.mmpdf/images Sample values: "" (default) </entry>
+          </row>
+          <row>
+            <entry>mmpdf:images.suffix</entry>
+            <entry>svg</entry>
+            <entry>File extension for images for notes, defaults to svg Sample values: "svg"
+              (default) </entry>
+          </row>
+          <row>
+            <entry>mmpdf:includeBackCover</entry>
+            <entry>N</entry>
+            <entry>Set to N to suppress inclusion of back cover Allowed values: "N" (default) "Y"
             </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:jobID</p></entry>
-            <entry valign="top"/>
-            <entry align="left" valign="middle"><p>MiramoEnterprise only: unique identifier for
-              queued job as viewed in mmVisor</p></entry>
+            <entry>mmpdf:includeChapterTOC</entry>
+            <entry>N</entry>
+            <entry>Set to N to suppress chapter level TOC (minitoc) generation, set to Y to include
+              minitoc Allowed values: "Y" "N" (default) </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p id="mmpdf-localization-strings-dir"
-              >mmpdf:localization-strings.dir</p></entry>
-            <entry align="left" valign="top"><p>${plugin.dir}/cfg/strings</p></entry>
-            <entry align="left" valign="middle"><p>Location of strings folder containing
-              langlist.xml and *.xml language files</p></entry>
+            <entry>mmpdf:includeCover</entry>
+            <entry>Y</entry>
+            <entry>Set to Y to include cover page, N to suppress cover generation Allowed values:
+              "Y" (default) "N" </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:mfd.dir</p></entry>
-            <entry align="left" valign="middle"
-              ><p>${dita.dir}\plugins\com.mira</p><p>mo.mmpdf\mmtemplates</p></entry>
-            <entry align="left" valign="top"><p>Folder containing ${mfd.file} template</p></entry>
+            <entry>mmpdf:includeIndex</entry>
+            <entry>Y</entry>
+            <entry>Set to N to suppress index generation Allowed values: "Y" (default) "N" </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p id="mmpdf:tableBorders">mmpdf:tableBorders</p></entry>
-            <entry align="left" valign="top"><p>fromDITA</p></entry>
-            <entry align="left" valign="middle"><p>Set table border properties: fromDITA (support @frame, @colsep and @rowsep) or fromTblDef (use
-                TblDef rulings). See <xref href="table-borders-and-rulings.dita"/> for more
-                information.</p></entry>
+            <entry>mmpdf:includeTOC</entry>
+            <entry>Y</entry>
+            <entry>Set to N to suppress Table of Contents generation Allowed values: "Y" (default)
+              "N" </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:mfd.file</p></entry>
-            <entry align="left" valign="top"><p>default.mfd</p></entry>
-            <entry align="left" valign="middle"><p>Name of MiramoDesigner MFD template file used to
-              control output formatting, located in ${dita.dir}\plugins\com.miramo.mmpdf\mmte
-              mplates, or value specified by mfd.dir parameter.</p></entry>
+            <entry>mmpdf:indexDef</entry>
+            <entry>index1</entry>
+            <entry>Set IndexDef to use for formatting index - ignored if no indexterms or
+              mmpdf:includeIndex = 'N' Sample values: "index1" (default) </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:metadataprecedence</p></entry>
-            <entry align="left" valign="top"><p>map</p></entry>
-            <entry align="left" valign="middle"><p>Default behavior is for book &lt;metadata&gt;
-              &lt;data&gt; element values to override &lt;topic&gt; &lt;data&gt; elements of the
-              same name. Set to 'topic' to allow topic metadata to override book
-              metadata</p></entry>
+            <entry>mmpdf:jobID</entry>
+            <entry/>
+            <entry>Set jobID (MiramoEnterprise only)</entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:processGroup</p></entry>
-            <entry align="left" valign="top"><p>1</p></entry>
-            <entry valign="middle"><p>MiramoEnterprise only: Name or number of MiramoEnterprise
-              processing group as viewed in mmVisor</p></entry>
+            <entry>mmpdf:localization-strings.dir</entry>
+            <entry/>
+            <entry>Location of configuration folder containing langlist.xml and *.xml language
+              files</entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:showProperties</p></entry>
-            <entry align="left" valign="top"><p>Y</p></entry>
-            <entry align="left" valign="middle"><p>If this property is set to Y, the PDF output file
-              will contain PDF tooltips describing paragraph, font and table formats. Set to N for
-              production.</p><p>Note that PDF tooltips may not be visible in non-Adobe PDF
-                viewers.</p></entry>
+            <entry>mmpdf:logMetrics</entry>
+            <entry>N</entry>
+            <entry>Set to Y to create a metrics report detailing format definitions which are used
+              but not defined in the specified MFD template Allowed values: "N" (default) "Y"
+            </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:showStatus</p></entry>
-            <entry align="left" valign="top"><p>N</p></entry>
-            <entry align="left" valign="middle"><p>If this property is set to Y, the @status
-              attribute value 'new', 'deleted' or 'changed' will be mapped to the FontDef
-              'new',</p><p>'deleted' or 'changed' (the 'new' FontDef might be set to set text to
-                Green, for example)</p></entry>
+            <entry>mmpdf:metadataprecedence</entry>
+            <entry/>
+            <entry>Set to 'topic' to allow topic metadata data element values to override equivalent
+              map metadata data element values. Default is 'map', where topic metadata is only used
+              where no equivalent map data is defined Allowed values: "" (default) "map" "topic"
+            </entry>
+          </row>
+          <row>
+            <entry>mmpdf:mfd.dir</entry>
+            <entry/>
+            <entry>Folder containing Miramo MFD template file, defaults to
+              ${dita.dir}/plugins/com.miramo.mmpdf/mmtemplates Sample values: "" (default) </entry>
+          </row>
+          <row>
+            <entry>mmpdf:pdfType</entry>
+            <entry>untagged</entry>
+            <entry>Set to UA to create structured PDF Allowed values: "untagged" (default) "UA"
+            </entry>
+          </row>
+          <row>
+            <entry>mmpdf:processGroup</entry>
+            <entry/>
+            <entry>Set processing channel group number or name for this job (MiramoEnterprise
+              only)</entry>
+          </row>
+          <row>
+            <entry>mmpdf:showStatus</entry>
+            <entry>N</entry>
+            <entry>Set to Y to highlight @status attributes; N for production Allowed values: "N"
+              (default) "Y" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:shrinkImagesToFit</entry>
+            <entry>N</entry>
+            <entry>Set to Y to shrink overlarge images with no @width or @height to fit container
+              width/height Allowed values: "N" (default) "Y" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:tableBorders</entry>
+            <entry>fromDITA</entry>
+            <entry>Set table border properties fromDITA (support @frame, @colsep and @rowsep) or
+              fromTblDef (use TblDef rulings) Sample values: "fromDITA" (default) "fromTblDef"
+            </entry>
+          </row>
+          <row>
+            <entry>mmpdf:userVariable1</entry>
+            <entry/>
+            <entry>Set xslt user variable value 'userVariable1' for use in customizations Sample
+              values: "" (default) </entry>
+          </row>
+          <row>
+            <entry>mmpdf:userVariable2</entry>
+            <entry/>
+            <entry>Set xslt user variable value 'userVariable2' for use in customizations Sample
+              values: "" (default) </entry>
+          </row>
+          <row>
+            <entry>mmpdf:whiteSpaceMode</entry>
+            <entry>trimLeadingNewlines</entry>
+            <entry>By default, leading newline characters in paragraph text sections are trimmed;
+              set to 'preserve' to treat as whitespace Sample values: "trimLeadingNewlines"
+              (default) "preserve" </entry>
+          </row>
+          <row>
+            <entry>onlytopic.in.map</entry>
+            <entry>false</entry>
+            <entry>Specifies whether files that are linked to, or referenced with a @conref
+              attribute, generate output. Allowed values: "true" "false" (default) </entry>
+          </row>
+          <row>
+            <entry>outer.control</entry>
+            <entry>warn</entry>
+            <entry>Specifies how DITA-OT handles content files that are not located in or below the
+              directory containing the master DITA map. Allowed values: "fail" - Fail quickly if
+              files are going to be generated or copied outside of the directory. "warn" (default) -
+              Complete the operation if files will be generated or copied outside of the directory,
+              but log a warning. "quiet" - Quietly finish without generating warnings or errors.
+            </entry>
+          </row>
+          <row>
+            <entry>processing-mode</entry>
+            <entry>lax</entry>
+            <entry>Specifies how DITA-OT handles errors and error recovery. Allowed values: "strict"
+              - When an error is encountered, DITA-OT stops processing "lax" (default) - When an
+              error is encountered, DITA-OT attempts to recover from it "skip" - When an error is
+              encountered, DITA-OT continues processing but does not attempt error recovery </entry>
+          </row>
+          <row>
+            <entry>remove-broken-links</entry>
+            <entry>false</entry>
+            <entry>Remove broken related links. Allowed values: "true" "false" (default) </entry>
+          </row>
+          <row>
+            <entry>root-chunk-override</entry>
+            <entry/>
+            <entry>Override for map chunk attribute value.</entry>
+          </row>
+          <row>
+            <entry>validate</entry>
+            <entry>true</entry>
+            <entry>Specifies whether DITA-OT validates the content. Allowed values: "true" (default)
+              "false" </entry>
           </row>
         </tbody>
       </tgroup>
