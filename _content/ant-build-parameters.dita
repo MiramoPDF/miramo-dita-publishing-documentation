@@ -29,181 +29,101 @@
           <row>
             <entry>args.input</entry>
             <entry>${cf}</entry>
-            <entry>Specifies the master file for your documentation project.</entry>
-          </row>
-          <row>
-            <entry>clean.temp</entry>
-            <entry>yes</entry>
-            <entry>Specifies whether DITA-OT deletes the files in the temporary directory after it
-              finishes a build. Allowed values: "yes" (default) "no" </entry>
-          </row>
-          <row>
-            <entry>dita.dir</entry>
-            <entry>${configured.ditaot.dir}</entry>
-            <entry>Specifies where DITA-OT is installed.</entry>
-          </row>
-          <row>
-            <entry>dita.temp.dir</entry>
-            <entry>${cfd}/mmtmp</entry>
-            <entry>Specifies the location of the temporary directory.</entry>
-          </row>
-          <row>
-            <entry>mmpdf:cwd</entry>
-            <entry>${cfd}</entry>
-            <entry>Current working directory for running MiramoPDF, defaults to folder containing
-              dita input Sample values: "" (default) </entry>
-          </row>
-          <row>
-            <entry>mmpdf:mfd.file</entry>
-            <entry>default.mfd</entry>
-            <entry>Miramo MFD template file, located in ${mfd.dir}, eg default.mfd Sample values:
-              "default.mfd" (default) </entry>
-          </row>
-          <row>
-            <entry>mmpdf:showProperties</entry>
-            <entry>N</entry>
-            <entry>Set to Y to include PDF tooltips showing Miramo format definitions; N for
-              production Allowed values: "Y" (default) "N" </entry>
-          </row>
-          <row>
-            <entry>output.dir</entry>
-            <entry>${cfd}</entry>
-            <entry>Specifies the name and location of the output directory.</entry>
-          </row>
-          <row>
-            <entry>pdf.file</entry>
-            <entry>${cfn}.pdf</entry>
-            <entry> Sample values: "${cfd}/${cfn}.pdf" </entry>
-          </row>
-          <row>
-            <entry>transtype</entry>
-            <entry>mmpdf</entry>
-            <entry>Specifies the output format (transformation type).</entry>
-          </row>
-          <row>
-            <entry>args.debug</entry>
-            <entry>no</entry>
-            <entry>Specifies whether debugging information is included in the log. Allowed values:
-              "yes" "no" (default) </entry>
+            <entry>Path to the source content
+              being published.</entry>
           </row>
           <row>
             <entry>args.draft</entry>
             <entry>no</entry>
-            <entry>Specifies whether the content of and elements is included in the output. Allowed
-              values: "yes" "no" (default) </entry>
-          </row>
-          <row>
-            <entry>args.figurelink.style</entry>
-            <entry/>
-            <entry>Specifies how cross references to figures are styled in output. Allowed values:
-              "NUMBER" "TITLE" "NUMTITLE" </entry>
+            <entry>
+              <p>Set to ’yes’ to include draft
+                comments as ’comment’ paragraphs
+                in the PDF. If @author</p>
+              <p>is specified the comment is
+                wrapped in the</p>
+              <p>correspondingly named FontDef
+                (ignored</p>
+              <p>unless FontDef is defined in the
+                MFD file)</p>
+            </entry>
           </row>
           <row>
             <entry>args.filter</entry>
             <entry/>
-            <entry>Specifies a filter file to be used to include, exclude, or flag content.</entry>
-          </row>
-          <row>
-            <entry>args.gen.task.lbl</entry>
-            <entry/>
-            <entry>Specifies whether to generate headings for sections within task topics. Allowed
-              values: "YES" "NO" </entry>
-          </row>
-          <row>
-            <entry>args.grammar.cache</entry>
-            <entry>yes</entry>
-            <entry>Specifies whether the grammar-caching feature of the XML parser is used. Allowed
-              values: "yes" (default) "no" </entry>
-          </row>
-          <row>
-            <entry>args.input.dir</entry>
-            <entry/>
-            <entry>Specifies the base directory for your documentation project.</entry>
-          </row>
-          <row>
-            <entry>args.output.base</entry>
-            <entry/>
-            <entry>Specifies the name of the output file without file extension.</entry>
+            <entry>Specifies a filter file to be
+              used to include, exclude, or flag
+              content, as part of the
+                DITAOT<p>preprocessing</p></entry>
           </row>
           <row>
             <entry>args.rellinks</entry>
             <entry/>
-            <entry>Specifies which links to include in the output. Allowed values: "none" - No links
-              are included. "all" - All links are included. "noparent" - Parent links are not
-              included. "nofamily" - Parent, child, next, and previous links are not included.
+            <entry>Specifies which links to
+              include in the output. Allowed
+              values: "none" - No links are
+              included. "all" - All links are
+              included. "noparent" - Parent links
+              are not included. "nofamily" -
+              Parent, child, next, and previous
+              links are not included. </entry>
+          </row>
+          <row>
+            <entry>clean.temp</entry>
+            <entry>yes</entry>
+            <entry><p>Specifies whether to remove
+                temporary</p><p>intermediate files
+                from ${dita.temp.dir} Useful for
+                debugging/development, merged DITA
+                content is located in
+                ${dita.temp.dir}.</p>Allowed
+              values: "yes" (default) "no" </entry>
+          </row>
+          <row>
+            <entry>dita.dir</entry>
+            <entry>${configured.ditaot.dir}</entry>
+            <entry>
+              <p>Absolute path to the DITA Open
+                Toolkit that is</p>
+              <p>being used.</p>
             </entry>
           </row>
           <row>
-            <entry>args.tablelink.style</entry>
-            <entry/>
-            <entry>Specifies how cross references to tables are styled. Allowed values: "NUMBER"
-              "TITLE" "NUMTITLE" </entry>
-          </row>
-          <row>
-            <entry>clean.output</entry>
-            <entry>no</entry>
-            <entry>The parameter to specify whether or not to clean the output directory before each
-              build. Allowed values: "yes" "no" (default) </entry>
-          </row>
-          <row>
-            <entry>conserve-memory</entry>
-            <entry>false</entry>
-            <entry>Conserve memory at the expense of processing speed Allowed values: "true" "false"
-              (default) </entry>
-          </row>
-          <row>
-            <entry>default.language</entry>
-            <entry/>
-            <entry>Specifies the default language for source documents.</entry>
-          </row>
-          <row>
-            <entry>dita.input.valfile</entry>
-            <entry/>
-            <entry>Specifies a filter file to be used to include, exclude, or flag content.</entry>
-          </row>
-          <row>
-            <entry>filter-stage</entry>
-            <entry>early</entry>
-            <entry>Specifies whether filtering is done before all other processing, or after key and
-              conref processing. Allowed values: "early" (default) "late" </entry>
-          </row>
-          <row>
-            <entry>fix.external.refs.com.oxygenxml</entry>
-            <entry>false</entry>
-            <entry>The DITA Open Toolkit usually has problems processing references that point to
-              locations outside of the processed DITA Map directory. This parameter is used to
-              specify whether or not the application should try to fix such references in a
-              temporary files folder before the DITA Open Toolkit is invoked on the fixed
-              references. The fix has no impact on your edited DITA content. Allowed values: "true"
-              "false" (default) </entry>
-          </row>
-          <row>
-            <entry>force-unique</entry>
-            <entry>false</entry>
-            <entry>Generate copy-to attributes to duplicate topicref elements. Allowed values:
-              "true" "false" (default) </entry>
-          </row>
-          <row>
-            <entry>generate.copy.outer</entry>
-            <entry>1</entry>
-            <entry>Specifies whether to generate output files for content that is not located in or
-              beneath the directory containing the DITA map file. Allowed values: "1" (default) - Do
-              not generate output for content that is located outside the DITA map directory. "3" -
-              Shift the output directory so that it contains all output for the publication.
+            <entry>dita.temp.dir</entry>
+            <entry>${cfd}/mmtmp</entry>
+            <entry>
+              <p>Specifies temporary folder for
+                intermediate</p>
+              <p>files.</p>
             </entry>
           </row>
           <row>
-            <entry>generate-debug-attributes</entry>
-            <entry>true</entry>
-            <entry>Specifies whether the @xtrf and @xtrc debugging attributes are generated in the
-              temporary files. Allowed values: "true" (default) - Enables generation of debugging
-              attributes "false" - Disables generation of debugging attributes </entry>
+            <entry>output.dir</entry>
+            <entry>${cfd}</entry>
+            <entry>
+              <p>Path to folder containing output
+                PDF</p>
+              <p>${pdf.file}.</p>
+            </entry>
           </row>
           <row>
-            <entry>link-crawl</entry>
-            <entry>topic</entry>
-            <entry>Specifies whether to crawl only those topic links found in maps, or all
-              discovered topic links. Allowed values: "map" "topic" (default) </entry>
+            <entry>pdf.file</entry>
+            <entry>
+              <p>input file with file
+                extension</p>
+              <p>replaced by .pdf</p>
+            </entry>
+            <entry>Name of PDF file to be created
+              in ${output.dir}.</entry>
+          </row>
+          <row>
+            <entry>transtype</entry>
+            <entry>mmpdf</entry>
+            <entry>
+              <p>Name of transformation type,
+                modify only if</p>
+              <p>using a customization of the</p>
+              <p>com.miramo.mmpdf plugin</p>
+            </entry>
           </row>
           <row>
             <entry>mmpdf:chapterContentsDef</entry>
@@ -228,6 +148,14 @@
             <entry>N</entry>
             <entry>Set to Y to include cropmarks in PDF output Allowed values: "N" (default) "Y"
             </entry>
+          </row>
+          <row>
+            <entry>mmpdf:cwd</entry>
+            <entry>${cfd}</entry>
+            <entry>Current working directory for
+              running MiramoPDF, defaults to
+              folder containing dita input Sample
+              values: "" (default) </entry>
           </row>
           <row>
             <entry>mmpdf:defaultCellVerticalAlignment</entry>
@@ -346,6 +274,14 @@
               ${dita.dir}/plugins/com.miramo.mmpdf/mmtemplates Sample values: "" (default) </entry>
           </row>
           <row>
+            <entry>mmpdf:mfd.file</entry>
+            <entry>default.mfd</entry>
+            <entry>Miramo MFD template file,
+              located in ${mfd.dir}, eg
+              default.mfd Sample values:
+              "default.mfd" (default) </entry>
+          </row>
+          <row>
             <entry>mmpdf:pdfType</entry>
             <entry>untagged</entry>
             <entry>Set to UA to create structured PDF Allowed values: "untagged" (default) "UA"
@@ -362,6 +298,15 @@
             <entry>N</entry>
             <entry>Set to Y to highlight @status attributes; N for production Allowed values: "N"
               (default) "Y" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:showProperties</entry>
+            <entry>N</entry>
+            <entry>Set to Y to include PDF
+              tooltips showing Miramo format
+              definitions; N for production
+              Allowed values: "Y" (default) "N"
+            </entry>
           </row>
           <row>
             <entry>mmpdf:shrinkImagesToFit</entry>
@@ -394,46 +339,6 @@
             <entry>By default, leading newline characters in paragraph text sections are trimmed;
               set to 'preserve' to treat as whitespace Sample values: "trimLeadingNewlines"
               (default) "preserve" </entry>
-          </row>
-          <row>
-            <entry>onlytopic.in.map</entry>
-            <entry>false</entry>
-            <entry>Specifies whether files that are linked to, or referenced with a @conref
-              attribute, generate output. Allowed values: "true" "false" (default) </entry>
-          </row>
-          <row>
-            <entry>outer.control</entry>
-            <entry>warn</entry>
-            <entry>Specifies how DITA-OT handles content files that are not located in or below the
-              directory containing the master DITA map. Allowed values: "fail" - Fail quickly if
-              files are going to be generated or copied outside of the directory. "warn" (default) -
-              Complete the operation if files will be generated or copied outside of the directory,
-              but log a warning. "quiet" - Quietly finish without generating warnings or errors.
-            </entry>
-          </row>
-          <row>
-            <entry>processing-mode</entry>
-            <entry>lax</entry>
-            <entry>Specifies how DITA-OT handles errors and error recovery. Allowed values: "strict"
-              - When an error is encountered, DITA-OT stops processing "lax" (default) - When an
-              error is encountered, DITA-OT attempts to recover from it "skip" - When an error is
-              encountered, DITA-OT continues processing but does not attempt error recovery </entry>
-          </row>
-          <row>
-            <entry>remove-broken-links</entry>
-            <entry>false</entry>
-            <entry>Remove broken related links. Allowed values: "true" "false" (default) </entry>
-          </row>
-          <row>
-            <entry>root-chunk-override</entry>
-            <entry/>
-            <entry>Override for map chunk attribute value.</entry>
-          </row>
-          <row>
-            <entry>validate</entry>
-            <entry>true</entry>
-            <entry>Specifies whether DITA-OT validates the content. Allowed values: "true" (default)
-              "false" </entry>
           </row>
         </tbody>
       </tgroup>
