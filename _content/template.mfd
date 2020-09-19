@@ -1,4 +1,4 @@
-<MiramoFormatDefs xmlns:fmc="http://www.miramo.com/fmc" xmlns:mmc="http://www.miramo.com/mmc"  language="en" objId="844484" mfdVersion="161p49">
+<MiramoFormatDefs xmlns:fmc="http://www.miramo.com/fmc" xmlns:mmc="http://www.miramo.com/mmc" xml:space="preserve" mfdVersion="2.0.0b006"  language="en" objId="844484">
 <Units
 	 name="in"
 	 objId="1436"/>
@@ -206,10 +206,8 @@
 	 balanceColumns="N"
 	 feather="N"
 	 firstPage=""
-	 allPages="Right"
 	 oddPages="Right"
 	 evenPages="Left"
-	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 fNoteDef="fNoteDef1"
@@ -218,6 +216,8 @@
 	 leftMargin="1.00000in"
 	 rightMargin="1.00000in"
 	 columnGap="0.25000in"
+	 allPages="Right"
+	 emptyPage="Blank"
 	 objId="50"/>
 <ParaDef
 	 paraDef="body_anchor"
@@ -320,9 +320,9 @@
 	 firstLineIndent="0.00000in"
 	 startIndent="0.00000in"
 	 endIndent="0.00000in"
-	 spaceAbove="6.000000pt"
+	 spaceAbove="8.000000pt"
 	 spaceBelow="6.000000pt"
-	 leading="2.000000pt"
+	 leading="4.000000pt"
 	 lineSpacingMode="proportional"
 	 position="normal"
 	 withNext="N"
@@ -1340,7 +1340,7 @@
 	 firstLineIndent="0.500000in"
 	 startIndent="0.500000in"
 	 endIndent="0.8in"
-	 spaceAbove="0.000000pt"
+	 spaceAbove="4.000000pt"
 	 spaceBelow="4.000000pt"
 	 leading="4.000000pt"
 	 lineSpacingMode="proportional"
@@ -1385,7 +1385,7 @@
 	 firstLineIndent="1.200000in"
 	 startIndent="1.200000in"
 	 endIndent="0.8in"
-	 spaceAbove="0.000000pt"
+	 spaceAbove="4.000000pt"
 	 spaceBelow="4.000000pt"
 	 leading="4.000000pt"
 	 lineSpacingMode="proportional"
@@ -1731,14 +1731,14 @@
 	 objId="221"/>
 <TblDef
 	 tblDef="simpletable"
-	 columns="2"
+	 columnCount="2"
+	 minimumRows="1"
+	 align="start"
 	 startIndent="0.00000in"
 	 endIndent="0.00000in"
 	 spaceAbove="6.000000pt"
 	 spaceBelow="6.000000pt"
-	 align="start"
 	 position="normal"
-	 minimumRows="1"
 	 startMargin="6.00pt"
 	 endMargin="6.00pt"
 	 topMargin="6.00pt"
@@ -1776,7 +1776,7 @@
 	 paraDef="tableBody"
 	 rowType="body"
 	 objId="952374"/>
-	<TblColumnFormat
+<TblColumnFormat
 	 paraDef="tableFooter"
 	 rowType="footer"
 	 objId="952375"/></TblColumn><TblColumn
@@ -1790,20 +1790,20 @@
 	 paraDef="tableBody"
 	 rowType="body"
 	 objId="952378"/>
-	<TblColumnFormat
+<TblColumnFormat
 	 paraDef="tableFooter"
 	 rowType="footer"
 	 objId="952379"/></TblColumn></TblDef>
 <TblDef
 	 tblDef="dl"
-	 columns="2"
+	 columnCount="2"
+	 minimumRows="1"
+	 align="start"
 	 startIndent="0.00000in"
 	 endIndent="0.00000in"
 	 spaceAbove="12.00pt"
 	 spaceBelow="12.00pt"
-	 align="start"
 	 position="normal"
-	 minimumRows="1"
 	 startMargin="6.00pt"
 	 endMargin="6.00pt"
 	 topMargin="6.00pt"
@@ -1893,7 +1893,7 @@
 	 objId="346"><Font fontDef="i" objId="970927">template.mfd</Font></VarDef>
 <VarDef
 	 varDef="sectionHead"
-	 objId="350"/>
+	 objId="350"></VarDef>
 <PageDef
 	 pageDef="Left"
 	 pageType="master"
@@ -1901,15 +1901,15 @@
 <PageDef
 	 pageDef="Right"
 	 pageType="master"
-	 objId="370"><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.00000in" top="0.500000in" width="6.50000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="371" parentObjectId="370" preserveSpaces="Y"><P paraDef="Header" objId="132055"><RunningText runningTextDef="Running H/F 2" objId="844711"/><endTab objId="844712"/> <RunningText runningTextDef="Running H/F 1" objId="378"/></P></TextFrame><TextFrame type="foreground" columns="1" columnGap="0.25000in" flowDirection="fromTop" left="1.500000in" top="1.250000in" width="6.000000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="379"/><TextFrame type="background" verticalTextAlign="middle" left="1.000000in" top="10.500000in" width="6.500000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="968766" parentObjectId="426" preserveSpaces="Y"><P paraDef="Footer" objId="970559"><Var varDef="mainbooktitle" objId="968763"/><endTab objId="970556"/> page <currentPageNumber objId="968765"/> of <lastPageNumber objId="970558"/> </P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="7.559055in" top="0.500000in" width="1.000000in" height="0.240074in" defaultDPI="1083" rotate="180.000000" objId="968896" parentObjectId="426"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="968895" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
+	 objId="370"><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.00000in" top="0.500000in" width="6.50000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="371" parentObjectId="370" preserveSpaces="Y"><P paraDef="Header" objId="132055"><RunningText runningTextDef="Running H/F 2" objId="844711"/><endTab objId="844712"/> <RunningText runningTextDef="Running H/F 1" objId="378"/></P></TextFrame><TextFrame type="foreground" columns="1" columnGap="0.25000in" flowDirection="fromTop" left="1.500000in" top="1.250000in" width="6.000000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="379"/><TextFrame type="background" verticalTextAlign="middle" left="1.000000in" top="10.500000in" width="6.500000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="968766" parentObjectId="426" preserveSpaces="Y"><P paraDef="Footer" objId="970559"><Var varDef="mainbooktitle" objId="968763"/><endTab objId="970556"/> page <currentPageNumber objId="968765"/> of <lastPageNumber objId="970558"/> </P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="7.559055in" top="0.500000in" width="1.000000in" height="0.240074in" defaultDPI="1083" rotate="180.000000" objId="968896" parentObjectId="370"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="968895" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
 <PageDef
 	 pageDef="Cover"
 	 pageType="master"
-	 objId="389"><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.000000in" top="8.500000in" width="6.500000in" height="1.500000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="White" penTint="0.00" penOpacity="0" fillTint="0.00" fillOpacity="0.000000" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="7" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="956499" parentObjectId="389" preserveSpaces="Y"><P paraDef="credits" objId="971239">Created using the Miramo DITA-OT plugin <Var varDef="pluginVersion" objId="956492"/>:  <Font fontDef="DocumentColor2" objId="971238">http://www.miramo.com</Font></P><P paraDef="credits" objId="971241">Formatting is controlled by the Miramo Format Definitions XML file <Var varDef="mfdTemplateName" objId="956495"/> located in the folder containing the DITA map</P><P paraDef="credits" objId="971243"><Date dateDef="printDate" objId="958283"/></P></TextFrame><TextFrame type="background" left="104.000000mm" top="53mm" width="173.000000mm" height="71.000000mm" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="962937" preserveSpaces="Y"><P paraDef="miramoPDF" objId="967690">MiramoPDF  <Var varDef="vrmversion" objId="963109"/></P><P paraDef="coverTitle" objId="967691">DITA-OT plugin</P><P paraDef="coverTitle" objId="967693"><Var varDef="mainbooktitle" objId="963449"/></P><P paraDef="credits" objId="967694"/></TextFrame><Image file="graphics/MiramoDigitalGunmetal.png" keepAspectRatio="Y" left="22.000000mm" top="52.000000mm" width="2.303867in" height="1.850394in" defaultDPI="300" objId="964159"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="964160" active="N" align="topLeft" fit="withinBox"/></Image><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.900000in" top="10.400000in" width="1.249609in" height="0.300000in" defaultDPI="201" objId="964559" parentObjectId="389"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="964560" active="N" align="topLeft" fit="withinBox"/></Image><TextFrame type="background" verticalTextAlign="middle" left="2.200000in" top="10.400000in" width="6.200000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="964946" parentObjectId="389" preserveSpaces="Y"><P paraDef="Footer" objId="964986">Datazone Ltd, Kenmare, Kerry, Ireland  | +353 64 66 289 64. | www.miramo.com | miramo@datazone.com</P></TextFrame></PageDef>
+	 objId="389"><TextFrame type="background" left="104.000000mm" top="53mm" width="173.000000mm" height="71.000000mm" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="962937" preserveSpaces="Y"><P paraDef="miramoPDF" objId="967690">MiramoPDF  <Var varDef="vrmversion" objId="963109"/></P><P paraDef="coverTitle" objId="967691">DITA-OT plugin</P><P paraDef="coverTitle" objId="967693"><Var varDef="mainbooktitle" objId="963449"/></P><P paraDef="credits" objId="967694"/></TextFrame><Image file="graphics/MiramoDigitalGunmetal.png" keepAspectRatio="Y" left="22.000000mm" top="52.000000mm" width="2.303867in" height="1.850394in" defaultDPI="300" objId="964159"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="964160" active="N" align="topLeft" fit="withinBox"/></Image><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.900000in" top="10.400000in" width="1.249609in" height="0.300000in" defaultDPI="201" objId="964559" parentObjectId="389"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="964560" active="N" align="topLeft" fit="withinBox"/></Image><TextFrame type="background" verticalTextAlign="middle" left="2.200000in" top="10.400000in" width="6.200000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="964946" parentObjectId="389" preserveSpaces="Y"><P paraDef="Footer" objId="964986">Datazone Ltd, Kenmare, Kerry, Ireland  | +353 64 66 289 64. | www.miramo.com | miramo@datazone.com</P></TextFrame></PageDef>
 <PageDef
 	 pageDef="Contents"
 	 pageType="master"
-	 objId="409"><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.000000in" top="0.50000in" width="6.500000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="410" preserveSpaces="Y"><P paraDef="ChapterHeader" objId="619613"><Var varDef="lang-contents" objId="844744"/></P></TextFrame><TextFrame type="foreground" columns="1" columnGap="0.25000in" left="1.000000in" top="1.250000in" width="6.500000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="414"/><Rectangle left="8.031496in" top="0.00000in" width="0.50000in" height="11.000000in" penWidth="0.50pt" penStyle="solid" penColor="DocumentColor2" penTint="15.000000" penOpacity="100.000000" fillColor="DocumentColor2" fillTint="100.000000" fillOpacity="29.000000" fillNum="0" tintPercent="30.0" rotate="0.00" objId="415"/><Rectangle left="7.7in" top="0.500000in" width="0.8in" height="0.15625in" penWidth="0.50pt" penStyle="solid" penColor="DocumentColor1" penTint="100.000000" penOpacity="20.000000" fillColor="DocumentColor1" fillTint="100.000000" fillOpacity="20.000000" fillNum="0" tintPercent="100.0" rotate="0.00" objId="416"/><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.000000in" top="10.400000in" width="6.500000in" height="0.200000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="1119" preserveSpaces="Y"><P paraDef="Footer" objId="624744"><Var varDef="lang-contents" objId="844750"/> <currentPageNumber objId="1121"/></P></TextFrame></PageDef>
+	 objId="409"><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.000000in" top="0.50000in" width="6.500000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="410" preserveSpaces="Y"><P paraDef="ChapterHeader" objId="619613"><Var varDef="lang-contents" objId="844744"/></P></TextFrame><TextFrame type="foreground" columns="1" columnGap="0.25000in" left="1.000000in" top="1.250000in" width="6.500000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="414"/><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.000000in" top="10.400000in" width="6.500000in" height="0.200000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="1119" preserveSpaces="Y"><P paraDef="Footer" objId="624744"><Var varDef="lang-contents" objId="844750"/> <currentPageNumber objId="1121"/></P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="7.559055in" top="0.500000in" width="1.000000in" height="0.240074in" defaultDPI="1083" rotate="180.000000" objId="979954" parentObjectId="370"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="979953" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
 <PageDef
 	 pageDef="Index"
 	 pageType="master"
@@ -2284,15 +2284,15 @@
 	 pd_displayParaBelow="unorderedlistitem2">orderedlistitem2 sample text <ListLabel labelIndent="0.3in" width="0.25in" seriesLabel="orderedlistitem" objId="1036" type="fixed"><leader objId="1037"/><counter numberStyle="lowercaseRoman" hideParentNumber="N" numberPrefix="" objId="1038"/></ListLabel></ParaDef>
 <TblDef
 	 tblDef="table"
+	 minimumRows="1"
+	 titlePosition="above"
+	 titleGap="6.000000pt"
+	 align="start"
 	 startIndent="0.000000in"
 	 endIndent="0.000000in"
 	 spaceAbove="12.00pt"
 	 spaceBelow="12.00pt"
-	 align="start"
 	 position="normal"
-	 minimumRows="1"
-	 titlePosition="above"
-	 titleGap="6.000000pt"
 	 startMargin="2.000000pt"
 	 endMargin="2.000000pt"
 	 topMargin="4.000000pt"
@@ -2333,7 +2333,7 @@
 	 paraDef="tableBody"
 	 rowType="body"
 	 objId="1238"/>
-	<TblColumnFormat
+<TblColumnFormat
 	 paraDef="tableFooter"
 	 rowType="footer"
 	 objId="1239"/></TblColumn><TblColumn
@@ -2347,7 +2347,7 @@
 	 paraDef="tableBody"
 	 rowType="body"
 	 objId="1242"/>
-	<TblColumnFormat
+<TblColumnFormat
 	 paraDef="tableFooter"
 	 rowType="footer"
 	 objId="1243"/></TblColumn><TblColumn
@@ -2701,44 +2701,44 @@
 	 names="index"
 	 pageNumberDef=""
 	 objId="1304">
-	<groupTitles paraDef="groupTitle" objId="1305">
-	<groupTitle before="­" objId="1405">Symbols</groupTitle>
-	<groupTitle before="A" objId="1306">A</groupTitle>
-	<groupTitle before="B" objId="1307">B</groupTitle>
-	<groupTitle before="C" objId="1308">C</groupTitle>
-	<groupTitle before="D" objId="1309">D</groupTitle>
-	<groupTitle before="E" objId="1310">E</groupTitle>
-	<groupTitle before="F" objId="1311">F</groupTitle>
-	<groupTitle before="G" objId="1312">G</groupTitle>
-	<groupTitle before="H" objId="1313">H</groupTitle>
-	<groupTitle before="I" objId="1406">I</groupTitle>
-	<groupTitle before="J" objId="1315">J</groupTitle>
-	<groupTitle before="K" objId="1407">K</groupTitle>
-	<groupTitle before="L" objId="1408">L</groupTitle>
-	<groupTitle before="M" objId="1318">M</groupTitle>
-	<groupTitle before="N" objId="1319">N</groupTitle>
-	<groupTitle before="O" objId="1320">O</groupTitle>
-	<groupTitle before="P" objId="1321">P</groupTitle>
-	<groupTitle before="Q" objId="1322">Q</groupTitle>
-	<groupTitle before="R" objId="1323">R</groupTitle>
-	<groupTitle before="S" objId="1324">S</groupTitle>
-	<groupTitle before="T" objId="1325">T</groupTitle>
-	<groupTitle before="U" objId="1326">U</groupTitle>
-	<groupTitle before="V" objId="1327">V</groupTitle>
-	<groupTitle before="W" objId="1328">W</groupTitle>
-	<groupTitle before="X" objId="1329">X</groupTitle>
-	<groupTitle before="Y" objId="1330">Y</groupTitle>
-	<groupTitle before="Z" objId="1331">Z</groupTitle>
-	<groupTitle before="α" objId="1332">Greek x3B1</groupTitle>
-	<groupTitle before="а" objId="1333">Cyrillic x430</groupTitle>	
-	</groupTitles>
-	
-	
-	
-	<entrySuffix objId="1412"> </entrySuffix>
-	<pageReferenceSeparator objId="1413">, </pageReferenceSeparator>
-	<pageRangeSeparator objId="1414"/>
-	<pageNumber entryType="normal" objId="1415"/>
+<groupTitles paraDef="groupTitle" objId="1305">
+<groupTitle before="­" objId="1405">Symbols</groupTitle>
+<groupTitle before="A" objId="1306">A</groupTitle>
+<groupTitle before="B" objId="1307">B</groupTitle>
+<groupTitle before="C" objId="1308">C</groupTitle>
+<groupTitle before="D" objId="1309">D</groupTitle>
+<groupTitle before="E" objId="1310">E</groupTitle>
+<groupTitle before="F" objId="1311">F</groupTitle>
+<groupTitle before="G" objId="1312">G</groupTitle>
+<groupTitle before="H" objId="1313">H</groupTitle>
+<groupTitle before="I" objId="1406">I</groupTitle>
+<groupTitle before="J" objId="1315">J</groupTitle>
+<groupTitle before="K" objId="1407">K</groupTitle>
+<groupTitle before="L" objId="1408">L</groupTitle>
+<groupTitle before="M" objId="1318">M</groupTitle>
+<groupTitle before="N" objId="1319">N</groupTitle>
+<groupTitle before="O" objId="1320">O</groupTitle>
+<groupTitle before="P" objId="1321">P</groupTitle>
+<groupTitle before="Q" objId="1322">Q</groupTitle>
+<groupTitle before="R" objId="1323">R</groupTitle>
+<groupTitle before="S" objId="1324">S</groupTitle>
+<groupTitle before="T" objId="1325">T</groupTitle>
+<groupTitle before="U" objId="1326">U</groupTitle>
+<groupTitle before="V" objId="1327">V</groupTitle>
+<groupTitle before="W" objId="1328">W</groupTitle>
+<groupTitle before="X" objId="1329">X</groupTitle>
+<groupTitle before="Y" objId="1330">Y</groupTitle>
+<groupTitle before="Z" objId="1331">Z</groupTitle>
+<groupTitle before="α" objId="1332">Greek x3B1</groupTitle>
+<groupTitle before="а" objId="1333">Cyrillic x430</groupTitle>
+</groupTitles>
+
+
+
+<entrySuffix objId="1412"> </entrySuffix>
+<pageReferenceSeparator objId="1413">, </pageReferenceSeparator>
+<pageRangeSeparator objId="1414"/>
+<pageNumber entryType="normal" objId="1415"/>
 <levelFormat paraDef="indexLevel1" objId="632758"/><levelFormat paraDef="indexLevel2" objId="632759"/><levelFormat paraDef="indexLevel3" objId="632760"/></IndexDef>
 <ParaDef
 	 paraDef="indexLevel3"
@@ -3140,11 +3140,11 @@
 	 firstPage="Right"
 	 oddPages="Right"
 	 evenPages="Left"
-	 allPages=""
-	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage="Blank"
 	 objId="846111"/>
 <SectionDef
 	 sectionDef="firstSection"
@@ -3155,11 +3155,11 @@
 	 firstPage="First"
 	 oddPages="Right"
 	 evenPages="Left"
-	 allPages=""
-	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage="Blank"
 	 objId="846112"/>
 <SectionDef
 	 sectionDef="coverSection"
@@ -3170,11 +3170,11 @@
 	 firstPage="Cover"
 	 oddPages="Right"
 	 evenPages="Left"
-	 allPages=""
-	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage="Blank"
 	 objId="846113"/>
 <SectionDef
 	 sectionDef="contentsSection"
@@ -3186,11 +3186,11 @@
 	 firstPage="Contents"
 	 oddPages="Contents"
 	 evenPages="Contents"
-	 allPages=""
-	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage="Blank"
 	 objId="846114"/>
 <SectionDef
 	 sectionDef="indexSection"
@@ -3201,18 +3201,18 @@
 	 firstPage="Index"
 	 oddPages="Index"
 	 evenPages="Index"
-	 allPages=""
-	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage="Blank"
 	 objId="846115"/>
 <VarDef
 	 varDef="booktitlealt"
 	 objId="7745"> </VarDef>
 <VarDef
 	 varDef="booklibrary"
-	 objId="7748"/>
+	 objId="7748"></VarDef>
 <ParaDef
 	 paraDef="shortdesc"
 	 fontFamily="Noto Sans"
@@ -3303,7 +3303,7 @@
 	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="24683" type="runin"><leader objId="24681">.</leader><counter numberStyle="hidden" objId="24682"/></ListLabel>sample text</ParaDef>
 <VarDef
 	 varDef="vrmlist"
-	 objId="24738"/>
+	 objId="24738"></VarDef>
 <ParaGroupDef
 	 paraGroupDef="ol"
 	 spaceAboveParaGroup="5.000000pt"
@@ -3722,16 +3722,16 @@
 	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="330761" type="runin"><leader objId="330759">.</leader><counter numberStyle="hidden" objId="330760"/></ListLabel>sample text</ParaDef>
 <TblDef
 	 tblDef="hazardstatement"
-	 columns="2"
+	 columnCount="2"
+	 minimumRows="1"
+	 titlePosition="above"
+	 titleGap="6.000000pt"
+	 align="start"
 	 startIndent="0pt"
 	 endIndent="0pt"
 	 spaceAbove="0.200000in"
 	 spaceBelow="0.200000in"
-	 align="start"
 	 position="normal"
-	 minimumRows="1"
-	 titlePosition="above"
-	 titleGap="6.000000pt"
 	 startMargin="15.000000pt"
 	 endMargin="15.000000pt"
 	 topMargin="10.000000pt"
@@ -3962,34 +3962,34 @@
 	 objId="333083"/>
 <VarDef
 	 varDef="prodinfo"
-	 objId="364854"/>
+	 objId="364854"></VarDef>
 <VarDef
 	 varDef="category"
-	 objId="364855"/>
+	 objId="364855"></VarDef>
 <VarDef
 	 varDef="prodname"
-	 objId="364856"/>
+	 objId="364856"></VarDef>
 <VarDef
 	 varDef="brand"
-	 objId="364857"/>
+	 objId="364857"></VarDef>
 <VarDef
 	 varDef="component"
-	 objId="364858"/>
+	 objId="364858"></VarDef>
 <VarDef
 	 varDef="platform"
-	 objId="364859"/>
+	 objId="364859"></VarDef>
 <VarDef
 	 varDef="featnum"
-	 objId="364860"/>
+	 objId="364860"></VarDef>
 <VarDef
 	 varDef="series"
-	 objId="364861"/>
+	 objId="364861"></VarDef>
 <VarDef
 	 varDef="prognum"
-	 objId="364862"/>
+	 objId="364862"></VarDef>
 <VarDef
 	 varDef="copyryear"
-	 objId="364864"/>
+	 objId="364864"></VarDef>
 <FontDef
 	 fontDef="importance"
 	 fontWeight="Bold"
@@ -4008,11 +4008,11 @@
 	 firstPage="Appendix"
 	 oddPages="Right"
 	 evenPages="Left"
-	 allPages=""
-	 emptyPage=""
 	 emptyOddPage=""
 	 emptyEvenPage=""
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage=""
 	 objId="376249"/>
 <ParaDef
 	 paraDef="Footnote"
@@ -4078,21 +4078,21 @@
 	 rule="Y"
 	 labelPosition=""
 	 labelIndent="0"
-	 objId="846222">	
-	<FNoteSeparator penWidth="1pt" ruleStart="0in" ruleLength="80%" penStyle="solid" penColor="DocumentColor1" penTint="100%" penOpacity="100%" objId="846223" ruleGap="0.1in"/>
+	 objId="846222">
+<FNoteSeparator penWidth="1pt" ruleStart="0in" ruleLength="80%" penStyle="solid" penColor="DocumentColor1" penTint="100%" penOpacity="100%" objId="846223" ruleGap="0.1in"/>
 </FNoteDef>
 <VarDef
 	 varDef="lang-contents"
-	 objId="379802"/>
+	 objId="379802"></VarDef>
 <VarDef
 	 varDef="lang-index"
-	 objId="379803"/>
+	 objId="379803"></VarDef>
 <VarDef
 	 varDef="lang-appendix"
-	 objId="379804"/>
+	 objId="379804"></VarDef>
 <VarDef
 	 varDef="lang-page"
-	 objId="409620"/>
+	 objId="409620"></VarDef>
 <FontDef
 	 fontDef="b-zh-cn"
 	 fontFamily="Microsoft YaHei"
@@ -4139,7 +4139,7 @@
 	 objId="412544"/>
 <VarDef
 	 varDef="shortdesc"
-	 objId="618948"/>
+	 objId="618948"></VarDef>
 <VarDef
 	 varDef="lang-figure"
 	 objId="619009">Figure </VarDef>
@@ -4148,7 +4148,7 @@
 	 objId="619010">Table </VarDef>
 <VarDef
 	 varDef="lang-onpage"
-	 objId="619012"/>
+	 objId="619012"></VarDef>
 <FontDef
 	 fontDef="b-ar"
 	 fontFamily="Noto Sans"
@@ -4220,11 +4220,11 @@
 	 firstPage="Right"
 	 oddPages="Right"
 	 evenPages="Left"
-	 allPages=""
-	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage="Blank"
 	 objId="630400"/>
 <SectionDef
 	 sectionDef="noticesSection"
@@ -4236,11 +4236,11 @@
 	 firstPage="Right"
 	 oddPages="Right"
 	 evenPages="Left"
-	 allPages=""
-	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage="Blank"
 	 objId="630401"/>
 <FontDef
 	 fontDef="u"
@@ -4250,7 +4250,7 @@
 	 objId="632696"/>
 <VarDef
 	 varDef="lang-related"
-	 objId="634896"/>
+	 objId="634896"></VarDef>
 <XRefDef
 	 xRefDef="link"
 	 objId="635136"><paragraphText objId="846264"/><Font fontDef="xreflink" objId="846265"> <Var varDef="lang-onpage" objId="635130"/> <pagenum objId="958708"/></Font></XRefDef>
@@ -4308,11 +4308,11 @@
 	 firstPage="Right"
 	 oddPages="Right"
 	 evenPages="Left"
-	 allPages=""
-	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage="Blank"
 	 objId="657775"/>
 <ParaDef
 	 paraDef="chapter_title"
@@ -4361,7 +4361,7 @@
 	 pd_displayParaBelow="topic_title">sample text<ListLabel fontDef="title_prefix" labelIndent="0.000000in" seriesLabel="titles" objId="676940" type="runin"><leader objId="676938"/><Var varDef="lang-chapter" objId="681762"/> <counter numberStyle="westernArabic" numberStart="1" objId="676939" pd_displayValue="1"/>:  </ListLabel></ParaDef>
 <VarDef
 	 varDef="lang-chapter"
-	 objId="676993"/>
+	 objId="676993"></VarDef>
 <ParaDef
 	 paraDef="appendix_title"
 	 fontFamily="Noto Sans"
@@ -4545,10 +4545,10 @@
 	 pd_displayParaBelow="topic_title2"><ListLabel labelIndent="0.000000in" seriesLabel="appendixtitles" objId="677914" type="fixed"><leader objId="677912"/><counter numberStyle="westernArabic" parent="topic_title" numberPrefix="." objId="677913"/></ListLabel>topictopic_title sample text</ParaDef>
 <VarDef
 	 varDef="lang-preface"
-	 objId="678105"/>
+	 objId="678105"></VarDef>
 <VarDef
 	 varDef="lang-notice"
-	 objId="678130"/>
+	 objId="678130"></VarDef>
 <ParaDef
 	 paraDef="bookabstract_title"
 	 fontFamily="Noto Sans"
@@ -4791,17 +4791,17 @@
 	 pd_displayParaBelow="orderedlistitem1"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="685840" type="runin"><leader objId="685838">.</leader><counter numberStyle="hidden" objId="685839"/></ListLabel>dt sample text</ParaDef>
 <TblDef
 	 tblDef="fig"
-	 columns="1"
+	 columnCount="1"
+	 minimumRows="1"
+	 titlePosition="below"
+	 titleGap="6.000000pt"
+	 align="start"
 	 startIndent="0.200000in"
 	 endIndent="0.000000in"
 	 indentMode="relative"
 	 spaceAbove="10.000000pt"
 	 spaceBelow="10.000000pt"
-	 align="start"
 	 position="normal"
-	 minimumRows="1"
-	 titlePosition="below"
-	 titleGap="6.000000pt"
 	 startMargin="0.000000in"
 	 endMargin="0.000000in"
 	 topMargin="0.000000in"
@@ -5170,13 +5170,13 @@
 	 objId="837061"/>
 <VarDef
 	 varDef="vrmrelease"
-	 objId="837170"/>
+	 objId="837170"></VarDef>
 <VarDef
 	 varDef="vrmversion"
-	 objId="837171"/>
+	 objId="837171"></VarDef>
 <VarDef
 	 varDef="vrmmodification"
-	 objId="837172"/>
+	 objId="837172"></VarDef>
 <ParaDef
 	 paraDef="comment"
 	 fontFamily="Noto Sans"
@@ -5522,10 +5522,10 @@
 	 pd_displayParaBelow="orderedlistitem2">orderedlistitem1 sample text<ListLabel labelIndent="0.00in" width="0.25in" seriesLabel="step" objId="845457" type="fixed"><leader objId="845455"/><counter numberStyle="westernArabic" objId="845456"/></ListLabel></ParaDef>
 <VarDef
 	 varDef="lang-prereq"
-	 objId="845636"/>
+	 objId="845636"></VarDef>
 <VarDef
 	 varDef="lang-postreq"
-	 objId="845667"/>
+	 objId="845667"></VarDef>
 <ParaDef
 	 paraDef="stepresult"
 	 fontFamily="Noto Sans"
@@ -5661,19 +5661,19 @@
 	 pd_displayParaBelow="topic_title2"><ListLabel labelIndent="0.000000in" width="1.0in" seriesLabel="titles" objId="846561" type="runin"><leader objId="846559"/><Var varDef="lang-example" objId="847505"/> </ListLabel>topictopic_title sample text</ParaDef>
 <VarDef
 	 varDef="lang-example"
-	 objId="847030"/>
+	 objId="847030"></VarDef>
 <VarDef
 	 varDef="lang-context"
-	 objId="847055"/>
+	 objId="847055"></VarDef>
 <VarDef
 	 varDef="lang-procedure"
-	 objId="847104"/>
+	 objId="847104"></VarDef>
 <VarDef
 	 varDef="lang-procedure-unordered"
-	 objId="847129"/>
+	 objId="847129"></VarDef>
 <VarDef
 	 varDef="lang-results"
-	 objId="847154"/>
+	 objId="847154"></VarDef>
 <ParaDef
 	 paraDef="stepsection"
 	 fontFamily="Noto Sans"
@@ -5735,24 +5735,24 @@
 	 firstPage="Landscape"
 	 oddPages="Landscape"
 	 evenPages="Landscape"
-	 allPages=""
-	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage="Blank"
 	 objId="848696"/>
 <TblDef
 	 tblDef="equation-figure"
-	 columns="1"
+	 columnCount="1"
+	 minimumRows="1"
+	 titlePosition="above"
+	 titleGap="2.000000pt"
+	 align="start"
 	 startIndent="0.200000in"
 	 endIndent="0.000000in"
 	 spaceAbove="4.000000pt"
 	 spaceBelow="4.000000pt"
-	 align="start"
 	 position="normal"
-	 minimumRows="1"
-	 titlePosition="above"
-	 titleGap="2.000000pt"
 	 startMargin="0.000000in"
 	 endMargin="0.000000in"
 	 topMargin="0.000000in"
@@ -5999,8 +5999,7 @@
 	 fontFamily="Adobe Blank"
 	 fontWeight="Regular"
 	 fontAngle="Regular"
-	 textSize="0.000000%"
-	 objId="850281"/>
+	 objId="979135"/>
 <ParaDef
 	 paraDef="TableFootnote"
 	 fontFamily="Noto Sans"
@@ -6096,10 +6095,10 @@
 	 objId="851466"><FNoteSeparator penWidth="0.5pt" ruleStart="0.000000in" ruleLength="auto" penStyle="solid" penColor="Black" penTint="100" penOpacity="100" gap="0.1in" objId="851464"/></FNoteDef>
 <VarDef
 	 varDef="created_date"
-	 objId="851528"/>
+	 objId="851528"></VarDef>
 <VarDef
 	 varDef="revised_modified"
-	 objId="851529"/>
+	 objId="851529"></VarDef>
 <FontDef
 	 fontDef="line-through"
 	 strikeThrough="Y"
@@ -6253,13 +6252,13 @@
 	 pd_displayParaBelow="orderedlistitem3">orderedlistitem2 sample text <ListLabel labelIndent="0.25in" width="0.25in" seriesLabel="step" objId="862400" type="fixed"><leader objId="862398"/><counter numberStyle="lowercaseAlpha" hideParentNumber="Y" parent="step" numberPrefix="." objId="862399"/></ListLabel></ParaDef>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="862468">161p45</VarDef>
+	 objId="862468">2.0.0b006</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="862529">161p45</VarDef>
 <VarDef
 	 varDef="author"
-	 objId="952052"/>
+	 objId="952052"></VarDef>
 <SectionDef
 	 sectionDef="backCoverSection"
 	 pageCount="even"
@@ -6268,12 +6267,12 @@
 	 paragraphNumberStart="increment"
 	 oddPages="Right"
 	 evenPages="Left"
-	 allPages=""
-	 lastPage="BackCover"
-	 emptyPage=""
 	 emptyOddPage="BackCover"
 	 emptyEvenPage="BackCover"
+	 lastPage="BackCover"
 	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage=""
 	 objId="952113"/>
 <PageDef
 	 pageDef="BackCover"
@@ -6311,76 +6310,76 @@
 	 objId="958166"><dayNumber objId="958185"/> <monthName objId="958186"/> <year objId="958187"/> <hour objId="958188"/>:<minute00 objId="958189"/><ampm objId="958190"/></DateDef>
 <VarDef
 	 varDef="lang-fig"
-	 objId="959078"/>
+	 objId="959078"></VarDef>
 <VarDef
 	 varDef="lang-optional"
-	 objId="959083"/>
+	 objId="959083"></VarDef>
 <VarDef
 	 varDef="lang-required"
-	 objId="959084"/>
+	 objId="959084"></VarDef>
 <VarDef
 	 varDef="lang-note"
-	 objId="959093"/>
+	 objId="959093"></VarDef>
 <VarDef
 	 varDef="lang-notices"
-	 objId="959095"/>
+	 objId="959095"></VarDef>
 <VarDef
 	 varDef="lang-notes"
-	 objId="959096"/>
+	 objId="959096"></VarDef>
 <VarDef
 	 varDef="lang-tip"
-	 objId="959097"/>
+	 objId="959097"></VarDef>
 <VarDef
 	 varDef="lang-fastpath"
-	 objId="959098"/>
+	 objId="959098"></VarDef>
 <VarDef
 	 varDef="lang-important"
-	 objId="959099"/>
+	 objId="959099"></VarDef>
 <VarDef
 	 varDef="lang-attention"
-	 objId="959100"/>
+	 objId="959100"></VarDef>
 <VarDef
 	 varDef="lang-caution"
-	 objId="959101"/>
+	 objId="959101"></VarDef>
 <VarDef
 	 varDef="lang-danger"
-	 objId="959102"/>
+	 objId="959102"></VarDef>
 <VarDef
 	 varDef="lang-remember"
-	 objId="959103"/>
+	 objId="959103"></VarDef>
 <VarDef
 	 varDef="lang-restriction"
-	 objId="959104"/>
+	 objId="959104"></VarDef>
 <VarDef
 	 varDef="lang-warning"
-	 objId="959105"/>
+	 objId="959105"></VarDef>
 <VarDef
 	 varDef="lang-obsolete"
-	 objId="959106"/>
+	 objId="959106"></VarDef>
 <VarDef
 	 varDef="lang-deprecated"
-	 objId="959107"/>
+	 objId="959107"></VarDef>
 <VarDef
 	 varDef="lang-default"
-	 objId="959108"/>
+	 objId="959108"></VarDef>
 <VarDef
 	 varDef="lang-low"
-	 objId="959109"/>
+	 objId="959109"></VarDef>
 <VarDef
 	 varDef="lang-normal"
-	 objId="959110"/>
+	 objId="959110"></VarDef>
 <VarDef
 	 varDef="lang-high"
-	 objId="959111"/>
+	 objId="959111"></VarDef>
 <VarDef
 	 varDef="lang-recommended"
-	 objId="959112"/>
+	 objId="959112"></VarDef>
 <VarDef
 	 varDef="lang-urgent"
-	 objId="959113"/>
+	 objId="959113"></VarDef>
 <VarDef
 	 varDef="metadata-separator"
-	 objId="959114"/>
+	 objId="959114"></VarDef>
 <ParaDef
 	 paraDef="context"
 	 fontFamily="Noto Sans"
@@ -6509,13 +6508,197 @@
 	 verticalShift="0.0"
 	 capitalization="normal"
 	 objId="964301"/>
-<PodsModel><Filter id="132">appendix_title,appendix_title1,appendix_title2,topic_title,topic_title3,topic_title1,topic_title2,topic_title4,topic_title5,unorderedlistitem1,unorderedlistitem2,unorderedlistitem1_tbl,unorderedlistitem2_tbl,unorderedlistitem3,toc1,toc2,toc3,step,stepresult,stepxmp,stepsection,step_tbl,substep,simplelistitem,orderedlistitem2,orderedlistitem3,orderedlistitem1_tbl,orderedlistitem4,orderedlistitem2_tbl,indexLevel1,indexLevel2,indexLevel3,tableBody,tableFooter,tableHeader,tableTitle,TableFootnote,section_title1,section_title2,section_title3,preface_title,preface_title1,preface_title2,booktitlealt_title,booklibrary_title,chapter_title,bookabstract_title,colophon_title,article_title,groupTitle,listTitle,figureTitle,entry,hidden_section_title,example_title,dd,dt,desc,dthd,dlhead,simpletableBody,simpletableHeader,stentry,mainbook_title,glossentry_abstract,glossentry_title,glossdef,glossalt,notices_title,notices_title1,orderedlistitem1,listitem,equationTitle,body_anchor,body,ChapterHeader,credits,Header,hidden_keywords,note,spacer,prereq,section,codeblock,Footer,lines,reference,refbodyexample,example,section_anchor,shortdesc,related_links,consequence,area,result,hazardstatement,typeofhazard,Footnote,comment,howtoavoid,postreq,notepara,tutorialinfo,context,info,miramoPDF,coverTitle</Filter>
+<VarDef
+	 varDef="miramoVersion"
+	 objId="979229">2.0.0b006</VarDef>
+<VarDef
+	 varDef="pluginVersion"
+	 objId="979230">200b02</VarDef>
+<PageNumberDef
+	 pageNumberDef="ix-pagenumber"
+	 objId="979231"><Font fontDef="ix-page" objId="979232"><pageNumber objId="979233"/></Font></PageNumberDef>
+<FontDef
+	 fontDef="ix-page"
+	 textColor="DocumentColor1"
+	 objId="979234"/>
+<ParaDef
+	 paraDef="indexLevel4"
+	 fontFamily="Noto Sans"
+	 fontWeight="Regular"
+	 fontAngle="Regular"
+	 textSize="9.000000pt"
+	 textColor="Black"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.600000in"
+	 startIndent="0.700000in"
+	 endIndent="0.00000in"
+	 spaceAbove="3.000000pt"
+	 spaceBelow="1.000000pt"
+	 leading="4.000000pt"
+	 lineSpacingMode="proportional"
+	 deltaSpaceAbove="2.000000pt"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="2"
+	 minAfterHyphen="2"
+	 minimumWordSize="5"
+	 textKern="N"
+	 textSpread="0.0"
+	 letterSpacing="Y"
+	 minimumWordSpace="100.000000"
+	 optimumWordSpace="100.000000"
+	 maximumWordSpace="100.000000"
+	 PDFbookmarkLevel="0"
+	 tpRoleMap="P"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="979235"
+	 pd_displayParaAbove="indexLevel2"
+	 pd_displayParaBelow="indexLevel2">indexLevel3 sample text<ListLabel labelIndent="0.500000in" seriesLabel="" objId="979236" type="runin"><leader objId="979237">.</leader><counter numberStyle="hidden" objId="979238"/></ListLabel></ParaDef>
+<VarDef
+	 varDef="menucascadeseparator"
+	 objId="979239"> &gt; </VarDef>
+<SectionDef
+	 sectionDef="frontmatterSection"
+	 pageCount="even"
+	 pageNumberStart="increment"
+	 pageNumberStyle="westernArabic"
+	 pageNumberDef=""
+	 paragraphNumberStart="increment"
+	 oddPages="Right"
+	 evenPages="Left"
+	 emptyOddPage="Blank"
+	 emptyEvenPage="Blank"
+	 lastPage=""
+	 tpRoleMap="Sect"
+	 allPages=""
+	 emptyPage="Blank"
+	 objId="979248"/>
+<VarDef
+	 varDef="miramoVersion"
+	 objId="979249">2.0.0b006</VarDef>
+<ParaDef
+	 paraDef="note_tbl"
+	 fontFamily="Noto Sans"
+	 fontWeight="Regular"
+	 fontAngle="Italic"
+	 textSize="9pt"
+	 textColor="Black"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.25in"
+	 startIndent="0.25in"
+	 endIndent="0.00000in"
+	 spaceAbove="8.000000pt"
+	 spaceBelow="6.000000pt"
+	 leading="2.00pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="none"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="Y"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="979372"
+	 pd_displayParaAbove="body"
+	 pd_displayParaBelow="orderedlistitem1">note sample text<ListLabel labelIndent="0.00in" width="0.20in" seriesLabel="" objId="979368" type="fixed"><leader objId="979366"/><counter numberStyle="hidden" objId="979367"/></ListLabel></ParaDef>
+<ParaDef
+	 paraDef="notepara_tbl"
+	 fontFamily="Noto Sans"
+	 fontWeight="Regular"
+	 fontAngle="Italic"
+	 textSize="9pt"
+	 textColor="Black"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.00000in"
+	 startIndent="0.00000in"
+	 endIndent="0.00000in"
+	 spaceAbove="8.000000pt"
+	 spaceBelow="6.000000pt"
+	 leading="2.00pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="none"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="979379"
+	 pd_displayParaAbove="body"
+	 pd_displayParaBelow="orderedlistitem1">notepara sample text: for &lt;p&gt; nested within &lt;note&gt;<ListLabel labelIndent="0.00in" width="0.20in" seriesLabel="" objId="979375" type="fixed"><leader objId="979373"/><counter numberStyle="hidden" objId="979374"/></ListLabel></ParaDef>
+<PodsModel><Filter id="132">appendix_title,appendix_title1,appendix_title2,topic_title,topic_title3,topic_title1,topic_title2,topic_title4,topic_title5,unorderedlistitem1,unorderedlistitem2,unorderedlistitem1_tbl,unorderedlistitem2_tbl,unorderedlistitem3,toc1,toc2,toc3,step,stepresult,stepxmp,stepsection,step_tbl,substep,simplelistitem,orderedlistitem2,orderedlistitem3,orderedlistitem1_tbl,orderedlistitem4,orderedlistitem2_tbl,indexLevel1,indexLevel2,indexLevel3,tableBody,tableFooter,tableHeader,tableTitle,TableFootnote,section_title1,section_title2,section_title3,preface_title,preface_title1,preface_title2,booktitlealt_title,booklibrary_title,chapter_title,bookabstract_title,colophon_title,article_title,groupTitle,listTitle,figureTitle,entry,hidden_section_title,example_title,dd,dt,desc,dthd,dlhead,simpletableBody,simpletableHeader,stentry,mainbook_title,glossentry_abstract,glossentry_title,glossdef,glossalt,notices_title,notices_title1,orderedlistitem1,listitem,equationTitle,body_anchor,body,ChapterHeader,credits,Header,hidden_keywords,note,spacer,prereq,section,codeblock,Footer,lines,reference,refbodyexample,example,section_anchor,shortdesc,related_links,consequence,area,result,hazardstatement,typeofhazard,Footnote,comment,howtoavoid,postreq,notepara,tutorialinfo,context,info,miramoPDF,coverTitle,note_tbl,notepara_tbl,indexLevel4</Filter>
 <Pod name="titles" id="132">appendix_title,appendix_title1,appendix_title2,article_title,bookabstract_title,booklibrary_title,booktitlealt_title,chapter_title,colophon_title,coverTitle,equationTitle,example_title,figureTitle,hidden_section_title,listTitle,mainbook_title,notices_title,notices_title1,preface_title,preface_title1,preface_title2,section_title1,section_title2,section_title3,topic_title,topic_title1,topic_title2,topic_title3,topic_title4,topic_title5</Pod>
 <Pod name="lists" id="132">listitem,orderedlistitem1,orderedlistitem1_tbl,orderedlistitem2,orderedlistitem2_tbl,orderedlistitem3,orderedlistitem4,simplelistitem,unorderedlistitem1,unorderedlistitem1_tbl,unorderedlistitem2,unorderedlistitem2_tbl,unorderedlistitem3</Pod>
 <Pod name="TOC" id="132">toc1,toc2,toc3</Pod>
 <Pod name="steps" id="132">info,step,step_tbl,stepresult,stepsection,stepxmp,substep</Pod>
-<Pod name="Index" id="132">groupTitle,indexLevel1,indexLevel2,indexLevel3</Pod>
+<Pod name="Index" id="132">groupTitle,indexLevel1,indexLevel2,indexLevel3,indexLevel4</Pod>
 <Pod name="tables" id="132">TableFootnote,entry,simpletableBody,simpletableHeader,stentry,tableBody,tableFooter,tableHeader,tableTitle</Pod>
 <Pod name="definitions" id="132">dd,desc,dlhead,dt,dthd,glossalt,glossdef,glossentry_abstract,glossentry_title</Pod>
-<Pod name="misc" id="132">ChapterHeader,Footer,Footnote,Header,area,body,body_anchor,codeblock,comment,consequence,context,credits,example,hazardstatement,hidden_keywords,howtoavoid,lines,miramoPDF,note,notepara,postreq,prereq,refbodyexample,reference,related_links,result,section,section_anchor,shortdesc,spacer,tutorialinfo,typeofhazard</Pod>
+<Pod name="misc" id="132">ChapterHeader,Footer,Footnote,Header,area,body,body_anchor,codeblock,comment,consequence,context,credits,example,hazardstatement,hidden_keywords,howtoavoid,lines,miramoPDF,note,note_tbl,notepara,notepara_tbl,postreq,prereq,refbodyexample,reference,related_links,result,section,section_anchor,shortdesc,spacer,tutorialinfo,typeofhazard</Pod>
 </PodsModel></MiramoFormatDefs>
