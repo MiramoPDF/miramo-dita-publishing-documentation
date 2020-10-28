@@ -159,7 +159,7 @@
           </row>
           <row>
             <entry>mmpdf:defaultCellVerticalAlignment</entry>
-            <entry/>
+            <entry>middle</entry>
             <entry>Set default vertical aligment of table cell contents Allowed values: "" (default)
               "top" "middle" "bottom" </entry>
           </row>
@@ -196,7 +196,10 @@
           </row>
           <row>
             <entry>mmpdf:images.dir</entry>
-            <entry/>
+            <entry>
+              <p>${dita.dir}\plugins\com.mira</p>
+              <p>mo.mmpdf\images</p>
+            </entry>
             <entry>Folder containing images for notes, defaults to
               ${dita.dir}/plugins/com.miramo.mmpdf/images Sample values: "" (default) </entry>
           </row>
@@ -244,13 +247,19 @@
           <row>
             <entry>mmpdf:jobID</entry>
             <entry/>
-            <entry>Set jobID (MiramoEnterprise only)</entry>
+            <entry>
+              <p>MiramoEnterprise only: unique
+                identifier</p>
+              <p>for queued job as viewed in
+                mmVisor</p>
+            </entry>
           </row>
           <row>
             <entry>mmpdf:localization-strings.dir</entry>
-            <entry/>
-            <entry>Location of configuration folder containing langlist.xml and *.xml language
-              files</entry>
+            <entry>${plugin.dir}/cfg/strings</entry>
+            <entry>Location of strings folder
+              containing langlist.xml and *.xml
+              language files</entry>
           </row>
           <row>
             <entry>mmpdf:logMetrics</entry>
@@ -261,7 +270,7 @@
           </row>
           <row>
             <entry>mmpdf:metadataprecedence</entry>
-            <entry/>
+            <entry>map</entry>
             <entry>Set to 'topic' to allow topic metadata data element values to override equivalent
               map metadata data element values. Default is 'map', where topic metadata is only used
               where no equivalent map data is defined Allowed values: "" (default) "map" "topic"
@@ -269,7 +278,10 @@
           </row>
           <row>
             <entry>mmpdf:mfd.dir</entry>
-            <entry/>
+            <entry>
+              <p>${dita.dir}\plugins\com.mira</p>
+              <p>mo.mmpdf\mmtemplates</p>
+            </entry>
             <entry>Folder containing Miramo MFD template file, defaults to
               ${dita.dir}/plugins/com.miramo.mmpdf/mmtemplates Sample values: "" (default) </entry>
           </row>
@@ -290,8 +302,13 @@
           <row>
             <entry>mmpdf:processGroup</entry>
             <entry/>
-            <entry>Set processing channel group number or name for this job (MiramoEnterprise
-              only)</entry>
+            <entry>
+              <p>MiramoEnterprise only: Name or
+                number of</p>
+              <p>MiramoEnterprise processing group
+                as viewed</p>
+              <p>in mmVisor</p>
+            </entry>
           </row>
           <row>
             <entry>mmpdf:showStatus</entry>

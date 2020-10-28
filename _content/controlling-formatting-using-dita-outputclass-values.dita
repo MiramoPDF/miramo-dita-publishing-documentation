@@ -46,7 +46,7 @@
           </row>
           <row>
             <entry align="left" valign="top">
-              <p>mmpdf:keepTogether:doo/</p>
+              <p>mmpdf:keepTogether:&lt;i>bool&lt;/i></p>
             </entry>
             <entry align="left" valign="top">
               <p>title, p, note, cmd</p>
@@ -90,12 +90,12 @@
                 applies to the edges of the table cell.</p></entry>
           </row>
           <row>
-            <entry align="left" valign="middle"><p>mmpdf:maximumHeight:d/m</p></entry>
+            <entry align="left" valign="middle"><p>mmpdf:maximumHeight:&lt;i>dim&lt;/i></p></entry>
             <entry align="left" valign="middle"><p>row, strow</p></entry>
             <entry align="left" valign="middle"><p>set maximum row height</p></entry>
           </row>
           <row>
-            <entry align="left" valign="middle"><p>mmpdf:minimumHeight:d/m</p></entry>
+            <entry align="left" valign="middle"><p>mmpdf:minimumHeight:&lt;i>dim&lt;/i></p></entry>
             <entry align="left" valign="middle"><p>row, strow</p></entry>
             <entry align="left" valign="middle"><p>set minimum row height</p></entry>
           </row>
@@ -117,13 +117,13 @@
               unless mmpdf:colorDef:name used) default: 100%</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:withNext:doo/</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:withNext:&lt;i>bool&lt;/i></p></entry>
             <entry align="left" valign="top"><p>title, p, note, cmd</p></entry>
             <entry align="left" valign="middle"><p>set withNext to 'Y' or 'N' to set the paragraph
               keep with next property</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:withPrevious:doo/</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:withPrevious:&lt;i>bool&lt;/i></p></entry>
             <entry align="left" valign="top"><p>title, p, note, cmd</p></entry>
             <entry align="left" valign="middle"><p>set withPrevious to 'Y' or 'N' to set the
               paragraph keep with previous property</p></entry>
