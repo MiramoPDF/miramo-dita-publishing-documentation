@@ -129,13 +129,12 @@
             <entry>mmpdf:chapterContentsDef</entry>
             <entry>chapterTOC</entry>
             <entry>Set ContentsDef to use for formatting chapter TOC (miniTOC) - ignored unless
-              mmpdf:includeChapterTOC = 'Y' Sample values: "chapterTOC" (default) </entry>
+              mmpdf:includeChapterTOC = 'Y' </entry>
           </row>
           <row>
             <entry>mmpdf:contentsDef</entry>
             <entry>contents1</entry>
-            <entry>Set ContentsDef to use for formatting TOC - ignored if mmpdf:includeTOC = 'N'
-              Sample values: "contents1" (default) </entry>
+            <entry>Set ContentsDef to use for formatting TOC - ignored if mmpdf:includeTOC = 'N' </entry>
           </row>
           <row>
             <entry>mmpdf:copyImagesToOutput</entry>
@@ -152,10 +151,8 @@
           <row>
             <entry>mmpdf:cwd</entry>
             <entry>${cfd}</entry>
-            <entry>Current working directory for
-              running MiramoPDF, defaults to
-              folder containing dita input Sample
-              values: "" (default) </entry>
+            <entry>Current working directory for running MiramoPDF, defaults to folder containing
+              dita input </entry>
           </row>
           <row>
             <entry>mmpdf:defaultCellVerticalAlignment</entry>
@@ -172,8 +169,14 @@
           <row>
             <entry>mmpdf:defaultImageUnits</entry>
             <entry>px</entry>
-            <entry>Default units for image width/height values if none specified Sample values: "px"
-              (default) "pt" "mm" "pc" "cm" "dd" "cc" </entry>
+            <entry>Default units for image width/height values if none specified. Allowed values:
+              "px" (default) "pt" "mm" "pc" "cm" "dd" "cc" </entry>
+          </row>
+          <row>
+            <entry>mmpdf:fontPath</entry>
+            <entry>default</entry>
+            <entry>Set folder or folders to search for fonts in addition to system fonts (default):
+              use path separator ';' (windows) or ':' (linux/mac)</entry>
           </row>
           <row>
             <entry>mmpdf:formatDefinitionsAsTable</entry>
@@ -191,8 +194,7 @@
             <entry>mmpdf:formatSectionTitleAsTopicTitle</entry>
             <entry>Y</entry>
             <entry>Set to N to format section title elements as section_title* paragraphs, set to Y
-              to format section title elements as topic_title* paragraphs Sample values: "Y"
-              (default) "N" </entry>
+              to format section title elements as topic_title* paragraphs</entry>
           </row>
           <row>
             <entry>mmpdf:images.dir</entry>
@@ -201,55 +203,49 @@
               <p>mo.mmpdf\images</p>
             </entry>
             <entry>Folder containing images for notes, defaults to
-              ${dita.dir}/plugins/com.miramo.mmpdf/images Sample values: "" (default) </entry>
+              ${dita.dir}/plugins/com.miramo.mmpdf/images </entry>
           </row>
           <row>
             <entry>mmpdf:images.suffix</entry>
             <entry>svg</entry>
-            <entry>File extension for images for notes, defaults to svg Sample values: "svg"
-              (default) </entry>
+            <entry>File extension for images for notes, defaults to svg</entry>
           </row>
           <row>
             <entry>mmpdf:includeBackCover</entry>
             <entry>N</entry>
-            <entry>Set to N to suppress inclusion of back cover Allowed values: "N" (default) "Y"
-            </entry>
+            <entry>Set to Y to include back cover </entry>
           </row>
           <row>
             <entry>mmpdf:includeChapterTOC</entry>
             <entry>N</entry>
-            <entry>Set to N to suppress chapter level TOC (minitoc) generation, set to Y to include
-              minitoc Allowed values: "Y" "N" (default) </entry>
+            <entry>Set to Y to include chapter level TOC (minitoc)</entry>
           </row>
           <row>
             <entry>mmpdf:includeCover</entry>
             <entry>Y</entry>
-            <entry>Set to Y to include cover page, N to suppress cover generation Allowed values:
-              "Y" (default) "N" </entry>
+            <entry>Set to Y to include cover page, N to suppress cover generation  </entry>
           </row>
           <row>
             <entry>mmpdf:includeIndex</entry>
             <entry>Y</entry>
-            <entry>Set to N to suppress index generation Allowed values: "Y" (default) "N" </entry>
+            <entry>Set to N to suppress index generation </entry>
           </row>
           <row>
             <entry>mmpdf:includeTOC</entry>
             <entry>Y</entry>
-            <entry>Set to N to suppress Table of Contents generation Allowed values: "Y" (default)
-              "N" </entry>
+            <entry>Set to N to suppress Table of Contents generation </entry>
           </row>
           <row>
             <entry>mmpdf:indexDef</entry>
             <entry>index1</entry>
             <entry>Set IndexDef to use for formatting index - ignored if no indexterms or
-              mmpdf:includeIndex = 'N' Sample values: "index1" (default) </entry>
+              mmpdf:includeIndex = 'N' </entry>
           </row>
           <row>
             <entry>mmpdf:jobID</entry>
             <entry/>
             <entry>
-              <p>MiramoEnterprise only: unique
-                identifier</p>
+              <p><i>MiramoEnterprise only: </i>unique identifier</p>
               <p>for queued job as viewed in
                 mmVisor</p>
             </entry>
@@ -269,6 +265,11 @@
             </entry>
           </row>
           <row>
+            <entry>mmpdf:maxMemory</entry>
+            <entry>1GB</entry>
+            <entry>Set maximum memory usage for Miramo composer</entry>
+          </row>
+          <row>
             <entry>mmpdf:metadataprecedence</entry>
             <entry>map</entry>
             <entry>Set to 'topic' to allow topic metadata data element values to override equivalent
@@ -283,31 +284,24 @@
               <p>mo.mmpdf\mmtemplates</p>
             </entry>
             <entry>Folder containing Miramo MFD template file, defaults to
-              ${dita.dir}/plugins/com.miramo.mmpdf/mmtemplates Sample values: "" (default) </entry>
+              ${dita.dir}/plugins/com.miramo.mmpdf/mmtemplates </entry>
           </row>
           <row>
             <entry>mmpdf:mfd.file</entry>
             <entry>default.mfd</entry>
-            <entry>Miramo MFD template file,
-              located in ${mfd.dir}, eg
-              default.mfd Sample values:
-              "default.mfd" (default) </entry>
+            <entry>Miramo MFD template file, located in ${mfd.dir}, eg default.mfd</entry>
           </row>
           <row>
             <entry>mmpdf:pdfType</entry>
             <entry>untagged</entry>
-            <entry>Set to UA to create structured PDF Allowed values: "untagged" (default) "UA"
-            </entry>
+            <entry>Set to UA to create structured PDF. Allowed values: "untagged" (default) "UA" </entry>
           </row>
           <row>
             <entry>mmpdf:processGroup</entry>
             <entry/>
             <entry>
-              <p>MiramoEnterprise only: Name or
-                number of</p>
-              <p>MiramoEnterprise processing group
-                as viewed</p>
-              <p>in mmVisor</p>
+              <p><i>MiramoEnterprise only:</i> Name or number of MiramoEnterprise processing group
+                as viewed in mmVisor</p>
             </entry>
           </row>
           <row>
@@ -335,27 +329,23 @@
             <entry>mmpdf:tableBorders</entry>
             <entry>fromDITA</entry>
             <entry>Set table border properties fromDITA (support @frame, @colsep and @rowsep) or
-              fromTblDef (use TblDef rulings) Sample values: "fromDITA" (default) "fromTblDef"
-            </entry>
+              fromTblDef (use TblDef rulings) </entry>
           </row>
           <row>
             <entry>mmpdf:userVariable1</entry>
             <entry/>
-            <entry>Set xslt user variable value 'userVariable1' for use in customizations Sample
-              values: "" (default) </entry>
+            <entry>Set xslt user variable value 'userVariable1' for use in customizations</entry>
           </row>
           <row>
             <entry>mmpdf:userVariable2</entry>
             <entry/>
-            <entry>Set xslt user variable value 'userVariable2' for use in customizations Sample
-              values: "" (default) </entry>
+            <entry>Set xslt user variable value 'userVariable2' for use in customizations</entry>
           </row>
           <row>
             <entry>mmpdf:whiteSpaceMode</entry>
             <entry>trimLeadingNewlines</entry>
             <entry>By default, leading newline characters in paragraph text sections are trimmed;
-              set to 'preserve' to treat as whitespace Sample values: "trimLeadingNewlines"
-              (default) "preserve" </entry>
+              set to 'preserve' to treat as whitespace</entry>
           </row>
         </tbody>
       </tgroup>
