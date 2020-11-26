@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="creating_a_new_miramopdf_language_file">
+    <title>Creating a new MiramoPDF language file</title>
+    <body>
+    <p>To add a support for a new xml:lang value which is not in the DITA-OT by default, first
+      create a new MiramoPDF localization strings file by copying an existing file (eg
+      cfg/strings/en.xml), then  modify the &lt;string> entries as required.</p>
+    <p>For example, to add support for Tamil, make a copy of the strings/en.xml to 'ta.xml' and make
+      changes to that file. Note that the 'dita-ot-id' attribute may be used to reference an
+      existing PDF2 variable, or HTML language string located in the 'ta-dita-vars.xml' or
+      'ta-dita-strings.xml' files. Alternatively, the @dita-ot-id attribute may be removed in which
+      case the &lt;string>content defined in ta.xml file will be used. See <xref
+        href="changing-existing-language-variables.dita"/> for more information.</p>
+    <p>Register the MiramoPDF language file 'ta.xml' by adding a new entry to end of the
+      langlist.xml file,with the filename attribute set to the location of the new language file,
+      and the @miramoLanguage attribute set to a supported language name (see MiramoDesigner
+      &lt;DocDef> @language attribute for a list of values).</p>
+    <p>Here is an example of a language entry for Tamil, which has a language code 'ta', or
+      'ta-ta':<codeblock> &lt;!-- Add ta.xml which has MiramoPDF strings to vardefs mappings -->
+  &lt;lang xml:lang="ta" filename="ta.xml" miramoLanguage="Tamil"/>
+  &lt;lang xml:lang="ta-ta" filename="ta.xml" miramoLanguage="Tamil"/></codeblock></p>
+    </body>
+</topic>
