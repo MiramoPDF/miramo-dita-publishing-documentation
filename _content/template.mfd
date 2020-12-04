@@ -1,4 +1,4 @@
-<MiramoFormatDefs xmlns:fmc="http://www.miramo.com/fmc" xmlns:mmc="http://www.miramo.com/mmc" xml:space="preserve" mfdVersion="2.0.0b006"  language="en" objId="844484">
+<MiramoFormatDefs xmlns:fmc="http://www.miramo.com/fmc" xmlns:mmc="http://www.miramo.com/mmc" xml:space="preserve" mfdVersion="2.0.0b016"  language="en" objId="844484" space="preserve">
 <Units
 	 name="in"
 	 objId="1436"/>
@@ -199,15 +199,17 @@
 	 doubleSided="Y"
 	 pageCount="any"
 	 defaultDPI="120"
-	 pageNumberStart="1"
+	 pageNumberStart="increment"
 	 pageNumberStyle="westernArabic"
 	 pageNumberDef="number"
 	 language=""
 	 balanceColumns="N"
 	 feather="N"
 	 firstPage=""
+	 allPages="Right"
 	 oddPages="Right"
 	 evenPages="Left"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 fNoteDef="fNoteDef1"
@@ -216,8 +218,6 @@
 	 leftMargin="1.00000in"
 	 rightMargin="1.00000in"
 	 columnGap="0.25000in"
-	 allPages="Right"
-	 emptyPage="Blank"
 	 objId="50"/>
 <ParaDef
 	 paraDef="body_anchor"
@@ -3138,13 +3138,13 @@
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
 	 firstPage="Right"
+	 allPages=""
 	 oddPages="Right"
 	 evenPages="Left"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage="Blank"
 	 objId="846111"/>
 <SectionDef
 	 sectionDef="firstSection"
@@ -3153,13 +3153,13 @@
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
 	 firstPage="First"
+	 allPages=""
 	 oddPages="Right"
 	 evenPages="Left"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage="Blank"
 	 objId="846112"/>
 <SectionDef
 	 sectionDef="coverSection"
@@ -3168,13 +3168,13 @@
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
 	 firstPage="Cover"
+	 allPages=""
 	 oddPages="Right"
 	 evenPages="Left"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage="Blank"
 	 objId="846113"/>
 <SectionDef
 	 sectionDef="contentsSection"
@@ -3184,13 +3184,13 @@
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
 	 firstPage="Contents"
+	 allPages=""
 	 oddPages="Contents"
 	 evenPages="Contents"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage="Blank"
 	 objId="846114"/>
 <SectionDef
 	 sectionDef="indexSection"
@@ -3199,13 +3199,13 @@
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
 	 firstPage="Index"
+	 allPages=""
 	 oddPages="Index"
 	 evenPages="Index"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage="Blank"
 	 objId="846115"/>
 <VarDef
 	 varDef="booktitlealt"
@@ -4006,13 +4006,13 @@
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
 	 firstPage="Appendix"
+	 allPages=""
 	 oddPages="Right"
 	 evenPages="Left"
+	 emptyPage=""
 	 emptyOddPage=""
 	 emptyEvenPage=""
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage=""
 	 objId="376249"/>
 <ParaDef
 	 paraDef="Footnote"
@@ -4218,13 +4218,13 @@
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
 	 firstPage="Right"
+	 allPages=""
 	 oddPages="Right"
 	 evenPages="Left"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage="Blank"
 	 objId="630400"/>
 <SectionDef
 	 sectionDef="noticesSection"
@@ -4234,13 +4234,13 @@
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
 	 firstPage="Right"
+	 allPages=""
 	 oddPages="Right"
 	 evenPages="Left"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage="Blank"
 	 objId="630401"/>
 <FontDef
 	 fontDef="u"
@@ -4306,13 +4306,13 @@
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
 	 firstPage="Right"
+	 allPages=""
 	 oddPages="Right"
 	 evenPages="Left"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage="Blank"
 	 objId="657775"/>
 <ParaDef
 	 paraDef="chapter_title"
@@ -5733,13 +5733,13 @@
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
 	 firstPage="Landscape"
+	 allPages=""
 	 oddPages="Landscape"
 	 evenPages="Landscape"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage="Blank"
 	 objId="848696"/>
 <TblDef
 	 tblDef="equation-figure"
@@ -6252,7 +6252,7 @@
 	 pd_displayParaBelow="orderedlistitem3">orderedlistitem2 sample text <ListLabel labelIndent="0.25in" width="0.25in" seriesLabel="step" objId="862400" type="fixed"><leader objId="862398"/><counter numberStyle="lowercaseAlpha" hideParentNumber="Y" parent="step" numberPrefix="." objId="862399"/></ListLabel></ParaDef>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="862468">2.0.0b006</VarDef>
+	 objId="862468">2.0.0b016</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="862529">161p45</VarDef>
@@ -6265,14 +6265,14 @@
 	 pageNumberStart="increment"
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
+	 allPages=""
 	 oddPages="Right"
 	 evenPages="Left"
+	 emptyPage=""
 	 emptyOddPage="BackCover"
 	 emptyEvenPage="BackCover"
 	 lastPage="BackCover"
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage=""
 	 objId="952113"/>
 <PageDef
 	 pageDef="BackCover"
@@ -6510,7 +6510,7 @@
 	 objId="964301"/>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="979229">2.0.0b006</VarDef>
+	 objId="979229">2.0.0b016</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="979230">200b02</VarDef>
@@ -6582,18 +6582,18 @@
 	 pageNumberStyle="westernArabic"
 	 pageNumberDef=""
 	 paragraphNumberStart="increment"
+	 allPages=""
 	 oddPages="Right"
 	 evenPages="Left"
+	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
 	 lastPage=""
 	 tpRoleMap="Sect"
-	 allPages=""
-	 emptyPage="Blank"
 	 objId="979248"/>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="979249">2.0.0b006</VarDef>
+	 objId="979249">2.0.0b016</VarDef>
 <ParaDef
 	 paraDef="note_tbl"
 	 fontFamily="Noto Sans"

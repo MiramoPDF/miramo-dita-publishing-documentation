@@ -9,9 +9,9 @@
     <table>
       <title>ant build parameters used by the Miramo DITA-OT plugin</title>
       <tgroup cols="3">
-        <colspec colname="c1" colwidth="29*"/>
-        <colspec colname="c2" colwidth="27*"/>
-        <colspec colname="c3" colwidth="43*"/>
+        <colspec colname="c1" colwidth="35*"/>
+        <colspec colname="c2" colwidth="25*"/>
+        <colspec colname="c3" colwidth="40*"/>
         <thead valign="top">
           <row>
             <entry valign="middle">
@@ -195,6 +195,12 @@
             <entry>Y</entry>
             <entry>Set to N to format section title elements as section_title* paragraphs, set to Y
               to format section title elements as topic_title* paragraphs</entry>
+          </row>
+          <row>
+            <entry>mmpdf:inlineImageVerticalOffset</entry>
+            <entry>0pt</entry>
+            <entry>Set default vertical shift for inline images - positive value moves image
+              baseline down, percentage is relative to image height</entry>
           </row>
           <row>
             <entry>mmpdf:images.dir</entry>
