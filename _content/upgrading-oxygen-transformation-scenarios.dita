@@ -10,8 +10,7 @@
     <fig id="fig_ts1_ggh_ghb">
       <image href="img-show-all-scenarios.jpeg" alt="???" id="image_at1_ggh_ghb"/>
     </fig>
-    <p>Remove any existing 'MiramoPDF' transformation scenarios (pre Oxygen vs 21 only), then
-      reimport the 'MiramoPDF.scenarios' from the
+    <p>Import the 'MiramoPDF.scenarios' from the
         <filepath>&lt;dita-ot&gt;plugins/com.miramo.mmpdf/integration/oxygen</filepath> folder (see
         <xref href="integrating-with-oxygen.dita"/> for more information).</p>
   </conbody>

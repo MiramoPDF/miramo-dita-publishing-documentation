@@ -5,9 +5,9 @@
     <topicref href="upgrading.dita">
         <topicref href="upgrading-miramo-dita-ot-plugin.dita"/>
         <topicref href="upgrading-existing-mfd-files.dita"/>
-        <topicref href="using-mfdupgrade-command-line-tool.dita"/>
         <topicref href="upgrading-oxygen-transformation-scenarios.dita"/>
         <topicref href="using-oxygen-miramopdf-mfd-upgrade-transformation.dita"/>
+    <topicref href="using-mfdupgrade-command-line-tool.dita"/>
         <topicref href="upgrading-existing-plugin-customizations.dita"/>
     </topicref>
 </map>

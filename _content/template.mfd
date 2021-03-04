@@ -1,4 +1,4 @@
-<MiramoFormatDefs xmlns:fmc="http://www.miramo.com/fmc" xmlns:mmc="http://www.miramo.com/mmc" xml:space="preserve" mfdVersion="2.0.0b016"  language="en" objId="844484" space="preserve">
+<MiramoFormatDefs xmlns:fmc="http://www.miramo.com/fmc" xmlns:mmc="http://www.miramo.com/mmc" xml:space="preserve" mfdVersion="2.0.0p008"  language="en" objId="844484" space="preserve">
 <Units
 	 name="in"
 	 objId="1436"/>
@@ -212,6 +212,7 @@
 	 emptyPage="Blank"
 	 emptyOddPage="Blank"
 	 emptyEvenPage="Blank"
+	 lastPage=""
 	 fNoteDef="fNoteDef1"
 	 topMargin="1.00000in"
 	 bottomMargin="1.00000in"
@@ -222,7 +223,7 @@
 <ParaDef
 	 paraDef="body_anchor"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="0.000000pt"
 	 textColor="Black"
@@ -262,7 +263,7 @@
 	 verticalShift="0.0"
 	 objId="53"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="1019" type="runin"><leader objId="1020">.</leader><counter numberStyle="hidden" objId="1021"/></ListLabel>anchor sample text</ParaDef>
+	 pd_displayParaBelow="orderedlistitem1"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="1019"><leader objId="1020">.</leader><counter numberStyle="hidden" objId="1021"/></ListLabel>anchor sample text</ParaDef>
 <ParaDef
 	 paraDef="article_title"
 	 fontFamily="Noto Sans"
@@ -307,13 +308,13 @@
 	 verticalShift="0.0"
 	 objId="54"
 	 pd_displayParaAbove="article_title"
-	 pd_displayParaBelow="booktitlealt_title"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="508" type="runin"><leader objId="509">.</leader><counter numberStyle="hidden" objId="510"/></ListLabel>article_title sample text</ParaDef>
+	 pd_displayParaBelow="booktitlealt_title"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="508"><leader objId="509">.</leader><counter numberStyle="hidden" objId="510"/></ListLabel>article_title sample text</ParaDef>
 <ParaDef
 	 paraDef="body"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -351,7 +352,7 @@
 	 verticalShift="0.0"
 	 objId="55"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="502" type="runin"><leader objId="503">.</leader><counter numberStyle="hidden" objId="504"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="body"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="502"><leader objId="503">.</leader><counter numberStyle="hidden" objId="504"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="booktitlealt_title"
 	 fontFamily="Noto Sans"
@@ -396,7 +397,7 @@
 	 verticalShift="0.0"
 	 objId="59"
 	 pd_displayParaAbove="booktitlealt_title"
-	 pd_displayParaBelow="booktitlealt_title"><ListLabel labelIndent="0.350in" seriesLabel="" objId="3001" type="runin"><leader objId="3002">.</leader><counter numberStyle="hidden" objId="3003"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="booktitlealt_title"><ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="3001"><leader objId="3002">.</leader><counter numberStyle="hidden" objId="3003"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="ChapterHeader"
 	 fontFamily="Noto Sans"
@@ -440,13 +441,13 @@
 	 verticalShift="0.0"
 	 objId="60"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1">ChapterHeader sample text<ListLabel labelIndent="0.000000in" seriesLabel="" objId="961" type="runin"><leader objId="962">.</leader><counter numberStyle="hidden" objId="963"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem1">ChapterHeader sample text<ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="961"><leader objId="962">.</leader><counter numberStyle="hidden" objId="963"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="credits"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="DocumentColor1"
 	 textOpacity="100.000000"
 	 language=""
@@ -485,13 +486,13 @@
 	 verticalShift="0.0"
 	 objId="85"
 	 pd_displayParaAbove="credits"
-	 pd_displayParaBelow="credits"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="787" type="runin"><leader objId="788">.</leader><counter numberStyle="hidden" objId="789"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="credits"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="787"><leader objId="788">.</leader><counter numberStyle="hidden" objId="789"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="dd"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -529,13 +530,13 @@
 	 verticalShift="0.0"
 	 objId="86"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="683" type="runin"><leader objId="684">.</leader><counter numberStyle="hidden" objId="685"/></ListLabel>dd sample text</ParaDef>
+	 pd_displayParaBelow="orderedlistitem1"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="683"><leader objId="684">.</leader><counter numberStyle="hidden" objId="685"/></ListLabel>dd sample text</ParaDef>
 <ParaDef
 	 paraDef="dt"
 	 fontFamily="Noto Sans"
 	 fontWeight="Bold"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -573,7 +574,7 @@
 	 verticalShift="0.0"
 	 objId="87"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="653" type="runin"><leader objId="654">.</leader><counter numberStyle="hidden" objId="655"/></ListLabel>dt sample text</ParaDef>
+	 pd_displayParaBelow="orderedlistitem1"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="653"><leader objId="654">.</leader><counter numberStyle="hidden" objId="655"/></ListLabel>dt sample text</ParaDef>
 <ParaDef
 	 paraDef="groupTitle"
 	 fontFamily="Noto Sans"
@@ -618,13 +619,13 @@
 	 verticalShift="0.0"
 	 objId="91"
 	 pd_displayParaAbove="groupTitle"
-	 pd_displayParaBelow="groupTitle"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="1219" type="runin"><leader objId="1220">.</leader><counter numberStyle="hidden" objId="1221"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="groupTitle"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="1219"><leader objId="1220">.</leader><counter numberStyle="hidden" objId="1221"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="Header"
 	 fontFamily="Noto Sans"
 	 fontWeight="Regular"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -662,13 +663,13 @@
 	 verticalShift="0.0"
 	 objId="92"
 	 pd_displayParaAbove="Header"
-	 pd_displayParaBelow="Header">sample text<ListLabel labelIndent="0.000000in" seriesLabel="" objId="728" type="runin"><leader objId="729">.</leader><counter numberStyle="hidden" objId="730"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="Header">sample text<ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="728"><leader objId="729">.</leader><counter numberStyle="hidden" objId="730"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="indexLevel1"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -707,13 +708,13 @@
 	 verticalShift="0.0"
 	 objId="96"
 	 pd_displayParaAbove="glossdef"
-	 pd_displayParaBelow="indexLevel2"><ListLabel labelIndent="0.350in" seriesLabel="" objId="995" type="runin"><leader objId="996">.</leader><counter numberStyle="hidden" objId="997"/></ListLabel>indexLevel1 sample text klajsdf lkjasf lkajsdf lkajsflkajsdflkjasf </ParaDef>
+	 pd_displayParaBelow="indexLevel2"><ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="995"><leader objId="996">.</leader><counter numberStyle="hidden" objId="997"/></ListLabel>indexLevel1 sample text klajsdf lkjasf lkajsdf lkajsflkajsdflkjasf </ParaDef>
 <ParaDef
 	 paraDef="indexLevel2"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -752,11 +753,11 @@
 	 verticalShift="0.0"
 	 objId="97"
 	 pd_displayParaAbove="indexLevel1"
-	 pd_displayParaBelow="orderedlistitem1">indexLevel2 sample text lakjdf kalsjdflkajs d;fkljaslkdfjas dklfj<ListLabel labelIndent="0.500000in" seriesLabel="" objId="992" type="runin"><leader objId="993">.</leader><counter numberStyle="hidden" objId="994"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem1">indexLevel2 sample text lakjdf kalsjdflkajs d;fkljaslkdfjas dklfj<ListLabel type="runin" labelIndent="0.500000in" seriesLabel="" objId="992"><leader objId="993">.</leader><counter numberStyle="hidden" objId="994"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="hidden_keywords"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="0.000000pt"
 	 textColor="DocumentColor2"
@@ -796,13 +797,13 @@
 	 verticalShift="0.0"
 	 objId="101"
 	 pd_displayParaAbove="hidden_keywords"
-	 pd_displayParaBelow="hidden_keywords"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="505" type="runin"><leader objId="506">.</leader><counter numberStyle="hidden" objId="507"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="hidden_keywords"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="505"><leader objId="506">.</leader><counter numberStyle="hidden" objId="507"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="listitem"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -840,7 +841,7 @@
 	 verticalShift="0.0"
 	 objId="102"
 	 pd_displayParaAbove="listitem"
-	 pd_displayParaBelow="listitem">sample text<ListLabel labelIndent="0.350in" seriesLabel="" objId="113252" type="runin"><leader objId="844560">.</leader><counter numberStyle="hidden" objId="844561"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="listitem">sample text<ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="113252"><leader objId="844560">.</leader><counter numberStyle="hidden" objId="844561"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="mainbook_title"
 	 fontFamily="Noto Sans"
@@ -888,9 +889,9 @@
 <ParaDef
 	 paraDef="note"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Italic"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -928,13 +929,13 @@
 	 verticalShift="0.0"
 	 objId="105"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1">note sample text<ListLabel labelIndent="0.00in" width="0.20in" seriesLabel="" objId="1007" type="fixed"><leader objId="1008"/><counter numberStyle="hidden" objId="1009"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem1">note sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="" width="0.20in" objId="1007"><leader objId="1008"/><counter numberStyle="hidden" objId="1009"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="orderedlistitem1"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -972,13 +973,13 @@
 	 verticalShift="0.0"
 	 objId="107"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem2">orderedlistitem1 sample text<ListLabel labelIndent="0.00in" width="0.25in" seriesLabel="orderedlistitem" objId="613" type="fixed"><leader objId="614"/><counter numberStyle="westernArabic" objId="615"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem2">orderedlistitem1 sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="orderedlistitem" width="0.25in" objId="613"><leader objId="614"/><counter numberStyle="westernArabic" objId="615"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="simpletableBody"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -1016,13 +1017,13 @@
 	 verticalShift="0.0"
 	 objId="161"
 	 pd_displayParaAbove="simpletableBody"
-	 pd_displayParaBelow="simpletableBody"><ListLabel labelIndent="0.350in" seriesLabel="" objId="24680" type="runin"><leader objId="844573">.</leader><counter numberStyle="hidden" objId="844574"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="simpletableBody"><ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="24680"><leader objId="844573">.</leader><counter numberStyle="hidden" objId="844574"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="simpletableHeader"
 	 fontFamily="Noto Sans"
 	 fontWeight="Bold"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -1064,9 +1065,9 @@
 <ParaDef
 	 paraDef="spacer"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -1108,7 +1109,7 @@
 <ParaDef
 	 paraDef="tableBody"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="8.000000pt"
 	 textColor="Black"
@@ -1149,11 +1150,11 @@
 	 verticalShift="0.0"
 	 objId="164"
 	 pd_displayParaAbove="tableBody"
-	 pd_displayParaBelow="tableBody">sample text<ListLabel labelIndent="0.000000in" seriesLabel="" objId="4454" type="runin"><leader objId="4455">.</leader><counter numberStyle="hidden" objId="4456"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="tableBody">sample text<ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="4454"><leader objId="4455">.</leader><counter numberStyle="hidden" objId="4456"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="tableFooter"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="8.000000pt"
 	 textColor="Black"
@@ -1193,7 +1194,7 @@
 	 verticalShift="0.0"
 	 objId="165"
 	 pd_displayParaAbove="tableFooter"
-	 pd_displayParaBelow="tableFooter">sample text<ListLabel labelIndent="0.000000in" seriesLabel="" objId="1262" type="runin"><leader objId="1263">.</leader><counter numberStyle="hidden" objId="1264"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="tableFooter">sample text<ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="1262"><leader objId="1263">.</leader><counter numberStyle="hidden" objId="1264"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="tableHeader"
 	 fontFamily="Noto Sans"
@@ -1237,13 +1238,13 @@
 	 verticalShift="0.0"
 	 objId="169"
 	 pd_displayParaAbove="tableHeader"
-	 pd_displayParaBelow="tableHeader"><ListLabel labelIndent="0.350in" seriesLabel="" objId="4457" type="runin"><leader objId="4458">.</leader><counter numberStyle="hidden" objId="4459"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="tableHeader"><ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="4457"><leader objId="4458">.</leader><counter numberStyle="hidden" objId="4459"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="tableTitle"
 	 fontFamily="Noto Sans"
 	 fontWeight="Bold"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -1282,11 +1283,11 @@
 	 verticalShift="0.0"
 	 objId="170"
 	 pd_displayParaAbove="tableTitle"
-	 pd_displayParaBelow="tableTitle"><ListLabel labelIndent="0.350in" seriesLabel="tables" objId="1343" type="runin"><leader objId="1344"> </leader><Var varDef="lang-table" objId="621203"/> <counter numberStyle="westernArabic" objId="1345"/>: </ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="tableTitle"><ListLabel type="runin" labelIndent="0.350in" seriesLabel="tables" objId="1343"><leader objId="1344"> </leader><Var varDef="lang-table" objId="621203"/> <counter numberStyle="westernArabic" objId="1345"/>: </ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="toc1"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="11.000000pt"
 	 textColor="DocumentColor1"
@@ -1327,13 +1328,13 @@
 	 verticalShift="0.0"
 	 objId="172"
 	 pd_displayParaAbove="Header"
-	 pd_displayParaBelow="toc1">sample text<ListLabel labelIndent="0.700000in" seriesLabel="" objId="1215" type="runin"><leader objId="1216">.</leader><counter numberStyle="hidden" objId="1217"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="toc1">sample text<ListLabel type="runin" labelIndent="0.700000in" seriesLabel="" objId="1215"><leader objId="1216">.</leader><counter numberStyle="hidden" objId="1217"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="toc2"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -1372,13 +1373,13 @@
 	 verticalShift="0.0"
 	 objId="173"
 	 pd_displayParaAbove="toc2"
-	 pd_displayParaBelow="toc2"><ListLabel labelIndent="1.0in" seriesLabel="" objId="1156" type="runin"><leader objId="1157">.</leader><counter numberStyle="hidden" objId="1158"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="toc2"><ListLabel type="runin" labelIndent="1.0in" seriesLabel="" objId="1156"><leader objId="1157">.</leader><counter numberStyle="hidden" objId="1158"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="toc3"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -1417,11 +1418,11 @@
 	 verticalShift="0.0"
 	 objId="174"
 	 pd_displayParaAbove="toc2"
-	 pd_displayParaBelow="toc3">sample text<ListLabel labelIndent="1.50000in" seriesLabel="" objId="1159" type="runin"><leader objId="1160">.</leader><counter numberStyle="hidden" objId="1161"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="toc3">sample text<ListLabel type="runin" labelIndent="1.50000in" seriesLabel="" objId="1159"><leader objId="1160">.</leader><counter numberStyle="hidden" objId="1161"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="topic_title"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="18.00pt"
 	 textColor="DocumentColor1"
@@ -1462,13 +1463,13 @@
 	 verticalShift="0.0"
 	 objId="175"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title">sample text<ListLabel labelIndent="0.000000in" width="1.0in" seriesLabel="titles" objId="131612" type="fixed"><leader objId="844609"/><counter numberStyle="westernArabic" objId="844610" pd_displayValue="1"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="topic_title">sample text<ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="1.0in" objId="131612"><leader objId="844609"/><counter numberStyle="westernArabic" objId="844610" pd_displayValue="1"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="glossentry_abstract"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -1506,7 +1507,7 @@
 	 verticalShift="0.0"
 	 objId="177"
 	 pd_displayParaAbove="glossentry_abstract"
-	 pd_displayParaBelow="glossentry_abstract">sample text<ListLabel labelIndent="0.350in" seriesLabel="" objId="1177" type="runin"><leader objId="1178">.</leader><counter numberStyle="hidden" objId="1179"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="glossentry_abstract">sample text<ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="1177"><leader objId="1178">.</leader><counter numberStyle="hidden" objId="1179"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="glossentry_title"
 	 fontFamily="Noto Sans"
@@ -1551,13 +1552,13 @@
 	 verticalShift="0.0"
 	 objId="178"
 	 pd_displayParaAbove="glossentry_title"
-	 pd_displayParaBelow="glossentry_title">sample text<ListLabel labelIndent="0.000000in" seriesLabel="" objId="130195" type="runin"><leader objId="844617">.</leader><counter numberStyle="hidden" objId="844618"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="glossentry_title">sample text<ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="130195"><leader objId="844617">.</leader><counter numberStyle="hidden" objId="844618"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="topic_title3"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="DocumentColor1"
 	 language=""
 	 textAlign="start"
@@ -1595,13 +1596,13 @@
 	 verticalShift="0.0"
 	 objId="180"
 	 pd_displayParaAbove="topic_title2"
-	 pd_displayParaBelow="topic_title4"><ListLabel labelIndent="0.000000in" width="0.50in" seriesLabel="titles" objId="511" type="fixed"><leader objId="512"/><counter numberStyle="westernArabic" parent="topic_title2" numberPrefix="." objId="513" pd_displayValue="3"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="topic_title4"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="0.50in" objId="511"><leader objId="512"/><counter numberPrefix="." parent="topic_title2" numberStyle="westernArabic" objId="513" pd_displayValue="3"/></ListLabel>topictopic_title sample text</ParaDef>
 <ParaDef
 	 paraDef="unorderedlistitem1"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -1639,7 +1640,7 @@
 	 verticalShift="0.0"
 	 objId="181"
 	 pd_displayParaAbove="orderedlistitem1"
-	 pd_displayParaBelow="unorderedlistitem2">unorderedlistitem sample text<ListLabel labelIndent="0.100000in" width="0.200000in" seriesLabel="" objId="559" type="fixed"><leader objId="560"/>•<counter numberStyle="hidden" objId="561"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="unorderedlistitem2">unorderedlistitem sample text<ListLabel type="fixed" labelIndent="0.100000in" seriesLabel="" width="0.200000in" objId="559"><leader objId="560"/>•<counter numberStyle="hidden" objId="561"/></ListLabel></ParaDef>
 <FontDef
 	 fontDef="b"
 	 fontFamily="Helvetica 65 Medium"
@@ -1761,6 +1762,8 @@
 	 headerSeparatorRule="None"
 	 footerSeparatorRule="None"
 	 fNoteDef="tableFootnote"
+	 splitRows="N"
+	 splitStraddledRows="N"
 	 tblAutonumAxis="R"
 	 lastRuleOnly="N"
 	 headerRowRule="None"
@@ -1826,6 +1829,8 @@
 	 headerSeparatorRule="None"
 	 footerSeparatorRule="None"
 	 fNoteDef="tableFootnote"
+	 splitRows="N"
+	 splitStraddledRows="N"
 	 tblAutonumAxis="R"
 	 lastRuleOnly="N"
 	 headerRowRule="None"
@@ -1917,16 +1922,16 @@
 <PageDef
 	 pageDef="First"
 	 pageType="master"
-	 objId="426"><TextFrame type="foreground" columns="1" columnGap="0.25000in" left="1.000000in" top="1.250000in" width="6.500000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="433"/><TextFrame type="background" verticalTextAlign="middle" left="2.500000in" top="10.400000in" width="5.000000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="968089" parentObjectId="426" preserveSpaces="Y"><P paraDef="Footer" objId="970729"><Var varDef="mainbooktitle" objId="968521"/><endTab objId="970726"/> page <currentPageNumber objId="968438"/> of <lastPageNumber objId="970728"/> </P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.900000in" top="10.400000in" width="1.249609in" height="0.300000in" defaultDPI="201" objId="968149" parentObjectId="426"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="968148" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
+	 objId="426"><TextFrame type="foreground" columns="1" columnGap="0.25000in" left="1.500000in" top="1.250000in" width="6.000000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="433"/><TextFrame type="background" verticalTextAlign="middle" left="2.500000in" top="10.400000in" width="5.000000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="968089" parentObjectId="426" preserveSpaces="Y"><P paraDef="Footer" objId="970729"><Var varDef="mainbooktitle" objId="968521"/><endTab objId="970726"/> page <currentPageNumber objId="968438"/> of <lastPageNumber objId="970728"/> </P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.900000in" top="10.400000in" width="1.249609in" height="0.300000in" defaultDPI="201" objId="968149" parentObjectId="426"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="968148" active="N" align="topLeft" fit="withinBox"/></Image><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.00000in" top="0.500000in" width="6.50000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="980897" parentObjectId="370" preserveSpaces="Y"><P paraDef="Header" objId="981020"/></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="7.559055in" top="0.500000in" width="1.000000in" height="0.240074in" defaultDPI="1083" rotate="180.000000" objId="980899" parentObjectId="370"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="980898" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
 <ContentsDef
 	 contentsDef="contents1"
 	 objId="518"><ContentsInclude paraDef="toc1" names="appendix_title,bookabstract_title,chapter_title,colophon_title,listTitle,notices_title,preface_title,topic_title,ChapterHeader" objId="978588" pageNumberDef=""><paragraphText objId="978584" keepFormatting="Y"/><leader objId="978585">.</leader><pageNumber objId="978586"/><paragraphLabel textAlign="start" labelIndent="0.000000in" width="0.500000in" fontDef="title_prefix" objId="978587" type="fixed" numberOnly="Y" labelSuffix="  "/></ContentsInclude><ContentsInclude paraDef="toc2" names="appendix_title1,topic_title1" objId="978593"><paragraphText objId="978589" keepFormatting="Y"/><leader objId="978590">.</leader><pageNumber objId="978591"/><paragraphLabel textAlign="start" labelIndent="0.200000in" width="0.300000in" fontDef="inherit" objId="978592" type="fixed" numberOnly="N" labelSuffix=""/></ContentsInclude><ContentsInclude paraDef="toc3" names="topic_title2" objId="978598" pageNumberDef=""><paragraphText objId="978594" keepFormatting="Y"/><leader objId="978595">.</leader><pageNumber objId="978596"/><paragraphLabel textAlign="start" labelIndent="0.500000in" width="0.500000in" objId="978597" type="fixed" numberOnly="N" labelSuffix=""/></ContentsInclude></ContentsDef>
 <ParaDef
 	 paraDef="unorderedlistitem2"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -1964,13 +1969,13 @@
 	 verticalShift="0.0"
 	 objId="635"
 	 pd_displayParaAbove="unorderedlistitem1"
-	 pd_displayParaBelow="unorderedlistitem3">unorderedlistitem sample text<ListLabel labelIndent="0.25in" width="0.20in" seriesLabel="" objId="650" type="fixed"><leader objId="651"/>-<counter numberStyle="hidden" objId="652"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="unorderedlistitem3">unorderedlistitem sample text<ListLabel type="fixed" labelIndent="0.25in" seriesLabel="" width="0.20in" objId="650"><leader objId="651"/>-<counter numberStyle="hidden" objId="652"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="section"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2008,13 +2013,13 @@
 	 verticalShift="0.0"
 	 objId="686"
 	 pd_displayParaAbove="section"
-	 pd_displayParaBelow="section"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="687" type="runin"><leader objId="688">.</leader><counter numberStyle="hidden" objId="689"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="section"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="687"><leader objId="688">.</leader><counter numberStyle="hidden" objId="689"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="orderedlistitem2"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2052,7 +2057,7 @@
 	 verticalShift="0.0"
 	 objId="693"
 	 pd_displayParaAbove="orderedlistitem1"
-	 pd_displayParaBelow="orderedlistitem3">orderedlistitem2 sample text <ListLabel labelIndent="0.25in" width="0.25in" seriesLabel="orderedlistitem" objId="710" type="fixed"><leader objId="711"/><counter numberStyle="lowercaseAlpha" hideParentNumber="Y" parent="orderedlistitem1" numberPrefix="" objId="712"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem3">orderedlistitem2 sample text <ListLabel type="fixed" labelIndent="0.25in" seriesLabel="orderedlistitem" width="0.25in" objId="710"><leader objId="711"/><counter numberPrefix="" parent="orderedlistitem1" numberStyle="lowercaseAlpha" hideParentNumber="Y" objId="712"/></ListLabel></ParaDef>
 <mmCommand
 	 jobName="flowers"
 	 inputFile="flowers_miramo.xml"
@@ -2079,7 +2084,7 @@
 	 fontFamily="Courier New"
 	 fontWeight="Regular"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2117,7 +2122,7 @@
 	 verticalShift="0.0"
 	 objId="783"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="784" type="runin"><leader objId="785">.</leader><counter numberStyle="hidden" objId="786"/></ListLabel>codeblock sample text</ParaDef>
+	 pd_displayParaBelow="body"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="784"><leader objId="785">.</leader><counter numberStyle="hidden" objId="786"/></ListLabel>codeblock sample text</ParaDef>
 <FontDef
 	 fontDef="codeph"
 	 fontFamily="Courier New"
@@ -2134,9 +2139,9 @@
 <ParaDef
 	 paraDef="prereq"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2174,7 +2179,7 @@
 	 verticalShift="0.0"
 	 objId="1010"
 	 pd_displayParaAbove="prereq"
-	 pd_displayParaBelow="prereq"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="1011" type="runin"><leader objId="1012">.</leader><Var varDef="lang-prereq" objId="845952"/>: </ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="prereq"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="1011"><leader objId="1012">.</leader><Var varDef="lang-prereq" objId="845952"/>: </ListLabel>sample text</ParaDef>
 <FontDef
 	 fontDef="icons"
 	 fontFamily="FontAwesome"
@@ -2194,9 +2199,9 @@
 <ParaDef
 	 paraDef="figureTitle"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2219,8 +2224,8 @@
 	 minimumBeforeHyphen="3"
 	 minAfterHyphen="3"
 	 minimumWordSize="5"
-	 allowLineBreakBefore=""
-	 allowLineBreakAfter=""
+	 lineBreakBefore=""
+	 lineBreakAfter=""
 	 textKern="Y"
 	 textSpread="0.0"
 	 letterSpacing="N"
@@ -2237,13 +2242,13 @@
 	 verticalShift="0.0"
 	 objId="1031"
 	 pd_displayParaAbove="note"
-	 pd_displayParaBelow="note">figureTitle sample text <ListLabel fontDef="b" labelIndent="0.0in" seriesLabel="fig" objId="1032" type="runin"><leader objId="1033"/><Var varDef="lang-figure" objId="686752"/> <counter numberStyle="westernArabic" parent="chapter_title" numberPrefix="." objId="1034"/>: </ListLabel></ParaDef>
+	 pd_displayParaBelow="note">figureTitle sample text <ListLabel fontDef="b" type="runin" labelIndent="0.0in" seriesLabel="fig" objId="1032"><leader objId="1033"/><Var varDef="lang-figure" objId="686752"/> <counter numberPrefix="." parent="chapter_title" numberStyle="westernArabic" objId="1034"/>: </ListLabel></ParaDef>
 <ParaDef
 	 paraDef="orderedlistitem3"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2281,7 +2286,7 @@
 	 verticalShift="0.0"
 	 objId="1035"
 	 pd_displayParaAbove="orderedlistitem2"
-	 pd_displayParaBelow="unorderedlistitem2">orderedlistitem2 sample text <ListLabel labelIndent="0.3in" width="0.25in" seriesLabel="orderedlistitem" objId="1036" type="fixed"><leader objId="1037"/><counter numberStyle="lowercaseRoman" hideParentNumber="N" numberPrefix="" objId="1038"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="unorderedlistitem2">orderedlistitem2 sample text <ListLabel type="fixed" labelIndent="0.3in" seriesLabel="orderedlistitem" width="0.25in" objId="1036"><leader objId="1037"/><counter numberPrefix="" numberStyle="lowercaseRoman" hideParentNumber="N" objId="1038"/></ListLabel></ParaDef>
 <TblDef
 	 tblDef="table"
 	 minimumRows="1"
@@ -2315,6 +2320,8 @@
 	 headerSeparatorRule="None"
 	 footerSeparatorRule="None"
 	 fNoteDef="tableFootnote"
+	 splitRows="N"
+	 splitStraddledRows="N"
 	 tblAutonumAxis="R"
 	 lastRuleOnly="N"
 	 fillColor="none"
@@ -2387,7 +2394,7 @@
 <ParaDef
 	 paraDef="topic_title1"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="12.000000pt"
 	 textColor="DocumentColor1"
@@ -2428,13 +2435,13 @@
 	 verticalShift="0.0"
 	 objId="1110"
 	 pd_displayParaAbove="chapter_title"
-	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" width="1.0in" seriesLabel="titles" objId="1111" type="fixed"><leader objId="1112"/><counter numberStyle="westernArabic" parent="chapter_title" numberPrefix="." objId="1113"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="body"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="1.0in" objId="1111"><leader objId="1112"/><counter numberPrefix="." parent="chapter_title" numberStyle="westernArabic" objId="1113"/></ListLabel>topictopic_title sample text</ParaDef>
 <ParaDef
 	 paraDef="topic_title2"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="DocumentColor2"
 	 language=""
 	 textAlign="start"
@@ -2473,7 +2480,7 @@
 	 verticalShift="0.0"
 	 objId="1125"
 	 pd_displayParaAbove="topic_title1"
-	 pd_displayParaBelow="topic_title3"><ListLabel labelIndent="0.000000in" width="0.500000in" seriesLabel="titles" objId="1126" type="fixed"><leader objId="1127"/><counter numberStyle="westernArabic" parent="topic_title1" numberPrefix="." objId="1128" pd_displayValue="2"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="topic_title3"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="0.500000in" objId="1126"><leader objId="1127"/><counter numberPrefix="." parent="topic_title1" numberStyle="westernArabic" objId="1128" pd_displayValue="2"/></ListLabel>topictopic_title sample text</ParaDef>
 <PageDef
 	 pageDef="Blank"
 	 pageType="master"
@@ -2481,7 +2488,7 @@
 <ParaDef
 	 paraDef="Footer"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="8.000000pt"
 	 textColor="DocumentColor2"
@@ -2523,13 +2530,13 @@
 	 objId="1172"
 	 pd_displayParaAbove="Footer"
 	 pd_displayParaBelow="Footer">
-<ListLabel labelIndent="0.000000in" seriesLabel="" objId="1173" type="runin"><leader objId="1174">.</leader><counter numberStyle="hidden" objId="1175"/></ListLabel></ParaDef>
+<ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="1173"><leader objId="1174">.</leader><counter numberStyle="hidden" objId="1175"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="glossdef"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2567,7 +2574,7 @@
 	 verticalShift="0.0"
 	 objId="1180"
 	 pd_displayParaAbove="glossdef"
-	 pd_displayParaBelow="glossdef">sample text<ListLabel labelIndent="0.35in" seriesLabel="" objId="1181" type="runin"><leader objId="1182">.</leader><counter numberStyle="hidden" objId="1183"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="glossdef">sample text<ListLabel type="runin" labelIndent="0.35in" seriesLabel="" objId="1181"><leader objId="1182">.</leader><counter numberStyle="hidden" objId="1183"/></ListLabel></ParaDef>
 <FontDef
 	 fontDef="shortcut"
 	 fontAngle="Italic"
@@ -2600,9 +2607,9 @@
 <ParaDef
 	 paraDef="topic_title4"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="DocumentColor2"
 	 language=""
 	 textAlign="start"
@@ -2640,13 +2647,13 @@
 	 verticalShift="0.0"
 	 objId="1272"
 	 pd_displayParaAbove="topic_title3"
-	 pd_displayParaBelow="topic_title5"><ListLabel labelIndent="0.000000in" width="1in" seriesLabel="titles" objId="1273" type="fixed"><leader objId="1274"/><counter numberStyle="westernArabic" parent="topic_title3" numberPrefix="." objId="1275" pd_displayValue="4"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="topic_title5"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="1in" objId="1273"><leader objId="1274"/><counter numberPrefix="." parent="topic_title3" numberStyle="westernArabic" objId="1275" pd_displayValue="4"/></ListLabel>topictopic_title sample text</ParaDef>
 <ParaDef
 	 paraDef="topic_title5"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="DocumentColor2"
 	 language=""
 	 textAlign="start"
@@ -2684,7 +2691,7 @@
 	 verticalShift="0.0"
 	 objId="1276"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1"><ListLabel labelIndent="0.000000in" width="1in" seriesLabel="titles" objId="1277" type="fixed"><leader objId="1278"/><counter numberStyle="westernArabic" parent="topic_title4" numberPrefix="." objId="1279" pd_displayValue="5"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="orderedlistitem1"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="1in" objId="1277"><leader objId="1278"/><counter numberPrefix="." parent="topic_title4" numberStyle="westernArabic" objId="1279" pd_displayValue="5"/></ListLabel>topictopic_title sample text</ParaDef>
 <FontDef
 	 fontDef="xreflink"
 	 textColor="DocumentColor1"
@@ -2743,9 +2750,9 @@
 <ParaDef
 	 paraDef="indexLevel3"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2784,13 +2791,13 @@
 	 verticalShift="0.0"
 	 objId="1292"
 	 pd_displayParaAbove="indexLevel2"
-	 pd_displayParaBelow="indexLevel2">indexLevel3 sample text<ListLabel labelIndent="0.500000in" seriesLabel="" objId="1293" type="runin"><leader objId="1294">.</leader><counter numberStyle="hidden" objId="1295"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="indexLevel2">indexLevel3 sample text<ListLabel type="runin" labelIndent="0.500000in" seriesLabel="" objId="1293"><leader objId="1294">.</leader><counter numberStyle="hidden" objId="1295"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="reference"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2828,13 +2835,13 @@
 	 verticalShift="0.0"
 	 objId="1429"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="1430" type="runin"><leader objId="1431">.</leader><counter numberStyle="hidden" objId="1334"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="body"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="1430"><leader objId="1431">.</leader><counter numberStyle="hidden" objId="1334"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="refbodyexample"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2872,13 +2879,13 @@
 	 verticalShift="0.0"
 	 objId="1335"
 	 pd_displayParaAbove="refbodyexample"
-	 pd_displayParaBelow="refbodyexample">sample text<ListLabel labelIndent="0.350in" seriesLabel="" objId="1336" type="runin"><leader objId="1337">.</leader><counter numberStyle="hidden" objId="1338"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="refbodyexample">sample text<ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="1336"><leader objId="1337">.</leader><counter numberStyle="hidden" objId="1338"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="example"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2916,7 +2923,7 @@
 	 verticalShift="0.0"
 	 objId="1339"
 	 pd_displayParaAbove="example"
-	 pd_displayParaBelow="example">sample text<ListLabel labelIndent="0.350in" seriesLabel="" objId="1340" type="runin"><leader objId="1341">.</leader><counter numberStyle="hidden" objId="1342"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="example">sample text<ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="1340"><leader objId="1341">.</leader><counter numberStyle="hidden" objId="1342"/></ListLabel></ParaDef>
 <FontDef
 	 fontDef="new"
 	 textColor="Green"
@@ -2929,9 +2936,9 @@
 <ParaDef
 	 paraDef="entry"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -2962,7 +2969,7 @@
 	 verticalShift="0.0"
 	 objId="1395"
 	 pd_displayParaAbove="entry"
-	 pd_displayParaBelow="entry">sample text<ListLabel labelIndent="0.00in" seriesLabel="" objId="1396" type="runin"><leader objId="1397">.</leader><counter numberStyle="hidden" objId="1398"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="entry">sample text<ListLabel type="runin" labelIndent="0.00in" seriesLabel="" objId="1396"><leader objId="1397">.</leader><counter numberStyle="hidden" objId="1398"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="lines"
 	 fontFamily="Courier New"
@@ -3001,11 +3008,11 @@
 	 verticalShift="0.0"
 	 objId="1399"
 	 pd_displayParaAbove="lines"
-	 pd_displayParaBelow="lines">sample text<ListLabel labelIndent="0.00in" seriesLabel="" objId="1400" type="runin"><leader objId="1401">.</leader><counter numberStyle="hidden" objId="1402"/></ListLabel><paraFrame topMargin="4.000000pt" bottomMargin="4.000000pt" fillColor="Dark Grey" fillTint="100%" fillOpacity="10.000000" objId="661532" startRule="none" endRule="none" topRule="none" bottomRule="none" startMargin="0.000000pt" endMargin="0.000000pt"/></ParaDef>
+	 pd_displayParaBelow="lines">sample text<ListLabel type="runin" labelIndent="0.00in" seriesLabel="" objId="1400"><leader objId="1401">.</leader><counter numberStyle="hidden" objId="1402"/></ListLabel><paraFrame startMargin="0.000000pt" endMargin="0.000000pt" topMargin="4.000000pt" bottomMargin="4.000000pt" fillColor="Dark Grey" fillTint="100%" fillOpacity="10.000000" startRule="none" endRule="none" topRule="none" bottomRule="none" objId="661532"/></ParaDef>
 <ParaDef
 	 paraDef="section_anchor"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="0.000000pt"
 	 textColor="Black"
@@ -3046,7 +3053,7 @@
 	 verticalShift="0.0"
 	 objId="2225"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="2226" type="runin"><leader objId="2227">.</leader><counter numberStyle="hidden" objId="2228"/></ListLabel>anchor sample text</ParaDef>
+	 pd_displayParaBelow="orderedlistitem1"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="2226"><leader objId="2227">.</leader><counter numberStyle="hidden" objId="2228"/></ListLabel>anchor sample text</ParaDef>
 <ParaDef
 	 paraDef="booklibrary_title"
 	 fontFamily="Noto Sans"
@@ -3093,7 +3100,7 @@
 	 verticalShift="0.0"
 	 objId="2987"
 	 pd_displayParaAbove="booklibrary_title"
-	 pd_displayParaBelow="booktitlealt_title"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="2988" type="runin"><leader objId="2989">.</leader><counter numberStyle="hidden" objId="2990"/></ListLabel>article_title sample text</ParaDef>
+	 pd_displayParaBelow="booktitlealt_title"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="2988"><leader objId="2989">.</leader><counter numberStyle="hidden" objId="2990"/></ListLabel>article_title sample text</ParaDef>
 <FontDef
 	 fontDef="cmdname"
 	 fontAngle="Italic"
@@ -3216,9 +3223,9 @@
 <ParaDef
 	 paraDef="shortdesc"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Italic"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -3256,13 +3263,13 @@
 	 verticalShift="0.0"
 	 objId="20600"
 	 pd_displayParaAbove="shortdesc"
-	 pd_displayParaBelow="shortdesc"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="20596" type="runin"><leader objId="20594">.</leader><counter numberStyle="hidden" objId="20595"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="shortdesc"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="20596"><leader objId="20594">.</leader><counter numberStyle="hidden" objId="20595"/></ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="stentry"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -3300,7 +3307,7 @@
 	 verticalShift="0.0"
 	 objId="24687"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="24683" type="runin"><leader objId="24681">.</leader><counter numberStyle="hidden" objId="24682"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="body"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="24683"><leader objId="24681">.</leader><counter numberStyle="hidden" objId="24682"/></ListLabel>sample text</ParaDef>
 <VarDef
 	 varDef="vrmlist"
 	 objId="24738"></VarDef>
@@ -3329,11 +3336,11 @@
 	 varDef="copyrholder"
 	 objId="30254"> </VarDef>
 <ParaDef
-	 paraDef="related_links"
+	 paraDef="related-links"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Italic"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="DocumentColor1"
 	 language=""
 	 textAlign="start"
@@ -3372,11 +3379,11 @@
 	 verticalShift="0.0"
 	 objId="114489"
 	 pd_displayParaAbove="related_links"
-	 pd_displayParaBelow="related_links"> sample text<ListLabel labelIndent="0.000000in" seriesLabel="" objId="114485" type="runin"><leader objId="114483"> </leader><Var varDef="lang-related" objId="635055"/> </ListLabel></ParaDef>
+	 pd_displayParaBelow="related_links"> sample text<ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="114485"><leader objId="114483"> </leader><Var varDef="lang-related" objId="635055"/> </ListLabel></ParaDef>
 <ParaDef
 	 paraDef="unorderedlistitem1_tbl"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="8.000000pt"
 	 textColor="Black"
@@ -3417,11 +3424,11 @@
 	 objId="136299"
 	 pd_displayParaAbove="body"
 	 pd_displayParaBelow="unorderedlistitem2">unorderedlistitem sample text
-<ListLabel labelIndent="0.00in" width="0.20in" seriesLabel="" objId="136295" type="fixed"><leader objId="136293"/>•<counter numberStyle="hidden" objId="136294"/></ListLabel></ParaDef>
+<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="" width="0.20in" objId="136295"><leader objId="136293"/>•<counter numberStyle="hidden" objId="136294"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="unorderedlistitem2_tbl"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="8.000000pt"
 	 textColor="Black"
@@ -3461,7 +3468,7 @@
 	 verticalShift="0.0"
 	 objId="137762"
 	 pd_displayParaAbove="unorderedlistitem1_tbl"
-	 pd_displayParaBelow="unorderedlistitem2_tbl">unorderedlistitem sample text<ListLabel labelIndent="0.10in" width="0.1in" seriesLabel="" objId="137758" type="fixed"><leader objId="137756"/>-<counter numberStyle="hidden" objId="137757"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="unorderedlistitem2_tbl">unorderedlistitem sample text<ListLabel type="fixed" labelIndent="0.10in" seriesLabel="" width="0.1in" objId="137758"><leader objId="137756"/>-<counter numberStyle="hidden" objId="137757"/></ListLabel></ParaDef>
 <FontDef
 	 fontDef="cite"
 	 textColor="DocumentColor2"
@@ -3470,9 +3477,9 @@
 <ParaDef
 	 paraDef="orderedlistitem1_tbl"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -3510,13 +3517,13 @@
 	 verticalShift="0.0"
 	 objId="140284"
 	 pd_displayParaAbove="listitem"
-	 pd_displayParaBelow="note">orderedlistitem1_tbl sample text<ListLabel labelIndent="0.00in" width="0.2in" seriesLabel="orderedlistitem_tbl" objId="140280" type="fixed"><leader objId="140278"/><counter numberStyle="westernArabic" objId="140279"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="note">orderedlistitem1_tbl sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="orderedlistitem_tbl" width="0.2in" objId="140280"><leader objId="140278"/><counter numberStyle="westernArabic" objId="140279"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="unorderedlistitem3"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -3554,7 +3561,7 @@
 	 verticalShift="0.0"
 	 objId="144282"
 	 pd_displayParaAbove="unorderedlistitem2"
-	 pd_displayParaBelow="unorderedlistitem3">unorderedlistitem sample text<ListLabel labelIndent="0.3in" width="0.20in" seriesLabel="" objId="144278" type="fixed"><leader objId="144276"/>•</ListLabel></ParaDef>
+	 pd_displayParaBelow="unorderedlistitem3">unorderedlistitem sample text<ListLabel type="fixed" labelIndent="0.3in" seriesLabel="" width="0.20in" objId="144278"><leader objId="144276"/>•</ListLabel></ParaDef>
 <RuleDef
 	 ruleDef="topbot"
 	 penWidth="0.50pt"
@@ -3573,9 +3580,9 @@
 <ParaDef
 	 paraDef="simplelistitem"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -3613,7 +3620,7 @@
 	 verticalShift="0.0"
 	 objId="312331"
 	 pd_displayParaAbove="listitem"
-	 pd_displayParaBelow="listitem">sample text<ListLabel labelIndent="0.350in" seriesLabel="" objId="312327" type="runin"><leader objId="312325">.</leader><counter numberStyle="hidden" objId="312326"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="listitem">sample text<ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="312327"><leader objId="312325">.</leader><counter numberStyle="hidden" objId="312326"/></ListLabel></ParaDef>
 <ColorDef
 	 colorDef="Miramo Blue"
 	 red="0.00"
@@ -3633,7 +3640,7 @@
 	 fontFamily="Noto Sans"
 	 fontWeight="Bold"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -3671,7 +3678,7 @@
 	 verticalShift="0.0"
 	 objId="330197"
 	 pd_displayParaAbove="note"
-	 pd_displayParaBelow="note">area sample text <ListLabel labelIndent="0.00000in" seriesLabel="area" objId="330193" type="runin"><leader objId="330191"/>Area  <counter numberStyle="westernArabic" objId="330192"/>: see </ListLabel></ParaDef>
+	 pd_displayParaBelow="note">area sample text <ListLabel type="runin" labelIndent="0.00000in" seriesLabel="area" objId="330193"><leader objId="330191"/>Area  <counter numberStyle="westernArabic" objId="330192"/>: see </ListLabel></ParaDef>
 <ImageList
 	 objId="330201"/>
 <ImageList
@@ -3679,9 +3686,9 @@
 <ParaDef
 	 paraDef="result"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.00pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -3719,7 +3726,7 @@
 	 verticalShift="0.0"
 	 objId="330765"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="330761" type="runin"><leader objId="330759">.</leader><counter numberStyle="hidden" objId="330760"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="body"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="330761"><leader objId="330759">.</leader><counter numberStyle="hidden" objId="330760"/></ListLabel>sample text</ParaDef>
 <TblDef
 	 tblDef="hazardstatement"
 	 columnCount="2"
@@ -3748,6 +3755,8 @@
 	 bottomRule="Very Thin"
 	 headerSeparatorRule="Very Thin"
 	 fNoteDef="tableFootnote"
+	 splitRows="N"
+	 splitStraddledRows="N"
 	 tblAutonumAxis="R"
 	 fillColor="none"
 	 fillTint="100"
@@ -3861,13 +3870,13 @@
 	 verticalShift="0.0"
 	 objId="331000"
 	 pd_displayParaAbove="note"
-	 pd_displayParaBelow="note">hazardstatement sample text<ListLabel labelIndent="0.00in" width="0.3in" seriesLabel="" objId="330996" type="runin"><leader objId="330994"/><counter numberStyle="hidden" objId="330995"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="note">hazardstatement sample text<ListLabel type="runin" labelIndent="0.00in" seriesLabel="" width="0.3in" objId="330996"><leader objId="330994"/><counter numberStyle="hidden" objId="330995"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="typeofhazard"
 	 fontFamily="Noto Sans"
 	 fontWeight="Bold"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 textOpacity="100.000000"
 	 language=""
@@ -3903,9 +3912,9 @@
 <ParaDef
 	 paraDef="consequence"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -4017,7 +4026,7 @@
 <ParaDef
 	 paraDef="Footnote"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="8.000000pt"
 	 textColor="Black"
@@ -4057,7 +4066,7 @@
 	 verticalShift="0.0"
 	 objId="376292"
 	 pd_displayParaAbove="orderedlistitem1"
-	 pd_displayParaBelow="orderedlistitem2">footNote  sample text<ListLabel labelIndent="0.00in" width="0.25in" seriesLabel="footnote" objId="376288" type="fixed"><leader objId="376286"/><counter numberStyle="westernArabic" objId="376287"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem2">footNote  sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="footnote" width="0.25in" objId="376288"><leader objId="376286"/><counter numberStyle="westernArabic" objId="376287"/></ListLabel></ParaDef>
 <FNoteDef
 	 fNoteDef="fNoteDef1"
 	 anchorPosition="baseline"
@@ -4109,7 +4118,7 @@
 <FontDef
 	 fontDef="i-he"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 objId="412120"/>
 <FontDef
@@ -4121,7 +4130,7 @@
 <FontDef
 	 fontDef="i-ar"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 objId="412434"/>
 <FontDef
@@ -4209,7 +4218,7 @@
 	 verticalShift="0.0"
 	 objId="625310"
 	 pd_displayParaAbove="hidden_section_title"
-	 pd_displayParaBelow="hidden_section_title"><ListLabel labelIndent="0.350in" seriesLabel="" objId="625306" type="runin"><leader objId="625304">.</leader><counter numberStyle="hidden" objId="625305"/></ListLabel>sample textjjj</ParaDef>
+	 pd_displayParaBelow="hidden_section_title"><ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="625306"><leader objId="625304">.</leader><counter numberStyle="hidden" objId="625305"/></ListLabel>sample textjjj</ParaDef>
 <SectionDef
 	 sectionDef="prefaceSection"
 	 pageCount="any"
@@ -4257,9 +4266,9 @@
 <ParaDef
 	 paraDef="desc"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -4297,7 +4306,7 @@
 	 verticalShift="0.0"
 	 objId="635354"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="635350" type="runin"><leader objId="635348">.</leader><counter numberStyle="hidden" objId="635349"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="body"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="635350"><leader objId="635348">.</leader><counter numberStyle="hidden" objId="635349"/></ListLabel>sample text</ParaDef>
 <SectionDef
 	 sectionDef="bookabstractSection"
 	 pageCount="any"
@@ -4358,7 +4367,7 @@
 	 verticalShift="0.0"
 	 objId="676944"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title">sample text<ListLabel fontDef="title_prefix" labelIndent="0.000000in" seriesLabel="titles" objId="676940" type="runin"><leader objId="676938"/><Var varDef="lang-chapter" objId="681762"/> <counter numberStyle="westernArabic" numberStart="1" objId="676939" pd_displayValue="1"/>:  </ListLabel></ParaDef>
+	 pd_displayParaBelow="topic_title">sample text<ListLabel fontDef="title_prefix" type="runin" labelIndent="0.000000in" seriesLabel="titles" objId="676940"><leader objId="676938"/><Var varDef="lang-chapter" objId="681762"/> <counter numberStyle="westernArabic" numberStart="1" objId="676939" pd_displayValue="1"/>:  </ListLabel></ParaDef>
 <VarDef
 	 varDef="lang-chapter"
 	 objId="676993"></VarDef>
@@ -4406,7 +4415,7 @@
 	 verticalShift="0.0"
 	 objId="677206"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title">sample text<ListLabel fontDef="title_prefix" labelIndent="0.000000in" seriesLabel="appendixtitles" objId="677201" type="runin"><leader objId="677198"/><Var varDef="lang-appendix" objId="681021"/> <counter numberStyle="uppercaseAlpha" numberStart="1" objId="677200" pd_displayValue="1"/>:
+	 pd_displayParaBelow="topic_title">sample text<ListLabel fontDef="title_prefix" type="runin" labelIndent="0.000000in" seriesLabel="appendixtitles" objId="677201"><leader objId="677198"/><Var varDef="lang-appendix" objId="681021"/> <counter numberStyle="uppercaseAlpha" numberStart="1" objId="677200" pd_displayValue="1"/>:
 </ListLabel></ParaDef>
 <ParaDef
 	 paraDef="notices_title"
@@ -4452,7 +4461,7 @@
 	 verticalShift="0.0"
 	 objId="677546"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title">sample text<ListLabel labelIndent="0.000000in" width="1in" seriesLabel="noticestitles" objId="677542" type="fixed"><leader objId="677540"/><counter numberStyle="westernArabic" objId="677541" pd_displayValue="1"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="topic_title">sample text<ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="noticestitles" width="1in" objId="677542"><leader objId="677540"/><counter numberStyle="westernArabic" objId="677541" pd_displayValue="1"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="preface_title"
 	 fontFamily="Noto Sans"
@@ -4497,7 +4506,7 @@
 	 verticalShift="0.0"
 	 objId="677697"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title">sample text<ListLabel labelIndent="0.000000in" seriesLabel="titles" objId="677693" type="fixed"><leader objId="677691"/><counter numberStyle="westernArabic" objId="677692" pd_displayValue="1"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="topic_title">sample text<ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" objId="677693"><leader objId="677691"/><counter numberStyle="westernArabic" objId="677692" pd_displayValue="1"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="appendix_title1"
 	 fontFamily="Noto Sans"
@@ -4542,7 +4551,7 @@
 	 verticalShift="0.0"
 	 objId="677918"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title2"><ListLabel labelIndent="0.000000in" seriesLabel="appendixtitles" objId="677914" type="fixed"><leader objId="677912"/><counter numberStyle="westernArabic" parent="topic_title" numberPrefix="." objId="677913"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="topic_title2"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="appendixtitles" objId="677914"><leader objId="677912"/><counter numberPrefix="." parent="topic_title" numberStyle="westernArabic" objId="677913"/></ListLabel>topictopic_title sample text</ParaDef>
 <VarDef
 	 varDef="lang-preface"
 	 objId="678105"></VarDef>
@@ -4593,7 +4602,7 @@
 	 verticalShift="0.0"
 	 objId="678372"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title">sample text<ListLabel labelIndent="0.000000in" seriesLabel="titles" objId="678368" type="fixed"><leader objId="678366"/><counter numberStyle="westernArabic" objId="678367" pd_displayValue="1"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="topic_title">sample text<ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" objId="678368"><leader objId="678366"/><counter numberStyle="westernArabic" objId="678367" pd_displayValue="1"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="notices_title1"
 	 fontFamily="Noto Sans"
@@ -4638,7 +4647,7 @@
 	 verticalShift="0.0"
 	 objId="678819"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title2"><ListLabel labelIndent="0.000000in" width="1in" seriesLabel="noticestitles" objId="678815" type="fixed"><leader objId="678813"/><counter numberStyle="westernArabic" parent="notices_title" numberPrefix="." objId="678814"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="topic_title2"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="noticestitles" width="1in" objId="678815"><leader objId="678813"/><counter numberPrefix="." parent="notices_title" numberStyle="westernArabic" objId="678814"/></ListLabel>topictopic_title sample text</ParaDef>
 <FontDef
 	 fontDef="title_prefix"
 	 fontWeight="Regular"
@@ -4660,7 +4669,7 @@
 	 fontFamily="Noto Sans"
 	 fontWeight="Bold"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="DocumentColor2"
 	 language=""
 	 textAlign="start"
@@ -4699,7 +4708,7 @@
 	 verticalShift="0.0"
 	 objId="682787"
 	 pd_displayParaAbove="topic_title1"
-	 pd_displayParaBelow="topic_title3"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="682783" type="fixed"><leader objId="682781"/><counter numberStyle="westernArabic" parent="topic_title1" numberPrefix="." objId="682782" pd_displayValue="2"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="topic_title3"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="" objId="682783"><leader objId="682781"/><counter numberPrefix="." parent="topic_title1" numberStyle="westernArabic" objId="682782" pd_displayValue="2"/></ListLabel>topictopic_title sample text</ParaDef>
 <ParaDef
 	 paraDef="colophon_title"
 	 fontFamily="Noto Sans"
@@ -4744,7 +4753,7 @@
 	 verticalShift="0.0"
 	 objId="683349"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title">sample text<ListLabel labelIndent="0.000000in" seriesLabel="noticestitles" objId="683345" type="fixed"><leader objId="683343"/><counter numberStyle="westernArabic" objId="683344" pd_displayValue="1"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="topic_title">sample text<ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="noticestitles" objId="683345"><leader objId="683343"/><counter numberStyle="westernArabic" objId="683344" pd_displayValue="1"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="dthd"
 	 fontFamily="Noto Sans"
@@ -4788,7 +4797,7 @@
 	 verticalShift="0.0"
 	 objId="685844"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="685840" type="runin"><leader objId="685838">.</leader><counter numberStyle="hidden" objId="685839"/></ListLabel>dt sample text</ParaDef>
+	 pd_displayParaBelow="orderedlistitem1"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="685840"><leader objId="685838">.</leader><counter numberStyle="hidden" objId="685839"/></ListLabel>dt sample text</ParaDef>
 <TblDef
 	 tblDef="fig"
 	 columnCount="1"
@@ -4813,6 +4822,8 @@
 	 footerRowFillOpacity="0.000000"
 	 footerRowFillTint="0.000000"
 	 fNoteDef="tableFootnote"
+	 splitRows="N"
+	 splitStraddledRows="N"
 	 tblAutonumAxis="R"
 	 fillColor="none"
 	 fillTint="100"
@@ -4875,7 +4886,7 @@
 	 verticalShift="0.0"
 	 objId="686269"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="686265" type="runin"><leader objId="686263">.</leader><counter numberStyle="hidden" objId="686264"/></ListLabel>dt sample text</ParaDef>
+	 pd_displayParaBelow="orderedlistitem1"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="686265"><leader objId="686263">.</leader><counter numberStyle="hidden" objId="686264"/></ListLabel>dt sample text</ParaDef>
 <FontDef
 	 fontDef="synph"
 	 fontFamily="Courier New"
@@ -4884,9 +4895,9 @@
 <ParaDef
 	 paraDef="glossalt"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Italic"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -4925,7 +4936,7 @@
 	 objId="686702"
 	 pd_displayParaAbove="body"
 	 pd_displayParaBelow="unorderedlistitem2">unorderedlistitem sample text
-<ListLabel labelIndent="0.10in" width="0.25in" seriesLabel="" objId="686698" type="fixed"><leader objId="686696"/>•<counter numberStyle="hidden" objId="686697"/></ListLabel></ParaDef>
+<ListLabel type="fixed" labelIndent="0.10in" seriesLabel="" width="0.25in" objId="686698"><leader objId="686696"/>•<counter numberStyle="hidden" objId="686697"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="preface_title1"
 	 fontFamily="Noto Sans"
@@ -4970,13 +4981,13 @@
 	 verticalShift="0.0"
 	 objId="687198"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title2"><ListLabel labelIndent="0.000000in" width="1.0in" seriesLabel="titles" objId="687194" type="fixed"><leader objId="687192"/><counter numberStyle="westernArabic" parent="topic_title" numberPrefix="." objId="687193"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="topic_title2"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="1.0in" objId="687194"><leader objId="687192"/><counter numberPrefix="." parent="topic_title" numberStyle="westernArabic" objId="687193"/></ListLabel>topictopic_title sample text</ParaDef>
 <ParaDef
 	 paraDef="preface_title2"
 	 fontFamily="Noto Sans"
 	 fontWeight="Bold"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="DocumentColor2"
 	 language=""
 	 textAlign="start"
@@ -5015,7 +5026,7 @@
 	 verticalShift="0.0"
 	 objId="687229"
 	 pd_displayParaAbove="topic_title1"
-	 pd_displayParaBelow="topic_title3"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="687225" type="fixed"><leader objId="687223"/><counter numberStyle="westernArabic" parent="topic_title1" numberPrefix="." objId="687224" pd_displayValue="2"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="topic_title3"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="" objId="687225"><leader objId="687223"/><counter numberPrefix="." parent="topic_title1" numberStyle="westernArabic" objId="687224" pd_displayValue="2"/></ListLabel>topictopic_title sample text</ParaDef>
 <ParaGroupDef
 	 paraGroupDef="ol_ol"
 	 spaceAboveParaGroup="5.000000pt"
@@ -5049,9 +5060,9 @@
 <ParaDef
 	 paraDef="orderedlistitem4"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -5089,7 +5100,7 @@
 	 verticalShift="0.0"
 	 objId="836474"
 	 pd_displayParaAbove="orderedlistitem3"
-	 pd_displayParaBelow="body">orderedlistitem2 sample text <ListLabel fontDef="orderedlist_prefix" labelIndent="0.000000in" width="0.250000in" seriesLabel="orderedlistitem" objId="809610" type="fixed"><leader objId="809608"/>(<counter numberStyle="lowercaseAlpha" hideParentNumber="Y" parent="orderedlistitem2" numberPrefix="" objId="809609"/>)</ListLabel></ParaDef>
+	 pd_displayParaBelow="body">orderedlistitem2 sample text <ListLabel fontDef="orderedlist_prefix" type="fixed" labelIndent="0.000000in" seriesLabel="orderedlistitem" width="0.250000in" objId="809610"><leader objId="809608"/>(<counter numberPrefix="" parent="orderedlistitem2" numberStyle="lowercaseAlpha" hideParentNumber="Y" objId="809609"/>)</ListLabel></ParaDef>
 <FontDef
 	 fontDef="toc1_prefix"
 	 fontWeight="Bold"
@@ -5104,7 +5115,7 @@
 	 objId="836478"/>
 <FontDef
 	 fontDef="orderedlist_prefix"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 textSize="6.000000pt"
 	 textColor="Black"
 	 textUnderline="none"
@@ -5163,7 +5174,7 @@
 	 verticalShift="0.0"
 	 objId="836495"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title1">sample text<ListLabel labelIndent="0.000000in" seriesLabel="listtitles" objId="832679" type="runin"><leader objId="832677"/><counter numberStyle="hidden" objId="834974"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="topic_title1">sample text<ListLabel type="runin" labelIndent="0.000000in" seriesLabel="listtitles" objId="832679"><leader objId="832677"/><counter numberStyle="hidden" objId="834974"/></ListLabel></ParaDef>
 <FontDef
 	 fontDef="equation-block"
 	 fontFamily="Cambria"
@@ -5180,9 +5191,9 @@
 <ParaDef
 	 paraDef="comment"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="comment"
 	 language=""
 	 textAlign="start"
@@ -5220,7 +5231,7 @@
 	 verticalShift="0.0"
 	 objId="837239"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="837235" type="runin"><leader objId="837233">.</leader><counter numberStyle="hidden" objId="837234"/></ListLabel>sample text and again should be orange</ParaDef>
+	 pd_displayParaBelow="body"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="837235"><leader objId="837233">.</leader><counter numberStyle="hidden" objId="837234"/></ListLabel>sample text and again should be orange</ParaDef>
 <ColorDef
 	 colorDef="comment"
 	 red="100.00"
@@ -5230,9 +5241,9 @@
 <ParaDef
 	 paraDef="howtoavoid"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -5307,7 +5318,7 @@
 	 verticalShift="0.0"
 	 objId="837392"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title">sample text<ListLabel labelIndent="0.000000in" width="1.0in" seriesLabel="titles" objId="837388" type="fixed"><leader objId="837386"/><counter numberStyle="westernArabic" objId="837387" pd_displayValue="1"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="topic_title">sample text<ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="1.0in" objId="837388"><leader objId="837386"/><counter numberStyle="westernArabic" objId="837387" pd_displayValue="1"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="section_title2"
 	 fontFamily="Noto Sans"
@@ -5351,13 +5362,13 @@
 	 verticalShift="0.0"
 	 objId="839331"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title2"><ListLabel labelIndent="0.000000in" width="1.0in" seriesLabel="titles" objId="839327" type="fixed"><leader objId="839325"/><counter numberStyle="westernArabic" parent="section_title1" numberPrefix="." objId="839326"/></ListLabel>section_title2 sample text</ParaDef>
+	 pd_displayParaBelow="topic_title2"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="1.0in" objId="839327"><leader objId="839325"/><counter numberPrefix="." parent="section_title1" numberStyle="westernArabic" objId="839326"/></ListLabel>section_title2 sample text</ParaDef>
 <ParaDef
 	 paraDef="section_title3"
 	 fontFamily="Noto Sans"
 	 fontWeight="Bold"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="DocumentColor2"
 	 language=""
 	 textAlign="start"
@@ -5396,7 +5407,7 @@
 	 verticalShift="0.0"
 	 objId="839617"
 	 pd_displayParaAbove="topic_title1"
-	 pd_displayParaBelow="topic_title3"><ListLabel labelIndent="0.000000in" width="1.0in" seriesLabel="titles" objId="839613" type="fixed"><leader objId="839611"/><counter numberStyle="westernArabic" parent="section_title2" numberPrefix="." objId="839612" pd_displayValue="2"/></ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="topic_title3"><ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="1.0in" objId="839613"><leader objId="839611"/><counter numberPrefix="." parent="section_title2" numberStyle="westernArabic" objId="839612" pd_displayValue="2"/></ListLabel>topictopic_title sample text</ParaDef>
 <FontDef
 	 fontDef="footnoteAnchor"
 	 textSize="80.000000%"
@@ -5435,9 +5446,9 @@
 <ParaDef
 	 paraDef="postreq"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -5475,13 +5486,13 @@
 	 verticalShift="0.0"
 	 objId="845391"
 	 pd_displayParaAbove="prereq"
-	 pd_displayParaBelow="prereq"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="845387" type="runin"><leader objId="845385">.</leader><Var varDef="lang-postreq" objId="846109"/>: </ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="prereq"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="845387"><leader objId="845385">.</leader><Var varDef="lang-postreq" objId="846109"/>: </ListLabel>sample text</ParaDef>
 <ParaDef
 	 paraDef="step"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -5519,7 +5530,7 @@
 	 verticalShift="0.0"
 	 objId="845461"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem2">orderedlistitem1 sample text<ListLabel labelIndent="0.00in" width="0.25in" seriesLabel="step" objId="845457" type="fixed"><leader objId="845455"/><counter numberStyle="westernArabic" objId="845456"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem2">orderedlistitem1 sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="step" width="0.25in" objId="845457"><leader objId="845455"/><counter numberStyle="westernArabic" objId="845456"/></ListLabel></ParaDef>
 <VarDef
 	 varDef="lang-prereq"
 	 objId="845636"></VarDef>
@@ -5529,9 +5540,9 @@
 <ParaDef
 	 paraDef="stepresult"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Italic"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -5569,13 +5580,13 @@
 	 verticalShift="0.0"
 	 objId="846344"
 	 pd_displayParaAbove="listitem"
-	 pd_displayParaBelow="listitem">sample text<ListLabel labelIndent="0.350in" seriesLabel="" objId="846340" type="runin"><leader objId="846338">.</leader><counter numberStyle="hidden" objId="846339"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="listitem">sample text<ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="846340"><leader objId="846338">.</leader><counter numberStyle="hidden" objId="846339"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="stepxmp"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -5613,7 +5624,7 @@
 	 verticalShift="0.0"
 	 objId="846495"
 	 pd_displayParaAbove="listitem"
-	 pd_displayParaBelow="listitem">sample text<ListLabel labelIndent="0.350in" seriesLabel="" objId="846491" type="runin"><leader objId="846489">.</leader><counter numberStyle="hidden" objId="846490"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="listitem">sample text<ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="846491"><leader objId="846489">.</leader><counter numberStyle="hidden" objId="846490"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="example_title"
 	 fontFamily="Noto Sans"
@@ -5658,7 +5669,7 @@
 	 verticalShift="0.0"
 	 objId="846565"
 	 pd_displayParaAbove="topic_title"
-	 pd_displayParaBelow="topic_title2"><ListLabel labelIndent="0.000000in" width="1.0in" seriesLabel="titles" objId="846561" type="runin"><leader objId="846559"/><Var varDef="lang-example" objId="847505"/> </ListLabel>topictopic_title sample text</ParaDef>
+	 pd_displayParaBelow="topic_title2"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="titles" width="1.0in" objId="846561"><leader objId="846559"/><Var varDef="lang-example" objId="847505"/> </ListLabel>topictopic_title sample text</ParaDef>
 <VarDef
 	 varDef="lang-example"
 	 objId="847030"></VarDef>
@@ -5677,9 +5688,9 @@
 <ParaDef
 	 paraDef="stepsection"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Italic"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="DocumentColor1"
 	 language=""
 	 textAlign="start"
@@ -5718,7 +5729,7 @@
 	 verticalShift="0.0"
 	 objId="847577"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem2">stepsection sample text<ListLabel labelIndent="0.00in" width="0.25in" seriesLabel="" objId="847573" type="fixed"><leader objId="847571"/><counter numberStyle="westernArabic" objId="847572"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem2">stepsection sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="" width="0.25in" objId="847573"><leader objId="847571"/><counter numberStyle="westernArabic" objId="847572"/></ListLabel></ParaDef>
 <PageDef
 	 pageDef="Landscape"
 	 width="11.00in"
@@ -5766,6 +5777,8 @@
 	 footerRowFillOpacity="0.000000"
 	 footerRowFillTint="0.000000"
 	 fNoteDef="tableFootnote"
+	 splitRows="N"
+	 splitStraddledRows="N"
 	 tblAutonumAxis="R"
 	 fillColor="none"
 	 fillTint="100"
@@ -5788,9 +5801,9 @@
 <ParaDef
 	 paraDef="equationTitle"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -5813,8 +5826,8 @@
 	 minimumBeforeHyphen="3"
 	 minAfterHyphen="3"
 	 minimumWordSize="5"
-	 allowLineBreakBefore=""
-	 allowLineBreakAfter=""
+	 lineBreakBefore=""
+	 lineBreakAfter=""
 	 textKern="Y"
 	 textSpread="0.0"
 	 letterSpacing="N"
@@ -5831,13 +5844,13 @@
 	 verticalShift="0.0"
 	 objId="849500"
 	 pd_displayParaAbove="note"
-	 pd_displayParaBelow="note">figureTitle sample text <ListLabel fontDef="b" labelIndent="0.0in" seriesLabel="fig" objId="849495" type="runin"><leader objId="849492"/><Var varDef="lang-figure" objId="849493"/> <counter numberStyle="westernArabic" parent="chapter_title" numberPrefix="." objId="849494"/>: </ListLabel></ParaDef>
+	 pd_displayParaBelow="note">figureTitle sample text <ListLabel fontDef="b" type="runin" labelIndent="0.0in" seriesLabel="fig" objId="849495"><leader objId="849492"/><Var varDef="lang-figure" objId="849493"/> <counter numberPrefix="." parent="chapter_title" numberStyle="westernArabic" objId="849494"/>: </ListLabel></ParaDef>
 <ParaDef
 	 paraDef="notepara"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Italic"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -5875,7 +5888,7 @@
 	 verticalShift="0.0"
 	 objId="849679"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1">notepara sample text: for &lt;p&gt; nested within &lt;note&gt;<ListLabel labelIndent="0.00in" width="0.20in" seriesLabel="" objId="849675" type="fixed"><leader objId="849673"/><counter numberStyle="hidden" objId="849674"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem1">notepara sample text: for &lt;p&gt; nested within &lt;note&gt;<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="" width="0.20in" objId="849675"><leader objId="849673"/><counter numberStyle="hidden" objId="849674"/></ListLabel></ParaDef>
 <FontDef
 	 fontDef="lq"
 	 textColor="DocumentColor2"
@@ -5887,9 +5900,9 @@
 <ParaDef
 	 paraDef="info"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -5927,13 +5940,13 @@
 	 verticalShift="0.0"
 	 objId="849979"
 	 pd_displayParaAbove="listitem"
-	 pd_displayParaBelow="listitem">sample text<ListLabel labelIndent="0.350in" seriesLabel="" objId="849975" type="runin"><leader objId="849973">.</leader><counter numberStyle="hidden" objId="849974"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="listitem">sample text<ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="849975"><leader objId="849973">.</leader><counter numberStyle="hidden" objId="849974"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="tutorialinfo"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -5971,7 +5984,7 @@
 	 verticalShift="0.0"
 	 objId="850010"
 	 pd_displayParaAbove="listitem"
-	 pd_displayParaBelow="listitem">sample text<ListLabel labelIndent="0.350in" seriesLabel="" objId="850006" type="runin"><leader objId="850004">.</leader><counter numberStyle="hidden" objId="850005"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="listitem">sample text<ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="850006"><leader objId="850004">.</leader><counter numberStyle="hidden" objId="850005"/></ListLabel></ParaDef>
 <FontDef
 	 fontDef="equation-inline"
 	 fontFamily="Cambria"
@@ -5999,11 +6012,11 @@
 	 fontFamily="Adobe Blank"
 	 fontWeight="Regular"
 	 fontAngle="Regular"
-	 objId="979135"/>
+	 objId="980524"/>
 <ParaDef
 	 paraDef="TableFootnote"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
 	 textSize="8.000000pt"
 	 textColor="Black"
@@ -6043,11 +6056,11 @@
 	 verticalShift="0.0"
 	 objId="850348"
 	 pd_displayParaAbove="orderedlistitem1"
-	 pd_displayParaBelow="orderedlistitem2">footNote  sample text<ListLabel labelIndent="0.00in" width="0.25in" seriesLabel="tablefootnote" objId="850344" type="fixed"><leader objId="850342"/><counter numberStyle="lowercaseAlpha" objId="850343"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem2">footNote  sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="tablefootnote" width="0.25in" objId="850344"><leader objId="850342"/><counter numberStyle="lowercaseAlpha" objId="850343"/></ListLabel></ParaDef>
 <MathMLDef
 	 mathMLDef="mathml"
 	 fontFamily="Cambria Math"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 fallbackFontFamily="Cambria Math"
 	 position="below"
 	 align="start"
@@ -6110,9 +6123,9 @@
 <ParaDef
 	 paraDef="orderedlistitem2_tbl"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -6151,7 +6164,7 @@
 	 verticalShift="0.0"
 	 objId="853089"
 	 pd_displayParaAbove="orderedlistitem1_tbl"
-	 pd_displayParaBelow="orderedlistitem2_tbl">orderedlistitem2_tbl sample text<ListLabel labelIndent="0.00in" width="0.2in" seriesLabel="orderedlistitem1_tbl" objId="853085" type="fixed"><leader objId="853083"/><counter numberStyle="lowercaseAlpha" numberPrefix="" objId="853084"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem2_tbl">orderedlistitem2_tbl sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="orderedlistitem1_tbl" width="0.2in" objId="853085"><leader objId="853083"/><counter numberPrefix="" numberStyle="lowercaseAlpha" objId="853084"/></ListLabel></ParaDef>
 <VarDef
 	 varDef="service"
 	 objId="859546"><Font fontDef="reg" objId="859588">svc</Font></VarDef>
@@ -6161,9 +6174,9 @@
 <ParaDef
 	 paraDef="step_tbl"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -6201,7 +6214,7 @@
 	 verticalShift="0.0"
 	 objId="862003"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem2">step_tbl<ListLabel labelIndent="0.00in" width="0.25in" seriesLabel="step" objId="861999" type="fixed"><leader objId="861997"/><counter numberStyle="westernArabic" objId="861998"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem2">step_tbl<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="step" width="0.25in" objId="861999"><leader objId="861997"/><counter numberStyle="westernArabic" objId="861998"/></ListLabel></ParaDef>
 <FontDef
 	 fontDef="quote"
 	 fontAngle="Italic"
@@ -6209,9 +6222,9 @@
 <ParaDef
 	 paraDef="substep"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -6249,10 +6262,10 @@
 	 verticalShift="0.0"
 	 objId="862404"
 	 pd_displayParaAbove="orderedlistitem1"
-	 pd_displayParaBelow="orderedlistitem3">orderedlistitem2 sample text <ListLabel labelIndent="0.25in" width="0.25in" seriesLabel="step" objId="862400" type="fixed"><leader objId="862398"/><counter numberStyle="lowercaseAlpha" hideParentNumber="Y" parent="step" numberPrefix="." objId="862399"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem3">orderedlistitem2 sample text <ListLabel type="fixed" labelIndent="0.25in" seriesLabel="step" width="0.25in" objId="862400"><leader objId="862398"/><counter numberPrefix="." parent="step" numberStyle="lowercaseAlpha" hideParentNumber="Y" objId="862399"/></ListLabel></ParaDef>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="862468">2.0.0b016</VarDef>
+	 objId="862468">2.0.0p008</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="862529">161p45</VarDef>
@@ -6383,9 +6396,9 @@
 <ParaDef
 	 paraDef="context"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -6423,7 +6436,7 @@
 	 verticalShift="0.0"
 	 objId="959408"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="body"><ListLabel labelIndent="0.000000in" seriesLabel="" objId="959404" type="runin"><leader objId="959402">.</leader><counter numberStyle="hidden" objId="959403"/></ListLabel>sample text</ParaDef>
+	 pd_displayParaBelow="body"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="959404"><leader objId="959402">.</leader><counter numberStyle="hidden" objId="959403"/></ListLabel>sample text</ParaDef>
 <XRefDef
 	 xRefDef="step"
 	 objId="959529"><paragraphNumber objId="959533"/></XRefDef>
@@ -6510,7 +6523,7 @@
 	 objId="964301"/>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="979229">2.0.0b016</VarDef>
+	 objId="979229">2.0.0p008</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="979230">200b02</VarDef>
@@ -6524,9 +6537,9 @@
 <ParaDef
 	 paraDef="indexLevel4"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Regular"
-	 textSize="9.000000pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -6571,7 +6584,7 @@
 	 capitalization="normal"
 	 objId="979235"
 	 pd_displayParaAbove="indexLevel2"
-	 pd_displayParaBelow="indexLevel2">indexLevel3 sample text<ListLabel labelIndent="0.500000in" seriesLabel="" objId="979236" type="runin"><leader objId="979237">.</leader><counter numberStyle="hidden" objId="979238"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="indexLevel2">indexLevel3 sample text<ListLabel type="runin" labelIndent="0.500000in" seriesLabel="" objId="979236"><leader objId="979237">.</leader><counter numberStyle="hidden" objId="979238"/></ListLabel></ParaDef>
 <VarDef
 	 varDef="menucascadeseparator"
 	 objId="979239"> &gt; </VarDef>
@@ -6593,13 +6606,13 @@
 	 objId="979248"/>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="979249">2.0.0b016</VarDef>
+	 objId="979249">2.0.0p008</VarDef>
 <ParaDef
 	 paraDef="note_tbl"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Italic"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -6642,13 +6655,13 @@
 	 capitalization="normal"
 	 objId="979372"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1">note sample text<ListLabel labelIndent="0.00in" width="0.20in" seriesLabel="" objId="979368" type="fixed"><leader objId="979366"/><counter numberStyle="hidden" objId="979367"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem1">note sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="" width="0.20in" objId="979368"><leader objId="979366"/><counter numberStyle="hidden" objId="979367"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="notepara_tbl"
 	 fontFamily="Noto Sans"
-	 fontWeight="Regular"
+	 fontWeight="Light"
 	 fontAngle="Italic"
-	 textSize="9pt"
+	 textSize="10.00pt"
 	 textColor="Black"
 	 language=""
 	 textAlign="start"
@@ -6691,7 +6704,1060 @@
 	 capitalization="normal"
 	 objId="979379"
 	 pd_displayParaAbove="body"
-	 pd_displayParaBelow="orderedlistitem1">notepara sample text: for &lt;p&gt; nested within &lt;note&gt;<ListLabel labelIndent="0.00in" width="0.20in" seriesLabel="" objId="979375" type="fixed"><leader objId="979373"/><counter numberStyle="hidden" objId="979374"/></ListLabel></ParaDef>
+	 pd_displayParaBelow="orderedlistitem1">notepara sample text: for &lt;p&gt; nested within &lt;note&gt;<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="" width="0.20in" objId="979375"><leader objId="979373"/><counter numberStyle="hidden" objId="979374"/></ListLabel></ParaDef>
+<FontDef
+	 fontDef="tocNum"
+	 textColor="Black"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 objId="147"/>
+<ParaDef
+	 paraDef="related-links"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="11.000000pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.000in"
+	 startIndent="0.000in"
+	 endIndent="0.000in"
+	 spaceAbove="12.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="all"
+	 withPrevious="N"
+	 minimumLines="1"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="Y"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="N"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="top"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="478"
+	 pd_displayParaAbove="related_links"
+	 pd_displayParaBelow="related_links"> sample text<ListLabel type="runin" labelIndent="0.000in" seriesLabel="" objId="479"><leader objId="480"> </leader><Var varDef="lang-related" objId="481"/> </ListLabel></ParaDef>
+<ParaDef
+	 paraDef="hidden_contents_title"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="11.000000pt"
+	 textColor="Black"
+	 textOpacity="100.000000"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.300in"
+	 startIndent="0.300in"
+	 endIndent="0.000in"
+	 spaceAbove="12.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="N"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="N"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="1"
+	 tpRoleMap="H1"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="588"
+	 pd_displayParaAbove="hidden_section_title"
+	 pd_displayParaBelow="hidden_section_title"><ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="589"><leader objId="590">.</leader><counter numberStyle="hidden" objId="591"/></ListLabel>sample textjjj</ParaDef>
+<VarDef
+	 varDef="miramoVersion"
+	 objId="980648">2.0.0p008</VarDef>
+<VarDef
+	 varDef="pluginVersion"
+	 objId="980649">200p009</VarDef>
+<ParaDef
+	 paraDef="brand_name_left"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="12.000000pt"
+	 textColor="Black"
+	 textAlign="end"
+	 firstLineIndent="0.0mm"
+	 startIndent="0.0mm"
+	 endIndent="0.0mm"
+	 spaceAbove="0.0mm"
+	 spaceBelow="0.0mm"
+	 leading="0.07cm"
+	 lineSpacingMode="proportional"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 textUnderline="N"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="2"
+	 minAfterHyphen="2"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="Y"
+	 minimumWordSpace="66.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="150.0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="923"/>
+<RuleDef
+	 ruleDef="Very Thin_Brand"
+	 penWidth="0.25pt"
+	 penColor="DocumentColor1"
+	 penTint="100"
+	 penOpacity="100"
+	 lineGap="0.00pt"
+	 numLines="1"
+	 objId="924"/>
+<RuleDef
+	 ruleDef="Thin_Brand"
+	 penWidth="0.50pt"
+	 penColor="DocumentColor1"
+	 penTint="100"
+	 penOpacity="100"
+	 lineGap="0.00pt"
+	 numLines="1"
+	 objId="925"/>
+<VarDef
+	 varDef="brandName"
+	 objId="940"></VarDef>
+<VarDef
+	 varDef="brandTagLine"
+	 objId="941"></VarDef>
+<ParaDef
+	 paraDef="listtoc1"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="12.000000pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="1.000000in"
+	 startIndent="1.000000in"
+	 endIndent="0.800in"
+	 spaceAbove="16.000000pt"
+	 spaceBelow="6.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="toc2"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="Y"
+	 minimumWordSpace="100.000000"
+	 optimumWordSpace="100.000000"
+	 maximumWordSpace="100.000000"
+	 PDFbookmarkLevel="0"
+	 tpRoleMap="TOCI"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="955"
+	 pd_displayParaAbove="Header"
+	 pd_displayParaBelow="toc1">sample text<ListLabel type="runin" labelIndent="0.700in" seriesLabel="" objId="956"><leader objId="957">.</leader><counter numberStyle="hidden" objId="958"/></ListLabel></ParaDef>
+<SectionDef
+	 sectionDef="backmatterSection"
+	 pageCount="any"
+	 pageNumberStart="increment"
+	 pageNumberStyle="westernArabic"
+	 pageNumberDef="number"
+	 paragraphNumberStart="increment"
+	 allPages=""
+	 oddPages="Right"
+	 evenPages="Left"
+	 emptyPage="Blank"
+	 emptyOddPage="Blank"
+	 emptyEvenPage="Blank"
+	 lastPage=""
+	 tpRoleMap="Sect"
+	 objId="980659"/>
+<ParaDef
+	 paraDef="steptroubleshooting"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="11.000000pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.000000in"
+	 startIndent="0.000000in"
+	 endIndent="0.000in"
+	 indentMode="relative"
+	 spaceAbove="12.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="980661"
+	 pd_displayParaAbove="listitem"
+	 pd_displayParaBelow="listitem">sample text<ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="980663"><leader objId="980665">.</leader><counter numberStyle="hidden" objId="964"/></ListLabel></ParaDef>
+<ParaDef
+	 paraDef="unorderedlistitem4"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="11.000000pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.500000in"
+	 startIndent="0.500000in"
+	 endIndent="0.000in"
+	 indentMode="relative"
+	 spaceAbove="9.000000pt"
+	 spaceBelow="9.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="1"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="Y"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="N"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="969"
+	 pd_displayParaAbove="unorderedlistitem2"
+	 pd_displayParaBelow="unorderedlistitem3">unorderedlistitem sample text<ListLabel type="fixed" labelIndent="0.350000in" seriesLabel="" width="0.20in" objId="970"><leader objId="971"/>•<counter numberStyle="hidden" objId="972"/></ListLabel></ParaDef>
+<ParaDef
+	 paraDef="frontmatter_title"
+	 fontFamily="Noto Sans"
+	 fontWeight="Bold"
+	 fontAngle="Regular"
+	 textSize="11.000000pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.000in"
+	 startIndent="0.000in"
+	 endIndent="0.000in"
+	 spaceAbove="12.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="topOfPage"
+	 withNext="Y"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="N"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="1"
+	 tpRoleMap="H1"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="973"
+	 pd_displayParaAbove="topic_title"
+	 pd_displayParaBelow="topic_title">sample text<ListLabel type="fixed" labelIndent="0.000in" seriesLabel="noticestitles" width="1.000in" objId="974"><leader objId="975"/><counter numberStyle="westernArabic" objId="976" pd_displayValue="1"/></ListLabel></ParaDef>
+<ParaDef
+	 paraDef="frontmatter_title1"
+	 fontFamily="Noto Sans"
+	 fontWeight="Bold"
+	 fontAngle="Regular"
+	 textSize="11.000000pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.000in"
+	 startIndent="0.000in"
+	 endIndent="0.000in"
+	 spaceAbove="12.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="all"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="2"
+	 tpRoleMap="H1"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="977"
+	 pd_displayParaAbove="topic_title"
+	 pd_displayParaBelow="topic_title2"><ListLabel type="fixed" labelIndent="0.000in" seriesLabel="noticestitles" width="1.000in" objId="978"><leader objId="979"/><counter numberPrefix="." parent="notices_title" numberStyle="westernArabic" objId="980"/></ListLabel>topictopic_title sample text</ParaDef>
+<ParaDef
+	 paraDef="unorderedlistitem3_tbl"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="10.00pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.200000in"
+	 startIndent="0.200000in"
+	 endIndent="0.000in"
+	 indentMode="relative"
+	 spaceAbove="9.000000pt"
+	 spaceBelow="9.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="1"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="Y"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="N"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="981"
+	 pd_displayParaAbove="unorderedlistitem2"
+	 pd_displayParaBelow="unorderedlistitem3">unorderedlistitem sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="" width="0.20in" objId="982"><leader objId="983"/>•<counter numberStyle="hidden" objId="984"/></ListLabel></ParaDef>
+<FontDef
+	 fontDef="noteimage"
+	 verticalShift="20.000000"
+	 objId="985"/>
+<ParaDef
+	 paraDef="choice"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="11.000000pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.800000in"
+	 startIndent="0.800000in"
+	 endIndent="0.000in"
+	 indentMode="relative"
+	 spaceAbove="12.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="1"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="Y"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="N"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="2177"
+	 pd_displayParaAbove="step"
+	 pd_displayParaBelow="unorderedlistitem2">unorderedlistitem sample text<ListLabel type="fixed" labelIndent="0.50in" seriesLabel="" width="0.30in" objId="2171"><leader objId="2173"/>•<counter numberStyle="hidden" objId="2175"/></ListLabel></ParaDef>
+<TblDef
+	 tblDef="choicetable"
+	 verticalTextAlign="top"
+	 minimumRows="1"
+	 titlePgfFormat="tableTitle"
+	 titlePosition="above"
+	 titleGap="6pt"
+	 align="start"
+	 startIndent="0.000in"
+	 endIndent="0.000in"
+	 indentMode="relative"
+	 spaceAbove="16.000000pt"
+	 spaceBelow="16.000000pt"
+	 position="normal"
+	 headerRowParaDef="tableHeader"
+	 bodyRowParaDef="tableBody"
+	 footerRowParaDef="tableFooter"
+	 startMargin="6.00pt"
+	 endMargin="6.00pt"
+	 topMargin="6.00pt"
+	 bottomMargin="4.00pt"
+	 bodyRowFillColor="DocumentColor1"
+	 bodyRowFillOpacity="40.000000"
+	 bodyRowFillTint="40.000000"
+	 headerRowFillColor="DocumentColor2"
+	 headerRowFillOpacity="40.000000"
+	 headerRowFillTint="40.000000"
+	 footerRowFillColor="DocumentColor2"
+	 footerRowFillOpacity="0"
+	 footerRowFillTint="0.00"
+	 startRule="Very Thin_Brand"
+	 endRule="Very Thin_Brand"
+	 topRule="Very Thin_Brand"
+	 bottomRule="Very Thin_Brand"
+	 headerSeparatorRule="Very Thin_Brand"
+	 footerSeparatorRule="Very Thin_Brand"
+	 fNoteDef="tableFootnote"
+	 splitRows="N"
+	 splitStraddledRows="N"
+	 tblAutonumAxis="R"
+	 lastRuleOnly="N"
+	 fillColor="none"
+	 fillTint="100"
+	 fillOpacity="100"
+	 headerRowRule="None"
+	 footerRowRule="None"
+	 objId="2282"><TblColumn
+	 width="1.0000*"
+	 objId="2266">
+<TblColumnFormat
+	 paraDef="tableHeader"
+	 rowType="header"
+	 objId="2268"/>
+<TblColumnFormat
+	 paraDef="tableBody"
+	 rowType="body"
+	 objId="2270"/>
+<TblColumnFormat
+	 paraDef="tableFooter"
+	 rowType="footer"
+	 objId="2272"/></TblColumn><TblColumn
+	 width="1.0000*"
+	 objId="2274">
+<TblColumnFormat
+	 paraDef="tableHeader"
+	 rowType="header"
+	 objId="2276"/>
+<TblColumnFormat
+	 paraDef="tableBody"
+	 rowType="body"
+	 objId="2278"/>
+<TblColumnFormat
+	 paraDef="tableFooter"
+	 rowType="footer"
+	 objId="2280"/></TblColumn></TblDef>
+<ParaDef
+	 paraDef="related-link"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="10.00pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.200000in"
+	 startIndent="0.200000in"
+	 endIndent="0.000in"
+	 spaceAbove="5.000000pt"
+	 spaceBelow="5.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="Y"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="2399"
+	 pd_displayParaAbove="listitem"
+	 pd_displayParaBelow="listitem">sample text<ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="" width="0.200000in" objId="2393"><leader objId="2395"/>»<counter numberStyle="hidden" objId="5585"/></ListLabel></ParaDef>
+<xSvgDef
+	 svgDef="linearGradient1"
+	 topMargin="0pt"
+	 clip="N"
+	 objId="2501">&lt;linearGradient id=&quot;lg1&quot; gradientTransform=&quot;rotate(20 1.5 .1)&quot; &gt;
+&lt;stop offset=&quot;0%&quot; stop-color=&quot;white&quot;/&gt;
+&lt;stop offset=&quot;20%&quot; stop-color=&quot;#0c0c88&quot;/&gt;
+&lt;stop offset=&quot;40%&quot; stop-color=&quot;#a393c5&quot;/&gt;
+&lt;stop offset=&quot;70%&quot; stop-color=&quot;#a999c8&quot;/&gt;
+&lt;stop offset=&quot;90%&quot; stop-color=&quot;#dddddd&quot;/&gt;
+&lt;stop offset=&quot;98%&quot; stop-color=&quot;#0c0c88&quot;/&gt;
+&lt;/linearGradient&gt;
+&lt;rect fill=&quot;url(#lg1)&quot; width=&quot;100%&quot; height=&quot;100%&quot; rx=&quot;1mm&quot; ry=&quot;1mm&quot; /&gt;</xSvgDef>
+<xShadowDef
+	 shadowDef="shadow1"
+	 shadowLength="5.000000pt"
+	 shadowAngle="135"
+	 shadowColor="DocumentColor1"
+	 shadowTint="10.000000"
+	 shadowOpacity="100%"
+	 blurFactor="1.2"
+	 objId="2620"/>
+<xSvgDef
+	 svgDef="linearGradient2"
+	 topMargin="0pt"
+	 clip="N"
+	 objId="2723">       &lt;linearGradient id=&quot;lGrad1&quot; gradientTransform=&quot;rotate(5)&quot; &gt;
+                &lt;stop offset=&quot;0%&quot; stop-color=&quot;white&quot;/&gt;
+                &lt;stop offset=&quot;20%&quot; stop-color=&quot;#cfcfcf&quot;/&gt;
+                &lt;stop offset=&quot;40%&quot; stop-color=&quot;#d9d9d9&quot;/&gt;
+                &lt;stop offset=&quot;80%&quot; stop-color=&quot;#fafafa&quot;/&gt;
+                &lt;stop offset=&quot;90%&quot; stop-color=&quot;#e0e0e0&quot;/&gt;
+                &lt;stop offset=&quot;96%&quot; stop-color=&quot;#fafafa&quot;/&gt;
+                &lt;stop offset=&quot;99%&quot; stop-color=&quot;#e0e0e0&quot;/&gt;
+        &lt;/linearGradient&gt;
+        &lt;rect fill=&quot;url(#lGrad1)&quot; width=&quot;100%&quot; height=&quot;100%&quot; rx=&quot;0.5mm&quot; ry=&quot;1.0mm&quot; /&gt;</xSvgDef>
+<ParaDef
+	 paraDef="ddpara"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="10.00pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.000in"
+	 startIndent="0.000in"
+	 endIndent="0.000in"
+	 spaceAbove="12.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="2835"
+	 pd_displayParaAbove="body"
+	 pd_displayParaBelow="orderedlistitem1"><ListLabel type="runin" labelIndent="0.000in" seriesLabel="" objId="2829"><leader objId="2831">.</leader><counter numberStyle="hidden" objId="2833"/></ListLabel>dd sample text</ParaDef>
+<ParaDef
+	 paraDef="steppara"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="10.00pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.000000in"
+	 startIndent="0.000000in"
+	 endIndent="0.000in"
+	 indentMode="relative"
+	 spaceAbove="12.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="1"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="N"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="2919"
+	 pd_displayParaAbove="unorderedlistitem1"
+	 pd_displayParaBelow="orderedlistitem2">orderedlistitem1 sample text<ListLabel type="fixed" labelIndent="0.00in" seriesLabel="step" width="0.20in" objId="2913"><leader objId="2915"/><counter numberStyle="westernArabic" objId="2917"/></ListLabel></ParaDef>
+<XRefDef
+	 xRefDef="glossentry"
+	 objId="3388"><paragraphText objId="3386"/></XRefDef>
+<ParaDef
+	 paraDef="hidden_index_title"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="11.000000pt"
+	 textColor="Black"
+	 textOpacity="100.000000"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.300in"
+	 startIndent="0.300in"
+	 endIndent="0.000in"
+	 spaceAbove="12.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="N"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="N"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="1"
+	 tpRoleMap="H1"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="4447"
+	 pd_displayParaAbove="hidden_section_title"
+	 pd_displayParaBelow="hidden_section_title"><ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="4441"><leader objId="4443">.</leader><counter numberStyle="hidden" objId="4445"/></ListLabel>sample textjjj</ParaDef>
+<FontDef
+	 fontDef="xmlelement"
+	 fontFamily="Roboto Mono"
+	 fontWeight="Regular"
+	 fontAngle="Regular"
+	 textSize="8.5pt"
+	 textColor="DocumentColor1"
+	 objId="5745"/>
+<FontDef
+	 fontDef="xmlatt"
+	 fontFamily="Roboto Mono"
+	 fontWeight="Regular"
+	 fontAngle="Regular"
+	 textSize="8.5pt"
+	 textColor="DocumentColor2"
+	 objId="5826"/>
+<FontDef
+	 fontDef="xmlnsname"
+	 fontFamily="Roboto Mono"
+	 fontWeight="Regular"
+	 fontAngle="Regular"
+	 textSize="8.5pt"
+	 textColor="DocumentColor2"
+	 objId="6187"/>
+<ParaDef
+	 paraDef="troubleshooting"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="14.000000pt"
+	 textColor="DocumentColor1"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.400000in"
+	 startIndent="0.400000in"
+	 endIndent="0.000in"
+	 spaceAbove="26.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="topOfPage"
+	 withNext="Y"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="Y"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="N"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="1"
+	 tpRoleMap="H1"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="7320"
+	 pd_displayParaAbove="topic_title"
+	 pd_displayParaBelow="topic_title1">sample text<ListLabel type="fixed" labelIndent="0.000000in" seriesLabel="titles" width="0.400000in" objId="7314"><leader objId="7316"/><counter numberStyle="westernArabic" objId="7318" pd_displayValue="1"/></ListLabel></ParaDef>
+<ParaDef
+	 paraDef="cause"
+	 fontFamily="Noto Sans"
+	 fontWeight="SemiBold"
+	 fontAngle="Regular"
+	 textSize="12.000000pt"
+	 textColor="DocumentColor1"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.000000in"
+	 startIndent="0.000000in"
+	 endIndent="0.000in"
+	 spaceAbove="26.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="all"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="2"
+	 tpRoleMap="H1"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="7350"
+	 pd_displayParaAbove="topic_title"
+	 pd_displayParaBelow="topic_title2"><ListLabel type="fixed" labelIndent="0.000in" seriesLabel="titles" width="0.800000in" objId="7344"><leader objId="7346"/><counter numberPrefix="." parent="topic_title|chapter_title" numberStyle="westernArabic" objId="7348"/></ListLabel>topictopic_title sample text</ParaDef>
+<ParaDef
+	 paraDef="remedy"
+	 fontFamily="Noto Sans"
+	 fontWeight="SemiBold"
+	 fontAngle="Regular"
+	 textSize="12.000000pt"
+	 textColor="DocumentColor1"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.000000in"
+	 startIndent="0.000000in"
+	 endIndent="0.000in"
+	 spaceAbove="26.000000pt"
+	 spaceBelow="12.000000pt"
+	 leading="5.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="all"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="2"
+	 tpRoleMap="H1"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="7380"
+	 pd_displayParaAbove="topic_title"
+	 pd_displayParaBelow="topic_title2"><ListLabel type="fixed" labelIndent="0.000in" seriesLabel="titles" width="0.800000in" objId="7374"><leader objId="7376"/><counter numberPrefix="." parent="topic_title|chapter_title" numberStyle="westernArabic" objId="7378"/></ListLabel>topictopic_title sample text</ParaDef>
+<VarDef
+	 varDef="miramoVersion"
+	 objId="980734">2.0.0p008</VarDef>
 <PodsModel><Filter id="132">appendix_title,appendix_title1,appendix_title2,topic_title,topic_title3,topic_title1,topic_title2,topic_title4,topic_title5,unorderedlistitem1,unorderedlistitem2,unorderedlistitem1_tbl,unorderedlistitem2_tbl,unorderedlistitem3,toc1,toc2,toc3,step,stepresult,stepxmp,stepsection,step_tbl,substep,simplelistitem,orderedlistitem2,orderedlistitem3,orderedlistitem1_tbl,orderedlistitem4,orderedlistitem2_tbl,indexLevel1,indexLevel2,indexLevel3,tableBody,tableFooter,tableHeader,tableTitle,TableFootnote,section_title1,section_title2,section_title3,preface_title,preface_title1,preface_title2,booktitlealt_title,booklibrary_title,chapter_title,bookabstract_title,colophon_title,article_title,groupTitle,listTitle,figureTitle,entry,hidden_section_title,example_title,dd,dt,desc,dthd,dlhead,simpletableBody,simpletableHeader,stentry,mainbook_title,glossentry_abstract,glossentry_title,glossdef,glossalt,notices_title,notices_title1,orderedlistitem1,listitem,equationTitle,body_anchor,body,ChapterHeader,credits,Header,hidden_keywords,note,spacer,prereq,section,codeblock,Footer,lines,reference,refbodyexample,example,section_anchor,shortdesc,related_links,consequence,area,result,hazardstatement,typeofhazard,Footnote,comment,howtoavoid,postreq,notepara,tutorialinfo,context,info,miramoPDF,coverTitle,note_tbl,notepara_tbl,indexLevel4</Filter>
 <Pod name="titles" id="132">appendix_title,appendix_title1,appendix_title2,article_title,bookabstract_title,booklibrary_title,booktitlealt_title,chapter_title,colophon_title,coverTitle,equationTitle,example_title,figureTitle,hidden_section_title,listTitle,mainbook_title,notices_title,notices_title1,preface_title,preface_title1,preface_title2,section_title1,section_title2,section_title3,topic_title,topic_title1,topic_title2,topic_title3,topic_title4,topic_title5</Pod>
 <Pod name="lists" id="132">listitem,orderedlistitem1,orderedlistitem1_tbl,orderedlistitem2,orderedlistitem2_tbl,orderedlistitem3,orderedlistitem4,simplelistitem,unorderedlistitem1,unorderedlistitem1_tbl,unorderedlistitem2,unorderedlistitem2_tbl,unorderedlistitem3</Pod>
@@ -6700,5 +7766,5 @@
 <Pod name="Index" id="132">groupTitle,indexLevel1,indexLevel2,indexLevel3,indexLevel4</Pod>
 <Pod name="tables" id="132">TableFootnote,entry,simpletableBody,simpletableHeader,stentry,tableBody,tableFooter,tableHeader,tableTitle</Pod>
 <Pod name="definitions" id="132">dd,desc,dlhead,dt,dthd,glossalt,glossdef,glossentry_abstract,glossentry_title</Pod>
-<Pod name="misc" id="132">ChapterHeader,Footer,Footnote,Header,area,body,body_anchor,codeblock,comment,consequence,context,credits,example,hazardstatement,hidden_keywords,howtoavoid,lines,miramoPDF,note,note_tbl,notepara,notepara_tbl,postreq,prereq,refbodyexample,reference,related_links,result,section,section_anchor,shortdesc,spacer,tutorialinfo,typeofhazard</Pod>
+<Pod name="misc" id="132">ChapterHeader,Footer,Footnote,Header,area,body,body_anchor,codeblock,comment,consequence,context,credits,example,hazardstatement,hidden_keywords,howtoavoid,lines,miramoPDF,note,note_tbl,notepara,notepara_tbl,postreq,prereq,refbodyexample,reference,result,section,section_anchor,shortdesc,spacer,tutorialinfo,typeofhazard</Pod>
 </PodsModel></MiramoFormatDefs>

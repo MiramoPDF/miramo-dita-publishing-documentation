@@ -10,9 +10,9 @@
     <table>
       <title>DITA @outputclass values</title>
       <tgroup cols="3">
-        <colspec colname="c1" colwidth="31*"/>
-        <colspec colname="c2" colwidth="21*"/>
-        <colspec colname="c3" colwidth="48*"/>
+        <colspec colname="c1" colwidth="1.5*"/>
+        <colspec colname="c2" colwidth="1*"/>
+        <colspec colname="c3" colwidth="1.96*"/>
         <thead valign="top">
           <row><entry valign="middle"><p>@outputclass value</p></entry>
           <entry valign="middle"><p>DITA elements</p></entry>
@@ -46,13 +46,15 @@
           </row>
           <row>
             <entry align="left" valign="top">
-              <p>mmpdf:keepTogether:&lt;i>bool&lt;/i></p>
+              <p>mmpdf:keepTogether:<i>bool</i></p>
             </entry>
             <entry align="left" valign="top">
-              <p>title, p, note, cmd</p>
+              <p>table, title, p, note, cmd</p>
             </entry>
             <entry align="left" valign="middle">
-              <p>set keepTogether to 'Y' to prevent page or column breaks within the paragraph, for example to prevent page breaks before an &lt;image> anchored within a paragraph with @placement = 'break'</p>
+              <p>set keepTogether to 'Y' to prevent page or column breaks within the paragraph or
+                table, for example to prevent page breaks before an &lt;image> anchored within a
+                paragraph with @placement = 'break'</p>
             </entry>
           </row>
           <row>
@@ -90,14 +92,45 @@
                 applies to the edges of the table cell.</p></entry>
           </row>
           <row>
-            <entry align="left" valign="middle"><p>mmpdf:maximumHeight:&lt;i>dim&lt;/i></p></entry>
+            <entry align="left" valign="middle"><p>mmpdf:maximumHeight:<i>dim</i>
+              </p></entry>
             <entry align="left" valign="middle"><p>row, strow</p></entry>
             <entry align="left" valign="middle"><p>set maximum row height</p></entry>
           </row>
           <row>
-            <entry align="left" valign="middle"><p>mmpdf:minimumHeight:&lt;i>dim&lt;/i></p></entry>
+            <entry align="left" valign="middle"><p>mmpdf:minimumHeight:<i>dim</i>
+              </p></entry>
             <entry align="left" valign="middle"><p>row, strow</p></entry>
             <entry align="left" valign="middle"><p>set minimum row height</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"
+                >mmpdf:spaceAbove:<i>dim</i></entry>
+            <entry align="left" valign="middle"
+              >title, p, note, cmd, table,
+              simpletable, image</entry>
+            <entry align="left" valign="middle"
+              >set spaceAbove</entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"
+                >mmpdf:spaceBelow:<i>dim</i></entry>
+            <entry align="left" valign="middle"
+              >title, p, note, cmd, table,
+              simpletable, image</entry>
+            <entry align="left" valign="middle"
+              >set spaceBelow</entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle">mmpdf:splitRow:<i>bool</i></entry>
+            <entry align="left" valign="middle">row, strow</entry>
+            <entry align="left" valign="middle">allow page or column breaks within row</entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle">mmpdf:splitStraddledRow:<i>bool</i></entry>
+            <entry align="left" valign="middle">row, strow</entry>
+            <entry align="left" valign="middle">allow page or column breaks between straddled
+              rows</entry>
           </row>
           <row>
             <entry align="left" valign="middle"><p>mmpdf:colorDef:name</p></entry>
@@ -117,13 +150,14 @@
               unless mmpdf:colorDef:name used) default: 100%</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:withNext:&lt;i>bool&lt;/i></p></entry>
+            <entry align="left" valign="top"><p>mmpdf:withNext: <i>bool</i>
+              </p></entry>
             <entry align="left" valign="top"><p>title, p, note, cmd</p></entry>
             <entry align="left" valign="middle"><p>set withNext to 'Y' or 'N' to set the paragraph
               keep with next property</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:withPrevious:&lt;i>bool&lt;/i></p></entry>
+            <entry align="left" valign="top"><p>mmpdf:withPrevious: <i>bool </i></p></entry>
             <entry align="left" valign="top"><p>title, p, note, cmd</p></entry>
             <entry align="left" valign="middle"><p>set withPrevious to 'Y' or 'N' to set the
               paragraph keep with previous property</p></entry>

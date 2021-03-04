@@ -7,12 +7,14 @@
     <p>Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe and navigate to the DITA-OT
       install root folder. If the target DITA-OT folder already contains an instance of the Miramo
       DITA-OT plugin com.miramo.mmpdf, the installer will automatically uninstall the existing
-      plugin from the com.miramo.mmpdf plugin folder. Existing configuration files and XSL
-      stylesheets in the com.miramo.mmpdf folder will be overwritten.</p>
+      plugin from the com.miramo.mmpdf plugin folder, and existing configuration files and XSL
+      stylesheets in the com.miramo.mmpdf folder will be overwritten. If you wish to install
+      multiple versions of the plugin, navigate to a different DITA-OT folder and choose to proceed
+      without uninstalling the previous version when prompted.</p>
     <p>If you have made changes to the 'default.mfd' template file located in the
       com.miramo.mmpdf\mmtemplates folder, the installer will make a backup copy of the
       'default.mfd' to 'default-pre&lt;vs&gt;mfd', where &lt;vs&gt; is the version being installed
-      for example <b>160p10</b>. Any other MFD files located in the mmtemplates folder will be left
+      for example <b>200p01</b>. Any other MFD files located in the mmtemplates folder will be left
       unchanged.</p>
     <note type="important">Once the installation has completed, upgrade any existing MFD files (including the renamed
       'default.mfd' if present) by following the instructions given below.</note>
