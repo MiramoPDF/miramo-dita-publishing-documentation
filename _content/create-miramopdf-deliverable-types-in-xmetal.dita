@@ -6,14 +6,16 @@
 	<conbody>
 		<p>Once the com.miramo.mmpdf folder is installed in the DITA-OT plugins folder the next step is to set up two MiramoPDF deliverable types so they are available when the user selects Generate Output.</p>
 		<ol id="ol_ihs_cy3_ghb">
-			<li>Copy the two configuration files: print_miramo_pdf.xml and print_miramo_pd- f_dev.xml
-            from:<p>
-					<filepath>C:\ProgramData\SoftQuad\XMetaL\Shared\DITA_OT2.4\plugins\com.miramo.mmpd\integration\xmetal</filepath>
+			<li>Copy the two configuration files:
+				print_miramo_pdf.xml and
+				print_miramo_pd- f_dev.xml from:<p>
+					<filepath>C:\ProgramData\SoftQuad\XMetaL\Shared\DITA_OT2.4\plugins\com.miramo.mmpdf\integration\xmetal</filepath>
 				</p>
 				<p>to:</p>
 				<p>
 					<filepath>C:\Program
-            Files\XMetaL 12.0\Author\DITA\XACs\shared\renditions</filepath>
+						Files\XMetaL
+						12.0\Author\DITA\XACs\shared\renditions</filepath>
 				</p>
 			</li>
 			<li>Start XMetaL.</li>

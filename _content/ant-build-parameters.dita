@@ -257,7 +257,7 @@
             </entry>
           </row>
           <row>
-            <entry>mmpdf:localization-strings.dir</entry>
+            <entry id="mmpdf-localization-strings-dir">mmpdf:localization-strings.dir</entry>
             <entry>${plugin.dir}/cfg/strings</entry>
             <entry>Location of strings folder
               containing langlist.xml and *.xml
@@ -332,10 +332,24 @@
               width/height Allowed values: "N" (default) "Y" </entry>
           </row>
           <row>
-            <entry>mmpdf:tableBorders</entry>
+            <entry id="mmpdf:tableBorders">mmpdf:tableBorders</entry>
             <entry>fromDITA</entry>
             <entry>Set table border properties fromDITA (support @frame, @colsep and @rowsep) or
               fromTblDef (use TblDef rulings) </entry>
+          </row>
+          <row>
+            <entry>mmmpdf:treatFirstNoteParaAsContent</entry>
+            <entry>N</entry>
+            <entry>For &lt;note> elements
+              containing only &lt;p> children, set
+              to Y to output the contents of the
+              first &lt;p> on the first line of
+              the resulting note paragraph,
+              immediately after the image and
+              warning text. Set to N for legacy
+              treatment (as oXygen and PDF2) where
+              each chil &lt;p> is mapped to new
+              paragraph</entry>
           </row>
           <row>
             <entry>mmpdf:userVariable1</entry>

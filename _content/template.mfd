@@ -1,4 +1,4 @@
-<MiramoFormatDefs xmlns:fmc="http://www.miramo.com/fmc" xmlns:mmc="http://www.miramo.com/mmc" xml:space="preserve" mfdVersion="2.0.0p008"  language="en" objId="844484" space="preserve">
+<MiramoFormatDefs xmlns:fmc="http://www.miramo.com/fmc" xmlns:mmc="http://www.miramo.com/mmc" xml:space="preserve" mfdVersion="2.0.0p012"  language="en" objId="844484" space="preserve">
 <Units
 	 name="in"
 	 objId="1436"/>
@@ -1910,7 +1910,7 @@
 <PageDef
 	 pageDef="Cover"
 	 pageType="master"
-	 objId="389"><TextFrame type="background" left="104.000000mm" top="53mm" width="173.000000mm" height="71.000000mm" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="962937" preserveSpaces="Y"><P paraDef="miramoPDF" objId="967690">MiramoPDF  <Var varDef="vrmversion" objId="963109"/></P><P paraDef="coverTitle" objId="967691">DITA-OT plugin</P><P paraDef="coverTitle" objId="967693"><Var varDef="mainbooktitle" objId="963449"/></P><P paraDef="credits" objId="967694"/></TextFrame><Image file="graphics/MiramoDigitalGunmetal.png" keepAspectRatio="Y" left="22.000000mm" top="52.000000mm" width="2.303867in" height="1.850394in" defaultDPI="300" objId="964159"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="964160" active="N" align="topLeft" fit="withinBox"/></Image><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.900000in" top="10.400000in" width="1.249609in" height="0.300000in" defaultDPI="201" objId="964559" parentObjectId="389"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="964560" active="N" align="topLeft" fit="withinBox"/></Image><TextFrame type="background" verticalTextAlign="middle" left="2.200000in" top="10.400000in" width="6.200000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="964946" parentObjectId="389" preserveSpaces="Y"><P paraDef="Footer" objId="964986">Datazone Ltd, Kenmare, Kerry, Ireland  | +353 64 66 289 64. | www.miramo.com | miramo@datazone.com</P></TextFrame></PageDef>
+	 objId="389"><TextFrame type="background" left="90.000000mm" top="53mm" width="156.591667mm" height="71.000000mm" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="962937" preserveSpaces="Y"><P paraDef="miramoPDF" objId="967690">MiramoPDF  <Var varDef="vrmversion" objId="963109"/></P><P paraDef="coverTitle" objId="967691">DITA-OT plugin</P><P paraDef="coverTitle" objId="967693"><Var varDef="mainbooktitle" objId="963449"/></P><P paraDef="credits" objId="967694"/></TextFrame><Image file="graphics/MiramoDigitalGunmetal.png" keepAspectRatio="Y" left="22.000000mm" top="52.000000mm" width="2.303867in" height="1.850394in" defaultDPI="300" objId="964159"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="964160" active="N" align="topLeft" fit="withinBox"/></Image><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.900000in" top="10.400000in" width="1.249609in" height="0.300000in" defaultDPI="201" objId="964559" parentObjectId="389"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="964560" active="N" align="topLeft" fit="withinBox"/></Image><TextFrame type="background" verticalTextAlign="middle" left="2.200000in" top="10.400000in" width="6.200000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="964946" parentObjectId="389" preserveSpaces="Y"><P paraDef="Footer" objId="964986">Datazone Ltd, Kenmare, Kerry, Ireland  | +353 64 66 289 64. | www.miramo.com | miramo@datazone.com</P></TextFrame></PageDef>
 <PageDef
 	 pageDef="Contents"
 	 pageType="master"
@@ -6265,7 +6265,7 @@
 	 pd_displayParaBelow="orderedlistitem3">orderedlistitem2 sample text <ListLabel type="fixed" labelIndent="0.25in" seriesLabel="step" width="0.25in" objId="862400"><leader objId="862398"/><counter numberPrefix="." parent="step" numberStyle="lowercaseAlpha" hideParentNumber="Y" objId="862399"/></ListLabel></ParaDef>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="862468">2.0.0p008</VarDef>
+	 objId="862468">2.0.0p012</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="862529">161p45</VarDef>
@@ -6523,7 +6523,7 @@
 	 objId="964301"/>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="979229">2.0.0p008</VarDef>
+	 objId="979229">2.0.0p012</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="979230">200b02</VarDef>
@@ -6606,7 +6606,7 @@
 	 objId="979248"/>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="979249">2.0.0p008</VarDef>
+	 objId="979249">2.0.0p012</VarDef>
 <ParaDef
 	 paraDef="note_tbl"
 	 fontFamily="Noto Sans"
@@ -6817,7 +6817,7 @@
 	 pd_displayParaBelow="hidden_section_title"><ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="589"><leader objId="590">.</leader><counter numberStyle="hidden" objId="591"/></ListLabel>sample textjjj</ParaDef>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="980648">2.0.0p008</VarDef>
+	 objId="980648">2.0.0p012</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="980649">200p009</VarDef>
@@ -7757,14 +7757,65 @@
 	 pd_displayParaBelow="topic_title2"><ListLabel type="fixed" labelIndent="0.000in" seriesLabel="titles" width="0.800000in" objId="7374"><leader objId="7376"/><counter numberPrefix="." parent="topic_title|chapter_title" numberStyle="westernArabic" objId="7378"/></ListLabel>topictopic_title sample text</ParaDef>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="980734">2.0.0p008</VarDef>
-<PodsModel><Filter id="132">appendix_title,appendix_title1,appendix_title2,topic_title,topic_title3,topic_title1,topic_title2,topic_title4,topic_title5,unorderedlistitem1,unorderedlistitem2,unorderedlistitem1_tbl,unorderedlistitem2_tbl,unorderedlistitem3,toc1,toc2,toc3,step,stepresult,stepxmp,stepsection,step_tbl,substep,simplelistitem,orderedlistitem2,orderedlistitem3,orderedlistitem1_tbl,orderedlistitem4,orderedlistitem2_tbl,indexLevel1,indexLevel2,indexLevel3,tableBody,tableFooter,tableHeader,tableTitle,TableFootnote,section_title1,section_title2,section_title3,preface_title,preface_title1,preface_title2,booktitlealt_title,booklibrary_title,chapter_title,bookabstract_title,colophon_title,article_title,groupTitle,listTitle,figureTitle,entry,hidden_section_title,example_title,dd,dt,desc,dthd,dlhead,simpletableBody,simpletableHeader,stentry,mainbook_title,glossentry_abstract,glossentry_title,glossdef,glossalt,notices_title,notices_title1,orderedlistitem1,listitem,equationTitle,body_anchor,body,ChapterHeader,credits,Header,hidden_keywords,note,spacer,prereq,section,codeblock,Footer,lines,reference,refbodyexample,example,section_anchor,shortdesc,related_links,consequence,area,result,hazardstatement,typeofhazard,Footnote,comment,howtoavoid,postreq,notepara,tutorialinfo,context,info,miramoPDF,coverTitle,note_tbl,notepara_tbl,indexLevel4</Filter>
+	 objId="980734">2.0.0p012</VarDef>
+<ParaDef
+	 paraDef="itemgroup"
+	 fontFamily="Noto Sans"
+	 fontWeight="Light"
+	 fontAngle="Regular"
+	 textSize="10.00pt"
+	 textColor="Black"
+	 textOpacity="100%"
+	 language=""
+	 textAlign="start"
+	 firstLineIndent="0.00000in"
+	 startIndent="0.00000in"
+	 endIndent="0.00000in"
+	 spaceAbove="8.000000pt"
+	 spaceBelow="6.000000pt"
+	 maximumSpaceBelow="N"
+	 leading="4.000000pt"
+	 lineSpacingMode="proportional"
+	 position="normal"
+	 withNext="N"
+	 withPrevious="N"
+	 minimumLines="2"
+	 sidehead="N"
+	 sideheadWidth="90pt"
+	 sideheadGap="10pt"
+	 listLabel="N"
+	 textUnderline="none"
+	 textOverline="N"
+	 strikeThrough="N"
+	 hyphenate="Y"
+	 minimumBeforeHyphen="3"
+	 minAfterHyphen="3"
+	 minimumWordSize="5"
+	 textKern="Y"
+	 textSpread="0.0"
+	 letterSpacing="N"
+	 minimumWordSpace="90.0"
+	 optimumWordSpace="100.0"
+	 maximumWordSpace="110.0"
+	 PDFbookmarkLevel="0"
+	 frameAbove=""
+	 frameBelow=""
+	 cellVerticalAlign="T"
+	 fontVariation="Regular"
+	 changeBar="N"
+	 horizontalShift="0.0"
+	 verticalShift="0.0"
+	 capitalization="normal"
+	 objId="981913"
+	 pd_displayParaAbove="body"
+	 pd_displayParaBelow="body"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="981907"><leader objId="981909">.</leader><counter numberStyle="hidden" objId="981911"/></ListLabel>sample text</ParaDef>
+<PodsModel><Filter id="132">appendix_title,appendix_title1,appendix_title2,topic_title,topic_title3,topic_title1,topic_title2,topic_title4,topic_title5,unorderedlistitem1,unorderedlistitem2,unorderedlistitem1_tbl,unorderedlistitem2_tbl,unorderedlistitem3,toc1,toc2,toc3,step,stepresult,stepxmp,stepsection,step_tbl,substep,simplelistitem,orderedlistitem2,orderedlistitem3,orderedlistitem1_tbl,orderedlistitem4,orderedlistitem2_tbl,indexLevel1,indexLevel2,indexLevel3,tableBody,tableFooter,tableHeader,tableTitle,TableFootnote,section_title1,section_title2,section_title3,preface_title,preface_title1,preface_title2,booktitlealt_title,booklibrary_title,chapter_title,bookabstract_title,colophon_title,article_title,groupTitle,listTitle,figureTitle,entry,hidden_section_title,example_title,dd,dt,desc,dthd,dlhead,simpletableBody,simpletableHeader,stentry,mainbook_title,glossentry_abstract,glossentry_title,glossdef,glossalt,notices_title,notices_title1,orderedlistitem1,listitem,equationTitle,body_anchor,body,ChapterHeader,credits,Header,hidden_keywords,note,spacer,prereq,section,codeblock,Footer,lines,reference,refbodyexample,example,section_anchor,shortdesc,related_links,consequence,area,result,hazardstatement,typeofhazard,Footnote,comment,howtoavoid,postreq,notepara,tutorialinfo,context,info,miramoPDF,coverTitle,note_tbl,notepara_tbl,indexLevel4,itemgroup,unorderedlistitem4,unorderedlistitem3_tbl</Filter>
 <Pod name="titles" id="132">appendix_title,appendix_title1,appendix_title2,article_title,bookabstract_title,booklibrary_title,booktitlealt_title,chapter_title,colophon_title,coverTitle,equationTitle,example_title,figureTitle,hidden_section_title,listTitle,mainbook_title,notices_title,notices_title1,preface_title,preface_title1,preface_title2,section_title1,section_title2,section_title3,topic_title,topic_title1,topic_title2,topic_title3,topic_title4,topic_title5</Pod>
-<Pod name="lists" id="132">listitem,orderedlistitem1,orderedlistitem1_tbl,orderedlistitem2,orderedlistitem2_tbl,orderedlistitem3,orderedlistitem4,simplelistitem,unorderedlistitem1,unorderedlistitem1_tbl,unorderedlistitem2,unorderedlistitem2_tbl,unorderedlistitem3</Pod>
+<Pod name="lists" id="132">listitem,orderedlistitem1,orderedlistitem1_tbl,orderedlistitem2,orderedlistitem2_tbl,orderedlistitem3,orderedlistitem4,simplelistitem,unorderedlistitem1,unorderedlistitem1_tbl,unorderedlistitem2,unorderedlistitem2_tbl,unorderedlistitem3,unorderedlistitem3_tbl,unorderedlistitem4</Pod>
 <Pod name="TOC" id="132">toc1,toc2,toc3</Pod>
 <Pod name="steps" id="132">info,step,step_tbl,stepresult,stepsection,stepxmp,substep</Pod>
 <Pod name="Index" id="132">groupTitle,indexLevel1,indexLevel2,indexLevel3,indexLevel4</Pod>
 <Pod name="tables" id="132">TableFootnote,entry,simpletableBody,simpletableHeader,stentry,tableBody,tableFooter,tableHeader,tableTitle</Pod>
 <Pod name="definitions" id="132">dd,desc,dlhead,dt,dthd,glossalt,glossdef,glossentry_abstract,glossentry_title</Pod>
-<Pod name="misc" id="132">ChapterHeader,Footer,Footnote,Header,area,body,body_anchor,codeblock,comment,consequence,context,credits,example,hazardstatement,hidden_keywords,howtoavoid,lines,miramoPDF,note,note_tbl,notepara,notepara_tbl,postreq,prereq,refbodyexample,reference,result,section,section_anchor,shortdesc,spacer,tutorialinfo,typeofhazard</Pod>
+<Pod name="misc" id="132">ChapterHeader,Footer,Footnote,Header,area,body,body_anchor,codeblock,comment,consequence,context,credits,example,hazardstatement,hidden_keywords,howtoavoid,itemgroup,lines,miramoPDF,note,note_tbl,notepara,notepara_tbl,postreq,prereq,refbodyexample,reference,result,section,section_anchor,shortdesc,spacer,tutorialinfo,typeofhazard</Pod>
 </PodsModel></MiramoFormatDefs>
