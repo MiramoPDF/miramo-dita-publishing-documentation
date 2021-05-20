@@ -1,4 +1,4 @@
-<MiramoFormatDefs xmlns:fmc="http://www.miramo.com/fmc" xmlns:mmc="http://www.miramo.com/mmc" xml:space="preserve" mfdVersion="2.0.0p012"  language="en" objId="844484" space="preserve">
+<MiramoFormatDefs xmlns:fmc="http://www.miramo.com/fmc" xmlns:mmc="http://www.miramo.com/mmc" xml:space="preserve" mfdVersion="2.0.0p021"  language="en" objId="844484" space="preserve">
 <Units
 	 name="in"
 	 objId="1436"/>
@@ -171,16 +171,6 @@
 	 green="43.00"
 	 blue="24.00"
 	 objId="46"/>
-<ColorDef
-	 colorDef="TableHeaderColor"
-	 cyan="0.0"
-	 magenta="10.0"
-	 yellow="20.0"
-	 black="0.0"
-	 red="100.00"
-	 green="90.00"
-	 blue="80.00"
-	 objId="47"/>
 <ColorDef
 	 colorDef="DocumentColor2"
 	 red="40.00"
@@ -1130,7 +1120,7 @@
 	 textUnderline="none"
 	 textOverline="N"
 	 strikeThrough="N"
-	 hyphenate="Y"
+	 hyphenate="N"
 	 minimumBeforeHyphen="3"
 	 minAfterHyphen="3"
 	 minimumWordSize="5"
@@ -1902,19 +1892,19 @@
 <PageDef
 	 pageDef="Left"
 	 pageType="master"
-	 objId="351"><TextFrame type="foreground" columns="1" columnGap="0.25000in" left="1.000000in" top="1.250000in" width="6.000000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="Black" penTint="100.00" penOpacity="100" fillColor="Black" fillTint="0.00" fillOpacity="0" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="359"/><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.00000in" top="0.50000in" width="6.50000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="360" preserveSpaces="Y"><P paraDef="Header" objId="132095"><RunningText runningTextDef="Running H/F 1" objId="364"/><endTab objId="844704"/><RunningText runningTextDef="Running H/F 2" objId="844705"/></P></TextFrame><TextFrame type="background" verticalTextAlign="top" left="1.000000in" top="10.400000in" width="6.500000in" height="0.300000in" angle="" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="968617" parentObjectId="426" preserveSpaces="Y"><P paraDef="Footer" objId="970656"><Var varDef="mainbooktitle" objId="968614"/><endTab objId="970653"/> page <currentPageNumber objId="968616"/> of <lastPageNumber objId="970655"/> </P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.000000in" top="0.500000in" width="1.000000in" height="0.240074in" defaultDPI="1083" objId="969090" parentObjectId="426"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="969089" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
+	 objId="351"><TextFrame type="foreground" columns="1" columnGap="0.25000in" left="1.000000in" top="1.250000in" width="6.000000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="Black" penTint="100.00" penOpacity="100" fillColor="Black" fillTint="0.00" fillOpacity="0" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="359"/><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.00000in" top="0.50000in" width="6.50000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="360" preserveSpaces="Y"><P paraDef="Header" objId="132095"><RunningText runningTextDef="Running H/F 1" objId="364"/><endTab objId="844704"/><RunningText runningTextDef="Running H/F 2" objId="844705"/></P></TextFrame><TextFrame type="background" verticalTextAlign="top" left="1.000000in" top="10.400000in" width="6.500000in" height="0.300000in" angle="" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="968617" parentObjectId="426" preserveSpaces="Y"><P paraDef="Footer" objId="970656"><Var varDef="mainbooktitle" objId="968614"/><endTab objId="970653"/> page <currentPageNumber objId="968616"/> of <lastPageNumber objId="970655"/> </P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.000000in" top="0.500000in" width="1.000000in" height="0.240074in" dpi="1083" objId="969090" parentObjectId="426"><imageReplace locationName="logo" dpi="75" clip="N" objId="969089" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
 <PageDef
 	 pageDef="Right"
 	 pageType="master"
-	 objId="370"><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.00000in" top="0.500000in" width="6.50000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="371" parentObjectId="370" preserveSpaces="Y"><P paraDef="Header" objId="132055"><RunningText runningTextDef="Running H/F 2" objId="844711"/><endTab objId="844712"/> <RunningText runningTextDef="Running H/F 1" objId="378"/></P></TextFrame><TextFrame type="foreground" columns="1" columnGap="0.25000in" flowDirection="fromTop" left="1.500000in" top="1.250000in" width="6.000000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="379"/><TextFrame type="background" verticalTextAlign="middle" left="1.000000in" top="10.500000in" width="6.500000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="968766" parentObjectId="426" preserveSpaces="Y"><P paraDef="Footer" objId="970559"><Var varDef="mainbooktitle" objId="968763"/><endTab objId="970556"/> page <currentPageNumber objId="968765"/> of <lastPageNumber objId="970558"/> </P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="7.559055in" top="0.500000in" width="1.000000in" height="0.240074in" defaultDPI="1083" rotate="180.000000" objId="968896" parentObjectId="370"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="968895" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
+	 objId="370"><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.00000in" top="0.500000in" width="6.50000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="371" parentObjectId="370" preserveSpaces="Y"><P paraDef="Header" objId="132055"><RunningText runningTextDef="Running H/F 2" objId="844711"/><endTab objId="844712"/> <RunningText runningTextDef="Running H/F 1" objId="378"/></P></TextFrame><TextFrame type="foreground" columns="1" columnGap="0.25000in" flowDirection="fromTop" left="1.500000in" top="1.250000in" width="6.000000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="379"/><TextFrame type="background" verticalTextAlign="middle" left="1.000000in" top="10.500000in" width="6.500000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="968766" parentObjectId="426" preserveSpaces="Y"><P paraDef="Footer" objId="970559"><Var varDef="mainbooktitle" objId="968763"/><endTab objId="970556"/> page <currentPageNumber objId="968765"/> of <lastPageNumber objId="970558"/> </P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="7.559055in" top="0.500000in" width="1.000000in" height="0.240074in" dpi="1083" rotate="180.000000" objId="968896" parentObjectId="370"><imageReplace locationName="logo" dpi="75" clip="N" objId="968895" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
 <PageDef
 	 pageDef="Cover"
 	 pageType="master"
-	 objId="389"><TextFrame type="background" left="90.000000mm" top="53mm" width="156.591667mm" height="71.000000mm" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="962937" preserveSpaces="Y"><P paraDef="miramoPDF" objId="967690">MiramoPDF  <Var varDef="vrmversion" objId="963109"/></P><P paraDef="coverTitle" objId="967691">DITA-OT plugin</P><P paraDef="coverTitle" objId="967693"><Var varDef="mainbooktitle" objId="963449"/></P><P paraDef="credits" objId="967694"/></TextFrame><Image file="graphics/MiramoDigitalGunmetal.png" keepAspectRatio="Y" left="22.000000mm" top="52.000000mm" width="2.303867in" height="1.850394in" defaultDPI="300" objId="964159"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="964160" active="N" align="topLeft" fit="withinBox"/></Image><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.900000in" top="10.400000in" width="1.249609in" height="0.300000in" defaultDPI="201" objId="964559" parentObjectId="389"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="964560" active="N" align="topLeft" fit="withinBox"/></Image><TextFrame type="background" verticalTextAlign="middle" left="2.200000in" top="10.400000in" width="6.200000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="964946" parentObjectId="389" preserveSpaces="Y"><P paraDef="Footer" objId="964986">Datazone Ltd, Kenmare, Kerry, Ireland  | +353 64 66 289 64. | www.miramo.com | miramo@datazone.com</P></TextFrame></PageDef>
+	 objId="389"><TextFrame type="background" left="90.000000mm" top="53mm" width="156.591667mm" height="71.000000mm" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="962937" preserveSpaces="Y"><P paraDef="miramoPDF" objId="967690">MiramoPDF  <Var varDef="vrmversion" objId="963109"/></P><P paraDef="coverTitle" objId="967691">DITA-OT plugin</P><P paraDef="coverTitle" objId="967693"><Var varDef="mainbooktitle" objId="963449"/></P><P paraDef="credits" objId="967694"/></TextFrame><Image file="graphics/MiramoDigitalGunmetal.png" keepAspectRatio="Y" left="22.000000mm" top="52.000000mm" width="2.303867in" height="1.850394in" dpi="300" objId="964159"><imageReplace locationName="logo" dpi="75" clip="N" objId="964160" active="N" align="topLeft" fit="withinBox"/></Image><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.900000in" top="10.400000in" width="1.249609in" height="0.300000in" dpi="201" objId="964559" parentObjectId="389"><imageReplace locationName="logo" dpi="75" clip="N" objId="964560" active="N" align="topLeft" fit="withinBox"/></Image><TextFrame type="background" verticalTextAlign="middle" left="2.200000in" top="10.400000in" width="6.200000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="964946" parentObjectId="389" preserveSpaces="Y"><P paraDef="Footer" objId="964986">Datazone Ltd, Kenmare, Kerry, Ireland  | +353 64 66 289 64. | www.miramo.com | miramo@datazone.com</P></TextFrame></PageDef>
 <PageDef
 	 pageDef="Contents"
 	 pageType="master"
-	 objId="409"><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.000000in" top="0.50000in" width="6.500000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="410" preserveSpaces="Y"><P paraDef="ChapterHeader" objId="619613"><Var varDef="lang-contents" objId="844744"/></P></TextFrame><TextFrame type="foreground" columns="1" columnGap="0.25000in" left="1.000000in" top="1.250000in" width="6.500000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="414"/><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.000000in" top="10.400000in" width="6.500000in" height="0.200000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="1119" preserveSpaces="Y"><P paraDef="Footer" objId="624744"><Var varDef="lang-contents" objId="844750"/> <currentPageNumber objId="1121"/></P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="7.559055in" top="0.500000in" width="1.000000in" height="0.240074in" defaultDPI="1083" rotate="180.000000" objId="979954" parentObjectId="370"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="979953" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
+	 objId="409"><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.000000in" top="0.50000in" width="6.500000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="410" preserveSpaces="Y"><P paraDef="ChapterHeader" objId="619613"><Var varDef="lang-contents" objId="844744"/></P></TextFrame><TextFrame type="foreground" columns="1" columnGap="0.25000in" left="1.000000in" top="1.250000in" width="6.500000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="414"/><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.000000in" top="10.400000in" width="6.500000in" height="0.200000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="1119" preserveSpaces="Y"><P paraDef="Footer" objId="624744"><Var varDef="lang-contents" objId="844750"/> <currentPageNumber objId="1121"/></P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="7.559055in" top="0.500000in" width="1.000000in" height="0.240074in" dpi="1083" rotate="180.000000" objId="979954" parentObjectId="370"><imageReplace locationName="logo" dpi="75" clip="N" objId="979953" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
 <PageDef
 	 pageDef="Index"
 	 pageType="master"
@@ -1922,7 +1912,7 @@
 <PageDef
 	 pageDef="First"
 	 pageType="master"
-	 objId="426"><TextFrame type="foreground" columns="1" columnGap="0.25000in" left="1.500000in" top="1.250000in" width="6.000000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="433"/><TextFrame type="background" verticalTextAlign="middle" left="2.500000in" top="10.400000in" width="5.000000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="968089" parentObjectId="426" preserveSpaces="Y"><P paraDef="Footer" objId="970729"><Var varDef="mainbooktitle" objId="968521"/><endTab objId="970726"/> page <currentPageNumber objId="968438"/> of <lastPageNumber objId="970728"/> </P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.900000in" top="10.400000in" width="1.249609in" height="0.300000in" defaultDPI="201" objId="968149" parentObjectId="426"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="968148" active="N" align="topLeft" fit="withinBox"/></Image><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.00000in" top="0.500000in" width="6.50000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="980897" parentObjectId="370" preserveSpaces="Y"><P paraDef="Header" objId="981020"/></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="7.559055in" top="0.500000in" width="1.000000in" height="0.240074in" defaultDPI="1083" rotate="180.000000" objId="980899" parentObjectId="370"><imageReplace locationName="logo" defaultDPI="75" clip="N" objId="980898" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
+	 objId="426"><TextFrame type="foreground" columns="1" columnGap="0.25000in" left="1.500000in" top="1.250000in" width="6.000000in" height="8.800000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" autoConnect="Y" baselineSpace="0.00pt" objId="433"/><TextFrame type="background" verticalTextAlign="middle" left="2.500000in" top="10.400000in" width="5.000000in" height="0.300000in" penWidth="0mm" penStyle="solid" penColor="none" penTint="100" penOpacity="100" fillColor="none" fillTint="100" fillOpacity="100" objId="968089" parentObjectId="426" preserveSpaces="Y"><P paraDef="Footer" objId="970729"><Var varDef="mainbooktitle" objId="968521"/><endTab objId="970726"/> page <currentPageNumber objId="968438"/> of <lastPageNumber objId="970728"/> </P></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="0.900000in" top="10.400000in" width="1.249609in" height="0.300000in" dpi="201" objId="968149" parentObjectId="426"><imageReplace locationName="logo" dpi="75" clip="N" objId="968148" active="N" align="topLeft" fit="withinBox"/></Image><TextFrame type="background" columns="1" columnGap="0.25000in" left="1.00000in" top="0.500000in" width="6.50000in" height="0.400000in" angle="0.00" penWidth="1.00pt" penStyle="none" penColor="none" penTint="100.00" penOpacity="100" fillColor="none" fillTint="100.00" fillOpacity="100" maxPgfPad="0.00pt" maxLinePad="0.00pt" fillNum="15" runAround="N" alignBaselines="N" maxCharHeight="0.00pt" baselineSpace="0.00pt" PScode="N" objId="980897" parentObjectId="370" preserveSpaces="Y"><P paraDef="Header" objId="981020"/></TextFrame><Image file="graphics/bluePageNumberGradient.png" keepAspectRatio="Y" left="7.559055in" top="0.500000in" width="1.000000in" height="0.240074in" dpi="1083" rotate="180.000000" objId="980899" parentObjectId="370"><imageReplace locationName="logo" dpi="75" clip="N" objId="980898" active="N" align="topLeft" fit="withinBox"/></Image></PageDef>
 <ContentsDef
 	 contentsDef="contents1"
 	 objId="518"><ContentsInclude paraDef="toc1" names="appendix_title,bookabstract_title,chapter_title,colophon_title,listTitle,notices_title,preface_title,topic_title,ChapterHeader" objId="978588" pageNumberDef=""><paragraphText objId="978584" keepFormatting="Y"/><leader objId="978585">.</leader><pageNumber objId="978586"/><paragraphLabel textAlign="start" labelIndent="0.000000in" width="0.500000in" fontDef="title_prefix" objId="978587" type="fixed" numberOnly="Y" labelSuffix="  "/></ContentsInclude><ContentsInclude paraDef="toc2" names="appendix_title1,topic_title1" objId="978593"><paragraphText objId="978589" keepFormatting="Y"/><leader objId="978590">.</leader><pageNumber objId="978591"/><paragraphLabel textAlign="start" labelIndent="0.200000in" width="0.300000in" fontDef="inherit" objId="978592" type="fixed" numberOnly="N" labelSuffix=""/></ContentsInclude><ContentsInclude paraDef="toc3" names="topic_title2" objId="978598" pageNumberDef=""><paragraphText objId="978594" keepFormatting="Y"/><leader objId="978595">.</leader><pageNumber objId="978596"/><paragraphLabel textAlign="start" labelIndent="0.500000in" width="0.500000in" objId="978597" type="fixed" numberOnly="N" labelSuffix=""/></ContentsInclude></ContentsDef>
@@ -2126,6 +2116,8 @@
 <FontDef
 	 fontDef="codeph"
 	 fontFamily="Courier New"
+	 fontWeight="Regular"
+	 fontAngle="Regular"
 	 textSize="8.5pt"
 	 objId="959"/>
 <FontDef
@@ -2289,6 +2281,7 @@
 	 pd_displayParaBelow="unorderedlistitem2">orderedlistitem2 sample text <ListLabel type="fixed" labelIndent="0.3in" seriesLabel="orderedlistitem" width="0.25in" objId="1036"><leader objId="1037"/><counter numberPrefix="" numberStyle="lowercaseRoman" hideParentNumber="N" objId="1038"/></ListLabel></ParaDef>
 <TblDef
 	 tblDef="table"
+	 verticalTextAlign="top"
 	 minimumRows="1"
 	 titlePosition="above"
 	 titleGap="6.000000pt"
@@ -6265,7 +6258,7 @@
 	 pd_displayParaBelow="orderedlistitem3">orderedlistitem2 sample text <ListLabel type="fixed" labelIndent="0.25in" seriesLabel="step" width="0.25in" objId="862400"><leader objId="862398"/><counter numberPrefix="." parent="step" numberStyle="lowercaseAlpha" hideParentNumber="Y" objId="862399"/></ListLabel></ParaDef>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="862468">2.0.0p012</VarDef>
+	 objId="862468">2.0.0p021</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="862529">161p45</VarDef>
@@ -6523,7 +6516,7 @@
 	 objId="964301"/>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="979229">2.0.0p012</VarDef>
+	 objId="979229">2.0.0p021</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="979230">200b02</VarDef>
@@ -6606,7 +6599,7 @@
 	 objId="979248"/>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="979249">2.0.0p012</VarDef>
+	 objId="979249">2.0.0p021</VarDef>
 <ParaDef
 	 paraDef="note_tbl"
 	 fontFamily="Noto Sans"
@@ -6817,7 +6810,7 @@
 	 pd_displayParaBelow="hidden_section_title"><ListLabel type="runin" labelIndent="0.350in" seriesLabel="" objId="589"><leader objId="590">.</leader><counter numberStyle="hidden" objId="591"/></ListLabel>sample textjjj</ParaDef>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="980648">2.0.0p012</VarDef>
+	 objId="980648">2.0.0p021</VarDef>
 <VarDef
 	 varDef="pluginVersion"
 	 objId="980649">200p009</VarDef>
@@ -7757,7 +7750,7 @@
 	 pd_displayParaBelow="topic_title2"><ListLabel type="fixed" labelIndent="0.000in" seriesLabel="titles" width="0.800000in" objId="7374"><leader objId="7376"/><counter numberPrefix="." parent="topic_title|chapter_title" numberStyle="westernArabic" objId="7378"/></ListLabel>topictopic_title sample text</ParaDef>
 <VarDef
 	 varDef="miramoVersion"
-	 objId="980734">2.0.0p012</VarDef>
+	 objId="980734">2.0.0p021</VarDef>
 <ParaDef
 	 paraDef="itemgroup"
 	 fontFamily="Noto Sans"
