@@ -4,23 +4,51 @@
 <concept xml:lang="en-us" id="dita-equation-domain-mathml-support">
   <title>DITA equation domain (&lt;mathml&gt;) support</title>
   <conbody>
-    <p>The plugin supports the following DITA math elements: </p>
+		<p>MiramoDesigner includes support for two 'MathMLDef' format definitions, mathml-block and
+			mathml-inline, which may be used to control the appearance of DITA equation domain
+			&lt;mathml> elements.</p>
+		<p>Note that the MathMLDef preference must be enabled via <menucascade>
+				<uicontrol>Edit</uicontrol>
+				<uicontrol>Preferences</uicontrol>
+			</menucascade>, as shown below: <fig id="fig_t2k_s1n_ppb">
+				<title>Enabling MathMLDef support in preferences</title>
+				<image placement="break" href="graphics/mathml_preferences.png"
+					id="image_u2k_s1n_ppb"/>
+			</fig></p>
+		<p>The MathMLDef format definitions and properties may now be accessed via <menucascade>
+				<uicontrol>More</uicontrol>
+				<uicontrol>MathMLDef</uicontrol>
+			</menucascade>:</p>
+		<p><menucascade>
+				<uicontrol><image href="graphics/more_button.png" width="72pt"
+						id="image_mkv_kbn_ppb"/></uicontrol>
+				<uicontrol><image href="graphics/mathml_properties.png" width="70mm"/></uicontrol>
+			</menucascade></p>
+    <p>The plugin supports the following DITA math elements, whose appearance is controlled by the
+			MathMLDef format definitions in the MFD template, as follows: </p>
     <ul id="ul_wqd_dj3_ghb">
-      <li>&lt;equation-block><p>Use the &lt;equation-block&gt; element to represent an equation that is presented as a
-        separate block within a text flow. Block equations can be numbered. &lt;equation-block&gt;
-        elements are wrapped in an 'equation-block' FontDef.</p></li>
+      <li>equation-block<p>Use the &lt;equation-block&gt; element to represent an equation that is
+					presented as a separate block within a text flow. Block equations can be
+					numbered. &lt;equation-block&gt; elements are formatted using the
+						<codeph>mathml-block</codeph> MathMLDef.</p></li>
       
       <li>equation-figure<p>Use the &lt;equation-figure&gt; element to represent an equation that functions as form of
         figure or display. Display equations are intended to be numbered when numbering is desired.
         &lt;equation-figure&gt; equations are wrapped in a 'equation-figure' table, which allows for
         different numbering sequences for equation titles.</p></li>
       
-      <li>equation-inline<p>Use the &lt;equation-inline&gt; element to represent an equation that is presented inline
-        within a paragraph or similar context. Inline equations are not intended to be numbered.
-        &lt;equation-inline&gt; equations are wrapped in an 'equation-inline' FontDef.</p></li>
+      <li>equation-inline<p>Use the &lt;equation-inline&gt; element to represent an equation that is
+					presented inline within a paragraph or similar context. Inline equations are not
+					intended to be numbered. &lt;equation-inline&gt; equations are are formatted
+					using the <codeph>mathml-inline</codeph> MathMLDef.</p></li>
       
     </ul>
-    <p>'equation-inline' and 'equation-block' FontDefs may be used to set default font
-      characteristics (font family, pointsize and text color) for &lt;mathml&gt; equations.</p>
+    <p><codeph>equation-inline</codeph> and <codeph>equation-block</codeph> MathMLDefs may be used
+			to set default font characteristics (font family, pointsize and text color) for
+			&lt;mathml&gt; equations, as well as spacing and positioning properties. </p>
+		<p>See <xref
+				href="controlling-formatting-using-dita-outputclass-values.dita#controlling-formatting-outputclass/outputclass-mathmldef"
+			/> for information on applying custom formatting via the @outputclass
+				mmpdf:MathMLDef:<i>name</i> attribute.</p>
   </conbody>
 </concept>

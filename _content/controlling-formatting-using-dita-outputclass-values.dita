@@ -40,9 +40,9 @@
                 column (or page, for single-column documents)</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:fontDef:name</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:fontDef:<i>name</i></p></entry>
             <entry align="left" valign="top"><p>ph</p></entry>
-            <entry align="left" valign="top"><p>apply fontDef name to this phrase</p></entry>
+            <entry align="left" valign="top"><p>apply fontDef <i>name</i> to this phrase</p></entry>
           </row>
           <row>
             <entry align="left" valign="top">
@@ -58,33 +58,30 @@
             </entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:paraDef:name</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:paraDef:<i>name</i></p></entry>
             <entry align="left" valign="top"><p>title, p, note, ol, ul</p></entry>
-            <entry align="left" valign="middle"><p>override default paraDef with paraDef name for
-                rendering generated paragraph. For &lt;ol&gt;, &lt;ul&gt; elements, use named
-                paraDef for child list items</p></entry>
+            <entry align="left" valign="middle"><p>override default paraDef with paraDef <i>name</i> for rendering generated paragraph. For
+								&lt;ol&gt;, &lt;ul&gt; elements, use named paraDef for child list
+								items</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:listName:name</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:listName:<i>name</i></p></entry>
             <entry align="left" valign="top"><p>ol, ul</p></entry>
             <entry align="left" valign="middle"><p>specify basename for generating listItem
                 paragraph names.</p><p>default: orderedlistitem (&lt;ol&gt;) or
                 unorderedlistitem(&lt;ul&gt;)</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:tblDef:name</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:tblDef:<i>name</i></p></entry>
             <entry align="left" valign="middle"><p>fig, table,</p><p>simpletable, reltable,
                 hazardstatement</p></entry>
-            <entry align="left" valign="top"><p>use tblDef name for rendering table, figure or
-                hazardstatement</p></entry>
+            <entry align="left" valign="top"><p>use tblDef <i>name</i> for rendering table, figure or hazardstatement</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p id="mmpdf-topRule-name"
-                >mmpdf:topRule:name</p><p>mmpdf:bottomRule:name</p><p>mmpdf:startRule:name</p><p>mmpdf:endRule:name</p></entry>
+            <entry align="left" valign="top"><p id="mmpdf-topRule-name">mmpdf:topRule:<i>name</i></p><p>mmpdf:bottomRule:<i>name</i></p><p>mmpdf:startRule:<i>name</i></p><p>mmpdf:endRule:<i>name</i></p></entry>
             <entry align="left" valign="top"><p>fig, table,</p><p>simpletable, reltable,
                 hazardstatement, row, strow, entry, stentry</p></entry>
-            <entry align="left" valign="middle"><p>set top, bottom, start or end rule to ruleDef
-                name.</p><p>If applied to a &lt;fig&gt;, &lt;table&gt;, &lt;simpletable&gt;,
+            <entry align="left" valign="middle"><p>set top, bottom, start or end rule to ruleDef <i>name</i>.</p><p>If applied to a &lt;fig&gt;, &lt;table&gt;, &lt;simpletable&gt;,
                 &lt;reltable&gt; or &lt;hazardstatement&gt;, the ruling applies to the outside edges
                 of the table</p><p>If applied to a &lt;row&gt; or &lt;strow&gt; element, the ruling
                 establishes the default start/end/top/bottom ruling for all contained table
@@ -133,9 +130,9 @@
               rows</entry>
           </row>
           <row>
-            <entry align="left" valign="middle"><p>mmpdf:colorDef:name</p></entry>
+            <entry align="left" valign="middle"><p>mmpdf:colorDef:<i>name</i></p></entry>
             <entry align="left" valign="middle"><p>entry, stentry</p></entry>
-            <entry align="left" valign="middle"><p>use colorDef name for table cell fill</p></entry>
+            <entry align="left" valign="middle"><p>use colorDef <i>name</i> for table cell fill</p></entry>
           </row>
           <row>
             <entry align="left" valign="top"><p>mmpdf:fillOpacity;percent</p></entry>
@@ -163,48 +160,48 @@
               paragraph keep with previous property</p></entry>
           </row>
           <row>
-            <entry align="left" valign="middle"><p>mmpdf:xRefDef:name</p></entry>
+            <entry align="left" valign="middle"><p>mmpdf:xRefDef:<i>name</i></p></entry>
             <entry align="left" valign="middle"><p>xref</p></entry>
-            <entry align="left" valign="middle"><p>Use XRefDef name for this cross
-              reference</p></entry>
+            <entry align="left" valign="middle"><p>Use XRefDef <i>name</i> for this cross reference</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:section:name</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:section:<i>name</i></p></entry>
             <entry align="left" valign="middle"><p>map, bookmap, title, topic, topicref, chapter,
               appendix, booktitle, table</p></entry>
-            <entry align="left" valign="middle"><p>start new section using SectionDef
-              'name'.</p><p>SectionDef is defined in the MFD template or
+            <entry align="left" valign="middle"><p>start new section using SectionDef <i>name</i>.</p><p>SectionDef is defined in the MFD template or
                 using</p><p>&lt;SectionDef sectionDef="name"../&gt; and starts a new page layout
                   sequence</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:coverSection:name</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:coverSection:<i>name</i></p></entry>
             <entry align="left" valign="top"><p>map, bookmap</p></entry>
-            <entry align="left" valign="middle"><p>Use sectionDef 'name' for cover and subsequent
-              pages.</p><p>Ignored if mmpdf:includeCover is set to N. default:
+            <entry align="left" valign="middle"><p>Use sectionDef <i>name</i> for cover and subsequent pages.</p><p>Ignored if mmpdf:includeCover is set to N. default:
                 coverSection</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:backCoverSection:name</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:backCoverSection:<i>name</i></p></entry>
             <entry align="left" valign="top"><p>map, bookmap</p></entry>
-            <entry align="left" valign="middle"><p>Apply sectionDef 'name' to end of
-              PDF.</p><p>Ignored unless mmpdf:includeBackCover is set to Y. default:
+            <entry align="left" valign="middle"><p>Apply sectionDef <i>name</i> to end of PDF.</p><p>Ignored unless mmpdf:includeBackCover is set to Y. default:
                 backCoverSection</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:contentsSection:name</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:contentsSection:<i>name</i></p></entry>
             <entry align="left" valign="top"><p>map, bookmap</p></entry>
-            <entry align="left" valign="middle"><p>Use sectionDef name for TOC and subsequent
-              pages.</p><p>Ignored if mmpdf:includeTOC is set to N. default value:
+            <entry align="left" valign="middle"><p>Use sectionDef <i>name</i> for TOC and subsequent pages.</p><p>Ignored if mmpdf:includeTOC is set to N. default value:
                 contentsSection</p></entry>
           </row>
           <row>
-            <entry align="left" valign="top"><p>mmpdf:indexSection:name</p></entry>
+            <entry align="left" valign="top"><p>mmpdf:indexSection:<i>name</i></p></entry>
             <entry align="left" valign="top"><p>map, bookmap</p></entry>
-            <entry align="left" valign="middle"><p>Use sectionDef name for Index and subsequent
-              pages.</p><p>Ignored if mmpdf:includeIndex is set to N, or document contains no
+            <entry align="left" valign="middle"><p>Use sectionDef <i>name</i> for Index and subsequent pages.</p><p>Ignored if mmpdf:includeIndex is set to N, or document contains no
                 indexterms. default: indexSection</p></entry>
           </row>
+					<row>
+						<entry align="left" valign="top"><p id="outputclass-mathmldef">mmpdf:mathMLDef:<i>name</i></p></entry>
+						<entry align="left" valign="top">mathml, equation-block, equation-inline</entry>
+						<entry align="left" valign="middle">Use MathMLDef <i>name</i> for formatting this
+							equation</entry>
+					</row>
         </tbody>
       </tgroup>
     </table>
