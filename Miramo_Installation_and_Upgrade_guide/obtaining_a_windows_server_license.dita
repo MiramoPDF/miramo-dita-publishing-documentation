@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="obtaining_a_license">
+    <title>Obtaining a license</title>
+    <taskbody><context>
+      <p>To request a MiramoEnterprise license for the Miramo server, email support@datazone.com
+        with the server information displayed by the ’mmhostid’ command: we will then email back a
+        license key which may be applied via the ’mmVisor’ Help->Apply license key menu. </p>
+      <p>Below are detailed instructions:</p>
+        
+      <ol><li>Run mmhostid<p>Once MiramoEnterprise is installed, log in as a user with Administrator
+            privileges, start a console or powershell window and run the following
+              command:</p><p><codeph>mmhostid hostid.txt</codeph></p><p>This will place hostid
+            information into a file named ’hostid.txt’.</p></li>
+        <li>Email 'hostid.txt' to support@datazone.com<p>Next, email the ’hostid.txt’ file created
+            in step 1 to support@datazone.com. We will email back a license information sheet
+            containing a license key and instructions for applying the license.</p></li>
+        <li>
+          <p>Run mmVisor as Administrator and apply license</p>
+          <p>Right-click on the mmVisor icon an select ’Run As Administrator’ to start mmVisor in
+            admin mode (necessary to apply the license key).<image
+              href="screenshots/runAsAdministrator.png" id="image_yg1_1hh_wpb"/></p>
+          <p>Select Help->Apply license key from the main mmVisor menu. <image
+              href="screenshots/applyLicenseKey.png" id="image_vxb_bhh_wpb"
+              outputclass="float-right"/></p>
+          <p>If mmServer is running, you will be prompted to stop mmServer before applying the
+            license key: click Yes to proceed.</p>
+          <p>When prompted to enter license key, copy and paste the license key provided by email
+            into the dialog box, and click ’OK’:<image href="screenshots/enterlicensekey.png"
+              id="image_m3p_ghh_wpb" outputclass="float-right" width="90mm"/></p>
+          <p>When prompted, click on ’Yes’ to start mmServer with the new license:<image
+              href="screenshots/startMmServerNow.png" id="image_zwx_jhh_wpb"
+              outputclass="float-right"/></p>
+        </li></ol>
+    </context></taskbody>
+</task>

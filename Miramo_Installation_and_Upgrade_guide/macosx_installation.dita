@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="macosx_installation" platform="mac">
+    <title>MacOSX installation</title>
+    <body>
+        <ol id="ol_t35_bp5_wpb">
+            <li>Locate the downloaded .pkg and
+                right-click to 'Open', or double
+                click on the .pkg from your
+                browser: <fig><image width="50mm"
+                    href="screenshots/1.PNG"
+                    id="image_zsx_2p5_wpb"/></fig></li>
+            <li>The package is not notorized so
+                the following notifications will
+                show, dismiss them both: <fig
+                    id="fig_c2d_tp5_wpb">
+                    <image width="40mm"
+                        href="screenshots/2.PNG"
+                        id="image_i2z_tp5_wpb"
+                        placement="inline"/>
+                    <image width="50mm"
+                        href="screenshots/3.png"
+                        id="image_wkk_vp5_wpb"
+                        placement="inline"/>
+                </fig></li>
+            <li> To address this click the apple
+                icon, click system preferences and
+                choose 'security &amp; privacy' -
+                click on 'Open Anyway': <fig
+                    id="fig_mzr_yp5_wpb">
+                    <image width="25mm"
+                        href="screenshots/4.png"
+                        id="image_lrm_zp5_wpb"
+                        placement="inline"/>
+                    <image width="35mm"
+                        href="screenshots/5.png"
+                        id="image_c1l_1q5_wpb"
+                        placement="inline"/>
+                    <image width="35mm"
+                        href="screenshots/6.png"
+                        id="image_atk_bq5_wpb"
+                        placement="inline"/>
+                </fig></li>
+        </ol>
+    </body>
+</topic>

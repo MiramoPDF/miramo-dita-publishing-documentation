@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="linux_upgrade">
+    <title>Linux uninstall and upgrade</title>
+    <body>
+        <p>Manually uninstall the current version
+                <xref href="linux_uninstall.dita"
+            /> and follow the instructions given
+            in <xref
+                href="linux_installation.dita"/>
+            to install the new ve</p>
+    </body>
+</topic>

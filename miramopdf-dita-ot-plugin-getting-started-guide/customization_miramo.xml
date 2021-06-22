@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><!--DOCMAP--><VarDef varDef="pluginVersion">161p64</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><!--opentopic:map outputclass=docmap parent@outputclass=[]--><!--STARTSECTION $outputclass=[mmpdf:section:coverSection]--><Section sectionDef="coverSection"/><VarDef varDef="mainbooktitle">Customization</VarDef><MetaData name="title">Customization</MetaData><VarDef varDef="chapterName">Customization</VarDef><P paraDef="body_anchor" position="topOfPage"/><!--STARTSECTION $outputclass=[mmpdf:section:contentsSection]--><Section sectionDef="contentsSection"/><P paraDef="hidden_section_title" invisible="Y"><Var varDef="lang-contents"/></P><Contents contentsDef="contents1"/><!--STARTSECTION $outputclass=[mmpdf:section:firstSection]--><Section sectionDef="firstSection"/><!--DOC ignoring text 
+    --><VarDef varDef="mainbooktitle">Customization</VarDef><MetaData name="title">Customization</MetaData><!--DOC ignoring text 
+    --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_1--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#unique_1"/>Customization</P><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title1"><MkDest id="#unique_2"/>Customizing the com.miramo.mmpdf plugin</P>
+		<P paraDef="body">The <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">com.miramo.mmpdf</Font> plugin is intended to cover most formatting requirements, but in some cases it may be necessary to create a custom plugin which overrides or adds to some of the features supported by the standard plugin.  If so, <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">do not</Font> modify the files in the default <Font fontDef="glossterm">MiramoPDF DITA-OT plugin</Font> installation folder (<!--SW-D FOUND--><Font fontDef="filepath">DITA-OT3.x\plugins\com.miramo.mmpdf</Font>), because these files will be overwritten when you install a new version of the MiramoPDF DITA-OT plugin. Create a custom MiramoPDF DITA-OT plugin instead.</P>
+    <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row keepTogether="N"><Cell>
+      <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="graphics/default_miramo_dita-ot_plugin.png" keepAspectRatio="Y" dpi="240"/></AFrame>
+      <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="graphics/custom_miramo_dita-ot_plugin.png" keepAspectRatio="Y" dpi="240"/></AFrame>
+      
+        
+          <P paraDef="dt">A</P>
+          <P paraDef="dd"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Default</Font>
+            MiramoPDF DITA-OT plugin folder</P>
+        
+        
+          <P paraDef="dt">B</P>
+          <P paraDef="dd"><!--topic/ph hi-d found: [b] id=--><Font fontDef="b">Custom</Font>
+            MiramoPDF DITA-OT plugin folder</P>
+        
+      
+    </Cell></Row></Tbl>
+	  <P paraDef="body">If you have access to oXygenXML Author/Editor see <XRef id="#unique_3" xRefDef="xref"/>, otherwise follow the instructions in <XRef id="#unique_4" xRefDef="xref"/> or <XRef id="#unique_5" xRefDef="xref"/></P>
+    <P paraDef="body">It also includes a simple example of working with a new plugin (com.example.my-mmpdf) to create a new transformation type my-mmpdf which includes changes to localization text, default parameter values and to the DITA to MiramoXML transformation.</P>
+	<!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_3"/>Creating a custom MiramoPDF DITA-OT plugin using oXygenXML Author/Editor</P><!--TOPIC METADATA (- topic/prolog ) START-->
+        <VarDef varDef="author">Yves</VarDef><MetaData name="creator">Yves</MetaData>
+    <!--TOPIC METADATA END-->
+        <!--PASS-THRU: section @class=- topic/section -->
+            <P paraDef="body"><MkDest id="#unique_3_Connect_42_context_tr1_rml_k3b"/>This topic describes how to use the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">MiramoPDF - generate new plugin</Font> transformation scenario in oXygenXML Author/Editor to create a new custom plugin.</P>
+        
+        <!--PASS-THRU: section @class=- topic/section --><ParaGroup paraGroupDef="ol">
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1" numberValue="1" withPrevious="Y">In oXygenXML Author/Editor, choose <Font fontDef="menucascade"><Font fontDef="uicontrol">Options</Font><Var varDef="menucascadeseparator"/><Font fontDef="uicontrol">Import Transformation Scenarios</Font></Font>.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">Navigate to your MiramoPDF DITA-OT plugin installation folder, for example <!--SW-D FOUND--><Font fontDef="filepath">C:\Program Files\Oxygen XML Editor 21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf\integration\oxygen</Font> .</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">Select <!--SW-D FOUND--><Font fontDef="filepath">MiramoPDF-generate-plugin.scenarios</Font> and click <Font fontDef="uicontrol">Open</Font>.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">In the <Font fontDef="wintitle">Import scenarios</Font> dialog, select <Font fontDef="uicontrol">Project Options</Font> and click <Font fontDef="uicontrol">Import</Font>.</P>
+                    <!--PASS-THRU: itemgroup @class=- topic/itemgroup -->
+                        <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row keepTogether="N"><Cell>
+                            <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="graphics/import_scenarios.png" keepAspectRatio="Y" dpi="144"/></AFrame>
+                        </Cell></Row></Tbl>
+                    
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">Create or open any DITA file.</P>
+                    <!--PASS-THRU: itemgroup @class=- topic/itemgroup -->
+                        <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1" listLabel="N"><MkDest id="#unique_3_Connect_42_p_ctd_wgz_fjb"/>You can open a DITA file in the following <!--SW-D FOUND--><Font fontDef="filepath">Samples</Font> folder: </P>
+                        <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1" listLabel="N"><!--SW-D FOUND--><Font fontDef="filepath">C:\Program Files\Oxygen XML Editor 21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf\samples\flowers</Font></P>
+                    
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">Click the <Font fontDef="uicontrol">Configure Transformation Scenario</Font>
+                        <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="graphics/configure_transformation_scenario_button.png" keepAspectRatio="Y"/></AFrame> button.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">In the <Font fontDef="wintitle">Configure Transformation Scenarios</Font> dialog, select the <Font fontDef="uicontrol">MiramoPDF - generate new plugin</Font> transformation scenario and click <Font fontDef="uicontrol">Edit</Font>.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">Click the <Font fontDef="uicontrol">Parameters</Font> tab and change the <Font fontDef="uicontrol">plugin-name</Font> and <Font fontDef="uicontrol">transtype</Font> parameters, as shown in the example below.</P>
+                    <!--PASS-THRU: itemgroup @class=- topic/itemgroup -->
+                        <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1" listLabel="N">A <Font fontDef="uicontrol">transtype</Font> is a new transformation type with any new custom parameters that are supported. In this case, the <Font fontDef="uicontrol">transtype</Font> is the MiramoPDF transformation with customizations done in a <!--SW-D FOUND--><Font fontDef="filepath">custom.xsl</Font> file.</P>
+                        <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row keepTogether="N"><Cell>
+                            <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="graphics/edit_ant_scenario.png" keepAspectRatio="Y" dpi="144"/></AFrame>
+                        </Cell></Row></Tbl>
+                    
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">Click <Font fontDef="uicontrol">OK</Font> and then <Font fontDef="uicontrol">Apply associated</Font> to run the transformation scenario.</P>
+                    <!--Using default mapping of class - topic/itemgroup  on element itemgroup to body paragraph --><P paraDef="body">In your DITA-OT installation folder, you will now find your custom Miramo plugin folder where you can make the necessary customizations in the <!--SW-D FOUND--><Font fontDef="filepath">cfg\xsl\custom.xsl</Font> file.<Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row keepTogether="N"><Cell>
+                            <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="graphics/custom_xsl.png" keepAspectRatio="Y" dpi="144"/></AFrame>
+                        </Cell></Row></Tbl></P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">Choose <Font fontDef="menucascade"><Font fontDef="uicontrol">Options</Font><Var varDef="menucascadeseparator"/><Font fontDef="uicontrol">Import Transformation Scenarios</Font></Font>.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">Navigate to your newly created, custom MiramoPDF DITA-OT plugin folder.</P>
+                    <!--Using default mapping of class - topic/itemgroup  on element itemgroup to body paragraph --><P paraDef="body">For example: <HyperCmd fontDef="ulink" openURL="file:///C:/Program%20Files/Oxygen%20XML%20Editor%2021/frameworks/dita/DITA-OT3.x/plugins/com.example.my-mmpdf"><!--SW-D FOUND--><Font fontDef="filepath">C:\Program Files\Oxygen XML Editor 21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.flow-mmpdf</Font></HyperCmd> .</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">Select the .scenarios file, for example <!--SW-D FOUND--><Font fontDef="filepath">com.miramo.flow-mmpdf.scenarios</Font>, and click <Font fontDef="uicontrol">Open</Font>.</P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">In the <Font fontDef="wintitle">Import scenarios</Font> dialog, select <Font fontDef="uicontrol">Project Options</Font> and click <Font fontDef="uicontrol">Import</Font>.</P>
+                    <!--PASS-THRU: itemgroup @class=- topic/itemgroup -->
+                        <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row keepTogether="N"><Cell>
+                            <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="graphics/import_custom_plugin.png" keepAspectRatio="Y" dpi="144"/></AFrame>
+                        </Cell></Row></Tbl>
+                    
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">Click the <Font fontDef="uicontrol">Configure Transformation Scenario</Font>
+                        <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="graphics/configure_transformation_scenario_button.png" keepAspectRatio="Y"/></AFrame> button again.</P>
+                    <!--Using default mapping of class - topic/itemgroup  on element itemgroup to body paragraph --><P paraDef="body">Your new custom <Font fontDef="glossterm">Miramo</Font> transformation scenario is now ready for use.<Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row keepTogether="N"><Cell>
+                            <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"><!--makeImage 0--><Image file="graphics/example_custom_scenario.png" keepAspectRatio="Y" dpi="144"/></AFrame>
+                        </Cell></Row></Tbl></P>
+                
+                <!--topic/li-->
+                    <!--p element nested in list at nest level 6--><!--makeListPara p--><P paraDef="orderedlistitem1">You can click <Font fontDef="uicontrol">Apply associated</Font> to test your custom transformation scenario.</P>
+                
+            </ParaGroup>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_6"/>Manually creating a custom MiramoPDF DITA-OT plugin</P><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_4"/>Manually creating a new custom plugin</P>
+		<P paraDef="body">The com.miramo.mmpdf folder includes a sub-folder called com.example.my-mmpdf, and creates a
+      transformation type 'my-mmpdf'. See <XRef id="#unique_5" xRefDef="xref"/> for
+      information on creating a company specific plugin with a differently named plugin and
+      transformation type.</P>
+		<P paraDef="body">To create a new custom plugin 'com.example.my-mmpdf', start by copying this folder to the DITA-OT plugins folder so it is at the same level as the original com.miramo.mmpdf folder.</P>
+	<!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_5"/>Manually creating a company specific plugin</P>
+    <P paraDef="body">In some cases it may be necessary to create one or more new plugins with a different names,
+      targets, and transformation types.</P>
+    <P paraDef="body">For example, company ABC Corp might need to create two specializations, com.abc.mmpdfl and
+      com.abc.mmpdf2, which create transformation types mmpdfl and mmpdf2 respectively.</P>
+    <P paraDef="body">To do this, copy the <!--SW-D FOUND--><Font fontDef="filepath">plugins/com.miramo.mmpdf/com.example.my-mmpdf</Font>
+      folder to <!--SW-D FOUND--><Font fontDef="filepath">plugins/com.abc.mmpdf1</Font> and
+        <!--SW-D FOUND--><Font fontDef="filepath">plugins/com.abc.mmpdf2</Font>.</P>
+    <P paraDef="body">Then edit the following files in each of the two new folders com.abc.mmpdf1,
+      com.abc.mmpdf2:</P>
+    <ParaGroup paraGroupDef="ul">
+      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y"><MkDest id="#unique_5_Connect_42_ul_ypv_h53_ghb"/>plugin.xml</P>
+      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"><MkDest id="#unique_5_Connect_42_ul_ypv_h53_ghb"/>conductor.xml</P>
+      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"><MkDest id="#unique_5_Connect_42_ul_ypv_h53_ghb"/>build.xml</P>
+    </ParaGroup>
+    <P paraDef="body">Replace all occurrences of 'com.example.my-mmpdf' with com.abc.mmpdf1 or com.abc.mmpdf2</P>
+    <P paraDef="body">Replace all occurrences of 'my-mmpdf' with 'mmpdf1' or 'mmpdf2'</P>
+    <P paraDef="body">Modify xsl/dita2miramo.xsl, cfg/xsl/custom.xsl, cfg/strings/langlist.xml, cfg/strings/*.xml
+      as required</P>
+    <P paraDef="body">Run the DITA-OT integration process</P>
+    <P paraDef="body">The ant targets 'dita2mmpdf1' and 'dita2mmpdf2' will now be available, along
+      with the transformation types 'mmpdf1' and 'mmpdf2'.</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=3 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title3"><MkDest id="#unique_7"/>Running the DITA-OT integration tool</P>
+    <P paraDef="body">Next, install the new com.example.my-mmpdf plugin by running the DITA-OT ant integration tool
+      as enabled by your CMS or authoring tool, or using one of the commands below.</P>
+    <P paraDef="body">For oXygen, see <XRef id="#unique_8" xRefDef="xref"/>.</P>
+    <P paraDef="body">For standalone DITA-OT installations, use:</P>
+    <P paraDef="lines" whiteSpaceCollapse="N">ant -f integrator.xml</P>
+    <P paraDef="body">or use the dita command:</P>
+    <P paraDef="lines" whiteSpaceCollapse="N">dita-ot-dir/bin/dita --install</P>
+    <P paraDef="body">This will create a new transformation type 'my-mmpdf' which you can use in place of the
+      'mmpdf' transfomation type. It will also add a new ant target 'dita2my-mmpdf'.</P>
+    <P paraDef="body">The next stage is to modify the files in the
+        <!--SW-D FOUND--><Font fontDef="filepath">plugins/com.example.my-mmpdf</Font> folder.</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_9"/>com.example.my-mmpdf files and folders</P>
+    <P paraDef="body">The com.example.my-mmpdf plugin includes the following files and folders:</P>
+    
+      
+        <P paraDef="dt">&lt;dita-ot-installdir&gt;/plugins/com.example.my-mmpdf</P>
+        
+          <P paraDef="dd">Source for my-mmpdf plugin:</P>
+        
+      
+      
+        <P paraDef="dt">plugin.xml</P>
+        
+          <P paraDef="dd">Configuration file for the com.example.my-mmpdf plugin which creates a new
+            transformation type 'my-mmpdf'.</P>
+        
+      
+      
+        <P paraDef="dt">conductor.xml</P>
+        
+          <P paraDef="dd">Imports local build.xml</P>
+        
+      
+      
+        <P paraDef="dt">build.xml</P>
+        
+          <P paraDef="dd">Contains the dita2my-mmpdf target, applied by the 'my-mmpdf' transformation type.</P>
+        
+      
+      
+        <P paraDef="dt">xsl/dita2miramo.xsl</P>
+        
+          <P paraDef="dd">Top level stylesheet - modify this file to set default values for xslt parameters</P>
+        
+      
+      
+        <P paraDef="dt">cfg/strings/langlist.xml</P>
+        
+          <P paraDef="dd">Language configuration file including a list of files containing localization
+            strings</P>
+        
+      
+      
+        <P paraDef="dt">cfg/strings/*.xml</P>
+        
+          <P paraDef="dd">Miramo specific localization strings, supplied in addition to the standard DITA-OT
+            localization strings (including those in pdf2)</P>
+        
+      
+      
+        <P paraDef="dt">cfg/xsl/custom.xsl</P>
+        
+          <P paraDef="dd">Modify this file to add xsl stylesheet template match modifications; included by
+            xsl/dita2miramo.xsl</P>
+        
+      
+      
+        <P paraDef="dt">cfg/xsl/functionstubs.xsl</P>
+        
+          <P paraDef="dd">Modify this file to add to or override templates and functions with extension points
+            defined in the com.miramo.mmpdf/xsl/utilities.xsl. Included by cfg/xsl/custom.xsl</P>
+        
+      
+    
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_10"/>Setting default parameter values</P>
+		<P paraDef="body">Modify the &lt;xsl:param&gt; and &lt;xsl:variable&gt; definitions in
+			<!--SW-D FOUND--><Font fontDef="filepath">custom/xsl/dita2miramo.xsl</Font> as required. For example, to set all
+      non-inline graphics to be centered rather than start-aligned by default, include this:</P>
+		<P paraDef="lines" whiteSpaceCollapse="N">&lt;!-- Default left/right alignment of images within text column or text frame.<br/>Allowed values: start center end --&gt;<br/>&lt;xsl:variable name="defaultImageAlignment"&gt;center&lt;/xsl:variable&gt;</P>
+	<!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title2"><MkDest id="#unique_11"/>Modifying the dita2mmpdf default transformation</P>
+		<P paraDef="body">Edit the 'cfg/xsl/custom.xsl' stylesheet to add &lt;xsl:template&gt;s to achieve the required mapping from DITA elements and attributes to MiramoXML elements and attributes. (See the mmComposer reference guide for a detailed description of the MiramoXML file format).</P>
+		<P paraDef="body">&lt;xsl:template&gt;s added here may either override or add to the &lt;xsl:template&gt;s defined in the default DITA to MiramoXML stylesheets, map2miramo.xsl and topic2miramo.xsl. Here is a simple example where if the &lt;p&gt; @outputclass value is specified, it is used as the &lt;ParaDef&gt; format name. If the @outputclass value is empty, the default template match is applied using &lt;xsl:apply-imports/&gt;.</P>
+		<P paraDef="lines" whiteSpaceCollapse="N">&lt;xsl:template match="*[contains(@class,' topic/p ')]"&gt;<br/>	&lt;xsl:choose&gt;<br/>		&lt;xsl:when test="string-length(@outputclass) != 0"&gt;<br/>			&lt;xsl:call-template name="makePara"&gt;<br/>				&lt;xsl:with-param name="paraDefName"&gt;<br/>					&lt;xsl:value-of select="@outputclass"/&gt;<br/>				&lt;/xsl:with-param&gt;<br/>			&lt;/xsl:call-template&gt;<br/>		&lt;/xsl:when&gt;<br/>		&lt;xsl:otherwise&gt;<br/>			&lt;xsl:apply-imports/&gt;<br/>		&lt;/xsl:otherwise&gt;<br/>	&lt;/xsl:choose&gt;<br/>&lt;/xsl:template&gt;</P>
+	<!--DOC ignoring text 
+--></MiramoXML>

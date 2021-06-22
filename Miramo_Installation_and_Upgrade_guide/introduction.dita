@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="introduction">
+    <title>Introduction</title>
+    <body>
+        <p>This guide documents how to install and upgrade MiramoPDF and the DITA-OT plugin.</p>
+        <p><ph keyref="MiramoPDF"/> should always be installed or upgraded before the DITA-OT plugin.</p>
+    </body>
+</topic>

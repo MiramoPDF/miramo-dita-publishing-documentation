@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="windows_installation">
+    <title>Windows installation</title>
+    <body>
+        <p product="MiramoEnterprise">This section includes information on system requirements and installation information for
+      both the Desktop and Server versions of <ph keyref="Product"/>.</p>
+        <p product="MiramoPDF" platform="windows"
+            >This section includes information on
+            system requirements and installation
+            for the <ph keyref="MiramoPDF"/>
+            desktop version.</p>
+    </body>
+</topic>

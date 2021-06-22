@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="pluginVersion">200p021</VarDef><!--BOOKMAP--><Chapter><!--STARTSECTION $outputclass=[mmpdf:section:coverSection]--><Section sectionDef="coverSection"/><!--makeBookFormatDefs: processing book metadata start-->
+    <VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+    
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    
+  <!--makeBookFormatDefs: processing book metadata end--><!--BOOKTITLE VALUE - topic/ph bookmap/mainbooktitle --><VarDef varDef="mainbooktitle">MiramoPDF and the DITA-OT plugin</VarDef><MetaData name="dc:title">MiramoPDF and the DITA-OT plugin</MetaData><!--BOOKTITLE VALUE - topic/ph bookmap/booktitlealt --><VarDef varDef="booktitlealt">Installation and upgrade guide</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef></Chapter><!--BOOKMAP ignoring text 
+    --><!--BOOKMAP ignoring text   --><!--BOOKMAP ignoring text MiramoPDF and the DITA-OT plugin--><!--BOOKMAP ignoring text   --><!--BOOKMAP ignoring text Installation and upgrade guide--><!--BOOKMAP ignoring text   --><!--BOOKMAP ignoring text 
+  --><!--BOOK METADATA--><!--BOOKMAP ignoring text 
+  --><!--BOOKMAP TOPICREF [frontmatter] id=d193e52--><!--FRONTMATTER / BACKMATTER--><Chapter><!--makeBookFormatDefs: processing book metadata start-->
+    <VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+    
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    
+  <!--makeBookFormatDefs: processing book metadata end--><!--BOOKTITLE VALUE - topic/ph bookmap/mainbooktitle --><VarDef varDef="mainbooktitle">MiramoPDF and the DITA-OT plugin</VarDef><MetaData name="dc:title">MiramoPDF and the DITA-OT plugin</MetaData><!--BOOKTITLE VALUE - topic/ph bookmap/booktitlealt --><VarDef varDef="booktitlealt">Installation and upgrade guide</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><!--BOOKMAP TOPICREF [booklists] id=d193e53--><!--BOOKLISTS--><!--BOOKMAP TOPICREF [toc] id=d193e54--><!--bookmap/toc--><VarDef varDef="chapterName"><Var varDef="lang-contents"/></VarDef><!--makeBookFormatDefs: processing book metadata start-->
+    <VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+    
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    
+  <!--makeBookFormatDefs: processing book metadata end--><!--BOOKTITLE VALUE - topic/ph bookmap/mainbooktitle --><VarDef varDef="mainbooktitle">MiramoPDF and the DITA-OT plugin</VarDef><MetaData name="dc:title">MiramoPDF and the DITA-OT plugin</MetaData><!--BOOKTITLE VALUE - topic/ph bookmap/booktitlealt --><VarDef varDef="booktitlealt">Installation and upgrade guide</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><!--STARTSECTION $outputclass=[mmpdf:section:contentsSection]--><Section sectionDef="contentsSection"/><P paraDef="hidden_contents_title" invisible="Y"><Var varDef="lang-contents"/></P><Contents contentsDef="contents1"/></Chapter><!--BOOKMAP ignoring text 
+  --><!--BOOKMAP ignoring text 
+  --><!--BOOKMAP TOPICREF [chapter] id=unique_1--><!--CHAPTER parent class = []--><Chapter chapterNumberStart="1" pageNumberStart="1"><!--STARTSECTION $outputclass=[mmpdf:section:firstSection]--><Section sectionDef="firstSection"/><!--makeBookFormatDefs: processing book metadata start-->
+    <VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+    
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    
+  <!--makeBookFormatDefs: processing book metadata end--><!--BOOKTITLE VALUE - topic/ph bookmap/mainbooktitle --><VarDef varDef="mainbooktitle">MiramoPDF and the DITA-OT plugin</VarDef><MetaData name="dc:title">MiramoPDF and the DITA-OT plugin</MetaData><!--BOOKTITLE VALUE - topic/ph bookmap/booktitlealt --><VarDef varDef="booktitlealt">Installation and upgrade guide</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><VarDef varDef="chapterName"><Var varDef="lang-chapter"/></VarDef><!--topic/title parent topic count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="chapter_title" id="#unique_1">Introduction</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+        <P paraDef="body">This guide documents how to install and upgrade MiramoPDF and the DITA-OT plugin.</P>
+        <P paraDef="body">MiramoPDF should always be installed or upgraded before the DITA-OT plugin.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_2">Downloading</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+        <P paraDef="body">This document describes how to download Miramo and the MiramoPDF DITA-OT plugin ready for installation on Windows, Linux and MacOSX.</P>
+        <P paraDef="body">Download the platform specific
+            installation package from <HyperCmd xmlns:svg="http://www.w3.org/2000/svg" fontDef="ulink" openURL="http://www.miramo.com/pdownload/splogin.php">http://www.miramo.com/pdownload/splogin.php</HyperCmd></P>
+        <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">URL: http://www.miramo.com/pdownload/splogin.php<br/>            <br/>            Complete the form with your company, contact name<br/>            and email address, together with the username, password<br/>            and filename below:<br/>            <br/>            Username: mdownload<br/>            Password: summertime<br/>            Filename: see below<br/>            </P>
+        
+   <P paraDef="body">Enter the appropriate platform specific installation package filenames as
+      follows:</P>
+   <!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_3">Miramo installation packages</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+        <P paraDef="body">
+      <ParaGroup paraGroupDef="ul">
+        <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" id="#unique_3_Connect_42_ul_rkj_v3g_wpb" numberValue="1" withPrevious="Y">Windows Desktop:
+          </P><P paraDef="unorderedlistitem1" id="#unique_3_Connect_42_ul_rkj_v3g_wpb" listLabel="N"><MkDest id="#unique_3_Connect_42_MiramoPDF_PKG"/><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">MiramoPDF2.0.0p<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">NNN</Font>setup.exe</Font></P>
+        
+        <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Linux RH (CentOS 7, Amazon Linux 2, Oracle Linux R7-U7): </P><P paraDef="unorderedlistitem1" listLabel="N"><MkDest id="#unique_3_Connect_42_LinuxRH_PKG"/><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">MiramoPDF-RH-2.0.0p<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">NNN</Font>.tar.gz</Font></P>
+        <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Linux RHD (Fedora 33):</P><P paraDef="unorderedlistitem1" listLabel="N"><MkDest id="#unique_3_Connect_42_LinuxRHD_PKG"/><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">MiramoPDF-RHD-2.0.0p<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">NNN</Font>.tar.gz</Font></P>
+        <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Linux DB (Debian, Ubuntu 20):</P><P paraDef="unorderedlistitem1" listLabel="N"><MkDest id="#unique_3_Connect_42_LinuxDB_PKG"/><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">MiramoPDF-DBD-2.0.0p<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">NNN</Font>.tar.gz</Font></P>
+        <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">MacOSX (Catalina):</P><P paraDef="unorderedlistitem1" listLabel="N"><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">MiramoPDF-OSX-2.0.0p<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">NNN</Font>.pkg</Font></P>
+      </ParaGroup>
+    </P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_4">MiramoPDF DITA-OT plugin installation
+                packages</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+                <P paraDef="body">
+                        <ParaGroup paraGroupDef="ul">
+                         <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" id="#unique_4_Connect_42_ul_rkj_v3g_wpb" numberValue="1" withPrevious="Y">Windows Desktop /
+                         Server: </P><P paraDef="unorderedlistitem1" id="#unique_4_Connect_42_ul_rkj_v3g_wpb" listLabel="N"><MkDest id="#unique_4_Connect_42_windows_plugin_PKG"/><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">MiramoDITA-OTplugin-2.0.0p<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">NNN</Font>setup.exe</Font></P>
+                         <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Linux:</P><P paraDef="unorderedlistitem1" listLabel="N"><MkDest id="#unique_4_Connect_42_LinuxRH_PKG"/><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">MiramoDITA-OTplugin-2.0.0p<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">NNN</Font>.zip</Font></P>
+                        </ParaGroup>
+                </P>
+        </Chapter><!--BOOKMAP ignoring text 
+  --><!--BOOKMAP TOPICREF [chapter] id=unique_5--><!--CHAPTER parent class = []--><Chapter><!--STARTSECTION $outputclass=[mmpdf:section:firstSection]--><Section sectionDef="firstSection"/><!--makeBookFormatDefs: processing book metadata start-->
+    <VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+    
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    
+  <!--makeBookFormatDefs: processing book metadata end--><!--BOOKTITLE VALUE - topic/ph bookmap/mainbooktitle --><VarDef varDef="mainbooktitle">MiramoPDF and the DITA-OT plugin</VarDef><MetaData name="dc:title">MiramoPDF and the DITA-OT plugin</MetaData><!--BOOKTITLE VALUE - topic/ph bookmap/booktitlealt --><VarDef varDef="booktitlealt">Installation and upgrade guide</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><VarDef varDef="chapterName"><Var varDef="lang-chapter"/></VarDef><!--topic/title parent topic count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="chapter_title" id="#unique_5">Installing Miramo</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+        <P paraDef="body"/>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_6">Windows installation</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+        
+        <P paraDef="body">This section includes information on
+            system requirements and installation
+            for the MiramoPDF
+            desktop version.</P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent task count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_7">Installing MiramoPDF
+        Desktop</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END--><!--mm:mapToParagraphs context ctx = context--><P paraDef="context">Double-click on the MiramoPDF2.0.0pNNNsetup.exe to
+      install MiramoPDF. When prompted, navigate to your chosen installation folder (default is
+        <!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">C:\Program Files\Miramo\</Font>MiramoPDF2.0.0<!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath"> and click on OK to continue.</Font>
+    </P><P paraDef="context" listLabel="N">If an earlier version of MiramoPDF is already installed, you will be prompted
+        as shown below:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="Miramo_Installation_and_Upgrade_guide/screenshots/windows-uninstall-previous.png" width="80mm" keepAspectRatio="Y"/></AFrame></P><P paraDef="context" listLabel="N">Click on <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="uicontrol">Yes</Font> to uninstall the previous version (recommended), or click
+      on  <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="uicontrol">No</Font> to proceed without uninstalling the previous version.</P><P paraDef="context" listLabel="N">Choosing default options will create the following folder:</P><P paraDef="context" listLabel="N"><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">C:\Program Files\Miramo\MiramoPDF 2.0.0</Font></P><P paraDef="context" listLabel="N">The MiramoDesigner
+        2.0.0 desktop shortcut will be updated to point to MiramoDesigner.exe in
+        this folder, and the miramo.exe binary (composition engine) is located in the same
+        folder.</P><P paraDef="context" listLabel="N">The PATH environment variable will
+                be set as shown here. Note that if
+                you chose not to uninstall the
+                previous version, both the earlier
+                version and 2.0.0 install folders
+                are included in the PATH
+                environment variable, but the
+                earlier version (1.6 in the
+                example shown) takes
+                    precedence.<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image file="Miramo_Installation_and_Upgrade_guide/screenshots/winpath.png" width="50mm" keepAspectRatio="Y"/></AFrame></P><P paraDef="context" listLabel="N">If you wish to install multiple
+                concurrent versions of the
+                composition engine, and are
+                publishing using the MiramoPDF
+                DITA-OT plugin, the location of
+                the miramo.exe binary may be
+                configured using the
+                    <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramopath</Font>
+                ant build parameter.</P><!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_8">Linux installation</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END--><P paraDef="body">This document describes how to install
+            the Linux version of Miramo for server or
+            desktop use.</P>
+        <P paraDef="body">Log in to the target
+                server as an admin user and follow
+                the steps below:</P>
+        <ParaGroup paraGroupDef="ol">
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" id="#unique_8_Connect_42_ol_pdr_yxt_wpb" numberValue="1" withPrevious="Y">Create a new folder if necessary, eg /opt/miramo:
+                        <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"><MkDest id="#unique_8_Connect_42_codeblock_in4_vyt_wpb"/>mkdir -p /opt/miramo</P></P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1"> Change directory to the
+                    new folder:
+                    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd /opt/miramo</P></P>
+                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Extract files from the
+                    downloaded distribution
+                    package, for
+                    example:<P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">tar -xzof /tmp/MiramoPDF-DBD-2.0.0pNNN.tar.gz                    </P>to
+                    create
+                    /opt/miramo/MiramoPDF-2.0.0pNNN
+                    - this is the Miramo
+                    installation folder.</P>
+                        <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Change directory to
+                    the installation folder, eg:
+                    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd /opt/miramo/MiramoPDF-2.0.0pNNN</P></P>
+                        <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Run the install.sh
+                script:
+                <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">./install.sh </P></P>
+                   
+                </ParaGroup>
+        <P paraDef="body">The install.sh script runs the
+            ’installComposer.sh’ script which does
+            the following:<ParaGroup paraGroupDef="ul">
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" id="#unique_8_Connect_42_ul_azx_ck5_wpb" numberValue="1" withPrevious="Y">installs the fontconfig
+                    prerequisite if necessary</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">makes a link from
+                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/local/bin/miramo</Font>
+                    and
+                         <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/local/bin/miramo-2.0.0</Font> to the
+                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">runComposer.sh</Font>
+                    wrapper script located in the
+                    installation folder, so the
+                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramo</Font>
+                    and <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramo-2.0.0</Font> commands
+                    (composition engine) are
+                    automatically available to all
+                    users.</P>
+            </ParaGroup></P>
+        <P paraDef="body">For Linux RHD and DBD distributions,
+            the <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">install.sh</Font> script
+            also installs MiramoDesigner using the
+                <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">installDesigner.sh</Font>
+            script, and makes it available to the
+            desktop manager via
+                <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/share/applications/miramo-designer.desktop</Font></P>
+        <P paraDef="body">If you wish to install multiple
+            concurrent versions of the composition
+            engine, and are publishing using the
+            MiramoPDF DITA-OT plugin, the location
+            of the runMmComposer.sh script may be
+            configured using the ’miramopath’ ant
+            build parameter.</P>
+    
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_9">MacOSX installation</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+        <ParaGroup paraGroupDef="ol">
+            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" id="#unique_9_Connect_42_ol_t35_bp5_wpb" numberValue="1" withPrevious="Y">Locate the downloaded .pkg and
+                right-click to 'Open', or double
+                click on the .pkg from your
+                browser: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell><AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="Miramo_Installation_and_Upgrade_guide/screenshots/1.PNG" width="50mm" keepAspectRatio="Y"/></AFrame></Cell></Row></Tbl></P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">The package is not notorized so
+                the following notifications will
+                show, dismiss them both: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
+                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="Miramo_Installation_and_Upgrade_guide/screenshots/2.PNG" width="40mm" keepAspectRatio="Y"/></AFrame>
+                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="Miramo_Installation_and_Upgrade_guide/screenshots/3.png" width="50mm" keepAspectRatio="Y"/></AFrame>
+                </Cell></Row></Tbl></P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1"> To address this click the apple
+                icon, click system preferences and
+                choose 'security &amp; privacy' -
+                click on 'Open Anyway': <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
+                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="Miramo_Installation_and_Upgrade_guide/screenshots/4.png" width="25mm" keepAspectRatio="Y"/></AFrame>
+                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="Miramo_Installation_and_Upgrade_guide/screenshots/5.png" width="35mm" keepAspectRatio="Y"/></AFrame>
+                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="Miramo_Installation_and_Upgrade_guide/screenshots/6.png" width="35mm" keepAspectRatio="Y"/></AFrame>
+                </Cell></Row></Tbl></P>
+        </ParaGroup>
+    </Chapter><!--BOOKMAP ignoring text 
+  --><!--BOOKMAP TOPICREF [chapter] id=unique_10--><!--CHAPTER parent class = []--><Chapter><!--STARTSECTION $outputclass=[mmpdf:section:firstSection]--><Section sectionDef="firstSection"/><!--makeBookFormatDefs: processing book metadata start-->
+    <VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+    
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    
+  <!--makeBookFormatDefs: processing book metadata end--><!--BOOKTITLE VALUE - topic/ph bookmap/mainbooktitle --><VarDef varDef="mainbooktitle">MiramoPDF and the DITA-OT plugin</VarDef><MetaData name="dc:title">MiramoPDF and the DITA-OT plugin</MetaData><!--BOOKTITLE VALUE - topic/ph bookmap/booktitlealt --><VarDef varDef="booktitlealt">Installation and upgrade guide</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><VarDef varDef="chapterName"><Var varDef="lang-chapter"/></VarDef><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="chapter_title" id="#unique_10">Upgrading Miramo</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+        <P paraDef="body">To upgrade Miramo, first uninstall as described below then install the new version according to the instructions given in </P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_10_ssol1">Upgrading Miramo</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+        <P paraDef="body">To upgrade Miramo, first uninstall as described below then install the new version according to the instructions given in </P>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_11">Windows uninstall</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+        <ParaGroup paraGroupDef="ol">
+            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" numberValue="1" withPrevious="Y">Uninstall MiramoPDF
+                or MiramoEnterprise
+                via the Add/Remove Programs
+                control panel.</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Reboot the system</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Remove any remaining installation
+                files from <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">C:\Program
+                    Files\Miramo</Font> and/or
+                    <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">C:\Program Files
+                    (x86)\miramo</Font></P>
+        </ParaGroup>
+    <!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_12">Linux uninstall</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+        <P paraDef="body">Log in as the administrator user (root)
+            and uninstall  Miramo
+            as follows:<ParaGroup paraGroupDef="ol">
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" id="#unique_12_Connect_42_ol_p5f_4l5_wpb" numberValue="1" withPrevious="Y">Remove the current
+                    /opt/miramo-n.n.n folder</P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Remove symbolic links
+                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/local/bin/miramo</Font>
+                    and
+                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/local/bin/miramo-n.n.n</Font></P>
+                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">For Linux RHD and DBD
+                        distributions, remove the
+                         <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/share/applications/miramo-designer.desktop</Font>
+                        folder</P>
+            </ParaGroup></P>
+    </Chapter><!--BOOKMAP ignoring text 
+
+  --><!--BOOKMAP TOPICREF [chapter] id=unique_13--><!--CHAPTER parent class = []--><Chapter><!--STARTSECTION $outputclass=[mmpdf:section:firstSection]--><Section sectionDef="firstSection"/><!--makeBookFormatDefs: processing book metadata start-->
+    <VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+    
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    
+  <!--makeBookFormatDefs: processing book metadata end--><!--BOOKTITLE VALUE - topic/ph bookmap/mainbooktitle --><VarDef varDef="mainbooktitle">MiramoPDF and the DITA-OT plugin</VarDef><MetaData name="dc:title">MiramoPDF and the DITA-OT plugin</MetaData><!--BOOKTITLE VALUE - topic/ph bookmap/booktitlealt --><VarDef varDef="booktitlealt">Installation and upgrade guide</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><VarDef varDef="chapterName"><Var varDef="lang-chapter"/></VarDef><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="chapter_title" id="#unique_13">Installing the DITA-OT plugin</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">The MiramoPDF DITA-OT plugin <!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">com.miramo.mmpdf</Font> is designed to be seamlessly integrated
+      with any CMS or XML authoring tool such as oXygen or XMetaL. Alternatively it may be used with
+      a standalone DITA-OT installation via the command line interface. This chapter gives an
+      overview of installing or upgrading the plugin.</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_14">System requirements</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">Before installing the Miramo DITA-OT plugin the following software must be installed and
+      working on the target system:</P>
+    <ParaGroup paraGroupDef="ul">
+      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">DITA-OT version 2.4 or above</P>
+      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"><!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">MiramoPDF</Font> or Miramo Enterprise vs 2.0 or above</P>
+    </ParaGroup>
+    <P paraDef="body"><!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">MiramoPDF</Font> Personal edition runs on the following operating systems:</P>
+    <ParaGroup paraGroupDef="ul">
+      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">Windows 7 Professional (64 bit only)</P>
+      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Windows 8.1 (64 bit only)</P>
+      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">Windows 10</P>
+    </ParaGroup>
+    <P paraDef="body">Miramo Enterprise is available to run on Windows Server and Linux operating systems - contact us for more information.</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_15">Installing the Miramo DITA-OT plugin for the first time</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">These instructions relate to installing and integrating the Miramo DITA-OT plugin into an
+      existing DITA-OT installation folder for the first time. For information on upgrading the
+      plugin see <XRef xmlns:svg="http://www.w3.org/2000/svg" id="#unique_16" xRefDef="xref"/>.</P>
+    <P paraDef="body">To integrate with your XML authoring tool or DITA CMS, follow the instructions given by your
+      vendor. See Appendices for information on <XRef xmlns:svg="http://www.w3.org/2000/svg" id="#unique_17" xRefDef="xref"/> and <XRef xmlns:svg="http://www.w3.org/2000/svg" id="#unique_18" xRefDef="xref"/>.</P>
+    <P paraDef="body">See <XRef xmlns:svg="http://www.w3.org/2000/svg" id="#unique_19" xRefDef="xref"/> for a list of files and folders installed in the
+      DITA-OT plugins/ com.miramo.mmpdf folder.</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_20">Installing from the setup.exe [Windows only]</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe and navigate to the DITA-OT
+      install root folder, which contains the 'integrator.xml' file. The MiramoDITA-OT plugin source
+      (including samples, command scripts and templates) will be located in the <!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">[dita-ot
+        install dir]/ plugins/com.miramo.mmpdf</Font> folder, for example:</P>
+    <P paraDef="body"><!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">C:\program files (x86)\dita-ot-3.3\plugins\com.miramo.mmpdf</Font></P>
+    <P paraDef="body">The MiramoDITA-OTplugin&lt;vs&gt;setup.exe will run the DITA-OT integrator and will append
+      the com.miramo.mmpdf folder to the PATH environment variable. The plugin is now ready to
+      use.</P>
+    <P paraDef="body">See <HyperCmd xmlns:svg="http://www.w3.org/2000/svg" fontDef="ulink" openURL="http://www.dita-ot.org">www.dita-ot.org
+      </HyperCmd>for more information on installing and integrating DITA-OT plugins.</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_21">Installing from ZIP archive [all platforms]</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">Download the Miramo DITA-OT plugin ZIP file from <HyperCmd xmlns:svg="http://www.w3.org/2000/svg" fontDef="ulink" openURL="http://www.miramo.com">www.miramo.com </HyperCmd> into a temporary folder <!--topic/ph hi-d found: [i] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="i">tmpdir</Font>, then run the 'dita -install MiramoDITA-OTplugin<!--topic/ph hi-d found: [i] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="i">&lt;vs&gt;</Font>.zip' command to install and register the plugin with the DITA-OT, for example:</P>
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd <Font fontDef="i">tmpdir</Font><br/><Font fontDef="i">dita-ot-installdir</Font>/bin/dita -install MiramoDITA-OTplugin200p01.zip  </P>
+    
+     <P paraDef="body">This will create a new folder, <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"><Font fontDef="i">dita-ot-installdir</Font>/plugins/com.miramo.mmpdf</P></P>
+
+    <P paraDef="body">See <HyperCmd xmlns:svg="http://www.w3.org/2000/svg" fontDef="ulink" openURL="http://www.dita-ot.org">www.dita-ot.org
+      </HyperCmd>for more information on installing and integrating DITA-OT plugins.</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_19">Files and folders</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">The <!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">com.miramo.mmpdf</Font> plugin includes the following files and folders, located in the
+      DITA-OT installation folder selected during installation:</P>
+    <P paraDef="body"><!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">&lt;dita-ot-installdir&gt;/plugins/com.miramo.mmpdf/</Font></P>
+    <P paraDef="body">Source for <!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">com.miramo.mmpdf</Font> plugin:</P>
+    
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">cfg/</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">XSL stylesheet placeholders and language specific localization strings. <!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">Do not
+              change the contents of this folder</Font> - see <XRef xmlns:svg="http://www.w3.org/2000/svg" id="#unique_22" xRefDef="xref"/> for information on generating a
+            custom plugin based on com.miramo.mmpdf and <XRef xmlns:svg="http://www.w3.org/2000/svg" id="#unique_23_Connect_42_mmpdf-localization-strings-dir"><Font fontDef="xreflink">mmpdf:localization-strings.dir</Font></XRef>
+          </P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">com.example.my-mmpdf/</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">Contains source files for making a specialization of the com.miramo.mmpdf plugin. See
+              <XRef xmlns:svg="http://www.w3.org/2000/svg" id="#unique_22" xRefDef="xref"/> for more details.</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">docs/Miramo_DITA-OT_GettingStarted.pdf</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">This document</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">images/</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">Images used by the com.miramo.mmpdf plugin</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">integration/oxygen/MiramoPDF.scenarios</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">The oXygen transformation scenario for producing a PDF from the currently edited DITA
+            file. Import into your oXygen tool using Options-&gt;import transformations</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">integration/xmetal/*</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">Files needed for integrating with XMetaL.</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">logos/</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">Images and logos used by the com.miramo.mmpdf plugin</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">mmtemplates/</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">Miramo Format Definitions default template for DITA publishing:</P><P paraDef="dd" listLabel="N">Miramo Format Definitions templates are XML files which can be edited using the
+            MiramoPDF GUI template design tool, <!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">MiramoDesigner</Font>. </P><P paraDef="dd" listLabel="N"><!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">default.mfd</Font></P><P paraDef="dd" listLabel="N">default template used for publishing DITA content out of the box</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">samples/flowers/</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">The oXygen DITA flowers sample</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">samples/taskbook/</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">A modified version of the DITA-OT taskbook (IT book) sample</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">xsl</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">XSL stylesheets for mapping DITA to MiramoXML</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">dita2mm.cmd</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">Command script for preprocessing a DITA input file to MiramoXML, ready for rendering to
+            PDF. Called by:</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">dita2mmpdf.cmd</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">Command script for running the flowers demo, or for producing a PDF from a specified
+            DITA map.</P>
+      
+      
+        <!--mm:mapToParagraphs dt ctx = dt--><P paraDef="dt">build_dita2mmpdf.xml</P>
+        <!--mm:mapToParagraphs dd ctx = dd--><P paraDef="dd">XML file which contains the ant targets for performing topicmerge and translating the
+            DITA content to MiramoXML (Miramo Simple Markup, which represents the document content),
+            and for rendering that document content to PDF using the format definitions in the MFD
+            template.</P>
+      
+    
+  </Chapter><!--BOOKMAP ignoring text 
+  --><!--BOOKMAP TOPICREF [chapter] id=unique_24--><!--CHAPTER parent class = []--><Chapter><!--STARTSECTION $outputclass=[mmpdf:section:firstSection]--><Section sectionDef="firstSection"/><!--makeBookFormatDefs: processing book metadata start-->
+    <VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+    
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    
+  <!--makeBookFormatDefs: processing book metadata end--><!--BOOKTITLE VALUE - topic/ph bookmap/mainbooktitle --><VarDef varDef="mainbooktitle">MiramoPDF and the DITA-OT plugin</VarDef><MetaData name="dc:title">MiramoPDF and the DITA-OT plugin</MetaData><!--BOOKTITLE VALUE - topic/ph bookmap/booktitlealt --><VarDef varDef="booktitlealt">Installation and upgrade guide</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><VarDef varDef="chapterName"><Var varDef="lang-chapter"/></VarDef><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="chapter_title" id="#unique_24">Upgrading</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END--><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_16">Upgrading the Miramo DITA-OT plugin</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe and navigate to the DITA-OT
+      install root folder. If the target DITA-OT folder already contains an instance of the Miramo
+      DITA-OT plugin com.miramo.mmpdf, the installer will automatically uninstall the existing
+      plugin from the com.miramo.mmpdf plugin folder, and existing configuration files and XSL
+      stylesheets in the com.miramo.mmpdf folder will be overwritten. If you wish to install
+      multiple versions of the plugin, navigate to a different DITA-OT folder and choose to proceed
+      without uninstalling the previous version when prompted.</P>
+    <P paraDef="body">If you have made changes to the 'default.mfd' template file located in the
+      com.miramo.mmpdf\mmtemplates folder, the installer will make a backup copy of the
+      'default.mfd' to 'default-pre&lt;vs&gt;mfd', where &lt;vs&gt; is the version being installed
+      for example <!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">200p01</Font>. Any other MFD files located in the mmtemplates folder will be left
+      unchanged.</P>
+    <P paraDef="note"><ListLabel><Image file="C:\Program Files\Oxygen XML Editor 23\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf/images/important.svg"/></ListLabel><Font fontDef="notetext">Important<Var varDef="lang-note-separator"/></Font>Once the installation has completed, upgrade any existing MFD files (including the renamed
+      'default.mfd' if present) by following the instructions given below.</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_25">Upgrading existing MFD files</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">Several new features and improvements have been introduced in version 2.0 of the MiramoPDF
+      DITA-OT plugin, some of which have implications for upgrading existing MFD template files.</P>
+    <P paraDef="body">For example, the interparagraph spacing mode has changed since version 1.4 to remove
+      inconsistencies. In the new version, spacing between paragraphs is exclusively controlled
+      using @spaceAbove and @spaceBelow. If the values of these attributes is 0, there will be no
+      space between paragraphs.</P>
+    <P paraDef="body">As a consequence the @spaceBelow values in ParaDef format definitions with a non-zero
+      @leading value in MFD templates need to be adjusted to achieve the correct interparagraph
+      spacing.</P>
+    <P paraDef="body">If you are using oXygen, a new transformation scenario 'MiramoPDF 2.0.0 MFD upgrade' has been
+      added to streamline the upgrade process. See <XRef xmlns:svg="http://www.w3.org/2000/svg" id="#unique_26" xRefDef="xref"/> for more information.
+      Alternatively the MiramoPDF distribution includes a command line utility 'mfdupgrade.cmd'
+      which automates the upgrade process. </P>
+    <P paraDef="body">Running the automated upgrade process on an MFD file '<!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">filename</Font>.mfd' results in a new
+      MFD file '<!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">filename_upgraded.mfd</Font>'. Once you are happy with the results of the upgrade,
+      this may be used in place of the original MFD file (but it is recommended that you make a
+      backup copy first).</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_27">Upgrading oXygen Transformation scenarios</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">Before importing the transformation scenarios, open the <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="wintitle">Transformation
+        Scenarios</Font> window and ensure that the <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="uicontrol">Show all scenarios</Font> is
+      set:</P>
+    <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
+      <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="miramopdf-dita-ot-plugin-getting-started-guide/img-show-all-scenarios.jpeg" keepAspectRatio="Y" shrinkToFit="Y"/></AFrame>
+    </Cell></Row></Tbl>
+    <P paraDef="body">Import the 'MiramoPDF.scenarios' from the
+        <!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">&lt;dita-ot&gt;plugins/com.miramo.mmpdf/integration/oxygen</Font> folder (see
+        <XRef xmlns:svg="http://www.w3.org/2000/svg" id="#unique_28" xRefDef="xref"/> for more information).</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_26">Using the oXygen 'MiramoPDF MFD upgrade' transformation</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">To use the MiramoPDF 2.0.0 MFD upgrade scenario:</P>
+    <ParaGroup paraGroupDef="ul">
+      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" numberValue="1" withPrevious="Y">open the target MFD template as an XML file in oXygen editor</P>
+      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">apply the MiramoPDF 2.0.0 MFD upgrade transformation</P>
+    </ParaGroup>
+    <P paraDef="body">This creates a new MFD file 'template_upgraded.mfd' and opens it using MiramoDesigner. The
+      console window will display diagnostic information describing the changes made.</P>
+  <!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_29">Using the 'mfdupgrade' command line tool</P><!--TOPIC METADATA (- topic/prolog ) START--><VarDef varDef="author">Corinna Kinchin</VarDef><MetaData name="creator">Corinna Kinchin</MetaData>
+      <VarDef varDef="publisherinformationorganization">Datazone Ltd</VarDef><VarDef varDef="organization">Datazone Ltd</VarDef>
+      <VarDef varDef="printlocation">Kenmare, Kerry, Ireland</VarDef>
+      <VarDef varDef="phone"/>
+      <VarDef varDef="email"/>
+      <VarDef varDef="url"/>
+    
+      <VarDef varDef="prodname">Miramo</VarDef>
+      <VarDef varDef="vrmlist">1.62.0</VarDef><VarDef varDef="vrmversion">1.6</VarDef><VarDef varDef="vrmversion">2.0</VarDef>
+    <!--TOPIC METADATA END-->
+    <P paraDef="body">The 'mfdupgrade.cmd' script is installed in <!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">c:\program
+        files\Miramo\MiramoPDF</Font> which is added to the PATH environment variable by the
+      installer.</P>
+    <P paraDef="body">To upgrade your MFD file, start a new DOS command window and enter the following
+      commands:</P>
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd "foldercontainingMFDfile" <br/>mfdupgrade <Font fontDef="b">template</Font>.mfd</P>
+    <P paraDef="body">The system will produce a log file 'mfdupgrade.log' in the current folder, and will
+      automatically open the new <!--topic/ph hi-d found: [b] id=--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="b">template_upgraded.mfd</Font> using MiramoDesigner.</P>
+    <P paraDef="body">The MM_DITA_DIR environment variable is set to the location of the com.miramo.mmpdf plugin
+      folder during installation of the DITA-OT plugin. The mfdupgrade utility copies any missing or
+      updated Format Definitions from the DITA-OT plugin default template 'default.mfd' located in
+        <!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">%MM_DITA_DIR%/plugins/ com.miramo.mmpdf/mmtemplates</Font>.</P>
+  </Chapter><!--BOOKMAP ignoring text  
+--></MiramoXML>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="controlling-formatting-outputclass">
+  <title>Controlling formatting using DITA @outputclass values</title>
+  <conbody>
+    <p>The Miramo DITA-OT plugin allows page layouts, covers, TOC and Index generation to be
+      controlled using one or more space separated 'mmpdf:' @outputclass values, as described in the
+      table below:</p>
+    <table>
+      <title>DITA @outputclass values</title>
+      <tgroup cols="3">
+        <colspec colname="c1" colwidth="1.5*"/>
+        <colspec colname="c2" colwidth="1*"/>
+        <colspec colname="c3" colwidth="1.96*"/>
+        <thead valign="top">
+          <row><entry valign="middle"><p>@outputclass value</p></entry>
+          <entry valign="middle"><p>DITA elements</p></entry>
+          <entry valign="middle"><p>Description</p></entry>
+          </row>
+        </thead>
+        <tbody valign="top">
+          <row>
+            <entry align="left" valign="middle"
+              namest="c1" nameend="c3" outputclass="subheading">Column
+              spanning and page-breaking
+              control</entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>mmpdf:span</p></entry>
+            <entry align="left" valign="middle"><p>title, p, note, cmd</p></entry>
+            <entry align="left" valign="middle"><p>spans title across all columns in multi-column
+                document</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>mmpdf:pageBreak</p></entry>
+            <entry align="left" valign="middle"><p>title, p, note, cmd</p></entry>
+            <entry align="left" valign="middle"><p>breaks page before paragraph</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>mmpdf:columnBreak (alias for
+              break-before)</p></entry>
+            <entry align="left" valign="top"><p>title, p, note, cmd</p></entry>
+            <entry align="left" valign="middle"><p>force paragraph to top of next column (or page,
+                for single-column documents)</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top">
+              <p>mmpdf:keepTogether:<i>bool</i></p>
+            </entry>
+            <entry align="left" valign="top">
+              <p>table, title, p, note, cmd</p>
+            </entry>
+            <entry align="left" valign="middle">
+              <p>set <codeph>keepTogether</codeph>
+                to '<codeph>Y</codeph>' to prevent
+                page or column breaks within the
+                paragraph or table, for example to
+                prevent page breaks before an
+                  <codeph>&lt;image></codeph>
+                anchored within a paragraph with
+                @placement =
+                  '<codeph>break'</codeph></p>
+            </entry>
+          </row>
+          <row>
+            <entry align="left" valign="top">
+              <p>mmpdf:withNext: <i>bool</i>
+              </p>
+            </entry>
+            <entry align="left" valign="top">
+              <p>title, p, note, cmd</p>
+            </entry>
+            <entry align="left" valign="middle">
+              <p>set withNext to 'Y' or 'N' to set
+                the paragraph keep with next
+                property</p>
+            </entry>
+          </row>
+          <row>
+            <entry align="left" valign="top">
+              <p>mmpdf:withPrevious: <i>bool
+                </i></p>
+            </entry>
+            <entry align="left" valign="top">
+              <p>title, p, note, cmd</p>
+            </entry>
+            <entry align="left" valign="middle">
+              <p>set withPrevious to 'Y' or 'N' to
+                set the paragraph keep with
+                previous property</p>
+            </entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"
+              namest="c1" nameend="c3"
+              outputclass="subheading">Paragraph
+              and text formatting</entry>
+          </row>
+          <row>
+            <entry align="left" valign="top">
+              <p>mmpdf:fontDef:<i>name</i></p>
+            </entry>
+            <entry align="left" valign="top">
+              <p>ph</p>
+            </entry>
+            <entry align="left" valign="top">
+              <p>apply fontDef <i>name</i> to this
+                phrase</p>
+            </entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:paraDef:<i>name</i></p></entry>
+            <entry align="left" valign="top"><p>title, p, note, ol, ul</p></entry>
+            <entry align="left" valign="middle"><p>override default paraDef with paraDef
+                  <i>name</i> for rendering
+                generated paragraph. For
+                  <codeph>&lt;ol&gt;</codeph>,
+                  <codeph>&lt;ul&gt;</codeph>
+                elements, use named paraDef for
+                child list items</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:listName:<i>name</i></p></entry>
+            <entry align="left" valign="top"><p>ol, ul</p></entry>
+            <entry align="left" valign="middle"><p>specify basename for generating listItem
+                paragraph names.</p><p>default: orderedlistitem
+                  (<codeph>&lt;ol&gt;</codeph>) or
+                  unorderedlistitem(<codeph>&lt;ul&gt;</codeph>)</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"
+              namest="c1" nameend="c3"
+              outputclass="subheading"
+              >Tables</entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:tblDef:<i>name</i></p></entry>
+            <entry align="left" valign="middle"><p>fig, table,</p><p>simpletable, reltable,
+                hazardstatement</p></entry>
+            <entry align="left" valign="top"><p>use tblDef <i>name</i> for rendering table, figure or hazardstatement</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p id="mmpdf-topRule-name">mmpdf:topRule:<i>name</i></p><p>mmpdf:bottomRule:<i>name</i></p><p>mmpdf:startRule:<i>name</i></p><p>mmpdf:endRule:<i>name</i></p></entry>
+            <entry align="left" valign="top"><p>fig, table,</p><p>simpletable, reltable,
+                hazardstatement, row, strow, entry, stentry</p></entry>
+            <entry align="left" valign="middle"><p>set top, bottom, start or end rule to ruleDef <i>name</i>.</p><p>If applied to a <codeph>&lt;fig&gt;</codeph>,
+                  <codeph>&lt;table&gt;</codeph>,
+                  <codeph>&lt;simpletable&gt;</codeph>,
+                  <codeph>&lt;reltable&gt;</codeph>
+                or
+                  <codeph>&lt;hazardstatement&gt;</codeph>,
+                the ruling applies to the outside
+                edges of the table</p><p>If applied to a <codeph>&lt;row&gt;</codeph> or
+                  <codeph>&lt;strow&gt;</codeph>
+                element, the ruling establishes
+                the default start/end/top/bottom
+                ruling for all contained table
+                cells.</p><p>If applied to a <codeph>&lt;entry&gt;</codeph>
+                or
+                  <codeph>&lt;stentry&gt;</codeph>
+                element, the ruling applies to the
+                edges of the table cell.</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>mmpdf:maximumHeight:<i>dim</i>
+              </p></entry>
+            <entry align="left" valign="middle"><p>row, strow</p></entry>
+            <entry align="left" valign="middle"><p>set maximum row height</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>mmpdf:minimumHeight:<i>dim</i>
+              </p></entry>
+            <entry align="left" valign="middle"><p>row, strow</p></entry>
+            <entry align="left" valign="middle"><p>set minimum row height</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle">mmpdf:splitRow:<i>bool</i></entry>
+            <entry align="left" valign="middle">row, strow</entry>
+            <entry align="left" valign="middle">allow page or column breaks within row</entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle">mmpdf:splitStraddledRow:<i>bool</i></entry>
+            <entry align="left" valign="middle">row, strow</entry>
+            <entry align="left" valign="middle">allow page or column breaks between straddled
+              rows</entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>mmpdf:colorDef:<i>name</i></p></entry>
+            <entry align="left" valign="middle"><p>entry, stentry</p></entry>
+            <entry align="left" valign="middle"><p>use colorDef <i>name</i> for table cell fill</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:fillOpacity;<i>percent</i></p></entry>
+            <entry align="left" valign="top"><p>entry, stentry</p></entry>
+            <entry align="left" valign="middle"><p>use fillOpacity <i>percent</i> in the range
+                0-100% for cell fill color
+                (ignored unless
+                mmpdf:colorDef:name used) </p>
+              <p>default: from TblDef</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:fillTint.<i>percent</i></p></entry>
+            <entry align="left" valign="top"><p>entry, stentry</p></entry>
+            <entry align="left" valign="middle"><p>use fillTint <i>percent</i> in the range 0-100%
+                for cell fill color (ignored
+                unless mmpdf:colorDef:name used) </p>
+              <p>default: from TblDef</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"
+              namest="c1" nameend="c3"
+              outputclass="subheading"
+              >Cross-references</entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"><p>mmpdf:xRefDef:<i>name</i></p></entry>
+            <entry align="left" valign="middle"><p>xref</p></entry>
+            <entry align="left" valign="middle"><p>Use XRefDef <i>name</i> for this cross reference</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"
+              outputclass="subheading" namest="c1"
+              nameend="c3">Vertical
+              spacing</entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"
+                >mmpdf:spaceAbove:<i>dim</i></entry>
+            <entry align="left" valign="middle"
+              >title, p, note, cmd, table,
+              simpletable, image</entry>
+            <entry align="left" valign="middle"
+              >set spaceAbove</entry>
+          </row>
+          <row>
+            <entry align="left" valign="middle"
+                >mmpdf:spaceBelow:<i>dim</i></entry>
+            <entry align="left" valign="middle"
+              >title, p, note, cmd, table,
+              simpletable, image</entry>
+            <entry align="left" valign="middle"
+              >set spaceBelow</entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"
+              namest="c1" nameend="c3"
+              outputclass="subheading">Page layout
+              sequences</entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:section:<i>name</i></p></entry>
+            <entry align="left" valign="middle"><p>map, bookmap, title, topic, topicref, chapter,
+              appendix, booktitle, table</p></entry>
+            <entry align="left" valign="middle"><p>start new section using SectionDef <i>name</i>.</p><p>SectionDef is defined in the MFD template or
+                using</p><p><codeph>&lt;SectionDef sectionDef="name"../&gt;
+                </codeph>and starts a new page
+                layout sequence</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:coverSection:<i>name</i></p></entry>
+            <entry align="left" valign="top"><p>map, bookmap</p></entry>
+            <entry align="left" valign="middle"><p>Use sectionDef <i>name</i> for cover and subsequent pages.</p><p>Ignored if mmpdf:includeCover is set to N. </p>
+              <p>default: coverSection</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:backCoverSection:<i>name</i></p></entry>
+            <entry align="left" valign="top"><p>map, bookmap</p></entry>
+            <entry align="left" valign="middle"><p>Apply sectionDef <i>name</i> to end of PDF.</p><p>Ignored unless mmpdf:includeBackCover is set to
+                Y. </p>
+              <p>default: backCoverSection</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:contentsSection:<i>name</i></p></entry>
+            <entry align="left" valign="top"><p>map, bookmap</p></entry>
+            <entry align="left" valign="middle"><p>Use sectionDef <i>name</i> for TOC and subsequent pages.</p><p>Ignored if mmpdf:includeTOC is set to N. </p>
+              <p>default: contentsSection</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:indexSection:<i>name</i></p></entry>
+            <entry align="left" valign="top"><p>map, bookmap</p></entry>
+            <entry align="left" valign="middle"><p>Use sectionDef <i>name</i> for Index and subsequent pages.</p><p>Ignored if mmpdf:includeIndex is set to N, or document contains no
+                indexterms. default: indexSection</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"
+              namest="c1" nameend="c3"
+              outputclass="subheading">Math
+              equation formatting</entry>
+          </row>
+					<row>
+						<entry align="left" valign="top"><p id="outputclass-mathmldef">mmpdf:mathMLDef:<i>name</i></p></entry>
+						<entry align="left" valign="top">mathml, equation-block, equation-inline</entry>
+						<entry align="left" valign="middle">Use MathMLDef <i>name</i> for formatting this
+							equation</entry>
+					</row>
+          <row>
+            <entry align="left" valign="top"
+              namest="c1" nameend="c3"
+              outputclass="subheading">Chapter and
+              page numbering</entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"
+                >mmpdf:pageNumberStart:<i>startvalue</i></entry>
+            <entry align="left" valign="top"
+              >frontmatter, backmatter, chapter,
+              appendix</entry>
+            <entry><p><i>startvalue</i> is an integer, or the
+                  <codeph>increment</codeph>
+                keyword. If set to
+                  <codeph>increment</codeph>, page
+                numbering will be sequential. Use
+                integer value (usually 1) to set
+                specific page numbering.</p><p>default: from SectionDef</p></entry>
+          
+          </row>
+          <row>
+            <entry align="left" valign="top"
+                >mmpdf:chapterNumberStart:<i>startvalue</i></entry>
+            <entry align="left" valign="top"
+              >frontmatter, backmatter, chapter,
+              appendix</entry>
+            <entry><p><i>startvalue</i> is an integer, or the
+                  <codeph>increment</codeph>
+                keyword. If set to
+                  <codeph>increment</codeph>,
+                chapter numbering will be
+                sequential. Use integer value
+                (usually 1) to set specific
+                chapter number in the
+                  <codeph>chapterNumber</codeph>
+                variable.</p><p>By default, the first
+                  <codeph>&lt;chapter></codeph> or
+                  <codeph>&lt;appendix></codeph>
+                in a bookmap will reset the
+                  <codeph>chapterNumber</codeph>
+                variable to 1.</p></entry>
+ 
+          </row>
+          <row>
+            <entry align="left" valign="top"
+                >mmpdf:chapterNumberStyle:<i>numstyle</i></entry>
+            <entry align="left" valign="top"
+              >frontmatter, backmatter, chapter,
+              appendix</entry>
+            <entry><p><i>numstyle</i> is a keyword for the
+                chapterNumberStyle property, e.g.
+                  '<codeph>westernArabic'</codeph>,
+                  '<codeph>uppercaseAlpha'</codeph>,
+                  '<codeph>lowercaseAlpha'</codeph>,
+                  '<codeph>uppercaseRoman'</codeph>,
+                  '<codeph>lowercaseRoman'</codeph>,
+                  '<codeph>indicArabic'</codeph>,
+                which indicates the numbering
+                scheme and style for the
+                  <codeph>chapterNumber</codeph>
+                variable.</p>
+              <p>By default, the
+                  <codeph>&lt;appendix></codeph>
+                chapterNumberStyle is set to
+                  <codeph>uppercaseAlpha</codeph></p><p>See the
+                <xref
+                href="https://www.miramo.com/download/documentation/mmComposerReferenceGuide2.0.pdf#Chapter.property.chapterNumberStyle"
+                format="pdf" scope="external"
+                >mmComposer reference guide</xref>
+                for a full list.</p> </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </conbody>
+</concept>

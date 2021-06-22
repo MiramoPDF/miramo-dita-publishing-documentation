@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="using_mmaccess_to_enable_write_permissions">
+    <title>Using mmaccess to enable write permissions</title>
+    <body>
+        <p>The MiramoEnterprise distribution includes the ’mmaccess.exe’ utility which provides a
+      convenient method for enabling write access for the runAs user to files and folders: use
+      ’mmaccess -h’ to display the following usage
+      information:<codeblock id="codeblock_cp2_qyg_wpb">Usage: mmaccess [-dir dirname] [-user username] [-y] [-remove]
+
+Grant or remove mmServer runAs user access permission for folder
+
+Options:
+   -dir dirname
+      specify folder name
+      default is current working directory [C:/ap/dita-oti/samples]
+   -file filename
+      specify file name
+   -user username
+      specify username
+      default is mmServer runAs user [.\mmUser]
+   -y
+      apply changes without prompting
+   -allowadmin
+      allow access permission addition to apply to administrator user [VERY DANGEROUS]
+   -remove
+      remove all access permissions previously granted to user</codeblock></p>
+    </body>
+</topic>

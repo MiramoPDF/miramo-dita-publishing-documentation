@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Guide for CMS partners</mainbooktitle>
+    </booktitle>
+  <bookmeta>
+    <author>Corinna Kinchin</author>
+    <publisherinformation>
+      <organization>Datazone Ltd</organization>
+      <printlocation>Kenmare, Kerry, Ireland</printlocation>
+      <data name="phone" value="+353 64 66 289 64"/>
+      <data name="email" value="miramo@datazone.com"/>
+      <data name="url" value="www.miramo.com"/>
+    </publisherinformation>
+    <prodinfo>
+      <prodname>Miramo</prodname>
+      <vrmlist>
+        <vrm version="1.6"/>
+        <vrm version="2.0"/>
+      </vrmlist>
+    </prodinfo>
+  </bookmeta>
+  <frontmatter>
+    <booklists>
+      <toc/>
+    </booklists>
+  </frontmatter>
+  <chapter href="reuse/!reuse.ditamap"
+    format="ditamap"
+    processing-role="resource-only"/>
+  <chapter href="Miramo_Installation_and_Upgrade_guide/introduction.dita" format="dita">
+    <topicref
+      href="Miramo_Installation_and_Upgrade_guide/downloading_miramo.dita"/>
+    <topicref href="Miramo_Installation_and_Upgrade_guide/miramo_installation_packages.dita"/>
+    <topicref
+      href="Miramo_Installation_and_Upgrade_guide/plugin_installation_packages.dita"/>
+  </chapter>
+  <chapter
+    href="Miramo_Installation_and_Upgrade_guide/installing_miramo_on_windows.ditamap"
+    format="ditamap"/>
+  <chapter
+    href="Miramo_Installation_and_Upgrade_guide/upgrading_miramo.ditamap"
+    format="ditamap"/>
+
+  <chapter
+    href="miramopdf-dita-ot-plugin-getting-started-guide/installing.ditamap"
+    format="ditamap"/>
+  <chapter
+    href="miramopdf-dita-ot-plugin-getting-started-guide/upgrading.ditamap"
+    format="ditamap"/> 
+</bookmap>

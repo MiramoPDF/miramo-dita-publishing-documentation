@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="linux_uninstall">
+    <title>Linux uninstall</title>
+    <body>
+        <p>Log in as the administrator user (root)
+            and uninstall  <ph keyref="Product"/>
+            as follows:<ol id="ol_p5f_4l5_wpb">
+                <li>Remove the current
+                    /opt/miramo-n.n.n folder</li>
+                <li>Remove symbolic links
+                        <codeph>/usr/local/bin/miramo</codeph>
+                    and
+                        <codeph>/usr/local/bin/miramo-n.n.n</codeph></li>
+                <li>
+                    <p>For Linux RHD and DBD
+                        distributions, remove the
+                         <codeph>/usr/share/applications/miramo-designer.desktop</codeph>
+                        folder</p>
+                </li>
+            </ol></p>
+    </body>
+</topic>

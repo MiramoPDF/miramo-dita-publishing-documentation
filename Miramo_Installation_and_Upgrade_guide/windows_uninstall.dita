@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="windows_uninstall">
+    <title>Windows uninstall</title>
+    <body>
+        <ol>
+            <li>Uninstall <ph keyref="MiramoPDF"/>
+                or <ph keyref="MiramoEnterprise"/>
+                via the Add/Remove Programs
+                control panel.</li>
+            <li>Reboot the system</li>
+            <li>Remove any remaining installation
+                files from <codeph>C:\Program
+                    Files\Miramo</codeph> and/or
+                    <codeph>C:\Program Files
+                    (x86)\miramo</codeph></li>
+        </ol>
+    </body>
+</topic>

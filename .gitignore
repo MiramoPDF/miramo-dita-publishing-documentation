@@ -7,3 +7,6 @@ _content/*.pdf
 _content/*_miramo.xml
 *.db
 *.swp
+*.mmtmp
+*.mmtmp.ix
+*.pdf

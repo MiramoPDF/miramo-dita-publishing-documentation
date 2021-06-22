@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="upgrading_miramo">
+    <title>Upgrading <ph keyref="Product"/></title>
+
+    <conbody>
+        <p>To upgrade <ph keyref="Product"/>, first uninstall as described below then install the new version according to the instructions given in </p>
+    </conbody>
+</concept>
