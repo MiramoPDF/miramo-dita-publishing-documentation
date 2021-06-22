@@ -41,26 +41,26 @@
     href="Miramo_Installation_and_Upgrade_guide/installing_miramo.dita"
     format="dita">
     <topicref
-      href="Miramo_Installation_and_Upgrade_guide/windows_installation.dita">
+      href="Miramo_Installation_and_Upgrade_guide/windows_installation.dita" format="dita">
       <topicref
-        href="Miramo_Installation_and_Upgrade_guide/windows_desktop_installation.dita"/>
+        href="Miramo_Installation_and_Upgrade_guide/windows_desktop_installation.dita" format="dita"/>
       <topicref
-        href="Miramo_Installation_and_Upgrade_guide/windows_server_installation.dita" product="MiramoEnterprise">
+        href="Miramo_Installation_and_Upgrade_guide/windows_server_installation.dita" product="MiramoEnterprise" format="dita">
         <topicref
-          href="Miramo_Installation_and_Upgrade_guide/testing_windows_server.dita"/>
+          href="Miramo_Installation_and_Upgrade_guide/testing_windows_server.dita" format="dita"/>
         <topicref
-          href="Miramo_Installation_and_Upgrade_guide/mmuser_access_permissions.dita"/>
+          href="Miramo_Installation_and_Upgrade_guide/mmuser_access_permissions.dita" format="dita"/>
         <topicref
-          href="Miramo_Installation_and_Upgrade_guide/using_mmaccess_to_enable_write_permissions.dita"/>
+          href="Miramo_Installation_and_Upgrade_guide/using_mmaccess_to_enable_write_permissions.dita" format="dita"/>
         <topicref
-          href="Miramo_Installation_and_Upgrade_guide/obtaining_a_windows_server_license.dita"
+          href="Miramo_Installation_and_Upgrade_guide/obtaining_a_windows_server_license.dita" format="dita"
         />
       </topicref>
     </topicref>
     <topicref
-      href="Miramo_Installation_and_Upgrade_guide/linux_installation.dita"/>
+      href="Miramo_Installation_and_Upgrade_guide/linux_installation.dita" format="dita"/>
     <topicref
-      href="Miramo_Installation_and_Upgrade_guide/macosx_installation.dita"/>
+      href="Miramo_Installation_and_Upgrade_guide/macosx_installation.dita" format="dita"/>
     
   </chapter>
   <chapter

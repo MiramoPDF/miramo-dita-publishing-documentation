@@ -5,6 +5,7 @@ mmtmp/
 _content/out/
 _content/*.pdf
 _content/*_miramo.xml
+*_miramo.xml
 *.db
 *.swp
 *.mmtmp
