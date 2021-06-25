@@ -66,10 +66,8 @@
   <chapter
     href="Miramo_Installation_and_Upgrade_guide/upgrading_miramo.dita"
     format="dita">
-    <topicref href="Miramo_Installation_and_Upgrade_guide/upgrading_miramo.dita">
       <topicref href="Miramo_Installation_and_Upgrade_guide/windows_uninstall.dita"/>
       <topicref href="Miramo_Installation_and_Upgrade_guide/linux_uninstall.dita"/>
-    </topicref>
   
   </chapter>
 

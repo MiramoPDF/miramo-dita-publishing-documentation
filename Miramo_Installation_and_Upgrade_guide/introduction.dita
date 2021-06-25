@@ -3,7 +3,7 @@
 <topic id="introduction">
     <title>Introduction</title>
     <body>
-        <p>This guide documents how to install and upgrade MiramoPDF and the DITA-OT plugin.</p>
-        <p><ph keyref="MiramoPDF"/> should always be installed or upgraded before the DITA-OT plugin.</p>
+        <p>This guide documents how to install and upgrade <ph keyref="Product"/> and the DITA-OT plugin, for both server and desktop versions.</p>
+        <p>Note that the installation or upgrade of the <ph keyref="plugin"/> requires <ph keyref="Product"/> to be pre-installed.</p>
     </body>
 </topic>

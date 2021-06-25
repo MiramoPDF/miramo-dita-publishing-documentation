@@ -4,22 +4,12 @@
     <title>Upgrading <ph keyref="Product"/></title>
 
     <conbody>
-        <p>For Windows desktop versions of
-            MiramoPDF, and Windows Desktop or
-            Server versions of the MiramoPDF
-            DITA-OT plugin, simply double-click on
-            the setup.exe and follow the
-            instructions, choosing default options
-            and answering 'Yes' when prompted
-            whether to uninstall existing
-            versions.</p>
-        <p>To upgrade <ph keyref="Product"/>,
-            first uninstall as described below
-            then install the new version according
-            to the instructions given in <xref
-                href="installing_miramo.dita"
-                format="xml"/> and <xref
-                href="windows_upgrade.dita"
-                format="xml"/>.</p>
+        <p>For Windows desktop versions of MiramoPDF, and Windows Desktop or Server versions of the
+            MiramoPDF DITA-OT plugin, simply double-click on the setup.exe and follow the
+            instructions, choosing default options and answering 'Yes' when prompted whether to
+            uninstall existing versions.</p>
+        <p>To upgrade <ph keyref="Product"/>, first uninstall as described below then install the
+            new version according to the instructions given in <xref href="installing_miramo.dita"/>
+            and <xref href="windows_upgrade.dita"/>.</p>
     </conbody>
 </concept>

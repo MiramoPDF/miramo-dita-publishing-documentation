@@ -3,17 +3,13 @@
 <topic id="windows_uninstall">
     <title>Windows uninstall</title>
     <body>
-        <ol>
-            <li>Uninstall <ph keyref="MiramoPDF"/>
-                or <ph keyref="MiramoEnterprise"/>
-                via the Add/Remove Programs
-                control panel.</li>
+        <ol id="ol_t5q_554_1qb">
+            <li>Uninstall <ph keyref="MiramoPDF"/> or <ph keyref="MiramoEnterprise"/> via the Add/Remove Programs control panel.</li>
             <li>Reboot the system</li>
-            <li>Remove any remaining installation
-                files from <codeph>C:\Program
-                    Files\Miramo</codeph> and/or
-                    <codeph>C:\Program Files
-                    (x86)\miramo</codeph></li>
+            <li>
+                <p>Remove any remaining installation files from <codeph>C:\Program
+                        Files\Miramo</codeph> or<codeph> C:\Program Files (x86)\miramo</codeph></p>
+            </li>
         </ol>
     </body>
 </topic>
