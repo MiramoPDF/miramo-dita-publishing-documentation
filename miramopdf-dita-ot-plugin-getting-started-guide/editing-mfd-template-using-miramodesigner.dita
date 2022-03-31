@@ -5,10 +5,12 @@
 	<title>Editing the MFD template using MiramoDesigner</title>
 	<conbody>
 		<p>Here is a screenshot of the main <wintitle>MiramoDesigner</wintitle> window, showing the
-      properties of the <i>article_title</i> paragraph, which can be altered as required.</p>
+			properties of the <i>article_title</i> paragraph, which can be altered as required.</p>
 		<fig id="fig_enx_4f3_ghb">
 			<image href="img-miramodesigner-window.jpeg" alt="???" id="image_mnx_4f3_ghb"/>
 		</fig>
-		<p>See videos on the<xref href="https://www.youtube.com/channel/UCp-_zSBd1oJUKVx7jeAd10g" scope="external" format="html"> MiramoPDF YouTube channel </xref>for tutorials on using MiramoDesigner.</p>
+		<p>See videos on the<xref href="https://www.youtube.com/channel/UCp-_zSBd1oJUKVx7jeAd10g"
+				scope="external" format="html"> MiramoPDF YouTube channel </xref>for tutorials on
+			using MiramoDesigner.</p>
 	</conbody>
 </concept>

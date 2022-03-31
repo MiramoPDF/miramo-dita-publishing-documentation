@@ -7,31 +7,29 @@
     <p>The <b>com.miramo.mmpdf</b> plugin includes the following files and folders, located in the
       DITA-OT installation folder selected during installation:</p>
     <p><filepath>&lt;dita-ot-installdir>/plugins/com.miramo.mmpdf/</filepath></p>
-    <p>Source for <b>com.miramo.mmpdf</b> plugin:</p>
+    <p>Source for the <codeph>com.miramo.mmpdf</codeph> DITA-OT plugin:</p>
     <dl>
       <dlentry>
         <dt>cfg/</dt>
         <dd>
           <p>XSL stylesheet placeholders and language specific localization strings. <b>Do not
-              change the contents of this folder</b> - see <xref
-              href="customizing-com-miramo-mmpdf-plugin.dita"/> for information on generating a
-            custom plugin based on com.miramo.mmpdf and <xref
-              href="ant-build-parameters.dita#ant-build-parameters/mmpdf-localization-strings-dir"
-              >mmpdf:localization-strings.dir</xref>
-          </p>
+              change the contents of this folder</b> - refer to <xref
+              conkeyref="xrefs/see_customizing"/> for information on generating a custom plugin
+            based on com.miramo.mmpdf, and setting the
+              <codeph>mmpdf:localization-strings.dir</codeph> ant build parameter.</p>
         </dd>
       </dlentry>
       <dlentry>
         <dt>com.example.my-mmpdf/</dt>
         <dd>
-          <p>Contains source files for making a specialization of the com.miramo.mmpdf plugin. See
-              <xref href="customizing-com-miramo-mmpdf-plugin.dita"/> for more details.</p>
+          <p>Contains source files for making a specialization of the com.miramo.mmpdf plugin. Refer to <xref conkeyref="xrefs/see_customizing"/> for more
+            details on creating a custom plugin.</p>
         </dd>
       </dlentry>
       <dlentry>
-        <dt>docs/Miramo_DITA-OT_GettingStarted.pdf</dt>
+        <dt>docs/</dt>
         <dd>
-          <p>This document</p>
+          <p>Contains <xref conkeyref="xrefs/see_gettingstarted"/></p>
         </dd>
       </dlentry>
       <dlentry>
@@ -43,8 +41,12 @@
       <dlentry>
         <dt>integration/oxygen/MiramoPDF.scenarios</dt>
         <dd>
-          <p>The oXygen transformation scenario for producing a PDF from the currently edited DITA
-            file. Import into your oXygen tool using Options-&gt;import transformations</p>
+          <p>The <ph keyref="DitaTool"/> transformation scenarios for producing a PDF from the
+            currently edited DITA file. Import into your <ph keyref="DitaTool"/> tool using <menucascade>
+              <uicontrol>Options</uicontrol>
+              <uicontrol/>
+              <uicontrol>Import Transformation Scenarios</uicontrol>
+            </menucascade></p>
         </dd>
       </dlentry>
       <dlentry>
@@ -62,17 +64,14 @@
       <dlentry>
         <dt>mmtemplates/</dt>
         <dd>
-          <p>Miramo Format Definitions default template for DITA publishing:</p>
-          <p>Miramo Format Definitions templates are XML files which can be edited using the
-            MiramoPDF GUI template design tool, <b>MiramoDesigner</b>. </p>
-          <p><b>default.mfd</b></p>
-          <p>default template used for publishing DITA content out of the box</p>
+          <p>default.mfd: default <ph keyref="Designer"/> template for DITA publishing 'out of the
+            box'.</p>
         </dd>
       </dlentry>
       <dlentry>
         <dt>samples/flowers/</dt>
         <dd>
-          <p>The oXygen DITA flowers sample</p>
+          <p>The <ph keyref="oxygen"><ph keyref="DitaTool"/></ph> DITA flowers sample</p>
         </dd>
       </dlentry>
       <dlentry>
@@ -84,7 +83,7 @@
       <dlentry>
         <dt>xsl</dt>
         <dd>
-          <p>XSL stylesheets for mapping DITA to MiramoXML</p>
+          <p>XSL stylesheets for mapping the merged DITA content to MiramoXML</p>
         </dd>
       </dlentry>
       <dlentry>

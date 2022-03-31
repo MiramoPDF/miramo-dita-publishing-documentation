@@ -3,16 +3,7 @@
 <map id="integrating-with-oxygen-map" xml:lang="en-us">
     <title>Integrating with oXygen</title>
     <topicref href="integrating-with-oxygen.dita">
-        <topicref href="installing-integrating-plugin-with-oxygen.dita">
-            <topicref href="installing-from-setup-exe-oxygen.dita"/>
-            <topicref href="installing-from-zip-file-advanced.dita"/>
-            <topicref href="running-dita-ot-integrator-oxygen.dita"/>
-            <topicref href="files-and-folders-xref.dita"/>
-        </topicref>
-        <topicref href="configuring-oxygen.dita">
-            <topicref href="import-miramopdf-transformation-scenarios-oxygen.dita"/>
-            <topicref href="make-oXygen-content-completion-present-outputclass-values.dita"/>
-        </topicref>
-        <topicref href="integrating-with-oxygen3.dita"/>
+        <topicref href="import-miramopdf-transformation-scenarios-oxygen.dita"/>
+        <topicref href="make-oXygen-content-completion-present-outputclass-values.dita"/>
     </topicref>
 </map>

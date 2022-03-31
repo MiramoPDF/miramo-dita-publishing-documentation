@@ -5,14 +5,14 @@
 	<title>Multilingual publishing</title>
 	<conbody>
 		<p>Multilingual publishing presents challenges when deciding whether to use a single MFD
-      template to control the appearance of multilingual documents, or to use one MFD file per
-      document language: both approaches have advantages and disadvantages.</p>
-		<p>The Miramo DITA-OT plugin handles multilingual publishing through language specific variables
-      (see <xref href="language-specific-variables.dita"/>), localization text configuration (see
-			<draft-comment author="whitel">missing xref</draft-comment>) and configuring the mapping of
-      xml:lang attribute values to MiramoXML (see <xref
-        href="configuring-supported-xml-lang-values-langlist-xml.dita"/>).</p>
+			template to control the appearance of multilingual documents, or to use one MFD file per
+			document language: both approaches have advantages and disadvantages.</p>
+		<p>The Miramo DITA-OT plugin handles multilingual publishing through language specific
+			variables (see <xref href="language-specific-variables.dita"/>), localization text
+			configuration (see <draft-comment author="whitel">missing xref</draft-comment>) and
+			configuring the mapping of xml:lang attribute values to MiramoXML (see <xref
+				href="configuring-supported-xml-lang-values-langlist-xml.dita"/>).</p>
 		<p>Here are some points to consider when creating MiramoDesigner templates for use within a
-      multilingual publishing system:</p>
+			multilingual publishing system:</p>
 	</conbody>
 </concept>

@@ -1,8 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="windows_server_upgrade">
-    <title>Windows Server Upgrade</title>
+<topic id="windows_uninstall">
+    <title>Upgrading <ph keyref="MiramoEnterprise"/> on Wndows Server
+    </title>
     <body>
-        <p></p>
+        <ol id="ol_t5q_554_1qb">
+            <li>Uninstall <ph keyref="MiramoEnterprise"/> via the Add/Remove Programs control
+                panel.</li>
+            <li>Reboot the system</li>
+            <li>
+                <p>Remove any remaining installation files from <codeph>C:\Program
+                        Files\Miramo</codeph> or<codeph> C:\Program Files (x86)\miramo</codeph></p>
+            </li>
+            <li><p>Download the <xref
+                        href="miramo_installation_packages.dita#miramo_installation_packages/MiramoEnterprise_PKG"
+                    /> and install the new version according to the instructions given in <xref
+                        href="windows_server_installation.dita"/>.</p></li>
+        </ol>
     </body>
 </topic>

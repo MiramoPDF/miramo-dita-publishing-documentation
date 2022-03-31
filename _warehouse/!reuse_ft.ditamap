@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
+<map>
+<title>Reuse</title>
+<topicmeta>
+<author type="contributor">Pieterjan Vandenweghe</author>
+<critdates>
+<!--Pieterjan Vandenweghe-->
+<revised modified="2018/08/16" />
+<!--Pieterjan Vandenweghe-->
+<revised modified="2018/08/17" />
+<!--Pieterjan Vandenweghe-->
+<revised modified="2018/08/21" />
+</critdates>
+</topicmeta>
+<keydef keys="Product">
+<topicmeta>
+<keywords>
+<keyword>Miramo</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="version">
+<topicmeta>
+<keywords>
+<keyword>2.0.0</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="Designer">
+<topicmeta>
+<keywords>
+<keyword>MiramoDesigner</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="MiramoPDF">
+<topicmeta>
+<keywords>
+<keyword>MiramoPDF</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="DitaTool">
+<topicmeta>
+<keywords>
+<keyword>OxygenXML</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="plugin">
+<topicmeta>
+<keywords>
+<keyword>MiramoPDF DITA-OT plugin</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="oxygen">
+<topicmeta>
+<keywords>
+<keyword>oXygenXML Author/Editor</keyword>
+</keywords>
+</topicmeta>
+
+</keydef>
+<keydef keys="oxygenVersion">
+<topicmeta>
+<keywords>
+<keyword>23</keyword>
+</keywords>
+</topicmeta>
+
+</keydef>
+<keydef keys="MiramoEnterprise">
+<topicmeta>
+<keywords>
+<keyword>MiramoEnterprise</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="mmVisor">
+<topicmeta>
+<keywords>
+<keyword>mmVisor</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="com.miramo.mmpdf">
+<topicmeta>
+<keywords>
+<keyword>com.miramo.mmpdf</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="Datazone">
+<topicmeta>
+<keywords>
+<keyword>Datazone Ltd. (email:support@datazone.com)</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="DesktopDownloadURL">
+<topicmeta>
+<keywords>
+<keyword>https://miramo.com/secure-download</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="EnterpriseDownloadURL">
+<topicmeta>
+<keywords>
+<keyword>https://miramo.com/secure-download/?enterprise</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+<keydef keys="MiramoPDFDITA-OTGettingStartedGuide">
+<topicmeta>
+<keywords>
+<keyword>https://www.miramo.com/download/documentation/Miramo_DITA-OT_GettingStarted_2.0.pdf</keyword>
+</keywords>
+</topicmeta>
+</keydef>
+</map>

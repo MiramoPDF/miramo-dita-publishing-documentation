@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"[]>
 <map>
   <title>Random topics</title>
-  <topicref href="ta_creating_a_custom_plugin.dita" />
-<mapref href="reuse/!reuse.ditamap" format="ditamap" processing-role="resource-only"/>
+  <topicref href="ta_creating_a_custom_plugin.dita"/>
+  <mapref href="reuse/!reuse.ditamap" format="ditamap" processing-role="resource-only"/>
 </map>

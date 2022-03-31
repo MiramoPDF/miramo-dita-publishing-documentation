@@ -5,7 +5,8 @@
 	<title>Table of Contents (TOC)s</title>
 	<conbody>
 		<p>By default, TOCs are included under the following condition:</p>
-		<p>bookmap: bookmap element contains a &lt;booklists&gt; &lt;toc&gt; element, for example:</p>
+		<p>bookmap: bookmap element contains a &lt;booklists&gt; &lt;toc&gt; element, for
+			example:</p>
 		<codeblock>&lt;frontmatter>
    &lt;booklists>
       &lt;toc/>

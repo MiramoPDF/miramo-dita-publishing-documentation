@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="creating-new-com-example-my-mmpdf-plugin">
+	<title>Manually creating a new custom plugin</title>
+		<conbody>
+<p>This topic describes how to create a new custom plugin if you don't have access to <ph keyref="DitaTool"><ph keyref="oxygen"/>.</ph></p>
+				<p>The plugin is for a company called <codeph>abc</codeph>, and results in a new
+					transtype <codeph>abc-mmpdf</codeph>'.</p>
+			<p>To do this, copy the
+					<filepath>plugins/com.miramo.mmpdf/com.example.my-mmpdf</filepath> folder to
+					<filepath>plugins/<abbreviated-form keyref="com.abc.mmpdf"/></filepath></p>
+			<p>Then edit the following files in the new com.abc.mmpdf:</p>
+			<ul id="ul_ypv_h53_ghb">
+				<li>plugin.xml</li>
+				<li>conductor.xml</li>
+				<li>build.xml</li>
+			</ul>
+			<p>Replace all occurrences of <codeph>com.example.my-mmpdf </codeph>with
+				<codeph>com.abc.mmpdf</codeph></p>
+			<p>Replace all occurrences of <codeph>my-mmpdf</codeph> with <codeph>abc-mmpdf</codeph></p>
+			<p>Modify xsl/dita2miramo.xsl, cfg/xsl/custom.xsl, cfg/strings/langlist.xml,
+				cfg/strings/*.xml as required</p>
+			<p>Run the DITA-OT integration process</p>
+			<p>The ant target 'dita2abc-mmpdf' will now be available </p>
+		</conbody>
+</concept>

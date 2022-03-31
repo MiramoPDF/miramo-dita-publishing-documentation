@@ -1,33 +1,134 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="pluginVersion">200p021</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#dita-equation-domain-mathml-support">DITA equation domain (&lt;mathml&gt;) support</P>
-		<P paraDef="body">MiramoDesigner includes support for two 'MathMLDef' format definitions, mathml-block and
-			mathml-inline, which may be used to control the appearance of DITA equation domain
-			&lt;mathml&gt; elements.</P>
-		<P paraDef="body">Note that the MathMLDef preference must be enabled via <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="menucascade"><Font fontDef="uicontrol">Edit</Font><Var varDef="menucascadeseparator"/><Font fontDef="uicontrol">Preferences</Font></Font>, as shown below: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><TblTitle><!--topic/title parent fig count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="figureTitle" id="#fig_t2k_s1n_ppb">Enabling MathMLDef support in preferences</P></TblTitle><Row><Cell>
-				
-				<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="graphics/mathml_preferences.png" keepAspectRatio="Y" shrinkToFit="Y"/></AFrame>
-			</Cell></Row></Tbl></P>
-		<P paraDef="body">The MathMLDef format definitions and properties may now be accessed via <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="menucascade"><Font fontDef="uicontrol">More</Font><Var varDef="menucascadeseparator"/><Font fontDef="uicontrol">MathMLDef</Font></Font>:</P>
-		<P paraDef="body"><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="menucascade"><Font fontDef="uicontrol"><AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="graphics/more_button.png" width="72pt" keepAspectRatio="Y"/></AFrame></Font><Var varDef="menucascadeseparator"/><Font fontDef="uicontrol"><AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="graphics/mathml_properties.png" width="70mm" keepAspectRatio="Y"/></AFrame></Font></Font></P>
-    <P paraDef="body">The plugin supports the following DITA math elements, whose appearance is controlled by the
-			MathMLDef format definitions in the MFD template, as follows: </P>
-    <ParaGroup paraGroupDef="ul">
-      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" id="#ul_wqd_dj3_ghb" numberValue="1" withPrevious="Y">equation-block</P><P paraDef="unorderedlistitem1" id="#ul_wqd_dj3_ghb" listLabel="N">Use the &lt;equation-block&gt; element to represent an equation that is
-					presented as a separate block within a text flow. Block equations can be
-					numbered. &lt;equation-block&gt; elements are formatted using the
-						<Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">mathml-block</Font> MathMLDef.</P>
-      
-      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">equation-figure</P><P paraDef="unorderedlistitem1" listLabel="N">Use the &lt;equation-figure&gt; element to represent an equation that functions as form of
-        figure or display. Display equations are intended to be numbered when numbering is desired.
-        &lt;equation-figure&gt; equations are wrapped in a 'equation-figure' table, which allows for
-        different numbering sequences for equation titles.</P>
-      
-      <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">equation-inline</P><P paraDef="unorderedlistitem1" listLabel="N">Use the &lt;equation-inline&gt; element to represent an equation that is
-					presented inline within a paragraph or similar context. Inline equations are not
-					intended to be numbered. &lt;equation-inline&gt; equations are are formatted
-					using the <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">mathml-inline</Font> MathMLDef.</P>
-      
-    </ParaGroup>
-    <P paraDef="body"><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">equation-inline</Font> and <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">equation-block</Font> MathMLDefs may be used
-			to set default font characteristics (font family, pointsize and text color) for
-			&lt;mathml&gt; equations, as well as spacing and positioning properties. </P>
-  </MiramoXML>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com"
+	xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish">
+	<VarDef varDef="pluginVersion">200p021</VarDef>
+	<VarDef varDef="lang-figure">Figure</VarDef>
+	<VarDef varDef="lang-table">Table</VarDef>
+	<VarDef varDef="lang-chapter">Chapter</VarDef>
+	<VarDef varDef="lang-appendix">Appendix</VarDef>
+	<VarDef varDef="lang-page">page</VarDef>
+	<VarDef varDef="lang-optional">Optional:</VarDef>
+	<VarDef varDef="lang-required">Required:</VarDef>
+	<VarDef varDef="lang-glossary"/>
+	<VarDef varDef="lang-listoftables"/>
+	<VarDef varDef="lang-listoffigures"/>
+	<VarDef varDef="lang-onpage">on page</VarDef>
+	<VarDef varDef="lang-prereq">Before you begin</VarDef>
+	<VarDef varDef="lang-postreq">What to do next</VarDef>
+	<VarDef varDef="lang-example">Example</VarDef>
+	<VarDef varDef="lang-context">About this task</VarDef>
+	<VarDef varDef="lang-procedure">Procedure</VarDef>
+	<VarDef varDef="lang-procedure-unordered">Procedure</VarDef>
+	<VarDef varDef="lang-results">Results</VarDef>
+	<VarDef varDef="lang-note">Note</VarDef>
+	<VarDef varDef="lang-preface">Preface</VarDef>
+	<VarDef varDef="lang-notices">Notice</VarDef>
+	<VarDef varDef="lang-notes">Notes</VarDef>
+	<VarDef varDef="lang-tip">Tip</VarDef>
+	<VarDef varDef="lang-fastpath">Fastpath</VarDef>
+	<VarDef varDef="lang-notice">Notice</VarDef>
+	<VarDef varDef="lang-important">Important</VarDef>
+	<VarDef varDef="lang-attention">Attention</VarDef>
+	<VarDef varDef="lang-caution">CAUTION</VarDef>
+	<VarDef varDef="lang-danger">DANGER</VarDef>
+	<VarDef varDef="lang-remember">Remember</VarDef>
+	<VarDef varDef="lang-other">[other]</VarDef>
+	<VarDef varDef="lang-trouble">Trouble</VarDef>
+	<VarDef varDef="lang-restriction">Restriction</VarDef>
+	<VarDef varDef="lang-warning">Warning</VarDef>
+	<VarDef varDef="lang-contents">Contents</VarDef>
+	<VarDef varDef="lang-index">Index</VarDef>
+	<VarDef varDef="lang-listoftables">List of Tables</VarDef>
+	<VarDef varDef="lang-listoffigures">List of Figures</VarDef>
+	<VarDef varDef="lang-glossary">Glossary</VarDef>
+	<VarDef varDef="lang-obsolete">Obsolete:</VarDef>
+	<VarDef varDef="lang-deprecated">Deprecated:</VarDef>
+	<VarDef varDef="lang-default">Default:</VarDef>
+	<VarDef varDef="lang-low">Low:</VarDef>
+	<VarDef varDef="lang-normal">Normal:</VarDef>
+	<VarDef varDef="lang-high">High:</VarDef>
+	<VarDef varDef="lang-recommended">Recommended:</VarDef>
+	<VarDef varDef="lang-urgent">Urgent:</VarDef>
+	<VarDef varDef="metadata-separator">, </VarDef>
+	<VarDef varDef="lang-note-separator">: </VarDef>
+	<!--STARTSECTION $outputclass=[]-->
+	<!--topic/title parent concept count= outputclass=-->
+	<!--STARTSECTION $outputclass=[]-->
+	<P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title"
+		id="#dita-equation-domain-mathml-support">DITA equation domain (&lt;mathml&gt;) support</P>
+	<P paraDef="body">MiramoDesigner includes support for two 'MathMLDef' format definitions,
+		mathml-block and mathml-inline, which may be used to control the appearance of DITA equation
+		domain &lt;mathml&gt; elements.</P>
+	<P paraDef="body">Note that the MathMLDef preference must be enabled via <Font
+			xmlns:svg="http://www.w3.org/2000/svg" fontDef="menucascade"><Font fontDef="uicontrol"
+				>Edit</Font><Var varDef="menucascadeseparator"/><Font fontDef="uicontrol"
+				>Preferences</Font></Font>, as shown below: <Tbl tblDef="fig"><TblColumn width="1*"
+					><TblColumnFormat align="start"
+					/></TblColumn><TblTitle><!--topic/title parent fig count= outputclass=--><!--STARTSECTION $outputclass=[]--><P
+					xmlns:svg="http://www.w3.org/2000/svg" paraDef="figureTitle"
+					id="#fig_t2k_s1n_ppb">Enabling MathMLDef support in
+					preferences</P></TblTitle><Row><Cell> <AFrame
+						xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N"
+						startIndent="inherit" align="start"><Image
+							file="graphics/mathml_preferences.png" keepAspectRatio="Y"
+							shrinkToFit="Y"/></AFrame>
+				</Cell></Row></Tbl></P>
+	<P paraDef="body">The MathMLDef format definitions and properties may now be accessed via <Font
+			xmlns:svg="http://www.w3.org/2000/svg" fontDef="menucascade"><Font fontDef="uicontrol"
+				>More</Font><Var varDef="menucascadeseparator"/><Font fontDef="uicontrol"
+				>MathMLDef</Font></Font>:</P>
+	<P paraDef="body">
+		<Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="menucascade">
+			<Font fontDef="uicontrol">
+				<AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"
+					verticalShift="0pt">
+					<Image file="graphics/more_button.png" width="72pt" keepAspectRatio="Y"/>
+				</AFrame>
+			</Font>
+			<Var varDef="menucascadeseparator"/>
+			<Font fontDef="uicontrol">
+				<AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"
+					verticalShift="0pt">
+					<Image file="graphics/mathml_properties.png" width="70mm" keepAspectRatio="Y"/>
+				</AFrame>
+			</Font>
+		</Font>
+	</P>
+	<P paraDef="body">The plugin supports the following DITA math elements, whose appearance is
+		controlled by the MathMLDef format definitions in the MFD template, as follows: </P>
+	<ParaGroup paraGroupDef="ul">
+		<!--topic/li-->
+		<!--makeListPara li-->
+		<P paraDef="unorderedlistitem1" id="#ul_wqd_dj3_ghb" numberValue="1" withPrevious="Y"
+			>equation-block</P>
+		<P paraDef="unorderedlistitem1" id="#ul_wqd_dj3_ghb" listLabel="N">Use the
+			&lt;equation-block&gt; element to represent an equation that is presented as a separate
+			block within a text flow. Block equations can be numbered. &lt;equation-block&gt;
+			elements are formatted using the <Font xmlns:svg="http://www.w3.org/2000/svg"
+				fontDef="codeph">mathml-block</Font> MathMLDef.</P>
+
+		<!--topic/li-->
+		<!--makeListPara li-->
+		<P paraDef="unorderedlistitem1">equation-figure</P>
+		<P paraDef="unorderedlistitem1" listLabel="N">Use the &lt;equation-figure&gt; element to
+			represent an equation that functions as form of figure or display. Display equations are
+			intended to be numbered when numbering is desired. &lt;equation-figure&gt; equations are
+			wrapped in a 'equation-figure' table, which allows for different numbering sequences for
+			equation titles.</P>
+
+		<!--topic/li-->
+		<!--makeListPara li-->
+		<P paraDef="unorderedlistitem1">equation-inline</P>
+		<P paraDef="unorderedlistitem1" listLabel="N">Use the &lt;equation-inline&gt; element to
+			represent an equation that is presented inline within a paragraph or similar context.
+			Inline equations are not intended to be numbered. &lt;equation-inline&gt; equations are
+			are formatted using the <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph"
+				>mathml-inline</Font> MathMLDef.</P>
+
+	</ParaGroup>
+	<P paraDef="body"><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph"
+			>equation-inline</Font> and <Font xmlns:svg="http://www.w3.org/2000/svg"
+			fontDef="codeph">equation-block</Font> MathMLDefs may be used to set default font
+		characteristics (font family, pointsize and text color) for &lt;mathml&gt; equations, as
+		well as spacing and positioning properties. </P>
+</MiramoXML>

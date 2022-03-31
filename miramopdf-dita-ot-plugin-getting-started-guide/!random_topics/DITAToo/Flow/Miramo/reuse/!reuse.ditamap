@@ -5,11 +5,11 @@
     <author type="contributor">Pieterjan Vandenweghe</author>
     <critdates>
       <!--Pieterjan Vandenweghe-->
-      <revised modified="2018/08/16" />
+      <revised modified="2018/08/16"/>
       <!--Pieterjan Vandenweghe-->
-      <revised modified="2018/08/17" />
+      <revised modified="2018/08/17"/>
       <!--Pieterjan Vandenweghe-->
-      <revised modified="2018/08/21" />
+      <revised modified="2018/08/21"/>
     </critdates>
   </topicmeta>
   <keydef keys="Product">
@@ -54,5 +54,5 @@
       </keywords>
     </topicmeta>
   </keydef>
-  <keydef keys="reuse" format="dita" href="reuse.dita" />
+  <keydef keys="reuse" format="dita" href="reuse.dita"/>
 </map>

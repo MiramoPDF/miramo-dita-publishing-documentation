@@ -4,11 +4,16 @@
 <concept xml:lang="en-us" id="publishing-to-pdf">
 	<title>Publishing to PDF</title>
 	<conbody>
-		<p>This chapter covers using the MiramoPDF DITA-OT plugin and the GUI template designer, MiramoDesigner, to produce custom PDFs from DITA content. It includes information on using MiramoDesigner to customize a Miramo Format Definitions (MFD) template together with information on using ant build parameters and @outputclass attributes to customize the appearance of PDF output.</p>
-		<p>The plugin includes a default MFD template which can be used to publish DITA out of the box,
-      either via your CMS, or using the MiramoPDF output transformation (oXygen) or deliverable
-      (XMetaL), or via a simple command line interface. If the default template suits your needs,
-      you can skip to <xref href="ant-build-parameters.dita"/>. For information on using the command
-      line interface see <xref href="command-line-interface.dita"/>.</p>
+		<p>This chapter covers using the MiramoPDF DITA-OT plugin and the GUI template designer,
+			MiramoDesigner, to produce custom PDFs from DITA content. It includes information on
+			using MiramoDesigner to customize a Miramo Format Definitions (MFD) template together
+			with information on using ant build parameters and @outputclass attributes to customize
+			the appearance of PDF output.</p>
+		<p>The plugin includes a default MFD template which can be used to publish DITA out of the
+			box, either via your CMS, or using the MiramoPDF output transformation (oXygen) or
+			deliverable (XMetaL), or via a simple command line interface. If the default template
+			suits your needs, you can skip to <xref href="ant-build-parameters.dita"/>. For
+			information on using the command line interface see <xref
+				href="command-line-interface.dita"/>.</p>
 	</conbody>
 </concept>

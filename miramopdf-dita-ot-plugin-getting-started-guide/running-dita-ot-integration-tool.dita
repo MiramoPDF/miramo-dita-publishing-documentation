@@ -6,14 +6,19 @@
   <conbody>
     <p>Next, install the new com.example.my-mmpdf plugin by running the DITA-OT ant integration tool
       as enabled by your CMS or authoring tool, or using one of the commands below.</p>
-    <p>For oXygen, see <xref href="running-dita-ot-integrator-oxygen.dita"/>.</p>
+    <p>For oXygen, start your preferred oXygen product, open a DITA file or map in the editor window
+      and run the predefined transformation scenario called <b>Run DITA OT Integrator</b>: execute
+      it from the <codeph>Document-&gt;Transformation- &gt;Apply Transformation Scenario(s)</codeph>
+      dialog box. If the integrator is not visible, select the Show all scenarios option that is
+      available in the Settings drop-down menu.</p>
     <p>For standalone DITA-OT installations, use:</p>
     <codeblock>ant -f integrator.xml</codeblock>
     <p>or use the dita command:</p>
     <codeblock>dita-ot-dir/bin/dita --install</codeblock>
-    <p>This will create a new transformation type 'my-mmpdf' which you can use in place of the
-      'mmpdf' transfomation type. It will also add a new ant target 'dita2my-mmpdf'.</p>
-    <p>The next stage is to modify the files in the
-        <filepath>plugins/com.example.my-mmpdf</filepath> folder.</p>
+    <p>This will register the new transformation type <codeph>abc-mmpdf</codeph> which you can use
+      in place of the <codeph>mmpdf</codeph> transfomation type. It will also add a new ant target
+        <codeph>dita2abc-mmpdf</codeph>.</p>
+    <p>The next stage is to modify the files in the <filepath>plugins/<abbreviated-form
+          keyref="com.miramo.mmpdf"/></filepath> folder.</p>
   </conbody>
 </concept>

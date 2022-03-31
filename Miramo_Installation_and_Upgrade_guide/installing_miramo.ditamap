@@ -1,27 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Installing Miramo</title>
-        <topicref
-            href="windows_installation.dita">
-            <topicref
-                href="windows_desktop_installation.dita"/>
-            <topicref
-                href="windows_server_installation.dita" product="MiramoEnterprise">
-                <topicref
-                    href="testing_windows_server.dita"/>
-                <topicref
-                    href="mmuser_access_permissions.dita"/>
-                <topicref
-                    href="using_mmaccess_to_enable_write_permissions.dita"/>
-                <topicref
-                    href="obtaining_a_windows_server_license.dita"
-                />
-            </topicref>
+    <topicref href="windows_installation.dita">
+        <topicref href="windows_desktop_installation.dita"/>
+        <topicref href="windows_server_installation.dita" product="MiramoEnterprise">
+            <topicref href="testing_windows_server.dita"/>
+            <topicref href="mmuser_access_permissions.dita"/>
+            <topicref href="using_mmaccess_to_enable_write_permissions.dita"/>
+            <topicref href="obtaining_a_windows_server_license.dita"/>
         </topicref>
-    <topicref
-        href="linux_installation.dita"/>
-    <topicref
-        href="macosx_installation.dita"/>
-    
+    </topicref>
+    <topicref href="linux_installation.dita"/>
+    <topicref href="macOS_installation.dita"/>
+
 </map>

@@ -4,15 +4,19 @@
 <concept xml:lang="en-us" id="installing-from-setup-exe">
 	<title>Installing from the setup.exe</title>
 	<conbody>
-		<p>Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe and navigate to the DITA-OT install root folder.</p>
-		<p>For XMetaL Author Enterprise (version 12 or above), the built-in DITA-OT folder is located in the Windows program data directory for XMetaL for example:</p>
+		<p>Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe and navigate to the DITA-OT
+			install root folder.</p>
+		<p>For XMetaL Author Enterprise (version 12 or above), the built-in DITA-OT folder is
+			located in the Windows program data directory for XMetaL for example:</p>
 		<p>
 			<filepath>C:\ProgramData\SoftQuad\XMetaL\Shared\DITA_OT2.4\</filepath>
 		</p>
-		<p>The MiramoDITA-OT plugin source (including samples, command scripts and templates) will be located in:</p>
+		<p>The MiramoDITA-OT plugin source (including samples, command scripts and templates) will
+			be located in:</p>
 		<p>
 			<filepath>C:\ProgramData\SoftQuad\XMetaL\Shared\DITA_OT2.4\plugins\com.miramo.mmpdf</filepath>
 		</p>
-		<p>The MiramoDITA-OTplugin&lt;vs&gt;setup.exe will run the DITA-OT integrator and will append the com.miramo.mmpdf folder to the PATH environment variable.</p>
+		<p>The MiramoDITA-OTplugin&lt;vs&gt;setup.exe will run the DITA-OT integrator and will
+			append the com.miramo.mmpdf folder to the PATH environment variable.</p>
 	</conbody>
 </concept>

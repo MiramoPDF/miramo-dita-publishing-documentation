@@ -1,0 +1,5 @@
+<MiramoXML>
+        <P paraDef="body">Create a file <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">test.xml</Font> in a temporary folder, containing the following
+            MiramoXML markup:<P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"><MkDest id="#unique_9_Connect_42_codeblock_vkh_gwt_3qb"/>&lt;MiramoXML&gt;<br/>&lt;P&gt;Hello World!&lt;/P&gt;<br/>&lt;/MiramoXML&gt;</P></P>
+
+</MiramoXML>

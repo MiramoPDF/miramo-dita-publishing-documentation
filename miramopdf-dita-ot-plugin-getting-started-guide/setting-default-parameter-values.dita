@@ -2,13 +2,35 @@
 <!DOCTYPE concept
   PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept xml:lang="en-us" id="setting-default-parameter-values">
-	<title>Setting default parameter values</title>
-	<conbody>
-		<p>Modify the &lt;xsl:param&gt; and &lt;xsl:variable&gt; definitions in
-			<filepath>custom/xsl/dita2miramo.xsl</filepath> as required. For example, to set all
-      non-inline graphics to be centered rather than start-aligned by default, include this:</p>
-		<codeblock>&lt;!-- Default left/right alignment of images within text column or text frame.
-Allowed values: start center end -->
-&lt;xsl:variable name="defaultImageAlignment">center&lt;/xsl:variable></codeblock>
-	</conbody>
+    <title>Setting default build parameter values</title>
+    <conbody>
+    <p>To set default build parameter values applicable to all publications built with the new custom
+            transtype, modify the custom <codeph>init</codeph> target in the
+                <codeph>build.xml</codeph> file located in the custom plugin folder. These values
+            are defaults and can be overridden as needed by setting ant build parameters, for
+            example by changing the MiramoPDF - <ph keyref="com.abc.mmpdf"/></p>
+        <p>The default init target overrides the mmpdf:localization-strings.dir and mmpdf:mfd.dir
+            properties as shown below:</p>
+    <codeblock>    &lt;target name="abc-mmpdf-init">
+        &lt;!-- add build parameter overrides here. 
+            Default to using local cfg/strings folder for localization-strings -->
+        &lt;property name="this.plugin.dir" value="${dita.plugin.com.miramo.abc-mmpdf.dir}"/>        
+        &lt;property name="mmpdf:localization-strings.dir" value="${dita.plugin.com.miramo.abc-mmpdf.dir}${file.separator}cfg${file.separator}strings"/>
+        &lt;property name="mmpdf:mfd.dir" value="${dita.plugin.com.miramo.abc-mmpdf.dir}${file.separator}mmtemplates"/>
+    &lt;/target>
+    </codeblock>
+        <p>Here's an example of setting the default value for <codeph>mmpdf:fontPath</codeph> to reference
+            a folder containing the custom fonts which are necessary for producing PDFs using the
+            abc-mmpdf transformation type. In the example, the company specific fonts are located in
+            a fonts subfolder of the <ph keyref="com.abc.mmpdf"/> plugin folder:</p>
+        <codeblock>    &lt;target name="abc-mmpdf-init">
+            &lt;!-- add build parameter overrides here. 
+            Default to using local cfg/strings folder for localization-strings -->
+            &lt;property name="this.plugin.dir" value="${dita.plugin.com.miramo.abc-mmpdf.dir}"/>        
+            &lt;property name="mmpdf:localization-strings.dir" value="${dita.plugin.com.miramo.abc-mmpdf.dir}${file.separator}cfg${file.separator}strings"/>
+            &lt;property name="mmpdf:mfd.dir" value="${dita.plugin.com.miramo.abc-mmpdf.dir}${file.separator}mmtemplates"/>
+            &lt;!-- Company specific fonts are located in the fonts subfolder of this plugin -->
+            &lt;property name="mmpdf:fontPath" value="${dita.plugin.com.miramo.abc-mmpdf.dir}${file.separator}fonts"/>
+    &lt;/target>    </codeblock>
+    </conbody>
 </concept>

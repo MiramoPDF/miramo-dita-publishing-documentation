@@ -2,6 +2,11 @@
 <!DOCTYPE concept
   PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept xml:lang="en-us" id="integrating-with-oxygen">
-	<title>Integrating with oXygen</title>
-	<conbody/>
+	<title>Integrating the <ph keyref="plugin"/> with <ph keyref="DitaTool"/></title>
+	<conbody> <p>This section details how to integrate the MiramoPDF DITA-OT plugin with oXygen, and covers
+			importing the <ph keyref="MiramoPDF"/> transformation scenarios, and configuring content
+			completion for <ph keyref="MiramoPDF"/> specific <codeph>outputclass</codeph>
+			attributes. </p>
+		<p>See <xref conkeyref="xrefs/see_outputclass"/> for how these can be used to control PDF
+			output styling.</p></conbody>
 </concept>

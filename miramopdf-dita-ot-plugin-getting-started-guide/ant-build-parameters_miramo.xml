@@ -1,263 +1,670 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="pluginVersion">200p010</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#ant-build-parameters"/>Ant build parameters</P>
-    <P paraDef="body">The table below gives a list of the ant build parameters supported by the MiramoPDF DITA-OT
-      plugin, which may be used to configure aspects of the PDF publishing process..</P>
-    <!--STARTSECTION $outputclass=[]--><Tbl tblDef="table" columns="3"><TblTitle><!--topic/title parent table count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="tableTitle">ant build parameters used by the Miramo DITA-OT plugin</P></TblTitle>
-        <TblColumn width="35*"/>
-        <TblColumn width="25*"/>
-        <TblColumn width="40*"/>
-        <Row type="header">
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">ant parameter</P></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">Default value</P></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">Description</P></Cell>
-          </Row>
-        <Row type="body">
-            <Cell verticalTextAlign="middle"><P>args.input</P></Cell>
-            <Cell verticalTextAlign="middle"><P>${cf}</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Path to the source content
-              being published.</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>args.draft</P></Cell>
-            <Cell verticalTextAlign="middle"><P>no</P></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">Set to ’yes’ to include draft
-                comments as ’comment’ paragraphs
-                in the PDF. If @author</P><!--p element nested in table at nest level 2--><P listLabel="N">is specified the comment is
-                wrapped in the</P><!--p element nested in table at nest level 2--><P listLabel="N">correspondingly named FontDef
-                (ignored</P><!--p element nested in table at nest level 2--><P listLabel="N">unless FontDef is defined in the
-                MFD file)</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>args.filter</P></Cell>
-            <Cell verticalTextAlign="middle"><P/></Cell>
-            <Cell verticalTextAlign="middle"><P>Specifies a filter file to be
-              used to include, exclude, or flag
-              content, as part of the
-                DITAOT<!--p element nested in table at nest level 2--><P listLabel="N">preprocessing</P></P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>args.rellinks</P></Cell>
-            <Cell verticalTextAlign="middle"><P/></Cell>
-            <Cell verticalTextAlign="middle"><P>Specifies which links to
-              include in the output. Allowed
-              values: "none" - No links are
-              included. "all" - All links are
-              included. "noparent" - Parent links
-              are not included. "nofamily" -
-              Parent, child, next, and previous
-              links are not included. </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>clean.temp</P></Cell>
-            <Cell verticalTextAlign="middle"><P>yes</P></Cell>
-            <Cell verticalTextAlign="middle"><P><!--p element nested in table at nest level 2--><P listLabel="N">Specifies whether to remove
-                temporary</P><!--p element nested in table at nest level 2--><P listLabel="N">intermediate files
-                from ${dita.temp.dir} Useful for
-                debugging/development, merged DITA
-                content is located in
-                ${dita.temp.dir}.</P>Allowed
-              values: "yes" (default) "no" </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>dita.dir</P></Cell>
-            <Cell verticalTextAlign="middle"><P>${configured.ditaot.dir}</P></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">Absolute path to the DITA Open
-                Toolkit that is</P><!--p element nested in table at nest level 2--><P listLabel="N">being used.</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>dita.temp.dir</P></Cell>
-            <Cell verticalTextAlign="middle"><P>${cfd}/mmtmp</P></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">Specifies temporary folder for
-                intermediate</P><!--p element nested in table at nest level 2--><P listLabel="N">files.</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>output.dir</P></Cell>
-            <Cell verticalTextAlign="middle"><P>${cfd}</P></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">Path to folder containing output
-                PDF</P><!--p element nested in table at nest level 2--><P listLabel="N">${pdf.file}.</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>pdf.file</P></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">input file with file
-                extension</P><!--p element nested in table at nest level 2--><P listLabel="N">replaced by .pdf</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Name of PDF file to be created
-              in ${output.dir}.</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>transtype</P></Cell>
-            <Cell verticalTextAlign="middle"><P>mmpdf</P></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">Name of transformation type,
-                modify only if</P><!--p element nested in table at nest level 2--><P listLabel="N">using a customization of the</P><!--p element nested in table at nest level 2--><P listLabel="N">com.miramo.mmpdf plugin</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:chapterContentsDef</P></Cell>
-            <Cell verticalTextAlign="middle"><P>chapterTOC</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set ContentsDef to use for formatting chapter TOC (miniTOC) - ignored unless
-              mmpdf:includeChapterTOC = 'Y' </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:contentsDef</P></Cell>
-            <Cell verticalTextAlign="middle"><P>contents1</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set ContentsDef to use for formatting TOC - ignored if mmpdf:includeTOC = 'N' </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:copyImagesToOutput</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Y</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to enable copy-image preprocessing step which copies image files to
-              $output.dir Allowed values: "Y" (default) "N" </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:cropMarks</P></Cell>
-            <Cell verticalTextAlign="middle"><P>N</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to include cropmarks in PDF output Allowed values: "N" (default) "Y"
-            </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:cwd</P></Cell>
-            <Cell verticalTextAlign="middle"><P>${cfd}</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Current working directory for running MiramoPDF, defaults to folder containing
-              dita input </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:defaultCellVerticalAlignment</P></Cell>
-            <Cell verticalTextAlign="middle"><P>middle</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set default vertical aligment of table cell contents Allowed values: "" (default)
-              "top" "middle" "bottom" </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:defaultImageAlignment</P></Cell>
-            <Cell verticalTextAlign="middle"><P/></Cell>
-            <Cell verticalTextAlign="middle"><P>Set default horizontal aligment for images Allowed values: "" (default) "start"
-              "center" "end" </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:defaultImageUnits</P></Cell>
-            <Cell verticalTextAlign="middle"><P>px</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Default units for image width/height values if none specified. Allowed values:
-              "px" (default) "pt" "mm" "pc" "cm" "dd" "cc" </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:fontPath</P></Cell>
-            <Cell verticalTextAlign="middle"><P>default</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set folder or folders to search for fonts in addition to system fonts (default):
-              use path separator ';' (windows) or ':' (linux/mac)</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:formatDefinitionsAsTable</P></Cell>
-            <Cell verticalTextAlign="middle"><P>N</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to format definitions list as table rather than paragraphs Allowed
-              values: "N" (default) "Y" </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:formatGlossaryAsTable</P></Cell>
-            <Cell verticalTextAlign="middle"><P>N</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to format glossary as table rather than paragraphs Allowed values: "N"
-              (default) "Y" </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:formatSectionTitleAsTopicTitle</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Y</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to N to format section title elements as section_title* paragraphs, set to Y
-              to format section title elements as topic_title* paragraphs</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:inlineImageVerticalOffset</P></Cell>
-            <Cell verticalTextAlign="middle"><P>0pt</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set default vertical shift for inline images - positive value moves image
-              baseline down, percentage is relative to image height</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:images.dir</P></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">${dita.dir}\plugins\com.mira</P><!--p element nested in table at nest level 2--><P listLabel="N">mo.mmpdf\images</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Folder containing images for notes, defaults to
-              ${dita.dir}/plugins/com.miramo.mmpdf/images </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:images.suffix</P></Cell>
-            <Cell verticalTextAlign="middle"><P>svg</P></Cell>
-            <Cell verticalTextAlign="middle"><P>File extension for images for notes, defaults to svg</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:includeBackCover</P></Cell>
-            <Cell verticalTextAlign="middle"><P>N</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to include back cover </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:includeChapterTOC</P></Cell>
-            <Cell verticalTextAlign="middle"><P>N</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to include chapter level TOC (minitoc)</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:includeCover</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Y</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to include cover page, N to suppress cover generation  </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:includeIndex</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Y</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to N to suppress index generation </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:includeTOC</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Y</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to N to suppress Table of Contents generation </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:indexDef</P></Cell>
-            <Cell verticalTextAlign="middle"><P>index1</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set IndexDef to use for formatting index - ignored if no indexterms or
-              mmpdf:includeIndex = 'N' </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:jobID</P></Cell>
-            <Cell verticalTextAlign="middle"><P/></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">MiramoEnterprise only: </Font>unique identifier</P><!--p element nested in table at nest level 2--><P listLabel="N">for queued job as viewed in
-                mmVisor</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:localization-strings.dir</P></Cell>
-            <Cell verticalTextAlign="middle"><P>${plugin.dir}/cfg/strings</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Location of strings folder
-              containing langlist.xml and *.xml
-              language files</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:logMetrics</P></Cell>
-            <Cell verticalTextAlign="middle"><P>N</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to create a metrics report detailing format definitions which are used
-              but not defined in the specified MFD template Allowed values: "N" (default) "Y"
-            </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:maxMemory</P></Cell>
-            <Cell verticalTextAlign="middle"><P>1GB</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set maximum memory usage for Miramo composer</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:metadataprecedence</P></Cell>
-            <Cell verticalTextAlign="middle"><P>map</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to 'topic' to allow topic metadata data element values to override equivalent
-              map metadata data element values. Default is 'map', where topic metadata is only used
-              where no equivalent map data is defined Allowed values: "" (default) "map" "topic"
-            </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:mfd.dir</P></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">${dita.dir}\plugins\com.mira</P><!--p element nested in table at nest level 2--><P listLabel="N">mo.mmpdf\mmtemplates</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Folder containing Miramo MFD template file, defaults to
-              ${dita.dir}/plugins/com.miramo.mmpdf/mmtemplates </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:mfd.file</P></Cell>
-            <Cell verticalTextAlign="middle"><P>default.mfd</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Miramo MFD template file, located in ${mfd.dir}, eg default.mfd</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:pdfType</P></Cell>
-            <Cell verticalTextAlign="middle"><P>untagged</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to UA to create structured PDF. Allowed values: "untagged" (default) "UA" </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:processGroup</P></Cell>
-            <Cell verticalTextAlign="middle"><P/></Cell>
-            <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">MiramoEnterprise only:</Font> Name or number of MiramoEnterprise processing group
-                as viewed in mmVisor</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:showStatus</P></Cell>
-            <Cell verticalTextAlign="middle"><P>N</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to highlight @status attributes; N for production Allowed values: "N"
-              (default) "Y" </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:showProperties</P></Cell>
-            <Cell verticalTextAlign="middle"><P>N</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to include PDF
-              tooltips showing Miramo format
-              definitions; N for production
-              Allowed values: "Y" (default) "N"
-            </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:shrinkImagesToFit</P></Cell>
-            <Cell verticalTextAlign="middle"><P>N</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set to Y to shrink overlarge images with no @width or @height to fit container
-              width/height Allowed values: "N" (default) "Y" </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:tableBorders</P></Cell>
-            <Cell verticalTextAlign="middle"><P>fromDITA</P></Cell>
-            <Cell verticalTextAlign="middle"><P>Set table border properties fromDITA (support @frame, @colsep and @rowsep) or
-              fromTblDef (use TblDef rulings) </P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:userVariable1</P></Cell>
-            <Cell verticalTextAlign="middle"><P/></Cell>
-            <Cell verticalTextAlign="middle"><P>Set xslt user variable value 'userVariable1' for use in customizations</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:userVariable2</P></Cell>
-            <Cell verticalTextAlign="middle"><P/></Cell>
-            <Cell verticalTextAlign="middle"><P>Set xslt user variable value 'userVariable2' for use in customizations</P></Cell>
-          </Row><Row type="body">
-            <Cell verticalTextAlign="middle"><P>mmpdf:whiteSpaceMode</P></Cell>
-            <Cell verticalTextAlign="middle"><P>trimLeadingNewlines</P></Cell>
-            <Cell verticalTextAlign="middle"><P>By default, leading newline characters in paragraph text sections are trimmed;
-              set to 'preserve' to treat as whitespace</P></Cell>
-          </Row>
-      </Tbl>
-  </MiramoXML>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com"
+  xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish">
+  <VarDef varDef="pluginVersion">200p010</VarDef>
+  <VarDef varDef="lang-figure">Figure</VarDef>
+  <VarDef varDef="lang-table">Table</VarDef>
+  <VarDef varDef="lang-chapter">Chapter</VarDef>
+  <VarDef varDef="lang-appendix">Appendix</VarDef>
+  <VarDef varDef="lang-page">page</VarDef>
+  <VarDef varDef="lang-optional">Optional:</VarDef>
+  <VarDef varDef="lang-required">Required:</VarDef>
+  <VarDef varDef="lang-glossary"/>
+  <VarDef varDef="lang-listoftables"/>
+  <VarDef varDef="lang-listoffigures"/>
+  <VarDef varDef="lang-onpage">on page</VarDef>
+  <VarDef varDef="lang-prereq">Before you begin</VarDef>
+  <VarDef varDef="lang-postreq">What to do next</VarDef>
+  <VarDef varDef="lang-example">Example</VarDef>
+  <VarDef varDef="lang-context">About this task</VarDef>
+  <VarDef varDef="lang-procedure">Procedure</VarDef>
+  <VarDef varDef="lang-procedure-unordered">Procedure</VarDef>
+  <VarDef varDef="lang-results">Results</VarDef>
+  <VarDef varDef="lang-note">Note</VarDef>
+  <VarDef varDef="lang-preface">Preface</VarDef>
+  <VarDef varDef="lang-notices">Notice</VarDef>
+  <VarDef varDef="lang-notes">Notes</VarDef>
+  <VarDef varDef="lang-tip">Tip</VarDef>
+  <VarDef varDef="lang-fastpath">Fastpath</VarDef>
+  <VarDef varDef="lang-notice">Notice</VarDef>
+  <VarDef varDef="lang-important">Important</VarDef>
+  <VarDef varDef="lang-attention">Attention</VarDef>
+  <VarDef varDef="lang-caution">CAUTION</VarDef>
+  <VarDef varDef="lang-danger">DANGER</VarDef>
+  <VarDef varDef="lang-remember">Remember</VarDef>
+  <VarDef varDef="lang-other">[other]</VarDef>
+  <VarDef varDef="lang-trouble">Trouble</VarDef>
+  <VarDef varDef="lang-restriction">Restriction</VarDef>
+  <VarDef varDef="lang-warning">Warning</VarDef>
+  <VarDef varDef="lang-contents">Contents</VarDef>
+  <VarDef varDef="lang-index">Index</VarDef>
+  <VarDef varDef="lang-listoftables">List of Tables</VarDef>
+  <VarDef varDef="lang-listoffigures">List of Figures</VarDef>
+  <VarDef varDef="lang-glossary">Glossary</VarDef>
+  <VarDef varDef="lang-obsolete">Obsolete:</VarDef>
+  <VarDef varDef="lang-deprecated">Deprecated:</VarDef>
+  <VarDef varDef="lang-default">Default:</VarDef>
+  <VarDef varDef="lang-low">Low:</VarDef>
+  <VarDef varDef="lang-normal">Normal:</VarDef>
+  <VarDef varDef="lang-high">High:</VarDef>
+  <VarDef varDef="lang-recommended">Recommended:</VarDef>
+  <VarDef varDef="lang-urgent">Urgent:</VarDef>
+  <VarDef varDef="metadata-separator">, </VarDef>
+  <VarDef varDef="lang-note-separator">: </VarDef>
+  <!--STARTSECTION $outputclass=[]-->
+  <!--topic/title parent concept count= outputclass=-->
+  <!--STARTSECTION $outputclass=[]-->
+  <P paraDef="topic_title"><MkDest id="#ant-build-parameters"/>Ant build parameters</P>
+  <P paraDef="body">The table below gives a list of the ant build parameters supported by the
+    MiramoPDF DITA-OT plugin, which may be used to configure aspects of the PDF publishing
+    process..</P>
+  <!--STARTSECTION $outputclass=[]-->
+  <Tbl tblDef="table" columns="3">
+    <TblTitle>
+      <!--topic/title parent table count= outputclass=-->
+      <!--STARTSECTION $outputclass=[]-->
+      <P paraDef="tableTitle">ant build parameters used by the Miramo DITA-OT plugin</P>
+    </TblTitle>
+    <TblColumn width="35*"/>
+    <TblColumn width="25*"/>
+    <TblColumn width="40*"/>
+    <Row type="header">
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">ant parameter</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">Default value</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">Description</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>args.input</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>${cf}</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Path to the source content being published.</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>args.draft</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>no</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">Set to ’yes’ to include draft comments as ’comment’ paragraphs in the PDF.
+          If @author</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">is specified the comment is wrapped in the</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">correspondingly named FontDef (ignored</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">unless FontDef is defined in the MFD file)</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>args.filter</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P/>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Specifies a filter file to be used to include, exclude, or flag content, as part of the
+            DITAOT<!--p element nested in table at nest level 2--><P listLabel="N"
+          >preprocessing</P></P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>args.rellinks</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P/>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Specifies which links to include in the output. Allowed values: "none" - No links are
+          included. "all" - All links are included. "noparent" - Parent links are not included.
+          "nofamily" - Parent, child, next, and previous links are not included. </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>clean.temp</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>yes</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P><!--p element nested in table at nest level 2--><P listLabel="N">Specifies whether to
+            remove temporary</P><!--p element nested in table at nest level 2--><P listLabel="N"
+            >intermediate files from ${dita.temp.dir} Useful for debugging/development, merged DITA
+            content is located in ${dita.temp.dir}.</P>Allowed values: "yes" (default) "no" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>dita.dir</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>${configured.ditaot.dir}</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">Absolute path to the DITA Open Toolkit that is</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">being used.</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>dita.temp.dir</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>${cfd}/mmtmp</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">Specifies temporary folder for intermediate</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">files.</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>output.dir</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>${cfd}</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">Path to folder containing output PDF</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">${pdf.file}.</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>pdf.file</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">input file with file extension</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">replaced by .pdf</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Name of PDF file to be created in ${output.dir}.</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>transtype</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">Name of transformation type, modify only if</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">using a customization of the</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">com.miramo.mmpdf plugin</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:chapterContentsDef</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>chapterTOC</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set ContentsDef to use for formatting chapter TOC (miniTOC) - ignored unless
+          mmpdf:includeChapterTOC = 'Y' </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:contentsDef</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>contents1</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set ContentsDef to use for formatting TOC - ignored if mmpdf:includeTOC = 'N' </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:copyImagesToOutput</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Y</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to enable copy-image preprocessing step which copies image files to $output.dir
+          Allowed values: "Y" (default) "N" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:cropMarks</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>N</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to include cropmarks in PDF output Allowed values: "N" (default) "Y" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:cwd</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>${cfd}</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Current working directory for running MiramoPDF, defaults to folder containing dita input
+        </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:defaultCellVerticalAlignment</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>middle</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set default vertical aligment of table cell contents Allowed values: "" (default) "top"
+          "middle" "bottom" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:defaultImageAlignment</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P/>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set default horizontal aligment for images Allowed values: "" (default) "start" "center"
+          "end" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:defaultImageUnits</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>px</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Default units for image width/height values if none specified. Allowed values: "px"
+          (default) "pt" "mm" "pc" "cm" "dd" "cc" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:fontPath</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>default</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set folder or folders to search for fonts in addition to system fonts (default): use path
+          separator ';' (windows) or ':' (linux/mac)</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:formatDefinitionsAsTable</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>N</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to format definitions list as table rather than paragraphs Allowed values: "N"
+          (default) "Y" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:formatGlossaryAsTable</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>N</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to format glossary as table rather than paragraphs Allowed values: "N" (default)
+          "Y" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:formatSectionTitleAsTopicTitle</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Y</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to N to format section title elements as section_title* paragraphs, set to Y to
+          format section title elements as topic_title* paragraphs</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:inlineImageVerticalOffset</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>0pt</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set default vertical shift for inline images - positive value moves image baseline down,
+          percentage is relative to image height</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:images.dir</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">${dita.dir}\plugins\com.mira</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">mo.mmpdf\images</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Folder containing images for notes, defaults to
+          ${dita.dir}/plugins/com.miramo.mmpdf/images </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:images.suffix</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>svg</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>File extension for images for notes, defaults to svg</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:includeBackCover</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>N</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to include back cover </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:includeChapterTOC</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>N</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to include chapter level TOC (minitoc)</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:includeCover</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Y</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to include cover page, N to suppress cover generation </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:includeIndex</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Y</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to N to suppress index generation </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:includeTOC</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Y</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to N to suppress Table of Contents generation </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:indexDef</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>index1</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set IndexDef to use for formatting index - ignored if no indexterms or mmpdf:includeIndex
+          = 'N' </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:jobID</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P/>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">MiramoEnterprise only:
+          </Font>unique identifier</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">for queued job as viewed in mmVisor</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:localization-strings.dir</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>${plugin.dir}/cfg/strings</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Location of strings folder containing langlist.xml and *.xml language files</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:logMetrics</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>N</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to create a metrics report detailing format definitions which are used but not
+          defined in the specified MFD template Allowed values: "N" (default) "Y" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:maxMemory</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>1GB</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set maximum memory usage for Miramo composer</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:metadataprecedence</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>map</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to 'topic' to allow topic metadata data element values to override equivalent map
+          metadata data element values. Default is 'map', where topic metadata is only used where no
+          equivalent map data is defined Allowed values: "" (default) "map" "topic" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:mfd.dir</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">${dita.dir}\plugins\com.mira</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">mo.mmpdf\mmtemplates</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Folder containing Miramo MFD template file, defaults to
+          ${dita.dir}/plugins/com.miramo.mmpdf/mmtemplates </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:mfd.file</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>default.mfd</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Miramo MFD template file, located in ${mfd.dir}, eg default.mfd</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:pdfType</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>untagged</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to UA to create structured PDF. Allowed values: "untagged" (default) "UA" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:processGroup</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P/>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">MiramoEnterprise
+            only:</Font> Name or number of MiramoEnterprise processing group as viewed in
+          mmVisor</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:showStatus</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>N</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to highlight @status attributes; N for production Allowed values: "N" (default)
+          "Y" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:showProperties</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>N</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to include PDF tooltips showing Miramo format definitions; N for production
+          Allowed values: "Y" (default) "N" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:shrinkImagesToFit</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>N</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set to Y to shrink overlarge images with no @width or @height to fit container
+          width/height Allowed values: "N" (default) "Y" </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:tableBorders</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>fromDITA</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set table border properties fromDITA (support @frame, @colsep and @rowsep) or fromTblDef
+          (use TblDef rulings) </P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:userVariable1</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P/>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set xslt user variable value 'userVariable1' for use in customizations</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:userVariable2</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P/>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>Set xslt user variable value 'userVariable2' for use in customizations</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell verticalTextAlign="middle">
+        <P>mmpdf:whiteSpaceMode</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>trimLeadingNewlines</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <P>By default, leading newline characters in paragraph text sections are trimmed; set to
+          'preserve' to treat as whitespace</P>
+      </Cell>
+    </Row>
+  </Tbl>
+</MiramoXML>

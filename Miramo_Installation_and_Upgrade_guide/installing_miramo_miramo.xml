@@ -1,121 +1,246 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="pluginVersion">200p021</VarDef><!--DOCMAP--><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><!--opentopic:map outputclass=docmap parent@outputclass=[]--><!--STARTSECTION $outputclass=[mmpdf:section:coverSection]--><Section sectionDef="coverSection"/><VarDef varDef="mainbooktitle">Installing Miramo</VarDef><MetaData name="title">Installing Miramo</MetaData><VarDef varDef="chapterName">Installing Miramo</VarDef><P paraDef="body_anchor" position="topOfPage"/><!--STARTSECTION $outputclass=[mmpdf:section:contentsSection]--><Section sectionDef="contentsSection"/><P paraDef="hidden_contents_title" invisible="Y"><Var varDef="lang-contents"/></P><Contents contentsDef="contents1"/><!--STARTSECTION $outputclass=[mmpdf:section:firstSection]--><Section sectionDef="firstSection"/><!--DOC ignoring text 
-    --><VarDef varDef="mainbooktitle">Installing Miramo</VarDef><MetaData name="title">Installing Miramo</MetaData><!--DOC ignoring text 
-        --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_1--><!--topic/title parent topic count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_1">Windows installation</P>
-        
-        <P paraDef="body">This section includes information on
-            system requirements and installation
-            for the 
-            desktop version.</P>
-    <!--STARTSECTION $outputclass=[]--><!--topic/title parent task count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_2">Installing 
-        Desktop</P><!--mm:mapToParagraphs context ctx = context--><P paraDef="context">Double-click on the pNNNsetup.exe to
-      install MiramoPDF. When prompted, navigate to your chosen installation folder (default is
-        <!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">C:\Program Files\Miramo\</Font><!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath"> and click on OK to continue.</Font>
-    </P><P paraDef="context" listLabel="N">If an earlier version of  is already installed, you will be prompted
-        as shown below:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="screenshots/windows-uninstall-previous.png" width="80mm" keepAspectRatio="Y"/></AFrame></P><P paraDef="context" listLabel="N">Click on <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="uicontrol">Yes</Font> to uninstall the previous version (recommended), or click
-      on  <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="uicontrol">No</Font> to proceed without uninstalling the previous version.</P><P paraDef="context" listLabel="N">Choosing default options will create the following folder:</P><P paraDef="context" listLabel="N"><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">C:\Program Files\Miramo\MiramoPDF 2.0.0</Font></P><P paraDef="context" listLabel="N">The 
-         desktop shortcut will be updated to point to MiramoDesigner.exe in
-        this folder, and the miramo.exe binary (composition engine) is located in the same
-        folder.</P><P paraDef="context" listLabel="N">The PATH environment variable will
-                be set as shown here. Note that if
-                you chose not to uninstall the
-                previous version, both the earlier
-                version and 2.0.0 install folders
-                are included in the PATH
-                environment variable, but the
-                earlier version (1.6 in the
-                example shown) takes
-                    precedence.<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image file="screenshots/winpath.png" width="50mm" keepAspectRatio="Y"/></AFrame></P><P paraDef="context" listLabel="N">If you wish to install multiple
-                concurrent versions of the
-                composition engine, and are
-                publishing using the MiramoPDF
-                DITA-OT plugin, the location of
-                the miramo.exe binary may be
-                configured using the
-                    <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramopath</Font>
-                ant build parameter.</P><!--DOC ignoring text 
-    --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_3--><!--topic/title parent topic count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_3">Linux installation</P><P paraDef="body">This document describes how to install
-            the Linux version of  for server or
-            desktop use.</P>
-        <P paraDef="body">Log in to the target
-                server as an admin user and follow
-                the steps below:</P>
-        <ParaGroup paraGroupDef="ol">
-                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" id="#unique_3_Connect_42_ol_pdr_yxt_wpb" numberValue="1" withPrevious="Y">Create a new folder if necessary, eg /opt/miramo:
-                        <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"><MkDest id="#unique_3_Connect_42_codeblock_in4_vyt_wpb"/>mkdir -p /opt/miramo</P></P>
-                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1"> Change directory to the
-                    new folder:
-                    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd /opt/miramo</P></P>
-                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Extract files from the
-                    downloaded distribution
-                    package, for
-                    example:<P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">tar -xzof /tmp/MiramoPDF-DBD-2.0.0pNNN.tar.gz                    </P>to
-                    create
-                    /opt/miramo/MiramoPDF-2.0.0pNNN
-                    - this is the Miramo
-                    installation folder.</P>
-                        <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Change directory to
-                    the installation folder, eg:
-                    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd /opt/miramo/MiramoPDF-2.0.0pNNN</P></P>
-                        <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Run the install.sh
-                script:
-                <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">./install.sh </P></P>
-                   
-                </ParaGroup>
-        <P paraDef="body">The install.sh script runs the
-            ’installComposer.sh’ script which does
-            the following:<ParaGroup paraGroupDef="ul">
-                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" id="#unique_3_Connect_42_ul_azx_ck5_wpb" numberValue="1" withPrevious="Y">installs the fontconfig
-                    prerequisite if necessary</P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">makes a link from
-                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/local/bin/miramo</Font>
-                    and
-                         <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/local/bin/miramo-</Font> to the
-                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">runComposer.sh</Font>
-                    wrapper script located in the
-                    installation folder, so the
-                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramo</Font>
-                    and <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramo-</Font> commands
-                    (composition engine) are
-                    automatically available to all
-                    users.</P>
-            </ParaGroup></P>
-        <P paraDef="body">For Linux RHD and DBD distributions,
-            the <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">install.sh</Font> script
-            also installs MiramoDesigner using the
-                <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">installDesigner.sh</Font>
-            script, and makes it available to the
-            desktop manager via
-                <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/share/applications/miramo-designer.desktop</Font></P>
-        <P paraDef="body">If you wish to install multiple
-            concurrent versions of the composition
-            engine, and are publishing using the
-            MiramoPDF DITA-OT plugin, the location
-            of the runMmComposer.sh script may be
-            configured using the ’miramopath’ ant
-            build parameter.</P>
-    
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com"
+    xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish">
+    <VarDef varDef="pluginVersion">200p021</VarDef>
+    <!--DOCMAP-->
+    <VarDef varDef="lang-figure">Figure</VarDef>
+    <VarDef varDef="lang-table">Table</VarDef>
+    <VarDef varDef="lang-chapter">Chapter</VarDef>
+    <VarDef varDef="lang-appendix">Appendix</VarDef>
+    <VarDef varDef="lang-page">page</VarDef>
+    <VarDef varDef="lang-optional">Optional:</VarDef>
+    <VarDef varDef="lang-required">Required:</VarDef>
+    <VarDef varDef="lang-glossary"/>
+    <VarDef varDef="lang-listoftables"/>
+    <VarDef varDef="lang-listoffigures"/>
+    <VarDef varDef="lang-onpage">on page</VarDef>
+    <VarDef varDef="lang-prereq">Before you begin</VarDef>
+    <VarDef varDef="lang-postreq">What to do next</VarDef>
+    <VarDef varDef="lang-example">Example</VarDef>
+    <VarDef varDef="lang-context">About this task</VarDef>
+    <VarDef varDef="lang-procedure">Procedure</VarDef>
+    <VarDef varDef="lang-procedure-unordered">Procedure</VarDef>
+    <VarDef varDef="lang-results">Results</VarDef>
+    <VarDef varDef="lang-note">Note</VarDef>
+    <VarDef varDef="lang-preface">Preface</VarDef>
+    <VarDef varDef="lang-notices">Notice</VarDef>
+    <VarDef varDef="lang-notes">Notes</VarDef>
+    <VarDef varDef="lang-tip">Tip</VarDef>
+    <VarDef varDef="lang-fastpath">Fastpath</VarDef>
+    <VarDef varDef="lang-notice">Notice</VarDef>
+    <VarDef varDef="lang-important">Important</VarDef>
+    <VarDef varDef="lang-attention">Attention</VarDef>
+    <VarDef varDef="lang-caution">CAUTION</VarDef>
+    <VarDef varDef="lang-danger">DANGER</VarDef>
+    <VarDef varDef="lang-remember">Remember</VarDef>
+    <VarDef varDef="lang-other">[other]</VarDef>
+    <VarDef varDef="lang-trouble">Trouble</VarDef>
+    <VarDef varDef="lang-restriction">Restriction</VarDef>
+    <VarDef varDef="lang-warning">Warning</VarDef>
+    <VarDef varDef="lang-contents">Contents</VarDef>
+    <VarDef varDef="lang-index">Index</VarDef>
+    <VarDef varDef="lang-listoftables">List of Tables</VarDef>
+    <VarDef varDef="lang-listoffigures">List of Figures</VarDef>
+    <VarDef varDef="lang-glossary">Glossary</VarDef>
+    <VarDef varDef="lang-obsolete">Obsolete:</VarDef>
+    <VarDef varDef="lang-deprecated">Deprecated:</VarDef>
+    <VarDef varDef="lang-default">Default:</VarDef>
+    <VarDef varDef="lang-low">Low:</VarDef>
+    <VarDef varDef="lang-normal">Normal:</VarDef>
+    <VarDef varDef="lang-high">High:</VarDef>
+    <VarDef varDef="lang-recommended">Recommended:</VarDef>
+    <VarDef varDef="lang-urgent">Urgent:</VarDef>
+    <VarDef varDef="metadata-separator">, </VarDef>
+    <VarDef varDef="lang-note-separator">: </VarDef>
+    <!--opentopic:map outputclass=docmap parent@outputclass=[]-->
+    <!--STARTSECTION $outputclass=[mmpdf:section:coverSection]-->
+    <Section sectionDef="coverSection"/>
+    <VarDef varDef="mainbooktitle">Installing Miramo</VarDef>
+    <MetaData name="title">Installing Miramo</MetaData>
+    <VarDef varDef="chapterName">Installing Miramo</VarDef>
+    <P paraDef="body_anchor" position="topOfPage"/>
+    <!--STARTSECTION $outputclass=[mmpdf:section:contentsSection]-->
+    <Section sectionDef="contentsSection"/>
+    <P paraDef="hidden_contents_title" invisible="Y">
+        <Var varDef="lang-contents"/>
+    </P>
+    <Contents contentsDef="contents1"/>
+    <!--STARTSECTION $outputclass=[mmpdf:section:firstSection]-->
+    <Section sectionDef="firstSection"/>
     <!--DOC ignoring text 
-    --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_4--><!--topic/title parent topic count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_4">MacOSX installation</P>
-        <ParaGroup paraGroupDef="ol">
-            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" id="#unique_4_Connect_42_ol_t35_bp5_wpb" numberValue="1" withPrevious="Y">Locate the downloaded .pkg and
-                right-click to 'Open', or double
-                click on the .pkg from your
-                browser: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell><AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="screenshots/1.PNG" width="50mm" keepAspectRatio="Y"/></AFrame></Cell></Row></Tbl></P>
-            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">The package is not notorized so
-                the following notifications will
-                show, dismiss them both: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
-                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/2.PNG" width="40mm" keepAspectRatio="Y"/></AFrame>
-                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/3.png" width="50mm" keepAspectRatio="Y"/></AFrame>
-                </Cell></Row></Tbl></P>
-            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1"> To address this click the apple
-                icon, click system preferences and
-                choose 'security &amp; privacy' -
-                click on 'Open Anyway': <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
-                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/4.png" width="25mm" keepAspectRatio="Y"/></AFrame>
-                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/5.png" width="35mm" keepAspectRatio="Y"/></AFrame>
-                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/6.png" width="35mm" keepAspectRatio="Y"/></AFrame>
-                </Cell></Row></Tbl></P>
-        </ParaGroup>
+    -->
+    <VarDef varDef="mainbooktitle">Installing Miramo</VarDef>
+    <MetaData name="title">Installing Miramo</MetaData>
+    <!--DOC ignoring text 
+        -->
+    <!--map/topicref -->
+    <!--STARTSECTION $outputclass=[]-->
+    <!--MAP/TOPICREF (doc)unique_1-->
+    <!--topic/title parent topic count= outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_1">Windows
+        installation</P>
+
+    <P paraDef="body">This section includes information on system requirements and installation for
+        the desktop version.</P>
+    <!--STARTSECTION $outputclass=[]-->
+    <!--topic/title parent task count=1 outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_2">Installing
+        Desktop</P>
+    <!--mm:mapToParagraphs context ctx = context-->
+    <P paraDef="context">Double-click on the pNNNsetup.exe to install MiramoPDF. When prompted,
+        navigate to your chosen installation folder (default is <!--SW-D FOUND--><Font
+            xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">C:\Program
+            Files\Miramo\</Font><!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg"
+            fontDef="filepath"> and click on OK to continue.</Font>
+    </P>
+    <P paraDef="context" listLabel="N">If an earlier version of is already installed, you will be
+        prompted as shown below:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y"
+            position="below" crop="N" startIndent="inherit" align="start"><Image
+                file="screenshots/windows-uninstall-previous.png" width="80mm" keepAspectRatio="Y"
+            /></AFrame></P>
+    <P paraDef="context" listLabel="N">Click on <Font xmlns:svg="http://www.w3.org/2000/svg"
+            fontDef="uicontrol">Yes</Font> to uninstall the previous version (recommended), or click
+        on <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="uicontrol">No</Font> to proceed
+        without uninstalling the previous version.</P>
+    <P paraDef="context" listLabel="N">Choosing default options will create the following
+        folder:</P>
+    <P paraDef="context" listLabel="N">
+        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">C:\Program
+            Files\Miramo\MiramoPDF 2.0.0</Font>
+    </P>
+    <P paraDef="context" listLabel="N">The desktop shortcut will be updated to point to
+        MiramoDesigner.exe in this folder, and the miramo.exe binary (composition engine) is located
+        in the same folder.</P>
+    <P paraDef="context" listLabel="N">The PATH environment variable will be set as shown here. Note
+        that if you chose not to uninstall the previous version, both the earlier version and 2.0.0
+        install folders are included in the PATH environment variable, but the earlier version (1.6
+        in the example shown) takes precedence.<AFrame xmlns:svg="http://www.w3.org/2000/svg"
+            wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image
+                file="screenshots/winpath.png" width="50mm" keepAspectRatio="Y"/></AFrame></P>
+    <P paraDef="context" listLabel="N">If you wish to install multiple concurrent versions of the
+        composition engine, and are publishing using the MiramoPDF DITA-OT plugin, the location of
+        the miramo.exe binary may be configured using the <Font
+            xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramopath</Font> ant build
+        parameter.</P>
+    <!--DOC ignoring text 
+    -->
+    <!--map/topicref -->
+    <!--STARTSECTION $outputclass=[]-->
+    <!--MAP/TOPICREF (doc)unique_3-->
+    <!--topic/title parent topic count= outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_3">Linux
+        installation</P>
+    <P paraDef="body">This document describes how to install the Linux version of for server or
+        desktop use.</P>
+    <P paraDef="body">Log in to the target server as an admin user and follow the steps below:</P>
+    <ParaGroup paraGroupDef="ol">
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1" id="#unique_3_Connect_42_ol_pdr_yxt_wpb" numberValue="1"
+            withPrevious="Y">Create a new folder if necessary, eg /opt/miramo: <P
+                xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"
+                    ><MkDest id="#unique_3_Connect_42_codeblock_in4_vyt_wpb"/>mkdir -p
+                /opt/miramo</P></P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1"> Change directory to the new folder: <P
+                xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd
+                /opt/miramo</P></P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1">Extract files from the downloaded distribution package, for
+                example:<P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines"
+                whiteSpaceCollapse="N">tar -xzof /tmp/MiramoPDF-DBD-2.0.0pNNN.tar.gz </P>to create
+            /opt/miramo/MiramoPDF-2.0.0pNNN - this is the Miramo installation folder.</P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1">Change directory to the installation folder, eg: <P
+                xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd
+                /opt/miramo/MiramoPDF-2.0.0pNNN</P></P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1">Run the install.sh script: <P
+                xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"
+                >./install.sh </P></P>
+
+    </ParaGroup>
+    <P paraDef="body">The install.sh script runs the ’installComposer.sh’ script which does the
+            following:<ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"
+                id="#unique_3_Connect_42_ul_azx_ck5_wpb" numberValue="1" withPrevious="Y">installs
+                the fontconfig prerequisite if necessary</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">makes a link from
+                    <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph"
+                    >/usr/local/bin/miramo</Font> and <Font xmlns:svg="http://www.w3.org/2000/svg"
+                    fontDef="codeph">/usr/local/bin/miramo-</Font> to the <Font
+                    xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">runComposer.sh</Font>
+                wrapper script located in the installation folder, so the <Font
+                    xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramo</Font> and <Font
+                    xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramo-</Font> commands
+                (composition engine) are automatically available to all users.</P>
+        </ParaGroup></P>
+    <P paraDef="body">For Linux RHD and DBD distributions, the <Font
+            xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">install.sh</Font> script also
+        installs MiramoDesigner using the <Font xmlns:svg="http://www.w3.org/2000/svg"
+            fontDef="codeph">installDesigner.sh</Font> script, and makes it available to the desktop
+        manager via <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph"
+            >/usr/share/applications/miramo-designer.desktop</Font></P>
+    <P paraDef="body">If you wish to install multiple concurrent versions of the composition engine,
+        and are publishing using the MiramoPDF DITA-OT plugin, the location of the runMmComposer.sh
+        script may be configured using the ’miramopath’ ant build parameter.</P>
+
+    <!--DOC ignoring text 
+    -->
+    <!--map/topicref -->
+    <!--STARTSECTION $outputclass=[]-->
+    <!--MAP/TOPICREF (doc)unique_4-->
+    <!--topic/title parent topic count= outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_4">MacOSX
+        installation</P>
+    <ParaGroup paraGroupDef="ol">
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1" id="#unique_4_Connect_42_ol_t35_bp5_wpb" numberValue="1"
+            withPrevious="Y">Locate the downloaded .pkg and right-click to 'Open', or double click
+            on the .pkg from your browser: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat
+                        align="start"/></TblColumn><Row><Cell><AFrame
+                            xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below"
+                            crop="N" startIndent="inherit" align="start"><Image
+                                file="screenshots/1.PNG" width="50mm" keepAspectRatio="Y"
+                        /></AFrame></Cell></Row></Tbl></P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1">The package is not notorized so the following notifications
+            will show, dismiss them both: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat
+                        align="start"/></TblColumn><Row><Cell>
+                        <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline"
+                            crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image
+                                file="screenshots/2.PNG" width="40mm" keepAspectRatio="Y"/></AFrame>
+                        <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline"
+                            crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image
+                                file="screenshots/3.png" width="50mm" keepAspectRatio="Y"/></AFrame>
+                    </Cell></Row></Tbl></P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1"> To address this click the apple icon, click system
+            preferences and choose 'security &amp; privacy' - click on 'Open Anyway': <Tbl
+                tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
+                        <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline"
+                            crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image
+                                file="screenshots/4.png" width="25mm" keepAspectRatio="Y"/></AFrame>
+                        <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline"
+                            crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image
+                                file="screenshots/5.png" width="35mm" keepAspectRatio="Y"/></AFrame>
+                        <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline"
+                            crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image
+                                file="screenshots/6.png" width="35mm" keepAspectRatio="Y"/></AFrame>
+                    </Cell></Row></Tbl></P>
+    </ParaGroup>
     <!--DOC ignoring text 
     
---></MiramoXML>
+-->
+</MiramoXML>

@@ -1,73 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="linux_installation" platform="linux">
-    <title>Linux installation</title>
-    <body><p>This document describes how to install
-            the Linux version of <ph
-                keyref="Product"/> for server or
-            desktop use.</p>
-        <p>Log in to the target
-                server as an admin user and follow
-                the steps below:</p>
-        <ol
-                    id="ol_pdr_yxt_wpb">
-                    <li>Create a new folder if necessary, eg /opt/miramo:
-                        <codeblock id="codeblock_in4_vyt_wpb">mkdir -p /opt/miramo</codeblock></li>
-                    <li> Change directory to the
-                    new folder:
-                    <codeblock>cd /opt/miramo</codeblock></li>
-                    <li>Extract files from the
-                    downloaded distribution
-                    package, for
-                    example:<codeblock>tar -xzof /tmp/MiramoPDF-DBD-2.0.0pNNN.tar.gz                    </codeblock>to
-                    create
-                    /opt/miramo/MiramoPDF-2.0.0pNNN
-                    - this is the Miramo
-                    installation folder.</li>
-                        <li>Change directory to
-                    the installation folder, eg:
-                    <codeblock>cd /opt/miramo/MiramoPDF-2.0.0pNNN</codeblock></li>
-                        <li>Run the install.sh
-                script:
-                <codeblock>./install.sh </codeblock></li>
-                   
-                </ol>
-        <p>The install.sh script runs the
-            ’installComposer.sh’ script which does
-            the following:<ul id="ul_azx_ck5_wpb">
-                <li>installs the fontconfig
-                    prerequisite if necessary</li>
-                <li>makes a link from
-                        <codeph>/usr/local/bin/miramo</codeph>
-                    and
-                         <codeph>/usr/local/bin/miramo-<ph
-                         keyref="version"
-                        /></codeph> to the
-                        <codeph>runComposer.sh</codeph>
-                    wrapper script located in the
-                    installation folder, so the
-                        <codeph>miramo</codeph>
-                    and <codeph>miramo-<ph
-                         keyref="version"
-                        /></codeph> commands
-                    (composition engine) are
-                    automatically available to all
-                    users.</li>
-            </ul></p>
-        <p>For Linux RHD and DBD distributions,
-            the <codeph>install.sh</codeph> script
-            also installs MiramoDesigner using the
-                <codeph>installDesigner.sh</codeph>
-            script, and makes it available to the
-            desktop manager via
-                <codeph>/usr/share/applications/miramo-designer.desktop</codeph></p>
-        <p>If you wish to install multiple
-            concurrent versions of the composition
-            engine, and are publishing using the
-            MiramoPDF DITA-OT plugin, the location
-            of the runMmComposer.sh script may be
-            configured using the ’miramopath’ ant
-            build parameter.</p>
-    
-    </body>
-</topic>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="linux_installation" platform="linux">
+    <title>Installing on Linux</title>
+    <taskbody>
+        <prereq id="prereq_fps_5cz_lqb">
+            <ol id="ol_kb1_bdz_lqb">
+                <li>Download the appropriate package from the download site:
+                            <p>
+                                <codeph><ph keyref="MiramoEnterprise"/>-CentOS7-<ph keyref="version"
+                                        />p<i>NNN</i>.tar.gz</codeph></p>
+                            <p>
+                                <codeph><ph keyref="MiramoEnterprise"/>-Fedora30-<ph
+                                        keyref="version"/>p<i>NNN</i>.tar.gz</codeph></p>
+                            <p>
+                                <codeph><ph keyref="MiramoEnterprise"/>-Ubuntu18-<ph
+                                        keyref="version"/>p<i>NNN</i>.tar.gz</codeph></p>
+                        </li>
+
+                <li>Log in to the target server as an admin user.</li>
+            </ol>
+        </prereq>
+        <context>Follow the steps below to install:</context>
+        <steps id="steps_shn_zcz_lqb">
+            <step>
+                <cmd>Create a new folder if necessary, eg <codeph>/opt/miramo</codeph>:</cmd>
+                <stepxmp>
+                    <codeblock>mkdir -p /opt/miramo</codeblock>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Change directory to the new folder: </cmd>
+                <stepxmp>
+                    <codeblock>cd /opt/miramo</codeblock>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Extract files from the downloaded distribution package.</cmd>
+                <stepxmp>
+                    <p>For example:</p>
+                    <codeblock>tar -xzof <ph keyref="MiramoEnterprise"/>-CentOS7-<ph keyref="version"/>p<i>NNN</i>.tar.gz<i>NNN</i>.tar.gz</codeblock>
+                    <p>to create <codeph>/opt/miramo/MiramoPDF-2.0.0p<i>NNN</i></codeph>.</p>
+                    <p>This is the Miramo installation folder.</p>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Change directory to the installation folder.</cmd>
+                <stepxmp>
+                    <p>For example:</p>
+                    <codeblock>cd /opt/miramo/MiramoPDF-2.0.0p<i>NNN</i></codeblock>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Run the install.sh script: </cmd>
+                <stepxmp>
+                    <codeblock>./install.sh </codeblock>
+                </stepxmp>
+                <stepresult>
+                    <p>The install.sh script runs the ’installComposer.sh’ script which does the
+                        following:</p>
+                    <ul id="ul_azx_ck5_wpb">
+                        <li>installs the fontconfig prerequisite, if necessary.</li>
+                        <li>makes a link from <codeph>/usr/local/bin/miramo</codeph> and
+                                    <codeph>/usr/local/bin/miramo-<ph keyref="version"/></codeph> to
+                            the <codeph>runComposer.sh</codeph> wrapper script located in the
+                            installation folder, so the <codeph>miramo</codeph> and
+                                    <codeph>miramo-<ph keyref="version"/></codeph> commands
+                            (composition engine) are automatically available to all users.</li>
+                    </ul>
+                </stepresult>
+            </step>
+        </steps>
+        <postreq id="postreq_vk5_sdz_lqb">
+            <p>If you wish to install multiple concurrent versions of the composition engine, and
+                are publishing using the <ph keyref="plugin"/>, the location of the runMmComposer.sh
+                script may be configured using the <codeph>miramopath</codeph> ant build parameter.
+                See the <xref conkeyref="xrefs/see_gettingstarted"/> for information on <ph
+                    keyref="Product"/> related ant build parameters.</p>
+            <p>To read more about ant build parameters see <xref
+                    href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/ant-transformation-parameters-tab.html"
+                    format="html" scope="external"/> and <xref
+                    href="https://www.dita-ot.org/2.0/readme/dita-command-properties.html"
+                    format="html" scope="external"/>
+            </p>
+        </postreq>
+
+    </taskbody>
+</task>

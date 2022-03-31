@@ -4,22 +4,20 @@
 <concept xml:lang="en-us" id="upgrading-existing-mfd-files">
   <title>Upgrading existing MFD files</title>
   <conbody>
-    <p>Several new features and improvements have been introduced in version 2.0 of the MiramoPDF
-      DITA-OT plugin, some of which have implications for upgrading existing MFD template files.</p>
-    <p>For example, the interparagraph spacing mode has changed since version 1.4 to remove
-      inconsistencies. In the new version, spacing between paragraphs is exclusively controlled
-      using @spaceAbove and @spaceBelow. If the values of these attributes is 0, there will be no
-      space between paragraphs.</p>
-    <p>As a consequence the @spaceBelow values in ParaDef format definitions with a non-zero
-      @leading value in MFD templates need to be adjusted to achieve the correct interparagraph
-      spacing.</p>
-    <p>If you are using oXygen, a new transformation scenario 'MiramoPDF 2.0.0 MFD upgrade' has been
-      added to streamline the upgrade process. See <xref
-        href="using-oxygen-miramopdf-mfd-upgrade-transformation.dita"/> for more information.
-      Alternatively the MiramoPDF distribution includes a command line utility 'mfdupgrade.cmd'
-      which automates the upgrade process. </p>
-    <p>Running the automated upgrade process on an MFD file '<b>filename</b>.mfd' results in a new
-      MFD file '<b>filename_upgraded.mfd</b>'. Once you are happy with the results of the upgrade,
+    <p>Several new features and improvements have been introduced in version <ph keyref="version"/>
+      of the <ph keyref="plugin"/>, some of which have implications for upgrading existing MFD
+      template files.</p>
+    <p>If you are using <ph keyref="DitaTool"/>, a new transformation scenario <codeph><ph
+          keyref="MiramoPDF"/>
+        <ph keyref="version"/> MFD upgrade</codeph> has been added to streamline the upgrade
+      process. See <xref href="using-oxygen-miramopdf-mfd-upgrade-transformation.dita"/> for more
+      information. </p>
+    <p>Alternatively the <ph keyref="Product"/> distribution includes a Windows command line utility
+        <codeph>mfdupgrade.cmd</codeph> which automates the upgrade process, see <xref
+        href="using-mfdupgrade-command-line-tool.dita"/></p>
+    <p>Running the automated upgrade process on an MFD file <codeph><i>filename</i>.mfd</codeph>
+      results in a new MFD file<codeph>
+        <i>filename</i>_upgraded.mfd</codeph>. Once you are happy with the results of the upgrade,
       this may be used in place of the original MFD file (but it is recommended that you make a
       backup copy first).</p>
   </conbody>

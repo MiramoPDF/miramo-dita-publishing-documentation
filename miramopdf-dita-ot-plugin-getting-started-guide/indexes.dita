@@ -8,7 +8,7 @@
 		<ul id="ul_oxv_nh3_ghb">
 			<li>DITA source contains one or more &lt;indexterm&gt; elements</li>
 			<li>bookmap: bookmap element contains a &lt;booklists&gt; &lt;indexlist&gt; element, for
-        example:</li>
+				example:</li>
 		</ul>
 		<codeblock>&lt;backmatter>
    &lt;booklists>

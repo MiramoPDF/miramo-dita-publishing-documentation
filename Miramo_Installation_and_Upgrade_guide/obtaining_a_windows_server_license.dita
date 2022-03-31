@@ -1,28 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="obtaining_a_license">
-    <title>Obtaining a license</title>
-    <taskbody><context>
-      <p>To request a MiramoEnterprise license for the Miramo server, email support@datazone.com
-        with the server information displayed by the ’mmhostid’ command: we will then email back a
-        license key which may be applied via the ’mmVisor’ Help->Apply license key menu. </p>
+  <title>Obtaining a license for <ph keyref="MiramoEnterprise"/> on Windows Server</title>
+  <taskbody>
+    <context>
+      <p>To request a <ph keyref="MiramoEnterprise"/> license, email support@datazone.com with the
+        Server information displayed by the ’mmhostid’ command. </p>
+      <p>A license key will then be emailed back which may then be applied via the ’mmVisor’ <menucascade>
+          <uicontrol>Help</uicontrol>
+          <uicontrol/>
+          <uicontrol>Apply license key</uicontrol>
+        </menucascade> menu. </p>
       <p>Below are detailed instructions:</p>
-        
-      <ol><li>Run mmhostid<p>Once MiramoEnterprise is installed, log in as a user with Administrator
-            privileges, start a console or powershell window and run the following
-              command:</p><p><codeph>mmhostid hostid.txt</codeph></p><p>This will place hostid
+      <ol>
+        <li>Once MiramoEnterprise is installed on the Windows Server, log in as a user with
+          Administrator privileges, start a console or powershell window and run the following
+              command:<p><codeph>mmhostid hostid.txt</codeph></p><p>This will place hostid
             information into a file named ’hostid.txt’.</p></li>
-        <li>Email 'hostid.txt' to support@datazone.com<p>Next, email the ’hostid.txt’ file created
-            in step 1 to support@datazone.com. We will email back a license information sheet
-            containing a license key and instructions for applying the license.</p></li>
-        <li>
-          <p>Run mmVisor as Administrator and apply license</p>
-          <p>Right-click on the mmVisor icon an select ’Run As Administrator’ to start mmVisor in
-            admin mode (necessary to apply the license key).<image
-              href="screenshots/runAsAdministrator.png" id="image_yg1_1hh_wpb"/></p>
-          <p>Select Help->Apply license key from the main mmVisor menu. <image
-              href="screenshots/applyLicenseKey.png" id="image_vxb_bhh_wpb"
-              outputclass="float-right"/></p>
+        <li>Email the ’hostid.txt’ file created in step 1 to support@datazone.com. A license information sheet will be emailed back containing a license key and instructions for applying
+          the license.</li>
+        <li>Run mmVisor as Administrator and apply license:<p>Right-click on the mmVisor icon an
+            select ’Run As Administrator’ to start mmVisor in admin mode (necessary to apply the
+            license key).<image href="screenshots/runAsAdministrator.png" id="image_yg1_1hh_wpb"
+            /></p>
+          <p>Select <menucascade>
+              <uicontrol>Help</uicontrol>
+              <uicontrol/>
+              <uicontrol>Apply license key</uicontrol>
+            </menucascade> from the main mmVisor menu. <image href="screenshots/applyLicenseKey.png"
+              id="image_vxb_bhh_wpb" outputclass="float-right"/></p>
           <p>If mmServer is running, you will be prompted to stop mmServer before applying the
             license key: click Yes to proceed.</p>
           <p>When prompted to enter license key, copy and paste the license key provided by email
@@ -31,6 +37,8 @@
           <p>When prompted, click on ’Yes’ to start mmServer with the new license:<image
               href="screenshots/startMmServerNow.png" id="image_zwx_jhh_wpb"
               outputclass="float-right"/></p>
-        </li></ol>
-    </context></taskbody>
+        </li>
+      </ol>
+    </context>
+  </taskbody>
 </task>

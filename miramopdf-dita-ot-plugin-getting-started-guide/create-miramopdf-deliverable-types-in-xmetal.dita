@@ -4,17 +4,17 @@
 <concept xml:lang="en-us" id="create-miramopdf-deliverable-types-in-xmetal">
 	<title>Create MiramoPDF 'deliverable types' in XMetaL</title>
 	<conbody>
-		<p>Once the com.miramo.mmpdf folder is installed in the DITA-OT plugins folder the next step is to set up two MiramoPDF deliverable types so they are available when the user selects Generate Output.</p>
+		<p>Once the com.miramo.mmpdf folder is installed in the DITA-OT plugins folder the next step
+			is to set up two MiramoPDF deliverable types so they are available when the user selects
+			Generate Output.</p>
 		<ol id="ol_ihs_cy3_ghb">
-			<li>Copy the two configuration files:
-				print_miramo_pdf.xml and
-				print_miramo_pd- f_dev.xml from:<p>
+			<li>Copy the two configuration files: print_miramo_pdf.xml and print_miramo_pd-
+				f_dev.xml from:<p>
 					<filepath>C:\ProgramData\SoftQuad\XMetaL\Shared\DITA_OT2.4\plugins\com.miramo.mmpdf\integration\xmetal</filepath>
 				</p>
 				<p>to:</p>
 				<p>
-					<filepath>C:\Program
-						Files\XMetaL
+					<filepath>C:\Program Files\XMetaL
 						12.0\Author\DITA\XACs\shared\renditions</filepath>
 				</p>
 			</li>
@@ -23,7 +23,8 @@
 					<uicontrol>Tools</uicontrol>
 					<uicontrol>Configure output</uicontrol>
 				</menucascade>, click on <uicontrol>Add</uicontrol>.<fig id="fig_dww_gy3_ghb">
-					<image href="img-xmetal-configure-output-options.jpeg" alt="???" id="image_ilp_whh_ghb"/>
+					<image href="img-xmetal-configure-output-options.jpeg" alt="???"
+						id="image_ilp_whh_ghb"/>
 				</fig>
 				<p>The <wintitle>Add Deliverable Type</wintitle> dialog appears.</p>
 			</li>
@@ -32,19 +33,19 @@
 				</fig>
 			</li>
 			<li>Click <uicontrol>Continue</uicontrol> (button)</li>
-			<li>In the <uicontrol>Name</uicontrol> field enter 'MiramoPDF' as the name you would like to
-        appear in the list of deliverable types in XMetaL's "Generate Output for DITA Map" dialog
-        and click <uicontrol>Ok</uicontrol>.<fig id="fig_xmw_ky3_ghb">
+			<li>In the <uicontrol>Name</uicontrol> field enter 'MiramoPDF' as the name you would
+				like to appear in the list of deliverable types in XMetaL's "Generate Output for
+				DITA Map" dialog and click <uicontrol>Ok</uicontrol>.<fig id="fig_xmw_ky3_ghb">
 					<image href="img-xmetal-gen-output.jpeg" alt="???" id="image_llp_whh_ghb"/>
 				</fig>
 			</li>
-			<li>Switch to the <uicontrol>Advanced</uicontrol> tab. In the <uicontrol>Configure output
-          options</uicontrol> text box, add this line:<p>
+			<li>Switch to the <uicontrol>Advanced</uicontrol> tab. In the <uicontrol>Configure
+					output options</uicontrol> text box, add this line:<p>
 					<codeblock>run_plugin_integrator = yes</codeblock>
 				</p>
 			</li>
 			<li>Repeat steps 3 to 7: Except in step 4 select 'MiramoPDF_Dev' and in step 6 enter
-        'MiramoPDF Development' in the <uicontrol>Name</uicontrol> field.</li>
+				'MiramoPDF Development' in the <uicontrol>Name</uicontrol> field.</li>
 		</ol>
 	</conbody>
 </concept>

@@ -2,8 +2,8 @@
 <!DOCTYPE concept
   PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept xml:lang="en-us" id="configuring-supported-xml-lang-values-langlist-xml">
-	<title>Configuring supported xml:lang values: langlist.xml</title>
-	<conbody>
+  <title>Configuring supported xml:lang values: langlist.xml</title>
+  <conbody>
     <p>The com.miramo.mmpdf/cfg/strings/langlist.xml file controls the mapping of xml:lang values
       specified in DITA markup, and configures the filename containing localization text. The
       'cfg/strings/*.xml' contain language specific strings used to construct language specific

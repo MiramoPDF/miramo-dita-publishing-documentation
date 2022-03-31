@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept
-  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept xml:lang="en-us" id="installing-from-setup-exe">
-  <title>Installing from the setup.exe [Windows only]</title>
-  <conbody>
-    <p>Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe and navigate to the DITA-OT
-      install root folder, which contains the 'integrator.xml' file. The MiramoDITA-OT plugin source
-      (including samples, command scripts and templates) will be located in the <filepath>[dita-ot
-        install dir]/ plugins/com.miramo.mmpdf</filepath> folder, for example:</p>
-    <p><filepath>C:\program files (x86)\dita-ot-3.3\plugins\com.miramo.mmpdf</filepath></p>
-    <p>The MiramoDITA-OTplugin&lt;vs&gt;setup.exe will run the DITA-OT integrator and will append
-      the com.miramo.mmpdf folder to the PATH environment variable. The plugin is now ready to
-      use.</p>
-    <p>See <xref href="http://www.dita-ot.org" scope="external" format="html">www.dita-ot.org
-      </xref>for more information on installing and integrating DITA-OT plugins.</p>
-  </conbody>
-</concept>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-us" id="installing-from-setup-exe">
+  <title>Installing the <ph keyref="plugin"/> in a standalone DITA OT using the setup.exe [Windows
+    only]</title>
+  <taskbody>
+ <!--   <prereq id="prereq_pbm_jfz_lqb">
+      <p>See <xref href="system-requirements.dita"/>.</p>
+      <p>The <ph keyref="Product"/> publishing software must already be installed.</p>
+    </prereq>-->
+    <steps id="steps_svc_lfz_lqb">
+      <step>
+        <cmd>Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe.</cmd>
+      </step>
+      <step>
+        <cmd>Navigate to the DITA-OT install root folder, which contains the
+            <filepath>integrator.xml</filepath> file. </cmd>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>Install</uicontrol>.</cmd>
+        <stepresult>
+          <p>The MiramoDITA-OT plugin (including samples, command scripts and templates) is
+            installed in the <filepath>plugins</filepath> directory of the DITA OT you selected. It
+            is in a folder named <filepath>com.miramo.mmpdf</filepath>. For example:</p>
+          <p><filepath>C:\Program Files (x86)\dita-ot-3.6.1\plugins\com.miramo.mmpdf</filepath></p>
+          <p>The <ph keyref="plugin"/> installer will run the DITA-OT integrator and will append the
+            com.miramo.mmpdf folder to the <codeph>PATH</codeph> environment variable.</p>
+        </stepresult>
+      </step>
+    </steps>
+    <result id="result_ozq_nfz_lqb">
+      <p>The plugin is now ready to use - it may be necessary to restart your DITA editing tool or
+        CCMS output generator to ensure the new <codeph>PATH</codeph> takes effect.</p>
+    </result>
+  </taskbody>
+</task>

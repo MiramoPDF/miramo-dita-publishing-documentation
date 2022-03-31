@@ -1,164 +1,382 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="pluginVersion">200p021</VarDef><!--DOCMAP--><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><!--opentopic:map outputclass=docmap parent@outputclass=[]--><!--STARTSECTION $outputclass=[mmpdf:section:coverSection]--><Section sectionDef="coverSection"/><VarDef varDef="mainbooktitle">Installing Miramo</VarDef><MetaData name="title">Installing Miramo</MetaData><VarDef varDef="chapterName">Installing Miramo</VarDef><P paraDef="body_anchor" position="topOfPage"/><!--STARTSECTION $outputclass=[mmpdf:section:contentsSection]--><Section sectionDef="contentsSection"/><P paraDef="hidden_contents_title" invisible="Y"><Var varDef="lang-contents"/></P><Contents contentsDef="contents1"/><!--STARTSECTION $outputclass=[mmpdf:section:firstSection]--><Section sectionDef="firstSection"/><!--DOC ignoring text 
-    --><VarDef varDef="mainbooktitle">Installing Miramo</VarDef><MetaData name="title">Installing Miramo</MetaData><!--DOC ignoring text 
-        --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_1--><!--topic/title parent topic count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_1">Windows installation</P>
-        <P paraDef="body">This section includes information on system requirements and installation information for
-      both the Desktop and Server versions of .</P>
-    <!--STARTSECTION $outputclass=[]--><!--topic/title parent task count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_2">Installing 
-        Desktop</P><!--mm:mapToParagraphs context ctx = context--><P paraDef="context">Double-click on the pNNNsetup.exe to
-      install MiramoPDF. When prompted, navigate to your chosen installation folder (default is
-        <!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">C:\Program Files\Miramo\</Font><!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath"> and click on OK to continue.</Font>
-    </P><P paraDef="context" listLabel="N">If an earlier version of  is already installed, you will be prompted
-        as shown below:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="screenshots/windows-uninstall-previous.png" width="80mm" keepAspectRatio="Y"/></AFrame></P><P paraDef="context" listLabel="N">Click on <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="uicontrol">Yes</Font> to uninstall the previous version (recommended), or click
-      on  <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="uicontrol">No</Font> to proceed without uninstalling the previous version.</P><P paraDef="context" listLabel="N">Choosing default options will create the following folder:</P><P paraDef="context" listLabel="N"><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">C:\Program Files\Miramo\MiramoPDF 2.0.0</Font></P><P paraDef="context" listLabel="N">The 
-         desktop shortcut will be updated to point to MiramoDesigner.exe in
-        this folder, and the miramo.exe binary (composition engine) is located in the same
-        folder.</P><P paraDef="context" listLabel="N">The PATH environment variable will
-                be set as shown here. Note that if
-                you chose not to uninstall the
-                previous version, both the earlier
-                version and 2.0.0 install folders
-                are included in the PATH
-                environment variable, but the
-                earlier version (1.6 in the
-                example shown) takes
-                    precedence.<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image file="screenshots/winpath.png" width="50mm" keepAspectRatio="Y"/></AFrame></P><P paraDef="context" listLabel="N">If you wish to install multiple
-                concurrent versions of the
-                composition engine, and are
-                publishing using the MiramoPDF
-                DITA-OT plugin, the location of
-                the miramo.exe binary may be
-                configured using the
-                    <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramopath</Font>
-                ant build parameter.</P><!--STARTSECTION $outputclass=[]--><!--topic/title parent task count=1 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_3">Windows  installation</P><!--mm:mapToParagraphs context ctx = context--><P paraDef="context"> job queuing, scheduling and processing is handled by a
-      Windows service, mmServer, which for security reasons runs in the context of a designated
-      'runAs' user, with standard (non-administrator) privileges. During installation you will be
-      prompted for the name and password of the Miramo Server 'runAs' user (default is mmUser); if
-      the user does not already exist it will be created. The specified user may not have
-      administrative privileges.</P><P paraDef="context" listLabel="N">To install, right-click on the MiramoEnterprise&lt;vs&gt;setup.exe
-        and select ’RunAs Administrator’; then follow the instructions given. When prompted for the
-        Miramo runAs user, specify ’mmUser’ (or a user name of your choice, providing it is not an
-        existing administrator user) as the service ’runAs’ user:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image file="screenshots/mmuser.png" width="35mm" keepAspectRatio="Y"/></AFrame></P><P paraDef="context" listLabel="N">Here is the
-        final dialog box displayed during the installation process:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image file="screenshots/installcomplete.png" width="40mm" keepAspectRatio="Y"/></AFrame></P><P paraDef="context" listLabel="N">Clicking on Finish will display the following dialog:
-          <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image file="screenshots/mmServerHostDetails.png" width="65mm" keepAspectRatio="Y"/></AFrame></P><P paraDef="context" listLabel="N">Click on OK to continue to the main  which will show the
-        service status as ’Running’ (providing the current license is valid - see <XRef xmlns:svg="http://www.w3.org/2000/svg" id="#unique_4" xRefDef="xref"/> for information on obtaining a new
-        license if the license has expired, or is invalid.</P><!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_5">Testing Windows </P>
-    <P paraDef="body">The Miramo installation includes two test files in the ’tmp’ folder within the Miramo
-      installation folder: ’test.xml’ and ’testbook.xml’</P>
-    <P paraDef="body">Once Miramo In a DOS command window, enter the following
-      commands:<P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"><MkDest id="#unique_5_Connect_42_codeblock_ctt_zjh_wpb"/>cd /d "%MM_HOME%/tmp"<br/>miramo -Opdf test.pdf test.xml<br/>miramo -Opdf testbook.pdf testbook.xml</P></P>
-    <P paraDef="body">The ’test’ jobs will be visible in the mmVisor ’Jobs’ window area:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N" startIndent="inherit" align="right"><Image file="screenshots/jobfinished.png" width="100mm" keepAspectRatio="Y"/></AFrame></P>
-    <!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_6">mmUser access permissions</P>
-        <P paraDef="body">
-      <P paraDef="note" id="#unique_6_Connect_42_note_hrr_hyg_wpb"><ListLabel><Image file="C:\Program Files\Oxygen XML Editor 23\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf/images/important.svg"/></ListLabel><MkDest id="#unique_6_Connect_42_note_hrr_hyg_wpb"/><Font fontDef="notetext">Important<Var varDef="lang-note-separator"/></Font> The  installer
-        will change the runAs user to a ’noLogon’ user, to prevent any user accidentally logging in
-        as the service user and interfering with the operation of MiramoEnterprise. <P paraDef="notepara">Note that
-          when running jobs, the folder(s) containing both the input and output files must have full
-          write permission set for the ’runAs’ user, mmUser.</P></P>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com"
+    xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish">
+    <VarDef varDef="pluginVersion">200p021</VarDef>
+    <!--DOCMAP-->
+    <VarDef varDef="lang-figure">Figure</VarDef>
+    <VarDef varDef="lang-table">Table</VarDef>
+    <VarDef varDef="lang-chapter">Chapter</VarDef>
+    <VarDef varDef="lang-appendix">Appendix</VarDef>
+    <VarDef varDef="lang-page">page</VarDef>
+    <VarDef varDef="lang-optional">Optional:</VarDef>
+    <VarDef varDef="lang-required">Required:</VarDef>
+    <VarDef varDef="lang-glossary"/>
+    <VarDef varDef="lang-listoftables"/>
+    <VarDef varDef="lang-listoffigures"/>
+    <VarDef varDef="lang-onpage">on page</VarDef>
+    <VarDef varDef="lang-prereq">Before you begin</VarDef>
+    <VarDef varDef="lang-postreq">What to do next</VarDef>
+    <VarDef varDef="lang-example">Example</VarDef>
+    <VarDef varDef="lang-context">About this task</VarDef>
+    <VarDef varDef="lang-procedure">Procedure</VarDef>
+    <VarDef varDef="lang-procedure-unordered">Procedure</VarDef>
+    <VarDef varDef="lang-results">Results</VarDef>
+    <VarDef varDef="lang-note">Note</VarDef>
+    <VarDef varDef="lang-preface">Preface</VarDef>
+    <VarDef varDef="lang-notices">Notice</VarDef>
+    <VarDef varDef="lang-notes">Notes</VarDef>
+    <VarDef varDef="lang-tip">Tip</VarDef>
+    <VarDef varDef="lang-fastpath">Fastpath</VarDef>
+    <VarDef varDef="lang-notice">Notice</VarDef>
+    <VarDef varDef="lang-important">Important</VarDef>
+    <VarDef varDef="lang-attention">Attention</VarDef>
+    <VarDef varDef="lang-caution">CAUTION</VarDef>
+    <VarDef varDef="lang-danger">DANGER</VarDef>
+    <VarDef varDef="lang-remember">Remember</VarDef>
+    <VarDef varDef="lang-other">[other]</VarDef>
+    <VarDef varDef="lang-trouble">Trouble</VarDef>
+    <VarDef varDef="lang-restriction">Restriction</VarDef>
+    <VarDef varDef="lang-warning">Warning</VarDef>
+    <VarDef varDef="lang-contents">Contents</VarDef>
+    <VarDef varDef="lang-index">Index</VarDef>
+    <VarDef varDef="lang-listoftables">List of Tables</VarDef>
+    <VarDef varDef="lang-listoffigures">List of Figures</VarDef>
+    <VarDef varDef="lang-glossary">Glossary</VarDef>
+    <VarDef varDef="lang-obsolete">Obsolete:</VarDef>
+    <VarDef varDef="lang-deprecated">Deprecated:</VarDef>
+    <VarDef varDef="lang-default">Default:</VarDef>
+    <VarDef varDef="lang-low">Low:</VarDef>
+    <VarDef varDef="lang-normal">Normal:</VarDef>
+    <VarDef varDef="lang-high">High:</VarDef>
+    <VarDef varDef="lang-recommended">Recommended:</VarDef>
+    <VarDef varDef="lang-urgent">Urgent:</VarDef>
+    <VarDef varDef="metadata-separator">, </VarDef>
+    <VarDef varDef="lang-note-separator">: </VarDef>
+    <!--opentopic:map outputclass=docmap parent@outputclass=[]-->
+    <!--STARTSECTION $outputclass=[mmpdf:section:coverSection]-->
+    <Section sectionDef="coverSection"/>
+    <VarDef varDef="mainbooktitle">Installing Miramo</VarDef>
+    <MetaData name="title">Installing Miramo</MetaData>
+    <VarDef varDef="chapterName">Installing Miramo</VarDef>
+    <P paraDef="body_anchor" position="topOfPage"/>
+    <!--STARTSECTION $outputclass=[mmpdf:section:contentsSection]-->
+    <Section sectionDef="contentsSection"/>
+    <P paraDef="hidden_contents_title" invisible="Y">
+        <Var varDef="lang-contents"/>
     </P>
-    <!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_7">Using mmaccess to enable write permissions</P>
-        <P paraDef="body">The MiramoEnterprise distribution includes the ’mmaccess.exe’ utility which provides a
-      convenient method for enabling write access for the runAs user to files and folders: use
-      ’mmaccess -h’ to display the following usage
-      information:<P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"><MkDest id="#unique_7_Connect_42_codeblock_cp2_qyg_wpb"/>Usage: mmaccess [-dir dirname] [-user username] [-y] [-remove]<br/><br/>Grant or remove mmServer runAs user access permission for folder<br/><br/>Options:<br/>   -dir dirname<br/>      specify folder name<br/>      default is current working directory [C:/ap/dita-oti/samples]<br/>   -file filename<br/>      specify file name<br/>   -user username<br/>      specify username<br/>      default is mmServer runAs user [.\mmUser]<br/>   -y<br/>      apply changes without prompting<br/>   -allowadmin<br/>      allow access permission addition to apply to administrator user [VERY DANGEROUS]<br/>   -remove<br/>      remove all access permissions previously granted to user</P></P>
-    <!--STARTSECTION $outputclass=[]--><!--topic/title parent task count=2 outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_4">Obtaining a license</P><!--mm:mapToParagraphs context ctx = context--><P paraDef="context">To request a MiramoEnterprise license for the Miramo server, email support@datazone.com
-        with the server information displayed by the ’mmhostid’ command: we will then email back a
-        license key which may be applied via the ’mmVisor’ Help-&gt;Apply license key menu. </P><P paraDef="context" listLabel="N">Below are detailed instructions:</P><P paraDef="context" listLabel="N">
-        
-      <ParaGroup paraGroupDef="ol"><!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" numberValue="1" withPrevious="Y">Run mmhostid</P><P paraDef="orderedlistitem1" listLabel="N">Once MiramoEnterprise is installed, log in as a user with Administrator
-            privileges, start a console or powershell window and run the following
-              command:</P><P paraDef="orderedlistitem1" listLabel="N"><Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">mmhostid hostid.txt</Font></P><P paraDef="orderedlistitem1" listLabel="N">This will place hostid
-            information into a file named ’hostid.txt’.</P>
-        <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Email 'hostid.txt' to support@datazone.com</P><P paraDef="orderedlistitem1" listLabel="N">Next, email the ’hostid.txt’ file created
-            in step 1 to support@datazone.com. We will email back a license information sheet
-            containing a license key and instructions for applying the license.</P>
-        <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Run mmVisor as Administrator and apply license</P><P paraDef="orderedlistitem1" listLabel="N">Right-click on the mmVisor icon an select ’Run As Administrator’ to start mmVisor in
-            admin mode (necessary to apply the license key).<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/runAsAdministrator.png" keepAspectRatio="Y"/></AFrame></P><P paraDef="orderedlistitem1" listLabel="N">Select Help-&gt;Apply license key from the main mmVisor menu. <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image file="screenshots/applyLicenseKey.png" keepAspectRatio="Y"/></AFrame></P><P paraDef="orderedlistitem1" listLabel="N">If mmServer is running, you will be prompted to stop mmServer before applying the
-            license key: click Yes to proceed.</P><P paraDef="orderedlistitem1" listLabel="N">When prompted to enter license key, copy and paste the license key provided by email
-            into the dialog box, and click ’OK’:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image file="screenshots/enterlicensekey.png" width="90mm" keepAspectRatio="Y"/></AFrame></P><P paraDef="orderedlistitem1" listLabel="N">When prompted, click on ’Yes’ to start mmServer with the new license:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image file="screenshots/startMmServerNow.png" keepAspectRatio="Y"/></AFrame></P></ParaGroup>
-    </P><!--DOC ignoring text 
-    --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_8--><!--topic/title parent topic count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_8">Linux installation</P><P paraDef="body">This document describes how to install
-            the Linux version of  for server or
-            desktop use.</P>
-        <P paraDef="body">Log in to the target
-                server as an admin user and follow
-                the steps below:</P>
-        <ParaGroup paraGroupDef="ol">
-                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" id="#unique_8_Connect_42_ol_pdr_yxt_wpb" numberValue="1" withPrevious="Y">Create a new folder if necessary, eg /opt/miramo:
-                        <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"><MkDest id="#unique_8_Connect_42_codeblock_in4_vyt_wpb"/>mkdir -p /opt/miramo</P></P>
-                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1"> Change directory to the
-                    new folder:
-                    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd /opt/miramo</P></P>
-                    <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Extract files from the
-                    downloaded distribution
-                    package, for
-                    example:<P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">tar -xzof /tmp/MiramoPDF-DBD-2.0.0pNNN.tar.gz                    </P>to
-                    create
-                    /opt/miramo/MiramoPDF-2.0.0pNNN
-                    - this is the Miramo
-                    installation folder.</P>
-                        <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Change directory to
-                    the installation folder, eg:
-                    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd /opt/miramo/MiramoPDF-2.0.0pNNN</P></P>
-                        <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Run the install.sh
-                script:
-                <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">./install.sh </P></P>
-                   
-                </ParaGroup>
-        <P paraDef="body">The install.sh script runs the
-            ’installComposer.sh’ script which does
-            the following:<ParaGroup paraGroupDef="ul">
-                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1" id="#unique_8_Connect_42_ul_azx_ck5_wpb" numberValue="1" withPrevious="Y">installs the fontconfig
-                    prerequisite if necessary</P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">makes a link from
-                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/local/bin/miramo</Font>
-                    and
-                         <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/local/bin/miramo-</Font> to the
-                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">runComposer.sh</Font>
-                    wrapper script located in the
-                    installation folder, so the
-                        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramo</Font>
-                    and <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramo-</Font> commands
-                    (composition engine) are
-                    automatically available to all
-                    users.</P>
-            </ParaGroup></P>
-        <P paraDef="body">For Linux RHD and DBD distributions,
-            the <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">install.sh</Font> script
-            also installs MiramoDesigner using the
-                <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">installDesigner.sh</Font>
-            script, and makes it available to the
-            desktop manager via
-                <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">/usr/share/applications/miramo-designer.desktop</Font></P>
-        <P paraDef="body">If you wish to install multiple
-            concurrent versions of the composition
-            engine, and are publishing using the
-            MiramoPDF DITA-OT plugin, the location
-            of the runMmComposer.sh script may be
-            configured using the ’miramopath’ ant
-            build parameter.</P>
-    
+    <Contents contentsDef="contents1"/>
+    <!--STARTSECTION $outputclass=[mmpdf:section:firstSection]-->
+    <Section sectionDef="firstSection"/>
     <!--DOC ignoring text 
-    --><!--map/topicref --><!--STARTSECTION $outputclass=[]--><!--MAP/TOPICREF (doc)unique_9--><!--topic/title parent topic count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_9">MacOSX installation</P>
+    -->
+    <VarDef varDef="mainbooktitle">Installing Miramo</VarDef>
+    <MetaData name="title">Installing Miramo</MetaData>
+    <!--DOC ignoring text 
+        -->
+    <!--map/topicref -->
+    <!--STARTSECTION $outputclass=[]-->
+    <!--MAP/TOPICREF (doc)unique_1-->
+    <!--topic/title parent topic count= outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_1">Windows
+        installation</P>
+    <P paraDef="body">This section includes information on system requirements and installation
+        information for both the Desktop and Server versions of .</P>
+    <!--STARTSECTION $outputclass=[]-->
+    <!--topic/title parent task count=1 outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_2">Installing
+        Desktop</P>
+    <!--mm:mapToParagraphs context ctx = context-->
+    <P paraDef="context">Double-click on the pNNNsetup.exe to install MiramoPDF. When prompted,
+        navigate to your chosen installation folder (default is <!--SW-D FOUND--><Font
+            xmlns:svg="http://www.w3.org/2000/svg" fontDef="filepath">C:\Program
+            Files\Miramo\</Font><!--SW-D FOUND--><Font xmlns:svg="http://www.w3.org/2000/svg"
+            fontDef="filepath"> and click on OK to continue.</Font>
+    </P>
+    <P paraDef="context" listLabel="N">If an earlier version of is already installed, you will be
+        prompted as shown below:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y"
+            position="below" crop="N" startIndent="inherit" align="start"><Image
+                file="screenshots/windows-uninstall-previous.png" width="80mm" keepAspectRatio="Y"
+            /></AFrame></P>
+    <P paraDef="context" listLabel="N">Click on <Font xmlns:svg="http://www.w3.org/2000/svg"
+            fontDef="uicontrol">Yes</Font> to uninstall the previous version (recommended), or click
+        on <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="uicontrol">No</Font> to proceed
+        without uninstalling the previous version.</P>
+    <P paraDef="context" listLabel="N">Choosing default options will create the following
+        folder:</P>
+    <P paraDef="context" listLabel="N">
+        <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">C:\Program
+            Files\Miramo\MiramoPDF 2.0.0</Font>
+    </P>
+    <P paraDef="context" listLabel="N">The desktop shortcut will be updated to point to
+        MiramoDesigner.exe in this folder, and the miramo.exe binary (composition engine) is located
+        in the same folder.</P>
+    <P paraDef="context" listLabel="N">The PATH environment variable will be set as shown here. Note
+        that if you chose not to uninstall the previous version, both the earlier version and 2.0.0
+        install folders are included in the PATH environment variable, but the earlier version (1.6
+        in the example shown) takes precedence.<AFrame xmlns:svg="http://www.w3.org/2000/svg"
+            wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image
+                file="screenshots/winpath.png" width="50mm" keepAspectRatio="Y"/></AFrame></P>
+    <P paraDef="context" listLabel="N">If you wish to install multiple concurrent versions of the
+        composition engine, and are publishing using the MiramoPDF DITA-OT plugin, the location of
+        the miramo.exe binary may be configured using the <Font
+            xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramopath</Font> ant build
+        parameter.</P>
+    <!--STARTSECTION $outputclass=[]-->
+    <!--topic/title parent task count=1 outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title1" id="#unique_3">Windows
+        installation</P>
+    <!--mm:mapToParagraphs context ctx = context-->
+    <P paraDef="context"> job queuing, scheduling and processing is handled by a Windows service,
+        mmServer, which for security reasons runs in the context of a designated 'runAs' user, with
+        standard (non-administrator) privileges. During installation you will be prompted for the
+        name and password of the Miramo Server 'runAs' user (default is mmUser); if the user does
+        not already exist it will be created. The specified user may not have administrative
+        privileges.</P>
+    <P paraDef="context" listLabel="N">To install, right-click on the
+        MiramoEnterprise&lt;vs&gt;setup.exe and select ’RunAs Administrator’; then follow the
+        instructions given. When prompted for the Miramo runAs user, specify ’mmUser’ (or a user
+        name of your choice, providing it is not an existing administrator user) as the service
+        ’runAs’ user:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin"
+            crop="N" startIndent="inherit" align="end"><Image file="screenshots/mmuser.png"
+                width="35mm" keepAspectRatio="Y"/></AFrame></P>
+    <P paraDef="context" listLabel="N">Here is the final dialog box displayed during the
+        installation process:<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y"
+            position="runin" crop="N" startIndent="inherit" align="end"><Image
+                file="screenshots/installcomplete.png" width="40mm" keepAspectRatio="Y"
+        /></AFrame></P>
+    <P paraDef="context" listLabel="N">Clicking on Finish will display the following dialog: <AFrame
+            xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N"
+            startIndent="inherit" align="end"><Image file="screenshots/mmServerHostDetails.png"
+                width="65mm" keepAspectRatio="Y"/></AFrame></P>
+    <P paraDef="context" listLabel="N">Click on OK to continue to the main which will show the
+        service status as ’Running’ (providing the current license is valid - see <XRef
+            xmlns:svg="http://www.w3.org/2000/svg" id="#unique_4" xRefDef="xref"/> for information
+        on obtaining a new license if the license has expired, or is invalid.</P>
+    <!--STARTSECTION $outputclass=[]-->
+    <!--topic/title parent topic count=2 outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_5">Testing Windows </P>
+    <P paraDef="body">The Miramo installation includes two test files in the ’tmp’ folder within the
+        Miramo installation folder: ’test.xml’ and ’testbook.xml’</P>
+    <P paraDef="body">Once Miramo In a DOS command window, enter the following commands:<P
+            xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"><MkDest
+                id="#unique_5_Connect_42_codeblock_ctt_zjh_wpb"/>cd /d "%MM_HOME%/tmp"<br/>miramo
+            -Opdf test.pdf test.xml<br/>miramo -Opdf testbook.pdf testbook.xml</P></P>
+    <P paraDef="body">The ’test’ jobs will be visible in the mmVisor ’Jobs’ window area:<AFrame
+            xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N"
+            startIndent="inherit" align="right"><Image file="screenshots/jobfinished.png"
+                width="100mm" keepAspectRatio="Y"/></AFrame></P>
+    <!--STARTSECTION $outputclass=[]-->
+    <!--topic/title parent topic count=2 outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_6">mmUser access
+        permissions</P>
+    <P paraDef="body">
+        <P paraDef="note" id="#unique_6_Connect_42_note_hrr_hyg_wpb"><ListLabel><Image
+                    file="C:\Program Files\Oxygen XML Editor 23\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf/images/important.svg"
+                /></ListLabel><MkDest id="#unique_6_Connect_42_note_hrr_hyg_wpb"/><Font
+                fontDef="notetext">Important<Var varDef="lang-note-separator"/></Font> The installer
+            will change the runAs user to a ’noLogon’ user, to prevent any user accidentally logging
+            in as the service user and interfering with the operation of MiramoEnterprise. <P
+                paraDef="notepara">Note that when running jobs, the folder(s) containing both the
+                input and output files must have full write permission set for the ’runAs’ user,
+                mmUser.</P></P>
+    </P>
+    <!--STARTSECTION $outputclass=[]-->
+    <!--topic/title parent topic count=2 outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_7">Using mmaccess
+        to enable write permissions</P>
+    <P paraDef="body">The MiramoEnterprise distribution includes the ’mmaccess.exe’ utility which
+        provides a convenient method for enabling write access for the runAs user to files and
+        folders: use ’mmaccess -h’ to display the following usage information:<P
+            xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"><MkDest
+                id="#unique_7_Connect_42_codeblock_cp2_qyg_wpb"/>Usage: mmaccess [-dir dirname]
+            [-user username] [-y] [-remove]<br/><br/>Grant or remove mmServer runAs user access
+            permission for folder<br/><br/>Options:<br/> -dir dirname<br/> specify folder name<br/>
+            default is current working directory [C:/ap/dita-oti/samples]<br/> -file filename<br/>
+            specify file name<br/> -user username<br/> specify username<br/> default is mmServer
+            runAs user [.\mmUser]<br/> -y<br/> apply changes without prompting<br/> -allowadmin<br/>
+            allow access permission addition to apply to administrator user [VERY DANGEROUS]<br/>
+            -remove<br/> remove all access permissions previously granted to user</P></P>
+    <!--STARTSECTION $outputclass=[]-->
+    <!--topic/title parent task count=2 outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title2" id="#unique_4">Obtaining a
+        license</P>
+    <!--mm:mapToParagraphs context ctx = context-->
+    <P paraDef="context">To request a MiramoEnterprise license for the Miramo server, email
+        support@datazone.com with the server information displayed by the ’mmhostid’ command: we
+        will then email back a license key which may be applied via the ’mmVisor’ Help-&gt;Apply
+        license key menu. </P>
+    <P paraDef="context" listLabel="N">Below are detailed instructions:</P>
+    <P paraDef="context" listLabel="N">
+
         <ParaGroup paraGroupDef="ol">
-            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" id="#unique_9_Connect_42_ol_t35_bp5_wpb" numberValue="1" withPrevious="Y">Locate the downloaded .pkg and
-                right-click to 'Open', or double
-                click on the .pkg from your
-                browser: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell><AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="screenshots/1.PNG" width="50mm" keepAspectRatio="Y"/></AFrame></Cell></Row></Tbl></P>
-            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">The package is not notorized so
-                the following notifications will
-                show, dismiss them both: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
-                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/2.PNG" width="40mm" keepAspectRatio="Y"/></AFrame>
-                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/3.png" width="50mm" keepAspectRatio="Y"/></AFrame>
-                </Cell></Row></Tbl></P>
-            <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1"> To address this click the apple
-                icon, click system preferences and
-                choose 'security &amp; privacy' -
-                click on 'Open Anyway': <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
-                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/4.png" width="25mm" keepAspectRatio="Y"/></AFrame>
-                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/5.png" width="35mm" keepAspectRatio="Y"/></AFrame>
-                    <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="screenshots/6.png" width="35mm" keepAspectRatio="Y"/></AFrame>
-                </Cell></Row></Tbl></P>
+            <!--topic/li-->
+            <!--makeListPara li-->
+            <P paraDef="orderedlistitem1" numberValue="1" withPrevious="Y">Run mmhostid</P>
+            <P paraDef="orderedlistitem1" listLabel="N">Once MiramoEnterprise is installed, log in
+                as a user with Administrator privileges, start a console or powershell window and
+                run the following command:</P>
+            <P paraDef="orderedlistitem1" listLabel="N">
+                <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">mmhostid
+                    hostid.txt</Font>
+            </P>
+            <P paraDef="orderedlistitem1" listLabel="N">This will place hostid information into a
+                file named ’hostid.txt’.</P>
+            <!--topic/li-->
+            <!--makeListPara li-->
+            <P paraDef="orderedlistitem1">Email 'hostid.txt' to support@datazone.com</P>
+            <P paraDef="orderedlistitem1" listLabel="N">Next, email the ’hostid.txt’ file created in
+                step 1 to support@datazone.com. We will email back a license information sheet
+                containing a license key and instructions for applying the license.</P>
+            <!--topic/li-->
+            <!--makeListPara li-->
+            <P paraDef="orderedlistitem1">Run mmVisor as Administrator and apply license</P>
+            <P paraDef="orderedlistitem1" listLabel="N">Right-click on the mmVisor icon an select
+                ’Run As Administrator’ to start mmVisor in admin mode (necessary to apply the
+                license key).<AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y"
+                    position="inline" crop="N" startIndent="inherit" align="start"
+                    verticalShift="0pt"><Image file="screenshots/runAsAdministrator.png"
+                        keepAspectRatio="Y"/></AFrame></P>
+            <P paraDef="orderedlistitem1" listLabel="N">Select Help-&gt;Apply license key from the
+                main mmVisor menu. <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y"
+                    position="runin" crop="N" startIndent="inherit" align="end"><Image
+                        file="screenshots/applyLicenseKey.png" keepAspectRatio="Y"/></AFrame></P>
+            <P paraDef="orderedlistitem1" listLabel="N">If mmServer is running, you will be prompted
+                to stop mmServer before applying the license key: click Yes to proceed.</P>
+            <P paraDef="orderedlistitem1" listLabel="N">When prompted to enter license key, copy and
+                paste the license key provided by email into the dialog box, and click ’OK’:<AFrame
+                    xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="runin" crop="N"
+                    startIndent="inherit" align="end"><Image file="screenshots/enterlicensekey.png"
+                        width="90mm" keepAspectRatio="Y"/></AFrame></P>
+            <P paraDef="orderedlistitem1" listLabel="N">When prompted, click on ’Yes’ to start
+                mmServer with the new license:<AFrame xmlns:svg="http://www.w3.org/2000/svg"
+                    wrap="Y" position="runin" crop="N" startIndent="inherit" align="end"><Image
+                        file="screenshots/startMmServerNow.png" keepAspectRatio="Y"/></AFrame></P>
         </ParaGroup>
+    </P>
+    <!--DOC ignoring text 
+    -->
+    <!--map/topicref -->
+    <!--STARTSECTION $outputclass=[]-->
+    <!--MAP/TOPICREF (doc)unique_8-->
+    <!--topic/title parent topic count= outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_8">Linux
+        installation</P>
+    <P paraDef="body">This document describes how to install the Linux version of for server or
+        desktop use.</P>
+    <P paraDef="body">Log in to the target server as an admin user and follow the steps below:</P>
+    <ParaGroup paraGroupDef="ol">
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1" id="#unique_8_Connect_42_ol_pdr_yxt_wpb" numberValue="1"
+            withPrevious="Y">Create a new folder if necessary, eg /opt/miramo: <P
+                xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"
+                    ><MkDest id="#unique_8_Connect_42_codeblock_in4_vyt_wpb"/>mkdir -p
+                /opt/miramo</P></P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1"> Change directory to the new folder: <P
+                xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd
+                /opt/miramo</P></P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1">Extract files from the downloaded distribution package, for
+                example:<P xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines"
+                whiteSpaceCollapse="N">tar -xzof /tmp/MiramoPDF-DBD-2.0.0pNNN.tar.gz </P>to create
+            /opt/miramo/MiramoPDF-2.0.0pNNN - this is the Miramo installation folder.</P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1">Change directory to the installation folder, eg: <P
+                xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N">cd
+                /opt/miramo/MiramoPDF-2.0.0pNNN</P></P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1">Run the install.sh script: <P
+                xmlns:svg="http://www.w3.org/2000/svg" paraDef="lines" whiteSpaceCollapse="N"
+                >./install.sh </P></P>
+
+    </ParaGroup>
+    <P paraDef="body">The install.sh script runs the ’installComposer.sh’ script which does the
+            following:<ParaGroup paraGroupDef="ul">
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1"
+                id="#unique_8_Connect_42_ul_azx_ck5_wpb" numberValue="1" withPrevious="Y">installs
+                the fontconfig prerequisite if necessary</P>
+            <!--topic/li--><!--makeListPara li--><P paraDef="unorderedlistitem1">makes a link from
+                    <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph"
+                    >/usr/local/bin/miramo</Font> and <Font xmlns:svg="http://www.w3.org/2000/svg"
+                    fontDef="codeph">/usr/local/bin/miramo-</Font> to the <Font
+                    xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">runComposer.sh</Font>
+                wrapper script located in the installation folder, so the <Font
+                    xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramo</Font> and <Font
+                    xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">miramo-</Font> commands
+                (composition engine) are automatically available to all users.</P>
+        </ParaGroup></P>
+    <P paraDef="body">For Linux RHD and DBD distributions, the <Font
+            xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph">install.sh</Font> script also
+        installs MiramoDesigner using the <Font xmlns:svg="http://www.w3.org/2000/svg"
+            fontDef="codeph">installDesigner.sh</Font> script, and makes it available to the desktop
+        manager via <Font xmlns:svg="http://www.w3.org/2000/svg" fontDef="codeph"
+            >/usr/share/applications/miramo-designer.desktop</Font></P>
+    <P paraDef="body">If you wish to install multiple concurrent versions of the composition engine,
+        and are publishing using the MiramoPDF DITA-OT plugin, the location of the runMmComposer.sh
+        script may be configured using the ’miramopath’ ant build parameter.</P>
+
+    <!--DOC ignoring text 
+    -->
+    <!--map/topicref -->
+    <!--STARTSECTION $outputclass=[]-->
+    <!--MAP/TOPICREF (doc)unique_9-->
+    <!--topic/title parent topic count= outputclass=-->
+    <!--STARTSECTION $outputclass=[]-->
+    <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#unique_9">MacOSX
+        installation</P>
+    <ParaGroup paraGroupDef="ol">
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1" id="#unique_9_Connect_42_ol_t35_bp5_wpb" numberValue="1"
+            withPrevious="Y">Locate the downloaded .pkg and right-click to 'Open', or double click
+            on the .pkg from your browser: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat
+                        align="start"/></TblColumn><Row><Cell><AFrame
+                            xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="below"
+                            crop="N" startIndent="inherit" align="start"><Image
+                                file="screenshots/1.PNG" width="50mm" keepAspectRatio="Y"
+                        /></AFrame></Cell></Row></Tbl></P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1">The package is not notorized so the following notifications
+            will show, dismiss them both: <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat
+                        align="start"/></TblColumn><Row><Cell>
+                        <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline"
+                            crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image
+                                file="screenshots/2.PNG" width="40mm" keepAspectRatio="Y"/></AFrame>
+                        <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline"
+                            crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image
+                                file="screenshots/3.png" width="50mm" keepAspectRatio="Y"/></AFrame>
+                    </Cell></Row></Tbl></P>
+        <!--topic/li-->
+        <!--makeListPara li-->
+        <P paraDef="orderedlistitem1"> To address this click the apple icon, click system
+            preferences and choose 'security &amp; privacy' - click on 'Open Anyway': <Tbl
+                tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
+                        <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline"
+                            crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image
+                                file="screenshots/4.png" width="25mm" keepAspectRatio="Y"/></AFrame>
+                        <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline"
+                            crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image
+                                file="screenshots/5.png" width="35mm" keepAspectRatio="Y"/></AFrame>
+                        <AFrame xmlns:svg="http://www.w3.org/2000/svg" wrap="Y" position="inline"
+                            crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image
+                                file="screenshots/6.png" width="35mm" keepAspectRatio="Y"/></AFrame>
+                    </Cell></Row></Tbl></P>
+    </ParaGroup>
     <!--DOC ignoring text 
     
---></MiramoXML>
+-->
+</MiramoXML>

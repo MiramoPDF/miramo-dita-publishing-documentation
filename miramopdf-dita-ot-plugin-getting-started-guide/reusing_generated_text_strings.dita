@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="reusing_generated_text_strings">
-    <title>Reusing generated text strings from org.dita.base</title>
-    <body>
+  <title>Reusing generated text strings from org.dita.base</title>
+  <body>
     <p>If you have already added a set of HTML localization strings located in
       DITA-OT/plugins/org.dita.base/xsl/common, eg strings-ta-ta.xml, you can reuse it by copying it
       to 'ta-dita-strings.xml' file in the target strings folder. To register the
       'ta-dita-strings.xml' file, add the following entry to the end of the 'langlist.xml'
       file:<codeblock>&lt;lang xml:lang="ta" filename="ta-dita-strings.xml"/></codeblock></p>
-    </body>
+  </body>
 </topic>

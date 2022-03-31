@@ -1,15 +1,7 @@
 <MiramoXML>
-<ParaDef
-	 paraDef="dd"
-	 fontFamily="Neo Sans Pro Light"
-	 fontWeight="Regular"
-	 fontAngle="Regular"
-	 textSize="7.000000pt"
-	 textColor="Black"
-	 textOpacity="100%"
-	 language=""
-	 textAlign="start"
-></ParaDef>
-          <P paraDef="dd">XSL stylesheet placeholders and language specific localization strings. 
+          <ParaDef paraDef="dd" fontFamily="Neo Sans Pro Light" fontWeight="Regular"
+                    fontAngle="Regular" textSize="7.000000pt" textColor="Black" textOpacity="100%"
+                    language="" textAlign="start"/>
+          <P paraDef="dd">XSL stylesheet placeholders and language specific localization strings.
           </P>
 </MiramoXML>

@@ -2,12 +2,12 @@
 <!DOCTYPE concept
   PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept xml:lang="en-us" id="mapping-dita-elements-to-pdf-document-objects">
-	<title>Mapping DITA elements to PDF document objects</title>
-	<conbody>
-		<p>This section covers some general rules for the default mapping of DITA elements to PDF document
-      objects and format definitions. To override aspects of the default mapping which can't be
-      achieved using ant build parameters, MFD template changes or @outputclass values, it may be
-      necessary to create a customized plugin - see <xref
+  <title>Mapping DITA elements to PDF document objects</title>
+  <conbody>
+    <p>This section covers some general rules for the default mapping of DITA elements to PDF
+      document objects and format definitions. To override aspects of the default mapping which
+      can't be achieved using ant build parameters, MFD template changes or @outputclass values, it
+      may be necessary to create a customized plugin - see <xref
         href="customizing-com-miramo-mmpdf-plugin.dita"/> for more information.</p>
-	</conbody>
+  </conbody>
 </concept>

@@ -1,261 +1,676 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="pluginVersion">200p021</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#controlling-formatting-outputclass">Controlling formatting using DITA @outputclass values</P>
-    <P paraDef="body">The Miramo DITA-OT plugin allows page layouts, covers, TOC and Index generation to be
-      controlled using one or more space separated 'mmpdf:' @outputclass values, as described in the
-      table below:</P>
-    <!--STARTSECTION $outputclass=[]--><Tbl xmlns:svg="http://www.w3.org/2000/svg" tblDef="table" columns="3"><TblTitle><!--topic/title parent table count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="tableTitle">DITA @outputclass values</P></TblTitle>
-        <TblColumn width="1.5*"/>
-        <TblColumn width="1*"/>
-        <TblColumn width="1.96*"/>
-        <Row type="header"><Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">@outputclass value</P></Cell>
-          <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">DITA elements</P></Cell>
-          <Cell verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P listLabel="N">Description</P></Cell>
-          </Row>
-        <Row type="body" withNext="Y">
-            <Cell textAlign="left" columnSpan="3" verticalTextAlign="middle" paraDef="tableHeader" fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt"><P>Column
-              spanning and page-breaking
-              control</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:span</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">title, p, note, cmd</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">spans title across all columns in multi-column
-                document</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:pageBreak</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">title, p, note, cmd</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">breaks page before paragraph</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:columnBreak (alias for
-              break-before)</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">title, p, note, cmd</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">force paragraph to top of next column (or page,
-                for single-column documents)</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:keepTogether:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">bool</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">table, title, p, note, cmd</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">set <Font fontDef="codeph">keepTogether</Font>
-                to '<Font fontDef="codeph">Y</Font>' to prevent
-                page or column breaks within the
-                paragraph or table, for example to
-                prevent page breaks before an
-                  <Font fontDef="codeph">&lt;image&gt;</Font>
-                anchored within a paragraph with
-                @placement =
-                  '<Font fontDef="codeph">break'</Font></P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:withNext: <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">bool</Font>
-              </P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">title, p, note, cmd</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">set withNext to 'Y' or 'N' to set
-                the paragraph keep with next
-                property</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:withPrevious: <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">bool
-                </Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">title, p, note, cmd</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">set withPrevious to 'Y' or 'N' to
-                set the paragraph keep with
-                previous property</P></Cell>
-          </Row><Row type="body" withNext="Y">
-            <Cell textAlign="left" columnSpan="3" verticalTextAlign="top" paraDef="tableHeader" fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt"><P>Paragraph
-              and text formatting</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:fontDef:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">ph</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">apply fontDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> to this
-                phrase</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:paraDef:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">title, p, note, ol, ul</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">override default paraDef with paraDef
-                  <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> for rendering
-                generated paragraph. For
-                  <Font fontDef="codeph">&lt;ol&gt;</Font>,
-                  <Font fontDef="codeph">&lt;ul&gt;</Font>
-                elements, use named paraDef for
-                child list items</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:listName:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">ol, ul</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">specify basename for generating listItem
-                paragraph names.</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">default: orderedlistitem
-                  (<Font fontDef="codeph">&lt;ol&gt;</Font>) or
-                  unorderedlistitem(<Font fontDef="codeph">&lt;ul&gt;</Font>)</P></Cell>
-          </Row><Row type="body" withNext="Y">
-            <Cell textAlign="left" columnSpan="3" verticalTextAlign="top" paraDef="tableHeader" fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt"><P>Tables</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:tblDef:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">fig, table,</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">simpletable, reltable,
-                hazardstatement</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">use tblDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> for rendering table, figure or hazardstatement</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N" id="#mmpdf-topRule-name">mmpdf:topRule:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:bottomRule:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:startRule:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:endRule:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">fig, table,</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">simpletable, reltable,
-                hazardstatement, row, strow, entry, stentry</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">set top, bottom, start or end rule to ruleDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font>.</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">If applied to a <Font fontDef="codeph">&lt;fig&gt;</Font>,
-                  <Font fontDef="codeph">&lt;table&gt;</Font>,
-                  <Font fontDef="codeph">&lt;simpletable&gt;</Font>,
-                  <Font fontDef="codeph">&lt;reltable&gt;</Font>
-                or
-                  <Font fontDef="codeph">&lt;hazardstatement&gt;</Font>,
-                the ruling applies to the outside
-                edges of the table</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">If applied to a <Font fontDef="codeph">&lt;row&gt;</Font> or
-                  <Font fontDef="codeph">&lt;strow&gt;</Font>
-                element, the ruling establishes
-                the default start/end/top/bottom
-                ruling for all contained table
-                cells.</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">If applied to a <Font fontDef="codeph">&lt;entry&gt;</Font>
-                or
-                  <Font fontDef="codeph">&lt;stentry&gt;</Font>
-                element, the ruling applies to the
-                edges of the table cell.</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:maximumHeight:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">dim</Font>
-              </P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">row, strow</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">set maximum row height</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:minimumHeight:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">dim</Font>
-              </P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">row, strow</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">set minimum row height</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><P>mmpdf:splitRow:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">bool</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><P>row, strow</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><P>allow page or column breaks within row</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><P>mmpdf:splitStraddledRow:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">bool</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><P>row, strow</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><P>allow page or column breaks between straddled
-              rows</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:colorDef:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">entry, stentry</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">use colorDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> for table cell fill</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:fillOpacity;<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">percent</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">entry, stentry</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">use fillOpacity <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">percent</Font> in the range
-                0-100% for cell fill color
-                (ignored unless
-                mmpdf:colorDef:name used) </P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">default: from TblDef</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:fillTint.<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">percent</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">entry, stentry</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">use fillTint <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">percent</Font> in the range 0-100%
-                for cell fill color (ignored
-                unless mmpdf:colorDef:name used) </P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">default: from TblDef</P></Cell>
-          </Row><Row type="body" withNext="Y">
-            <Cell textAlign="left" columnSpan="3" verticalTextAlign="middle" paraDef="tableHeader" fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt"><P>Cross-references</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:xRefDef:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">xref</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">Use XRefDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> for this cross reference</P></Cell>
-          </Row><Row type="body" withNext="Y">
-            <Cell textAlign="left" columnSpan="3" verticalTextAlign="middle" paraDef="tableHeader" fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt"><P>Vertical
-              spacing</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><P>mmpdf:spaceAbove:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">dim</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><P>title, p, note, cmd, table,
-              simpletable, image</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><P>set spaceAbove</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="middle"><P>mmpdf:spaceBelow:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">dim</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><P>title, p, note, cmd, table,
-              simpletable, image</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><P>set spaceBelow</P></Cell>
-          </Row><Row type="body" withNext="Y">
-            <Cell textAlign="left" columnSpan="3" verticalTextAlign="top" paraDef="tableHeader" fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt"><P>Page layout
-              sequences</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:section:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">map, bookmap, title, topic, topicref, chapter,
-              appendix, booktitle, table</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">start new section using SectionDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font>.</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">SectionDef is defined in the MFD template or
-                using</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N"><Font fontDef="codeph">&lt;SectionDef sectionDef="name"../&gt;
-                </Font>and starts a new page
-                layout sequence</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:coverSection:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">map, bookmap</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">Use sectionDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> for cover and subsequent pages.</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">Ignored if mmpdf:includeCover is set to N. </P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">default: coverSection</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:backCoverSection:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">map, bookmap</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">Apply sectionDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> to end of PDF.</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">Ignored unless mmpdf:includeBackCover is set to
-                Y. </P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">default: backCoverSection</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:contentsSection:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">map, bookmap</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">Use sectionDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> for TOC and subsequent pages.</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">Ignored if mmpdf:includeTOC is set to N. </P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">default: contentsSection</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">mmpdf:indexSection:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">map, bookmap</P></Cell>
-            <Cell textAlign="left" verticalTextAlign="middle"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">Use sectionDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> for Index and subsequent pages.</P><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N">Ignored if mmpdf:includeIndex is set to N, or document contains no
-                indexterms. default: indexSection</P></Cell>
-          </Row><Row type="body" withNext="Y">
-            <Cell textAlign="left" columnSpan="3" verticalTextAlign="top" paraDef="tableHeader" fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt"><P>Math
-              equation formatting</P></Cell>
-          </Row><Row type="body">
-						<Cell textAlign="left" verticalTextAlign="top"><!--p element nested in table at nest level 2--><P textAlign="left" listLabel="N" id="#outputclass-mathmldef">mmpdf:mathMLDef:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P></Cell>
-						<Cell textAlign="left" verticalTextAlign="top"><P>mathml, equation-block, equation-inline</P></Cell>
-						<Cell textAlign="left" verticalTextAlign="middle"><P>Use MathMLDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> for formatting this
-							equation</P></Cell>
-					</Row><Row type="body" withNext="Y">
-            <Cell textAlign="left" columnSpan="3" verticalTextAlign="top" paraDef="tableHeader" fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt"><P>Chapter and
-              page numbering</P></Cell>
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><P>mmpdf:pageNumberStart:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">startvalue</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><P>frontmatter, backmatter, chapter,
-              appendix</P></Cell>
-            <Cell verticalTextAlign="top"><!--p element nested in table at nest level 2--><P listLabel="N"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">startvalue</Font> is an integer, or the
-                  <Font fontDef="codeph">increment</Font>
-                keyword. If set to
-                  <Font fontDef="codeph">increment</Font>, page
-                numbering will be sequential. Use
-                integer value (usually 1) to set
-                specific page numbering.</P><!--p element nested in table at nest level 2--><P listLabel="N">default: from SectionDef</P></Cell>
-          
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><P>mmpdf:chapterNumberStart:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">startvalue</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><P>frontmatter, backmatter, chapter,
-              appendix</P></Cell>
-            <Cell verticalTextAlign="top"><!--p element nested in table at nest level 2--><P listLabel="N"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">startvalue</Font> is an integer, or the
-                  <Font fontDef="codeph">increment</Font>
-                keyword. If set to
-                  <Font fontDef="codeph">increment</Font>,
-                chapter numbering will be
-                sequential. Use integer value
-                (usually 1) to set specific
-                chapter number in the
-                  <Font fontDef="codeph">chapterNumber</Font>
-                variable.</P><!--p element nested in table at nest level 2--><P listLabel="N">By default, the first
-                  <Font fontDef="codeph">&lt;chapter&gt;</Font> or
-                  <Font fontDef="codeph">&lt;appendix&gt;</Font>
-                in a bookmap will reset the
-                  <Font fontDef="codeph">chapterNumber</Font>
-                variable to 1.</P></Cell>
- 
-          </Row><Row type="body">
-            <Cell textAlign="left" verticalTextAlign="top"><P>mmpdf:chapterNumberStyle:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">numstyle</Font></P></Cell>
-            <Cell textAlign="left" verticalTextAlign="top"><P>frontmatter, backmatter, chapter,
-              appendix</P></Cell>
-            <Cell verticalTextAlign="top"><!--p element nested in table at nest level 2--><P listLabel="N"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">numstyle</Font> is a keyword for the
-                chapterNumberStyle property, e.g.
-                  '<Font fontDef="codeph">westernArabic'</Font>,
-                  '<Font fontDef="codeph">uppercaseAlpha'</Font>,
-                  '<Font fontDef="codeph">lowercaseAlpha'</Font>,
-                  '<Font fontDef="codeph">uppercaseRoman'</Font>,
-                  '<Font fontDef="codeph">lowercaseRoman'</Font>,
-                  '<Font fontDef="codeph">indicArabic'</Font>,
-                which indicates the numbering
-                scheme and style for the
-                  <Font fontDef="codeph">chapterNumber</Font>
-                variable.</P><!--p element nested in table at nest level 2--><P listLabel="N">By default, the
-                  <Font fontDef="codeph">&lt;appendix&gt;</Font>
-                chapterNumberStyle is set to
-                  <Font fontDef="codeph">uppercaseAlpha</Font></P><!--p element nested in table at nest level 2--><P listLabel="N">See the
-                <HyperCmd fontDef="ulink" openURL="https://www.miramo.com/download/documentation/mmComposerReferenceGuide2.0.pdf#Chapter.property.chapterNumberStyle">mmComposer reference guide</HyperCmd>
-                for a full list.</P></Cell>
-          </Row>
-      </Tbl>
-  </MiramoXML>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com"
+  xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish">
+  <VarDef varDef="pluginVersion">200p021</VarDef>
+  <VarDef varDef="lang-figure">Figure</VarDef>
+  <VarDef varDef="lang-table">Table</VarDef>
+  <VarDef varDef="lang-chapter">Chapter</VarDef>
+  <VarDef varDef="lang-appendix">Appendix</VarDef>
+  <VarDef varDef="lang-page">page</VarDef>
+  <VarDef varDef="lang-optional">Optional:</VarDef>
+  <VarDef varDef="lang-required">Required:</VarDef>
+  <VarDef varDef="lang-glossary"/>
+  <VarDef varDef="lang-listoftables"/>
+  <VarDef varDef="lang-listoffigures"/>
+  <VarDef varDef="lang-onpage">on page</VarDef>
+  <VarDef varDef="lang-prereq">Before you begin</VarDef>
+  <VarDef varDef="lang-postreq">What to do next</VarDef>
+  <VarDef varDef="lang-example">Example</VarDef>
+  <VarDef varDef="lang-context">About this task</VarDef>
+  <VarDef varDef="lang-procedure">Procedure</VarDef>
+  <VarDef varDef="lang-procedure-unordered">Procedure</VarDef>
+  <VarDef varDef="lang-results">Results</VarDef>
+  <VarDef varDef="lang-note">Note</VarDef>
+  <VarDef varDef="lang-preface">Preface</VarDef>
+  <VarDef varDef="lang-notices">Notice</VarDef>
+  <VarDef varDef="lang-notes">Notes</VarDef>
+  <VarDef varDef="lang-tip">Tip</VarDef>
+  <VarDef varDef="lang-fastpath">Fastpath</VarDef>
+  <VarDef varDef="lang-notice">Notice</VarDef>
+  <VarDef varDef="lang-important">Important</VarDef>
+  <VarDef varDef="lang-attention">Attention</VarDef>
+  <VarDef varDef="lang-caution">CAUTION</VarDef>
+  <VarDef varDef="lang-danger">DANGER</VarDef>
+  <VarDef varDef="lang-remember">Remember</VarDef>
+  <VarDef varDef="lang-other">[other]</VarDef>
+  <VarDef varDef="lang-trouble">Trouble</VarDef>
+  <VarDef varDef="lang-restriction">Restriction</VarDef>
+  <VarDef varDef="lang-warning">Warning</VarDef>
+  <VarDef varDef="lang-contents">Contents</VarDef>
+  <VarDef varDef="lang-index">Index</VarDef>
+  <VarDef varDef="lang-listoftables">List of Tables</VarDef>
+  <VarDef varDef="lang-listoffigures">List of Figures</VarDef>
+  <VarDef varDef="lang-glossary">Glossary</VarDef>
+  <VarDef varDef="lang-obsolete">Obsolete:</VarDef>
+  <VarDef varDef="lang-deprecated">Deprecated:</VarDef>
+  <VarDef varDef="lang-default">Default:</VarDef>
+  <VarDef varDef="lang-low">Low:</VarDef>
+  <VarDef varDef="lang-normal">Normal:</VarDef>
+  <VarDef varDef="lang-high">High:</VarDef>
+  <VarDef varDef="lang-recommended">Recommended:</VarDef>
+  <VarDef varDef="lang-urgent">Urgent:</VarDef>
+  <VarDef varDef="metadata-separator">, </VarDef>
+  <VarDef varDef="lang-note-separator">: </VarDef>
+  <!--STARTSECTION $outputclass=[]-->
+  <!--topic/title parent concept count= outputclass=-->
+  <!--STARTSECTION $outputclass=[]-->
+  <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title"
+    id="#controlling-formatting-outputclass">Controlling formatting using DITA @outputclass
+    values</P>
+  <P paraDef="body">The Miramo DITA-OT plugin allows page layouts, covers, TOC and Index generation
+    to be controlled using one or more space separated 'mmpdf:' @outputclass values, as described in
+    the table below:</P>
+  <!--STARTSECTION $outputclass=[]-->
+  <Tbl xmlns:svg="http://www.w3.org/2000/svg" tblDef="table" columns="3">
+    <TblTitle>
+      <!--topic/title parent table count= outputclass=-->
+      <!--STARTSECTION $outputclass=[]-->
+      <P paraDef="tableTitle">DITA @outputclass values</P>
+    </TblTitle>
+    <TblColumn width="1.5*"/>
+    <TblColumn width="1*"/>
+    <TblColumn width="1.96*"/>
+    <Row type="header">
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">@outputclass value</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">DITA elements</P>
+      </Cell>
+      <Cell verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">Description</P>
+      </Cell>
+    </Row>
+    <Row type="body" withNext="Y">
+      <Cell textAlign="left" columnSpan="3" verticalTextAlign="middle" paraDef="tableHeader"
+        fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt">
+        <P>Column spanning and page-breaking control</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:span</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">title, p, note, cmd</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">spans title across all columns in multi-column
+          document</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:pageBreak</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">title, p, note, cmd</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">breaks page before paragraph</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:columnBreak (alias for break-before)</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">title, p, note, cmd</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">force paragraph to top of next column (or page, for
+          single-column documents)</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N"
+            >mmpdf:keepTogether:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">bool</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">table, title, p, note, cmd</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">set <Font fontDef="codeph">keepTogether</Font> to '<Font
+            fontDef="codeph">Y</Font>' to prevent page or column breaks within the paragraph or
+          table, for example to prevent page breaks before an <Font fontDef="codeph"
+            >&lt;image&gt;</Font> anchored within a paragraph with @placement = '<Font
+            fontDef="codeph">break'</Font></P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:withNext: <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">bool</Font>
+        </P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">title, p, note, cmd</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">set withNext to 'Y' or 'N' to set the paragraph keep with
+          next property</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:withPrevious:
+            <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">bool </Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">title, p, note, cmd</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">set withPrevious to 'Y' or 'N' to set the paragraph keep
+          with previous property</P>
+      </Cell>
+    </Row>
+    <Row type="body" withNext="Y">
+      <Cell textAlign="left" columnSpan="3" verticalTextAlign="top" paraDef="tableHeader"
+        fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt">
+        <P>Paragraph and text formatting</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:fontDef:<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">ph</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">apply fontDef <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font> to this phrase</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:paraDef:<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">title, p, note, ol, ul</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">override default paraDef with paraDef
+            <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> for rendering generated
+          paragraph. For <Font fontDef="codeph">&lt;ol&gt;</Font>, <Font fontDef="codeph"
+            >&lt;ul&gt;</Font> elements, use named paraDef for child list items</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:listName:<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">ol, ul</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">specify basename for generating listItem paragraph
+          names.</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">default: orderedlistitem (<Font fontDef="codeph"
+            >&lt;ol&gt;</Font>) or unorderedlistitem(<Font fontDef="codeph">&lt;ul&gt;</Font>)</P>
+      </Cell>
+    </Row>
+    <Row type="body" withNext="Y">
+      <Cell textAlign="left" columnSpan="3" verticalTextAlign="top" paraDef="tableHeader"
+        fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt">
+        <P>Tables</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:tblDef:<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">fig, table,</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">simpletable, reltable, hazardstatement</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">use tblDef <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font> for rendering table, figure or hazardstatement</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N" id="#mmpdf-topRule-name"
+            >mmpdf:topRule:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:bottomRule:<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font></P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:startRule:<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font></P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:endRule:<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">fig, table,</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">simpletable, reltable, hazardstatement, row, strow, entry,
+          stentry</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">set top, bottom, start or end rule to ruleDef
+            <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font>.</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">If applied to a <Font fontDef="codeph">&lt;fig&gt;</Font>,
+            <Font fontDef="codeph">&lt;table&gt;</Font>, <Font fontDef="codeph"
+            >&lt;simpletable&gt;</Font>, <Font fontDef="codeph">&lt;reltable&gt;</Font> or <Font
+            fontDef="codeph">&lt;hazardstatement&gt;</Font>, the ruling applies to the outside edges
+          of the table</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">If applied to a <Font fontDef="codeph">&lt;row&gt;</Font>
+          or <Font fontDef="codeph">&lt;strow&gt;</Font> element, the ruling establishes the default
+          start/end/top/bottom ruling for all contained table cells.</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">If applied to a <Font fontDef="codeph"
+            >&lt;entry&gt;</Font> or <Font fontDef="codeph">&lt;stentry&gt;</Font> element, the
+          ruling applies to the edges of the table cell.</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N"
+            >mmpdf:maximumHeight:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">dim</Font>
+        </P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">row, strow</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">set maximum row height</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N"
+            >mmpdf:minimumHeight:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">dim</Font>
+        </P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">row, strow</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">set minimum row height</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>mmpdf:splitRow:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">bool</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>row, strow</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>allow page or column breaks within row</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>mmpdf:splitStraddledRow:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i"
+          >bool</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>row, strow</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>allow page or column breaks between straddled rows</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:colorDef:<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">entry, stentry</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">use colorDef <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font> for table cell fill</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:fillOpacity;<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">percent</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">entry, stentry</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">use fillOpacity <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">percent</Font> in the range 0-100% for cell fill color (ignored unless
+          mmpdf:colorDef:name used) </P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">default: from TblDef</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:fillTint.<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">percent</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">entry, stentry</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">use fillTint <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">percent</Font> in the range 0-100% for cell fill color (ignored unless
+          mmpdf:colorDef:name used) </P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">default: from TblDef</P>
+      </Cell>
+    </Row>
+    <Row type="body" withNext="Y">
+      <Cell textAlign="left" columnSpan="3" verticalTextAlign="middle" paraDef="tableHeader"
+        fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt">
+        <P>Cross-references</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:xRefDef:<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">xref</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">Use XRefDef <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font> for this cross reference</P>
+      </Cell>
+    </Row>
+    <Row type="body" withNext="Y">
+      <Cell textAlign="left" columnSpan="3" verticalTextAlign="middle" paraDef="tableHeader"
+        fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt">
+        <P>Vertical spacing</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>mmpdf:spaceAbove:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">dim</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>title, p, note, cmd, table, simpletable, image</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>set spaceAbove</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>mmpdf:spaceBelow:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">dim</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>title, p, note, cmd, table, simpletable, image</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>set spaceBelow</P>
+      </Cell>
+    </Row>
+    <Row type="body" withNext="Y">
+      <Cell textAlign="left" columnSpan="3" verticalTextAlign="top" paraDef="tableHeader"
+        fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt">
+        <P>Page layout sequences</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">mmpdf:section:<!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">map, bookmap, title, topic, topicref, chapter, appendix,
+          booktitle, table</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">start new section using SectionDef
+            <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font>.</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">SectionDef is defined in the MFD template or using</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N"><Font fontDef="codeph">&lt;SectionDef
+            sectionDef="name"../&gt; </Font>and starts a new page layout sequence</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N"
+            >mmpdf:coverSection:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">map, bookmap</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">Use sectionDef <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font> for cover and subsequent pages.</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">Ignored if mmpdf:includeCover is set to N. </P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">default: coverSection</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N"
+            >mmpdf:backCoverSection:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i"
+          >name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">map, bookmap</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">Apply sectionDef <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font> to end of PDF.</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">Ignored unless mmpdf:includeBackCover is set to Y. </P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">default: backCoverSection</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N"
+            >mmpdf:contentsSection:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i"
+          >name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">map, bookmap</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">Use sectionDef <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font> for TOC and subsequent pages.</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">Ignored if mmpdf:includeTOC is set to N. </P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">default: contentsSection</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N"
+            >mmpdf:indexSection:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">map, bookmap</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">Use sectionDef <!--topic/ph hi-d found: [i] id=--><Font
+            fontDef="i">name</Font> for Index and subsequent pages.</P>
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N">Ignored if mmpdf:includeIndex is set to N, or document
+          contains no indexterms. default: indexSection</P>
+      </Cell>
+    </Row>
+    <Row type="body" withNext="Y">
+      <Cell textAlign="left" columnSpan="3" verticalTextAlign="top" paraDef="tableHeader"
+        fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt">
+        <P>Math equation formatting</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P textAlign="left" listLabel="N" id="#outputclass-mathmldef"
+            >mmpdf:mathMLDef:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <P>mathml, equation-block, equation-inline</P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="middle">
+        <P>Use MathMLDef <!--topic/ph hi-d found: [i] id=--><Font fontDef="i">name</Font> for
+          formatting this equation</P>
+      </Cell>
+    </Row>
+    <Row type="body" withNext="Y">
+      <Cell textAlign="left" columnSpan="3" verticalTextAlign="top" paraDef="tableHeader"
+        fillColor="none" topRule="Very Thin" bottomRule="Very Thin" topMargin="8pt">
+        <P>Chapter and page numbering</P>
+      </Cell>
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <P>mmpdf:pageNumberStart:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i"
+            >startvalue</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <P>frontmatter, backmatter, chapter, appendix</P>
+      </Cell>
+      <Cell verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">startvalue</Font> is
+          an integer, or the <Font fontDef="codeph">increment</Font> keyword. If set to <Font
+            fontDef="codeph">increment</Font>, page numbering will be sequential. Use integer value
+          (usually 1) to set specific page numbering.</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">default: from SectionDef</P>
+      </Cell>
+
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <P>mmpdf:chapterNumberStart:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i"
+            >startvalue</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <P>frontmatter, backmatter, chapter, appendix</P>
+      </Cell>
+      <Cell verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">startvalue</Font> is
+          an integer, or the <Font fontDef="codeph">increment</Font> keyword. If set to <Font
+            fontDef="codeph">increment</Font>, chapter numbering will be sequential. Use integer
+          value (usually 1) to set specific chapter number in the <Font fontDef="codeph"
+            >chapterNumber</Font> variable.</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">By default, the first <Font fontDef="codeph">&lt;chapter&gt;</Font> or
+            <Font fontDef="codeph">&lt;appendix&gt;</Font> in a bookmap will reset the <Font
+            fontDef="codeph">chapterNumber</Font> variable to 1.</P>
+      </Cell>
+
+    </Row>
+    <Row type="body">
+      <Cell textAlign="left" verticalTextAlign="top">
+        <P>mmpdf:chapterNumberStyle:<!--topic/ph hi-d found: [i] id=--><Font fontDef="i"
+            >numstyle</Font></P>
+      </Cell>
+      <Cell textAlign="left" verticalTextAlign="top">
+        <P>frontmatter, backmatter, chapter, appendix</P>
+      </Cell>
+      <Cell verticalTextAlign="top">
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N"><!--topic/ph hi-d found: [i] id=--><Font fontDef="i">numstyle</Font> is a
+          keyword for the chapterNumberStyle property, e.g. '<Font fontDef="codeph"
+            >westernArabic'</Font>, '<Font fontDef="codeph">uppercaseAlpha'</Font>, '<Font
+            fontDef="codeph">lowercaseAlpha'</Font>, '<Font fontDef="codeph">uppercaseRoman'</Font>,
+            '<Font fontDef="codeph">lowercaseRoman'</Font>, '<Font fontDef="codeph"
+            >indicArabic'</Font>, which indicates the numbering scheme and style for the <Font
+            fontDef="codeph">chapterNumber</Font> variable.</P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">By default, the <Font fontDef="codeph">&lt;appendix&gt;</Font>
+          chapterNumberStyle is set to <Font fontDef="codeph">uppercaseAlpha</Font></P>
+        <!--p element nested in table at nest level 2-->
+        <P listLabel="N">See the <HyperCmd fontDef="ulink"
+            openURL="https://www.miramo.com/download/documentation/mmComposerReferenceGuide2.0.pdf#Chapter.property.chapterNumberStyle"
+            >mmComposer reference guide</HyperCmd> for a full list.</P>
+      </Cell>
+    </Row>
+  </Tbl>
+</MiramoXML>

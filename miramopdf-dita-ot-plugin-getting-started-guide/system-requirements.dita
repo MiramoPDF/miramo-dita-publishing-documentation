@@ -8,14 +8,16 @@
       working on the target system:</p>
     <ul>
       <li>DITA-OT version 2.4 or above</li>
-      <li><b>MiramoPDF</b> or Miramo Enterprise vs 2.0 or above</li>
+      <li><ph keyref="MiramoPDF"/> Desktop or <ph keyref="MiramoEnterprise"/> vs <ph
+          keyref="version"/> or above</li>
     </ul>
-    <p><b>MiramoPDF</b> Personal edition runs on the following operating systems:</p>
+    <p><ph keyref="MiramoPDF"/> Desktop edition runs on the following operating systems:</p>
     <ul>
-      <li>Windows 7 Professional (64 bit only)</li>
       <li>Windows 8.1 (64 bit only)</li>
       <li>Windows 10</li>
+      <li>macOS (Catalina)</li>
     </ul>
-    <p>Miramo Enterprise is available to run on Windows Server and Linux operating systems - contact us for more information.</p>
+    <p><ph keyref="MiramoEnterprise"/> Server is available on Windows Server and Linux operating
+      systems. <ph product="MiramoDesktop">Contact us (miramo@datazone.com) for more information.</ph></p>
   </conbody>
 </concept>

@@ -5,9 +5,9 @@
     <topicref href="installing-integrating-plugin-with-xmetal.dita">
         <topicref href="installing-from-setup-exe-xmetal.dita"/>
         <topicref href="files-and-folders-xref.dita"/>
-		<topicref href="configuring-xmetal.dita">
-			<topicref href="create-miramopdf-deliverable-types-in-xmetal.dita"/>
-		</topicref>
-		<topicref href="test-integration-xmetal.dita"/>
+        <topicref href="configuring-xmetal.dita">
+            <topicref href="create-miramopdf-deliverable-types-in-xmetal.dita"/>
+        </topicref>
+        <topicref href="test-integration-xmetal.dita"/>
     </topicref>
 </map>

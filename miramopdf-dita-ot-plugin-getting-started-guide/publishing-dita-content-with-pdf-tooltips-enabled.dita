@@ -4,10 +4,15 @@
 <concept xml:lang="en-us" id="publishing-dita-content-with-pdf-tooltips-enabled">
 	<title>Publishing DITA content with PDF tooltips enabled</title>
 	<conbody>
-		<p>Set the ant build parameter mmpdf:mfd.file to the name of the template (eg myTemplate.mfd) and the mmpdf:showProperties build parameter to 'Y' to include PDF tooltips in the generated output, as allowed by your CMS or authoring tool. For example, If using oXygen, make a copy of the MiramoPDF - Dev output transformation, change the mmpdf:mfd.file parameter to 'myTemplate.mfd'</p>
-		<p>Publish your DITA content to produce a PDF with tooltips which indicate which format are applied, here's an example showing the 'article_title' &lt;ParaDef&gt; properties:</p>
+		<p>Set the ant build parameter mmpdf:mfd.file to the name of the template (eg
+			myTemplate.mfd) and the mmpdf:showProperties build parameter to 'Y' to include PDF
+			tooltips in the generated output, as allowed by your CMS or authoring tool. For example,
+			If using oXygen, make a copy of the MiramoPDF - Dev output transformation, change the
+			mmpdf:mfd.file parameter to 'myTemplate.mfd'</p>
+		<p>Publish your DITA content to produce a PDF with tooltips which indicate which format are
+			applied, here's an example showing the 'article_title' &lt;ParaDef&gt; properties:</p>
 		<draft-comment author="whitel">Needs image</draft-comment>
-		<p>Once you have reviewed the PDF and decided which format definitions require updating you're
-      ready to edit the MiramoDesigner template and republish.</p>
+		<p>Once you have reviewed the PDF and decided which format definitions require updating
+			you're ready to edit the MiramoDesigner template and republish.</p>
 	</conbody>
 </concept>

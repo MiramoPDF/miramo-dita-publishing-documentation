@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept
   PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept xml:lang="en-us" id="installing-integrating-plugin-with-oxygen"><title>Installing and integrating the plugin with oXygen</title><conbody/></concept>
+<concept xml:lang="en-us" id="installing-integrating-plugin-with-oxygen">
+  <title>Installing and integrating the plugin with oXygen</title>
+  <conbody>
+    <p>This section describes how to install the 'com.miramo.mmpdf' plugin for use with <ph
+        keyref="oxygen"/>. Note that if you are installing the plugin from the ZIP file it will be
+      necessary to run the DITA-OT integrator to register the 'mmpdf' transformation type.</p>
+  </conbody>
+</concept>

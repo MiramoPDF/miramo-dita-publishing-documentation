@@ -1,42 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dita PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd"[]>
 <dita>
-<topic id="topic_wth_mzh_v2b">
-<title>Hergebruik</title>
-<body>
-<section id="section_iqj_pzh_v2b">
-<title>Links &amp; bestanden</title>
-<table frame="all" rowsep="1" colsep="1" id="table_wb3_rzh_v2b">
-<title />
-<tgroup cols="2">
-<colspec colname="c1" colnum="1" colwidth="1*" />
-<colspec colname="c2" colnum="2" colwidth="1*" />
-<thead>
-<row>
-<entry />
-<entry />
-</row>
-</thead>
-<tbody>
-<row>
-<entry>Custom Info </entry>
-<entry><filepath id="custom_xsl_path">S:\projects\flow\flow_18015\use_custom_xsl</filepath></entry>
-</row>
-<row>
-<entry>Standaard transformatie scenario</entry>
-<entry><filepath>ft-mmpdf.scenarios</filepath></entry>
-</row>
-<row>
-<entry />
-<entry />
-</row>
-</tbody>
-</tgroup>
-</table>
-</section>
-</body>
-<task id="task_qyq_nzh_v2b">
-<title />
-</task>
-</topic>
+    <topic id="topic_wth_mzh_v2b">
+        <title>Hergebruik</title>
+        <body>
+            <section id="section_iqj_pzh_v2b">
+                <title>Links &amp; bestanden</title>
+                <table frame="all" rowsep="1" colsep="1" id="table_wb3_rzh_v2b">
+                    <title/>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry/>
+                                <entry/>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Custom Info </entry>
+                                <entry><filepath id="custom_xsl_path"
+                                        >S:\projects\flow\flow_18015\use_custom_xsl</filepath></entry>
+                            </row>
+                            <row>
+                                <entry>Standaard transformatie scenario</entry>
+                                <entry><filepath>ft-mmpdf.scenarios</filepath></entry>
+                            </row>
+                            <row>
+                                <entry/>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </section>
+        </body>
+        <task id="task_qyq_nzh_v2b">
+            <title/>
+        </task>
+    </topic>
 </dita>

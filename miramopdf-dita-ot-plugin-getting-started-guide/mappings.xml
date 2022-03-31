@@ -1,9 +1,17 @@
 <MiramoDefinitionMapping>
 
-<ParaDef paraDef="P_heading"><MapTo paraDef="topic_title1"/></ParaDef>
+    <ParaDef paraDef="P_heading">
+        <MapTo paraDef="topic_title1"/>
+    </ParaDef>
 
-<ParaDef paraDef="P_body"><MapTo paraDef="body"/></ParaDef>
-<ParaDef paraDef="P_numbered"><MapTo paraDef="orderedlistitem1"/></ParaDef>
-<ParaDef paraDef="P_heading1"><MapTo paraDef="topic_title2"/></ParaDef>
+    <ParaDef paraDef="P_body">
+        <MapTo paraDef="body"/>
+    </ParaDef>
+    <ParaDef paraDef="P_numbered">
+        <MapTo paraDef="orderedlistitem1"/>
+    </ParaDef>
+    <ParaDef paraDef="P_heading1">
+        <MapTo paraDef="topic_title2"/>
+    </ParaDef>
 
 </MiramoDefinitionMapping>

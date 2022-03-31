@@ -1,22 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept
-  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept xml:lang="en-us" id="upgrading-miramo-dita-ot-plugin">
-  <title>Upgrading the Miramo DITA-OT plugin</title>
-  <conbody>
-    <p>Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe and navigate to the DITA-OT
-      install root folder. If the target DITA-OT folder already contains an instance of the Miramo
-      DITA-OT plugin com.miramo.mmpdf, the installer will automatically uninstall the existing
-      plugin from the com.miramo.mmpdf plugin folder, and existing configuration files and XSL
-      stylesheets in the com.miramo.mmpdf folder will be overwritten. If you wish to install
-      multiple versions of the plugin, navigate to a different DITA-OT folder and choose to proceed
-      without uninstalling the previous version when prompted.</p>
-    <p>If you have made changes to the 'default.mfd' template file located in the
-      com.miramo.mmpdf\mmtemplates folder, the installer will make a backup copy of the
-      'default.mfd' to 'default-pre&lt;vs&gt;mfd', where &lt;vs&gt; is the version being installed
-      for example <b>200p01</b>. Any other MFD files located in the mmtemplates folder will be left
-      unchanged.</p>
-    <note type="important">Once the installation has completed, upgrade any existing MFD files (including the renamed
-      'default.mfd' if present) by following the instructions given below.</note>
-  </conbody>
-</concept>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-us" id="upgrading-miramo-dita-ot-plugin">
+  <title>Upgrading the <ph keyref="plugin"/></title>
+  <taskbody>
+    <context>
+    <p>These instructions are for Windows only. </p>
+      <p>For all other platforms, remove the <codeph>com.miramo.mmpdf</codeph> folder from the
+        target DITA-OT plugins folder and install the new version as described <xref
+          href="installing-from-archive.dita"/>.</p></context>
+    <steps id="steps_azc_j4z_lqb">
+      <step>
+        <cmd>On Windows, double-click on the <codeph>MiramoDITA-OTplugin<ph keyref="version"
+              />p<i>NNN</i>setup.exe</codeph> and navigate to the DITA-OT install root folder.</cmd>
+        <stepresult>
+          <p>If you wish to install multiple versions of the plugin, navigate to a different DITA-OT
+            folder and choose to proceed without uninstalling the previous version when
+            prompted.</p>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>Install</uicontrol>.</cmd>
+        <stepresult>
+          <p> If the target DITA-OT folder already contains an instance of the <ph keyref="plugin"
+            />, <codeph>com.miramo.mmpdf</codeph>, the installer will automatically uninstall the
+            existing com.miramo.mmpdf plugin from the DITA-OT plugins folder, and existing
+            configuration files and XSL stylesheets in the com.miramo.mmpdf folder will be
+            overwritten.</p>
+          <p>If you have made changes to the 'default.mfd' template file located in the
+            com.miramo.mmpdf\mmtemplates folder, the installer will make a backup copy of the
+            'default.mfd' to 'default-pre&lt;vs&gt;mfd', where &lt;vs&gt; is the version being
+            installed. For example: <ph keyref="version"/>p099. </p>
+          <p>Any other MFD files located in the mmtemplates folder will be left unchanged.</p>
+        </stepresult>
+      </step>
+    </steps>
+    <postreq id="postreq_ub3_x4z_lqb">
+      <note type="important">Once the installation has completed, upgrade any existing MFD files.
+        See <xref href="upgrading-existing-mfd-files.dita"/>.</note>
+    </postreq>
+  </taskbody>
+</task>

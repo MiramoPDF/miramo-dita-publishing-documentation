@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="linux_uninstall">
+    <title>Upgrading <ph keyref="MiramoPDF"/> on macOS Desktop</title>
+    <taskbody>
+        <steps id="steps_kq5_dnz_lqb">
+            <step>
+                <cmd>Drag the <ph keyref="MiramoPDF"/>
+                    <ph keyref="version"/>app from the Applications folder to the Trash (at the end
+                    of the Dock).</cmd>
+            </step>
+            <step>
+                <cmd>Download the macOS installation package as described in <xref
+                        href="macOS_installation.dita"/> and install the new version according to
+                    the instructions in that topic.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

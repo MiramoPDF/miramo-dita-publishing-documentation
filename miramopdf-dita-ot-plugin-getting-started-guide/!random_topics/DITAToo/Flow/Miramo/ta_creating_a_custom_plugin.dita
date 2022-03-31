@@ -1,108 +1,153 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"[]>
 <task id="A2214761-2A2B2D5-1111CB215786625-2E7F8E" xml:lang="en-US">
-<title>Creating a custom <ph keyref="productname02"/> in <ph keyref="productname03"/></title>
-<prolog>
-<author>Yves</author>
-</prolog>
-<taskbody>
-<context id="context_tr1_rml_k3b">There may be situations where you need to change the default behavior of the <ph keyref="productname02"/>. If so, <b>do not</b> modify the files in the default <term keyref="productname02"/> installation folder (<filepath>DITA-OT3.x\plugins\com.miramo.mmpdf</filepath>), because these files will be overwritten when you install a new version of the <ph keyref="productname02"/>. Create a custom <ph keyref="productname02"/> instead.<fig id="fig_uwd_vpl_k3b">
-<image href="graphics/default_miramo_dita-ot_plugin.png" outputclass="fmdpi:240" id="image_xlf_nfz_fjb"/>
-<image href="graphics/custom_miramo_dita-ot_plugin.png" id="image_hc4_wpl_k3b" outputclass="fmdpi:240"/>
-<dl>
-<dlentry>
-<dt>A</dt>
-<dd><b>Default</b>
-<ph keyref="productname02"/> folder</dd>
-</dlentry>
-<dlentry>
-<dt>B</dt>
-<dd><b>Custom</b>
-<ph keyref="productname02"/> folder</dd>
-</dlentry>
-</dl>
-</fig></context>
-<steps id="steps_epb_kpg_j3b">
-<step>
-<cmd>In <ph keyref="productname03"/>, choose <menucascade>
-<uicontrol>Options</uicontrol>
-<uicontrol>Import Transformation Scenarios</uicontrol>
-</menucascade>.</cmd>
-</step>
-<step>
-<cmd>Navigate to your <ph keyref="productname02"/> installation folder, for example <xref href="file:///C:/Program%20Files/Oxygen%20XML%20Editor%2021/frameworks/dita/DITA-OT3.x/plugins/com.miramo.mmpdf/integration/oxygen" scope="external"><filepath>C:\Program Files\Oxygen XML Editor 21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf\integration\oxygen</filepath></xref> .</cmd>
-</step>
-<step>
-<cmd>Select <filepath>MiramoPDF-generate-plugin.scenarios</filepath> and click <uicontrol>Open</uicontrol>.</cmd>
-</step>
-<step>
-<cmd>In the <wintitle>Import scenarios</wintitle> dialog, select <uicontrol>Project Options</uicontrol> and click <uicontrol>Import</uicontrol>.</cmd>
-<info>
-<fig id="fig_bwz_1vg_j3b">
-<image href="graphics/import_scenarios.png" id="image_zjy_cvg_j3b" outputclass="fmdpi:144"/>
-</fig>
-</info>
-</step>
-<step>
-<cmd>Create or open any DITA file.</cmd>
-<stepxmp>
-<p id="p_ctd_wgz_fjb">You can open a DITA file in the following <filepath>Samples</filepath> folder: </p>
-<p><filepath>C:\Program Files\Oxygen XML Editor 21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf\samples\flowers</filepath></p>
-</stepxmp>
-</step>
-<step>
-<cmd>Click the <uicontrol>Configure Transformation Scenario</uicontrol>
-<image href="graphics/configure_transformation_scenario_button.png" id="image_ywx_yq3_j3b"/> button.</cmd>
-</step>
-<step>
-<cmd>In the <wintitle>Configure Transformation Scenarios</wintitle> dialog, select the <uicontrol>MiramoPDF - generate new plugin</uicontrol> transformation scenario and click <uicontrol>Edit</uicontrol>.</cmd>
-</step>
-<step>
-<cmd>Click the <uicontrol>Parameters</uicontrol> tab and change the <uicontrol>plugin-name</uicontrol> and <uicontrol>transtype</uicontrol> parameters, as shown in the example below.</cmd>
-<info>
-<p>A <uicontrol>transtype</uicontrol> is a new transformation type with any new custom parameters that are supported. In this case, the <uicontrol>transtype</uicontrol> is the <ph keyref="Product"/> transformation with customizations done in a <filepath>custom.xsl</filepath> file.</p>
-<fig id="fig_stc_ywg_j3b">
-<image href="graphics/edit_ant_scenario.png" id="image_lvx_dxg_j3b" outputclass="fmdpi:144"/>
-</fig>
-</info>
-</step>
-<step>
-<cmd>Click <uicontrol>OK</uicontrol> and then <uicontrol>Apply associated</uicontrol> to run the transformation scenario.</cmd>
-<stepresult>In your DITA-OT installation folder, you will now find your custom <ph keyref="productname01"/> plugin folder where you can make the necessary customizations in the <filepath>cfg\xsl\custom.xsl</filepath> file.<fig id="fig_nn2_xfl_k3b">
-<image href="graphics/custom_xsl.png" id="image_tn4_1gl_k3b" outputclass="fmdpi:144"/>
-</fig></stepresult>
-</step>
-<step>
-<cmd>Choose <menucascade>
-<uicontrol>Options</uicontrol>
-<uicontrol>Import Transformation Scenarios</uicontrol>
-</menucascade>.</cmd>
-</step>
-<step>
-<cmd>Navigate to your newly created, custom <ph keyref="productname02"/> folder.</cmd>
-<stepxmp>For example: <xref href="file:///C:/Program%20Files/Oxygen%20XML%20Editor%2021/frameworks/dita/DITA-OT3.x/plugins/com.example.my-mmpdf" format="html" scope="external"><filepath>C:\Program Files\Oxygen XML Editor 21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.flow-mmpdf</filepath></xref> .</stepxmp>
-</step>
-<step>
-<cmd>Select the .scenarios file, for example <filepath>com.miramo.flow-mmpdf.scenarios</filepath>, and click <uicontrol>Open</uicontrol>.</cmd>
-</step>
-<step>
-<cmd>In the <wintitle>Import scenarios</wintitle> dialog, select <uicontrol>Project Options</uicontrol> and click <uicontrol>Import</uicontrol>.</cmd>
-<info>
-<fig id="fig_dzc_hc2_fjb">
-<image href="graphics/import_custom_plugin.png" id="image_j5s_3c2_fjb" outputclass="fmdpi:144"/>
-</fig>
-</info>
-</step>
-<step>
-<cmd>Click the <uicontrol>Configure Transformation Scenario</uicontrol>
-<image href="graphics/configure_transformation_scenario_button.png" id="image_w5j_vzd_fjb"/> button again.</cmd>
-<stepresult>Your new custom <term keyref="productname01"/> transformation scenario is now ready for use.<fig id="fig_wfw_sc2_fjb">
-<image href="graphics/example_custom_scenario.png" id="image_wyl_tc2_fjb" outputclass="fmdpi:144"/>
-</fig></stepresult>
-</step>
-<step>
-<cmd>You can click <uicontrol>Apply associated</uicontrol> to test your custom transformation scenario.</cmd>
-</step>
-</steps>
-</taskbody>
+    <title>Creating a custom <ph keyref="productname02"/> in <ph keyref="productname03"/></title>
+    <prolog>
+        <author>Yves</author>
+    </prolog>
+    <taskbody>
+        <context id="context_tr1_rml_k3b">There may be situations where you need to change the
+            default behavior of the <ph keyref="productname02"/>. If so, <b>do not</b> modify the
+            files in the default <term keyref="productname02"/> installation folder
+                (<filepath>DITA-OT3.x\plugins\com.miramo.mmpdf</filepath>), because these files will
+            be overwritten when you install a new version of the <ph keyref="productname02"/>.
+            Create a custom <ph keyref="productname02"/> instead.<fig id="fig_uwd_vpl_k3b">
+                <image href="graphics/default_miramo_dita-ot_plugin.png" outputclass="fmdpi:240"
+                    id="image_xlf_nfz_fjb"/>
+                <image href="graphics/custom_miramo_dita-ot_plugin.png" id="image_hc4_wpl_k3b"
+                    outputclass="fmdpi:240"/>
+                <dl>
+                    <dlentry>
+                        <dt>A</dt>
+                        <dd><b>Default</b>
+                            <ph keyref="productname02"/> folder</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt>B</dt>
+                        <dd><b>Custom</b>
+                            <ph keyref="productname02"/> folder</dd>
+                    </dlentry>
+                </dl>
+            </fig></context>
+        <steps id="steps_epb_kpg_j3b">
+            <step>
+                <cmd>In <ph keyref="productname03"/>, choose <menucascade>
+                        <uicontrol>Options</uicontrol>
+                        <uicontrol>Import Transformation Scenarios</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to your <ph keyref="productname02"/> installation folder, for example
+                        <xref
+                        href="file:///C:/Program%20Files/Oxygen%20XML%20Editor%2021/frameworks/dita/DITA-OT3.x/plugins/com.miramo.mmpdf/integration/oxygen"
+                        scope="external"><filepath>C:\Program Files\Oxygen XML Editor
+                            21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf\integration\oxygen</filepath></xref>
+                    .</cmd>
+            </step>
+            <step>
+                <cmd>Select <filepath>MiramoPDF-generate-plugin.scenarios</filepath> and click
+                        <uicontrol>Open</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>In the <wintitle>Import scenarios</wintitle> dialog, select <uicontrol>Project
+                        Options</uicontrol> and click <uicontrol>Import</uicontrol>.</cmd>
+                <info>
+                    <fig id="fig_bwz_1vg_j3b">
+                        <image href="graphics/import_scenarios.png" id="image_zjy_cvg_j3b"
+                            outputclass="fmdpi:144"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Create or open any DITA file.</cmd>
+                <stepxmp>
+                    <p id="p_ctd_wgz_fjb">You can open a DITA file in the following
+                            <filepath>Samples</filepath> folder: </p>
+                    <p><filepath>C:\Program Files\Oxygen XML Editor
+                            21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf\samples\flowers</filepath></p>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Configure Transformation Scenario</uicontrol>
+                    <image href="graphics/configure_transformation_scenario_button.png"
+                        id="image_ywx_yq3_j3b"/> button.</cmd>
+            </step>
+            <step>
+                <cmd>In the <wintitle>Configure Transformation Scenarios</wintitle> dialog, select
+                    the <uicontrol>MiramoPDF - generate new plugin</uicontrol> transformation
+                    scenario and click <uicontrol>Edit</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Parameters</uicontrol> tab and change the
+                        <uicontrol>plugin-name</uicontrol> and <uicontrol>transtype</uicontrol>
+                    parameters, as shown in the example below.</cmd>
+                <info>
+                    <p>A <uicontrol>transtype</uicontrol> is a new transformation type with any new
+                        custom parameters that are supported. In this case, the
+                            <uicontrol>transtype</uicontrol> is the <ph keyref="Product"/>
+                        transformation with customizations done in a <filepath>custom.xsl</filepath>
+                        file.</p>
+                    <fig id="fig_stc_ywg_j3b">
+                        <image href="graphics/edit_ant_scenario.png" id="image_lvx_dxg_j3b"
+                            outputclass="fmdpi:144"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>OK</uicontrol> and then <uicontrol>Apply
+                        associated</uicontrol> to run the transformation scenario.</cmd>
+                <stepresult>In your DITA-OT installation folder, you will now find your custom <ph
+                        keyref="productname01"/> plugin folder where you can make the necessary
+                    customizations in the <filepath>cfg\xsl\custom.xsl</filepath> file.<fig
+                        id="fig_nn2_xfl_k3b">
+                        <image href="graphics/custom_xsl.png" id="image_tn4_1gl_k3b"
+                            outputclass="fmdpi:144"/>
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>Choose <menucascade>
+                        <uicontrol>Options</uicontrol>
+                        <uicontrol>Import Transformation Scenarios</uicontrol>
+                    </menucascade>.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to your newly created, custom <ph keyref="productname02"/>
+                    folder.</cmd>
+                <stepxmp>For example: <xref
+                        href="file:///C:/Program%20Files/Oxygen%20XML%20Editor%2021/frameworks/dita/DITA-OT3.x/plugins/com.example.my-mmpdf"
+                        format="html" scope="external"><filepath>C:\Program Files\Oxygen XML Editor
+                            21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.flow-mmpdf</filepath></xref>
+                    .</stepxmp>
+            </step>
+            <step>
+                <cmd>Select the .scenarios file, for example
+                        <filepath>com.miramo.flow-mmpdf.scenarios</filepath>, and click
+                        <uicontrol>Open</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>In the <wintitle>Import scenarios</wintitle> dialog, select <uicontrol>Project
+                        Options</uicontrol> and click <uicontrol>Import</uicontrol>.</cmd>
+                <info>
+                    <fig id="fig_dzc_hc2_fjb">
+                        <image href="graphics/import_custom_plugin.png" id="image_j5s_3c2_fjb"
+                            outputclass="fmdpi:144"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Configure Transformation Scenario</uicontrol>
+                    <image href="graphics/configure_transformation_scenario_button.png"
+                        id="image_w5j_vzd_fjb"/> button again.</cmd>
+                <stepresult>Your new custom <term keyref="productname01"/> transformation scenario
+                    is now ready for use.<fig id="fig_wfw_sc2_fjb">
+                        <image href="graphics/example_custom_scenario.png" id="image_wyl_tc2_fjb"
+                            outputclass="fmdpi:144"/>
+                    </fig></stepresult>
+            </step>
+            <step>
+                <cmd>You can click <uicontrol>Apply associated</uicontrol> to test your custom
+                    transformation scenario.</cmd>
+            </step>
+        </steps>
+    </taskbody>
 </task>

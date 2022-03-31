@@ -1,58 +1,262 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="pluginVersion">200p012</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><!--mm:mapToParagraphs itemgroup ctx = concept--><P paraDef="itemgroup">
-    <!--topic/title parent concept count= outputclass=--><!--STARTSECTION $outputclass=[]--><P paraDef="topic_title"><MkDest id="#A2214761-2A2B2D5-1111CB215786625-2E7F8E"/>Creating a custom  using </P>
-    <!--TOPIC METADATA (- topic/prolog ) START-->
-        <VarDef varDef="author">Yves</VarDef><MetaData name="creator">Yves</MetaData>
-    <!--TOPIC METADATA END-->
-    
-        <!--mm:mapToParagraphs itemgroup ctx = section--><P paraDef="itemgroup">This topic describes how to use the <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">MiramoPDF - generate new plugin</Font> transformation scenario in  to create a new custom plugin.</P>
-        <!--mm:mapToParagraphs itemgroup ctx = section--><P paraDef="itemgroup"><ParaGroup paraGroupDef="ol">
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1" numberValue="1" withPrevious="Y">In , choose <Font fontDef="menucascade"><Font fontDef="uicontrol">Options</Font><Var varDef="menucascadeseparator"/><Font fontDef="uicontrol">Import Transformation Scenarios</Font></Font>.</P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Navigate to your  installation folder, for example <!--SW-D FOUND--><Font fontDef="filepath">C:\Program Files\Oxygen XML Editor 21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf\integration\oxygen</Font> .</P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Select <!--SW-D FOUND--><Font fontDef="filepath">MiramoPDF-generate-plugin.scenarios</Font> and click <Font fontDef="uicontrol">Open</Font>.</P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">In the <Font fontDef="wintitle">Import scenarios</Font> dialog, select <Font fontDef="uicontrol">Project Options</Font> and click <Font fontDef="uicontrol">Import</Font>.</P><P paraDef="orderedlistitem1" listLabel="N">
-                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup--><P paraDef="itemgroup">
-                        <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
-                            <AFrame wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="graphics/import_scenarios.png" keepAspectRatio="Y" dpi="144"/></AFrame>
-                        </Cell></Row></Tbl>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com"
+    xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish">
+    <VarDef varDef="pluginVersion">200p012</VarDef>
+    <VarDef varDef="lang-figure">Figure</VarDef>
+    <VarDef varDef="lang-table">Table</VarDef>
+    <VarDef varDef="lang-chapter">Chapter</VarDef>
+    <VarDef varDef="lang-appendix">Appendix</VarDef>
+    <VarDef varDef="lang-page">page</VarDef>
+    <VarDef varDef="lang-optional">Optional:</VarDef>
+    <VarDef varDef="lang-required">Required:</VarDef>
+    <VarDef varDef="lang-glossary"/>
+    <VarDef varDef="lang-listoftables"/>
+    <VarDef varDef="lang-listoffigures"/>
+    <VarDef varDef="lang-onpage">on page</VarDef>
+    <VarDef varDef="lang-prereq">Before you begin</VarDef>
+    <VarDef varDef="lang-postreq">What to do next</VarDef>
+    <VarDef varDef="lang-example">Example</VarDef>
+    <VarDef varDef="lang-context">About this task</VarDef>
+    <VarDef varDef="lang-procedure">Procedure</VarDef>
+    <VarDef varDef="lang-procedure-unordered">Procedure</VarDef>
+    <VarDef varDef="lang-results">Results</VarDef>
+    <VarDef varDef="lang-note">Note</VarDef>
+    <VarDef varDef="lang-preface">Preface</VarDef>
+    <VarDef varDef="lang-notices">Notice</VarDef>
+    <VarDef varDef="lang-notes">Notes</VarDef>
+    <VarDef varDef="lang-tip">Tip</VarDef>
+    <VarDef varDef="lang-fastpath">Fastpath</VarDef>
+    <VarDef varDef="lang-notice">Notice</VarDef>
+    <VarDef varDef="lang-important">Important</VarDef>
+    <VarDef varDef="lang-attention">Attention</VarDef>
+    <VarDef varDef="lang-caution">CAUTION</VarDef>
+    <VarDef varDef="lang-danger">DANGER</VarDef>
+    <VarDef varDef="lang-remember">Remember</VarDef>
+    <VarDef varDef="lang-other">[other]</VarDef>
+    <VarDef varDef="lang-trouble">Trouble</VarDef>
+    <VarDef varDef="lang-restriction">Restriction</VarDef>
+    <VarDef varDef="lang-warning">Warning</VarDef>
+    <VarDef varDef="lang-contents">Contents</VarDef>
+    <VarDef varDef="lang-index">Index</VarDef>
+    <VarDef varDef="lang-listoftables">List of Tables</VarDef>
+    <VarDef varDef="lang-listoffigures">List of Figures</VarDef>
+    <VarDef varDef="lang-glossary">Glossary</VarDef>
+    <VarDef varDef="lang-obsolete">Obsolete:</VarDef>
+    <VarDef varDef="lang-deprecated">Deprecated:</VarDef>
+    <VarDef varDef="lang-default">Default:</VarDef>
+    <VarDef varDef="lang-low">Low:</VarDef>
+    <VarDef varDef="lang-normal">Normal:</VarDef>
+    <VarDef varDef="lang-high">High:</VarDef>
+    <VarDef varDef="lang-recommended">Recommended:</VarDef>
+    <VarDef varDef="lang-urgent">Urgent:</VarDef>
+    <VarDef varDef="metadata-separator">, </VarDef>
+    <VarDef varDef="lang-note-separator">: </VarDef>
+    <!--mm:mapToParagraphs itemgroup ctx = concept-->
+    <P paraDef="itemgroup">
+        <!--topic/title parent concept count= outputclass=-->
+        <!--STARTSECTION $outputclass=[]-->
+        <P paraDef="topic_title"><MkDest id="#A2214761-2A2B2D5-1111CB215786625-2E7F8E"/>Creating a
+            custom using </P>
+        <!--TOPIC METADATA (- topic/prolog ) START-->
+        <VarDef varDef="author">Yves</VarDef>
+        <MetaData name="creator">Yves</MetaData>
+        <!--TOPIC METADATA END-->
+
+        <!--mm:mapToParagraphs itemgroup ctx = section-->
+        <P paraDef="itemgroup">This topic describes how to use the
+                <!--topic/ph hi-d found: [b] id=--><Font fontDef="b">MiramoPDF - generate new
+                plugin</Font> transformation scenario in to create a new custom plugin.</P>
+        <!--mm:mapToParagraphs itemgroup ctx = section-->
+        <P paraDef="itemgroup">
+            <ParaGroup paraGroupDef="ol">
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1" numberValue="1" withPrevious="Y">In , choose <Font
+                        fontDef="menucascade"><Font fontDef="uicontrol">Options</Font><Var
+                            varDef="menucascadeseparator"/><Font fontDef="uicontrol">Import
+                            Transformation Scenarios</Font></Font>.</P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">Navigate to your installation folder, for example
+                        <!--SW-D FOUND--><Font fontDef="filepath">C:\Program Files\Oxygen XML Editor
+                        21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf\integration\oxygen</Font>
+                    .</P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">Select <!--SW-D FOUND--><Font fontDef="filepath"
+                        >MiramoPDF-generate-plugin.scenarios</Font> and click <Font
+                        fontDef="uicontrol">Open</Font>.</P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">In the <Font fontDef="wintitle">Import
+                        scenarios</Font> dialog, select <Font fontDef="uicontrol">Project
+                        Options</Font> and click <Font fontDef="uicontrol">Import</Font>.</P>
+                <P paraDef="orderedlistitem1" listLabel="N">
+                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup-->
+                    <P paraDef="itemgroup">
+                        <Tbl tblDef="fig">
+                            <TblColumn width="1*">
+                                <TblColumnFormat align="start"/>
+                            </TblColumn>
+                            <Row>
+                                <Cell>
+                                    <AFrame wrap="Y" position="below" crop="N" startIndent="inherit"
+                                        align="start">
+                                        <Image file="graphics/import_scenarios.png"
+                                            keepAspectRatio="Y" dpi="144"/>
+                                    </AFrame>
+                                </Cell>
+                            </Row>
+                        </Tbl>
                     </P>
                 </P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Create or open any DITA file.</P><P paraDef="orderedlistitem1" listLabel="N">
-                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup--><P paraDef="itemgroup">You can open a DITA file in the following <!--SW-D FOUND--><Font fontDef="filepath">Samples</Font> folder: </P><P paraDef="itemgroup" listLabel="N"><!--SW-D FOUND--><Font fontDef="filepath">C:\Program Files\Oxygen XML Editor 21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf\samples\flowers</Font></P>
-                </P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Click the <Font fontDef="uicontrol">Configure Transformation Scenario</Font>
-                        <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="graphics/configure_transformation_scenario_button.png" keepAspectRatio="Y"/></AFrame> button.</P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">In the <Font fontDef="wintitle">Configure Transformation Scenarios</Font> dialog, select the <Font fontDef="uicontrol">MiramoPDF - generate new plugin</Font> transformation scenario and click <Font fontDef="uicontrol">Edit</Font>.</P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Click the <Font fontDef="uicontrol">Parameters</Font> tab and change the <Font fontDef="uicontrol">plugin-name</Font> and <Font fontDef="uicontrol">transtype</Font> parameters, as shown in the example below.</P><P paraDef="orderedlistitem1" listLabel="N">
-                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup--><P paraDef="itemgroup">A <Font fontDef="uicontrol">transtype</Font> is a new transformation type with any new custom parameters that are supported. In this case, the <Font fontDef="uicontrol">transtype</Font> is the  transformation with customizations done in a <!--SW-D FOUND--><Font fontDef="filepath">custom.xsl</Font> file.</P><P paraDef="itemgroup" listLabel="N">
-                        <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
-                            <AFrame wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="graphics/edit_ant_scenario.png" keepAspectRatio="Y" dpi="144"/></AFrame>
-                        </Cell></Row></Tbl>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">Create or open any DITA file.</P>
+                <P paraDef="orderedlistitem1" listLabel="N">
+                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup-->
+                    <P paraDef="itemgroup">You can open a DITA file in the following
+                            <!--SW-D FOUND--><Font fontDef="filepath">Samples</Font> folder: </P>
+                    <P paraDef="itemgroup" listLabel="N">
+                        <!--SW-D FOUND-->
+                        <Font fontDef="filepath">C:\Program Files\Oxygen XML Editor
+                            21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.mmpdf\samples\flowers</Font>
                     </P>
                 </P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Click <Font fontDef="uicontrol">OK</Font> and then <Font fontDef="uicontrol">Apply associated</Font> to run the transformation scenario.</P><P paraDef="orderedlistitem1" listLabel="N">
-                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup--><P paraDef="itemgroup">In your DITA-OT installation folder, you will now find your custom  plugin folder where you can make the necessary customizations in the <!--SW-D FOUND--><Font fontDef="filepath">cfg\xsl\custom.xsl</Font> file.<Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
-                            <AFrame wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="graphics/custom_xsl.png" keepAspectRatio="Y" dpi="144"/></AFrame>
-                        </Cell></Row></Tbl></P>
-                </P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Choose <Font fontDef="menucascade"><Font fontDef="uicontrol">Options</Font><Var varDef="menucascadeseparator"/><Font fontDef="uicontrol">Import Transformation Scenarios</Font></Font>.</P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Navigate to your newly created, custom  folder.</P><P paraDef="orderedlistitem1" listLabel="N">
-                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup--><P paraDef="itemgroup">For example: <HyperCmd fontDef="ulink" openURL="file:///C:/Program%20Files/Oxygen%20XML%20Editor%2021/frameworks/dita/DITA-OT3.x/plugins/com.example.my-mmpdf"><!--SW-D FOUND--><Font fontDef="filepath">C:\Program Files\Oxygen XML Editor 21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.flow-mmpdf</Font></HyperCmd> .</P>
-                </P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Select the .scenarios file, for example <!--SW-D FOUND--><Font fontDef="filepath">com.miramo.flow-mmpdf.scenarios</Font>, and click <Font fontDef="uicontrol">Open</Font>.</P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">In the <Font fontDef="wintitle">Import scenarios</Font> dialog, select <Font fontDef="uicontrol">Project Options</Font> and click <Font fontDef="uicontrol">Import</Font>.</P><P paraDef="orderedlistitem1" listLabel="N">
-                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup--><P paraDef="itemgroup">
-                        <Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
-                            <AFrame wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="graphics/import_custom_plugin.png" keepAspectRatio="Y" dpi="144"/></AFrame>
-                        </Cell></Row></Tbl>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">Click the <Font fontDef="uicontrol">Configure
+                        Transformation Scenario</Font>
+                    <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"
+                        verticalShift="0pt"><Image
+                            file="graphics/configure_transformation_scenario_button.png"
+                            keepAspectRatio="Y"/></AFrame> button.</P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">In the <Font fontDef="wintitle">Configure
+                        Transformation Scenarios</Font> dialog, select the <Font fontDef="uicontrol"
+                        >MiramoPDF - generate new plugin</Font> transformation scenario and click
+                        <Font fontDef="uicontrol">Edit</Font>.</P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">Click the <Font fontDef="uicontrol">Parameters</Font>
+                    tab and change the <Font fontDef="uicontrol">plugin-name</Font> and <Font
+                        fontDef="uicontrol">transtype</Font> parameters, as shown in the example
+                    below.</P>
+                <P paraDef="orderedlistitem1" listLabel="N">
+                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup-->
+                    <P paraDef="itemgroup">A <Font fontDef="uicontrol">transtype</Font> is a new
+                        transformation type with any new custom parameters that are supported. In
+                        this case, the <Font fontDef="uicontrol">transtype</Font> is the
+                        transformation with customizations done in a <!--SW-D FOUND--><Font
+                            fontDef="filepath">custom.xsl</Font> file.</P>
+                    <P paraDef="itemgroup" listLabel="N">
+                        <Tbl tblDef="fig">
+                            <TblColumn width="1*">
+                                <TblColumnFormat align="start"/>
+                            </TblColumn>
+                            <Row>
+                                <Cell>
+                                    <AFrame wrap="Y" position="below" crop="N" startIndent="inherit"
+                                        align="start">
+                                        <Image file="graphics/edit_ant_scenario.png"
+                                            keepAspectRatio="Y" dpi="144"/>
+                                    </AFrame>
+                                </Cell>
+                            </Row>
+                        </Tbl>
                     </P>
                 </P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">Click the <Font fontDef="uicontrol">Configure Transformation Scenario</Font>
-                        <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start" verticalShift="0pt"><Image file="graphics/configure_transformation_scenario_button.png" keepAspectRatio="Y"/></AFrame> button again.</P><P paraDef="orderedlistitem1" listLabel="N">
-                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup--><P paraDef="itemgroup">Your new custom <Font fontDef="glossterm"/> transformation scenario is now ready for use.<Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
-                            <AFrame wrap="Y" position="below" crop="N" startIndent="inherit" align="start"><Image file="graphics/example_custom_scenario.png" keepAspectRatio="Y" dpi="144"/></AFrame>
-                        </Cell></Row></Tbl></P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">Click <Font fontDef="uicontrol">OK</Font> and then
+                        <Font fontDef="uicontrol">Apply associated</Font> to run the transformation
+                    scenario.</P>
+                <P paraDef="orderedlistitem1" listLabel="N">
+                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup-->
+                    <P paraDef="itemgroup">In your DITA-OT installation folder, you will now find
+                        your custom plugin folder where you can make the necessary customizations in
+                        the <!--SW-D FOUND--><Font fontDef="filepath">cfg\xsl\custom.xsl</Font>
+                            file.<Tbl tblDef="fig"><TblColumn width="1*"><TblColumnFormat
+                                    align="start"/></TblColumn><Row><Cell>
+                                    <AFrame wrap="Y" position="below" crop="N" startIndent="inherit"
+                                        align="start"><Image file="graphics/custom_xsl.png"
+                                            keepAspectRatio="Y" dpi="144"/></AFrame>
+                                </Cell></Row></Tbl></P>
                 </P>
-                <!--topic/li--><!--makeListPara li--><P paraDef="orderedlistitem1">You can click <Font fontDef="uicontrol">Apply associated</Font> to test your custom transformation scenario.</P>
-            </ParaGroup></P>
-    
-</P></MiramoXML>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">Choose <Font fontDef="menucascade"><Font
+                            fontDef="uicontrol">Options</Font><Var varDef="menucascadeseparator"
+                            /><Font fontDef="uicontrol">Import Transformation
+                        Scenarios</Font></Font>.</P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">Navigate to your newly created, custom folder.</P>
+                <P paraDef="orderedlistitem1" listLabel="N">
+                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup-->
+                    <P paraDef="itemgroup">For example: <HyperCmd fontDef="ulink"
+                            openURL="file:///C:/Program%20Files/Oxygen%20XML%20Editor%2021/frameworks/dita/DITA-OT3.x/plugins/com.example.my-mmpdf"
+                                ><!--SW-D FOUND--><Font fontDef="filepath">C:\Program Files\Oxygen
+                                XML Editor
+                                21\frameworks\dita\DITA-OT3.x\plugins\com.miramo.flow-mmpdf</Font></HyperCmd>
+                        .</P>
+                </P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">Select the .scenarios file, for example
+                        <!--SW-D FOUND--><Font fontDef="filepath"
+                        >com.miramo.flow-mmpdf.scenarios</Font>, and click <Font fontDef="uicontrol"
+                        >Open</Font>.</P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">In the <Font fontDef="wintitle">Import
+                        scenarios</Font> dialog, select <Font fontDef="uicontrol">Project
+                        Options</Font> and click <Font fontDef="uicontrol">Import</Font>.</P>
+                <P paraDef="orderedlistitem1" listLabel="N">
+                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup-->
+                    <P paraDef="itemgroup">
+                        <Tbl tblDef="fig">
+                            <TblColumn width="1*">
+                                <TblColumnFormat align="start"/>
+                            </TblColumn>
+                            <Row>
+                                <Cell>
+                                    <AFrame wrap="Y" position="below" crop="N" startIndent="inherit"
+                                        align="start">
+                                        <Image file="graphics/import_custom_plugin.png"
+                                            keepAspectRatio="Y" dpi="144"/>
+                                    </AFrame>
+                                </Cell>
+                            </Row>
+                        </Tbl>
+                    </P>
+                </P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">Click the <Font fontDef="uicontrol">Configure
+                        Transformation Scenario</Font>
+                    <AFrame wrap="Y" position="inline" crop="N" startIndent="inherit" align="start"
+                        verticalShift="0pt"><Image
+                            file="graphics/configure_transformation_scenario_button.png"
+                            keepAspectRatio="Y"/></AFrame> button again.</P>
+                <P paraDef="orderedlistitem1" listLabel="N">
+                    <!--mm:mapToParagraphs itemgroup ctx = itemgroup-->
+                    <P paraDef="itemgroup">Your new custom <Font fontDef="glossterm"/>
+                        transformation scenario is now ready for use.<Tbl tblDef="fig"><TblColumn
+                                width="1*"><TblColumnFormat align="start"/></TblColumn><Row><Cell>
+                                    <AFrame wrap="Y" position="below" crop="N" startIndent="inherit"
+                                        align="start"><Image
+                                            file="graphics/example_custom_scenario.png"
+                                            keepAspectRatio="Y" dpi="144"/></AFrame>
+                                </Cell></Row></Tbl></P>
+                </P>
+                <!--topic/li-->
+                <!--makeListPara li-->
+                <P paraDef="orderedlistitem1">You can click <Font fontDef="uicontrol">Apply
+                        associated</Font> to test your custom transformation scenario.</P>
+            </ParaGroup>
+        </P>
+
+    </P>
+</MiramoXML>

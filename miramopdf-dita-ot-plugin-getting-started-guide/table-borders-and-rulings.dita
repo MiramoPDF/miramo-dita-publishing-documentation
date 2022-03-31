@@ -82,7 +82,7 @@
         </tbody>
       </tgroup>
     </table>
-    
+
     <p>If the <xref href="ant-build-parameters.dita#ant-build-parameters/mmpdf:tableBorders">
         mmpdf:tableBorders</xref> ant build parameter value is set to 'fromDITA' (default) the
       following rules apply for mapping inner table rulings:</p>
@@ -100,7 +100,7 @@
             <entry valign="middle"><p>rowRule</p></entry>
           </row>
         </thead>
-        <tbody valign="top">         
+        <tbody valign="top">
           <row>
             <entry align="left" valign="middle"><p>@colsep = "0"</p></entry>
             <entry align="left" valign="middle"><p>none</p></entry>

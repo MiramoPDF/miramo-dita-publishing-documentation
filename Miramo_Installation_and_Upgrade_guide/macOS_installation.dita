@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="macOS_installation" platform="mac">
+    <title>Installing on macOS</title>
+    <taskbody>
+        <prereq id="prereq_tvp_mbz_lqb">
+            <p>Download the <codeph><ph keyref="MiramoPDF"/>-macOS-<ph keyref="version"
+            />p<i>NNN</i>.pkg</codeph> from the download site.</p>
+        </prereq>
+        <steps id="steps_qwh_mbz_lqb">
+            <step>
+                <cmd>Locate the downloaded .pkg and right-click to 'Open', or double click on the
+                    .pkg from your browser:</cmd>
+                <stepxmp>
+                    <fig id="fig_t4h_tbz_lqb">
+                        <image width="80mm" href="screenshots/1.PNG" id="image_zsx_2p5_wpb"/>
+                    </fig>
+                    <p>The package is not notorized so the following notifications will show:</p>
+                    <fig id="fig_c2d_tp5_wpb">
+                        <image width="60mm" href="screenshots/2.PNG" id="image_i2z_tp5_wpb"
+                            placement="inline"/>
+                        <image width="80mm" href="screenshots/3.png" id="image_wkk_vp5_wpb"
+                            placement="inline"/>
+                    </fig>
+                    <p>Dismiss them both.</p>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>To resolve this:</cmd>
+                <substeps id="substeps_g2k_gcz_lqb">
+                    <substep>
+                        <cmd>Click the apple icon.</cmd>
+                    </substep>
+                     <substep>
+                        <cmd>Click <uicontrol>System Preferences</uicontrol>:</cmd>
+                        <stepxmp>
+                            <fig id="fig_exs_qcz_lqb">
+                                <image width="40mm" href="screenshots/4.png" id="image_lrm_zp5_wpb"
+                                    placement="inline"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Choose <uicontrol>Security &amp; Privacy</uicontrol>:</cmd>
+                        <stepxmp>
+                            <fig id="fig_aby_qcz_lqb">
+                                <image width="40mm" href="screenshots/5.png" id="image_c1l_1q5_wpb"
+                                    placement="inline"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                    <substep>
+                        <cmd>Click on <uicontrol>Open Anyway</uicontrol>:</cmd>
+                        <stepxmp>
+                            <fig id="fig_mzr_yp5_wpb">
+                                <image width="40mm" href="screenshots/6.png" id="image_atk_bq5_wpb"
+                                    placement="inline"/>
+                            </fig>
+                        </stepxmp>
+                    </substep>
+                </substeps>
+                <stepresult>
+                    <p>This will open the <ph keyref="MiramoPDF"/> installer.</p>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Follow the instructions and use default options when prompted.</cmd>
+            </step>
+        </steps>
+        <result id="result_p4y_bcz_lqb">
+            <p>The <ph keyref="MiramoPDF"/> application is now ready for use</p>
+        </result>
+    </taskbody>
+</task>

@@ -1,48 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="windows_desktop_installation">
-    <title>Installing <ph keyref="MiramoPDF"/>
-        Desktop</title>
-    <taskbody><context>
-        <p>Double-click on the <ph keyref="MiramoPDF"/><ph keyref="version"/>pNNNsetup.exe to
-      install MiramoPDF. When prompted, navigate to your chosen installation folder (default is
-        <filepath>C:\Program Files\Miramo\</filepath><ph keyref="MiramoPDF"/><ph keyref="version"
-        /><filepath> and click on OK to continue.</filepath>
-    </p>
-    <p>If an earlier version of <ph keyref="MiramoPDF"/> is already installed, you will be prompted
-        as shown below:<image href="screenshots/windows-uninstall-previous.png" placement="break"
-          id="image_mh4_yrg_wpb" width="80mm" outputclass="float-right"/></p>
-    <p>Click on <uicontrol>Yes</uicontrol> to uninstall the previous version (recommended), or click
-      on  <uicontrol>No</uicontrol> to proceed without uninstalling the previous version.</p>
-    <p>Choosing default options will create the following folder:</p>
-    <p><codeph>C:\Program Files\Miramo\MiramoPDF 2.0.0</codeph></p>
-    <p>The <ph keyref="Designer"/>
-        <ph keyref="version"/> desktop shortcut will be updated to point to MiramoDesigner.exe in
-        this folder, and the miramo.exe binary (composition engine) is located in the same
-        folder.</p>
-            <p>The PATH environment variable will
-                be set as shown here. Note that if
-                you chose not to uninstall the
-                previous version, both the earlier
-                version and 2.0.0 install folders
-                are included in the PATH
-                environment variable, but the
-                earlier version (1.6 in the
-                example shown) takes
-                    precedence.<image
-                    href="screenshots/winpath.png"
-                    id="image_pj5_135_wpb"
-                    width="50mm"
-                    outputclass="float-right"
-                /></p>
-            <p>If you wish to install multiple
-                concurrent versions of the
-                composition engine, and are
-                publishing using the MiramoPDF
-                DITA-OT plugin, the location of
-                the miramo.exe binary may be
-                configured using the
-                    <codeph>miramopath</codeph>
-                ant build parameter.</p>
-    </context></taskbody>
+    <title>Installing <ph keyref="MiramoPDF"/> Desktop on Windows</title>
+    <taskbody>
+        <prereq id="prereq_q4v_21z_lqb">
+            <ol id="ol_otm_f1z_lqb">
+                <li>Download the <codeph id="MiramoDesktop_PKG"><ph keyref="MiramoPDF"/>-win-<ph
+                            keyref="version"/>p<i>NNN</i>.zip</codeph> package from the download
+                    site.</li>
+                <li>Extract the downloaded zip file to a temporary folder</li>
+            </ol>
+        </prereq>
+        <context>Locate the extracted setup.exe and follow the steps below:</context>
+        <steps id="steps_zt4_qzy_lqb">
+            
+            <step>
+                <cmd>Double-click on the <codeph><ph keyref="MiramoPDF"/><ph keyref="version"
+                            />p<i>NNN</i>setup.exe</codeph>.</cmd>
+            </step>
+            <step>
+                <cmd>When prompted, navigate to your chosen installation folder (default is
+                            <codeph><ph keyref="DesktopWindowsInstallFolder"/></codeph>) and click
+                        <uicontrol>OK</uicontrol> to continue.</cmd>
+                <stepresult>
+                    <p>If an earlier version of <ph keyref="MiramoPDF"/> is already installed, you
+                        will be prompted as shown below:</p>
+                    <fig id="fig_llw_11z_lqb">
+                        <image href="screenshots/windows-uninstall-previous-default.png"
+                            placement="break" id="image_mh4_yrg_wpb" width="80mm"
+                            outputclass="float-right"/>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Click on <uicontrol>Yes</uicontrol> to uninstall the previous version
+                    (recommended), or click on <uicontrol>No</uicontrol> to proceed without
+                    uninstalling the previous version.</cmd>
+            </step>
+        </steps>
+        <result id="result_imn_d1z_lqb">
+            <p>Choosing default options will create the following folder:</p>
+            <p><codeph><ph keyref="DesktopWindowsInstallFolder"/></codeph></p>
+            <p>The <ph keyref="Designer"/>
+                <ph keyref="version"/> Desktop shortcut will be updated to point to
+                MiramoDesigner.exe in this folder, and the miramo.exe binary (composition engine) is
+                located in the same folder.</p>
+            <p>The PATH environment variable will be set as shown here.</p>
+            <fig id="fig_tnt_cbz_lqb">
+                <image href="screenshots/winpath.png" id="image_pj5_135_wpb" width="80mm"
+                    outputclass="float-right"/>
+            </fig>
+            <note>If you choose not to uninstall the previous version, both the earlier version and
+                2.0.0 install folders will be included in the PATH environment variable, but the
+                earlier version (1.6 in the example shown, installed in <codeph>C:\Program
+                    Files\Miramo\MiramoPDF</codeph>) takes precedence.</note>
+        </result>
+        <postreq id="postreq_eh5_wdz_lqb">
+            <p>If you wish to install multiple concurrent versions of the composition engine, and
+                are publishing using the MiramoPDF DITA-OT plugin, the location of the miramo.exe
+                binary may be configured using the <codeph>miramopath</codeph> ant build parameter.
+                See 'Ant build parameters' in the <xref
+                    href="http://miramo.com/download/documentation/Miramo_DITA-OT_GettingStarted_2.0.pdf"
+                    format="pdf" scope="external"><ph keyref="MiramoPDF"/> DITA-OT plugin Getting
+                    Started Guide</xref> for more information.</p>
+        </postreq>
+    </taskbody>
 </task>

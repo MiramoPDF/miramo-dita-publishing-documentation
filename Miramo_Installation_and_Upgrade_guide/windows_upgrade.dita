@@ -1,17 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="windows_upgrade">
     <title>Windows Upgrade</title>
     <body>
-        <p>Uninstall the current version of <ph
-                keyref="Product"/> as documented
-            in <xref href="windows_uninstall.dita"
-            />, then  follow the instructions
-            given in <xref
-                href="windows_desktop_installation.dita"
-            /> or <xref
-                href="windows_server_installation.dita"
-            /> to install the upgrade.</p>
-        
+        <p>Uninstall the current version of <ph keyref="Product"/> as documented in <xref
+                href="windows_uninstall.dita"/>, then follow the instructions given in <xref
+                href="windows_desktop_installation.dita"/> or <xref
+                href="windows_server_installation.dita"/> to install the upgrade.</p>
+
     </body>
 </topic>

@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="mmuser_access_permissions">
-    <title>mmUser access permissions</title>
-    <body>
-        <p>
-      <note id="note_hrr_hyg_wpb" type="important"> The <ph keyref="MiramoEnterprise"/> installer
-        will change the runAs user to a ’noLogon’ user, to prevent any user accidentally logging in
-        as the service user and interfering with the operation of MiramoEnterprise. <p>Note that
-          when running jobs, the folder(s) containing both the input and output files must have full
-          write permission set for the ’runAs’ user, mmUser.</p></note>
+  <title>mmUser access permissions</title>
+  <body>
+    <p>
+      <note id="note_hrr_hyg_wpb" type="important"> The <ph keyref="MiramoEnterprise"/> Windows
+        Server installer will change the runAs user to a ’noLogon’ user, to prevent any user
+        accidentally logging in as the service user and interfering with the operation of <ph
+          keyref="MiramoEnterprise"/>. <p>Note that when running jobs, the folder(s) containing both
+          the input and output files must have full write permission set for the ’runAs’ user,
+          mmUser.</p></note>
     </p>
-    </body>
+  </body>
 </topic>

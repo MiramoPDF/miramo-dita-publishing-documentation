@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="topic_utg_p3h_ghb">
-    <title>Installing from the setup.exe (recommended)</title>
+    <title>Installing from the setup.exe (Windows only)</title>
     <conbody>
         <p>Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe and navigate to the DITA-OT
             install root folder.</p>
-        <p>For oXygen (version 18 or above), the built-in DITA-OT folder is located in
+        <p>For oXygen (version 20 or above), the built-in DITA-OT folder is located in
                 <filepath>[oxygen_install_dir]/
                 frameworks/dita/DITA-OT3.x/plugins/com.miramo.mmpdf</filepath>, for example:</p>
-        <p><filepath>c:/program files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/
-                com.miramo.mmpdf</filepath></p>
+        <p><filepath>c:/program files/Oxygen XML Editor <abbreviated-form keyref="oxygenVersion"
+                />/frameworks/dita/DITA-OT3.x/plugins/ com.miramo.mmpdf</filepath></p>
         <p>This corresponds to the oXygen DITA Open Toolkit 'Built-in DITA-OT 3.x' location
             preference shown here (options-&gt;preferences-&gt;DITA):</p>
         <fig id="fig_csb_2v3_ghb">
             <image href="img-oxygen-ot-location-pref.jpeg" alt="???" id="image_h5k_p3h_ghb"/>
         </fig>
-        <p>Note that if you choose a different folder you will have to set the dita.dir variable in
-            the MiramoPDF transformation scenarios, or change the oXygen DITA-OT configured install
-            folder in the preferences.</p>
+        <p>Note that if you choose a different folder you will have to set the
+                <codeph>dita.dir</codeph> variable in the MiramoPDF transformation scenarios, or
+            change the oXygen DITA-OT configured install folder in the preferences.</p>
         <p>The MiramoDITA-OT plugin source (including samples, command scripts and templates) will
-            be located in the [dita-ot install dir]/plugins/com.miramo.mmpdf folder, for
-            example:</p>
+            be located in the <codeph>[dita-ot install dir]/plugins/com.miramo.mmpdf</codeph>
+            folder, for example:</p>
         <p><filepath>[oxygen_install_dir]/frameworks/dita/DITA-OT3.x/plugins/com.miramo.mmpdf</filepath></p>
         <p>The MiramoDITA-OTplugin&lt;vs&gt;setup.exe will run the DITA-OT integrator and will
             append the com.miramo.mmpdf folder to the PATH environment variable.</p>

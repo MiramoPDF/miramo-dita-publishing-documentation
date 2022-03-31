@@ -4,16 +4,17 @@
 <concept xml:lang="en-us" id="further-information-or-help">
   <title>Further information and help</title>
   <conbody>
-    <p>See the <xref href="http://www.miramo.com/download/documentation/mmComposerReferenceGuide.pdf"
-      scope="external" format="html">Miramo mmComposer Reference Guide (PDF)</xref> for more information about the MiramoXML simple
-      markup.</p>
+    <p>See the <xref
+        href="http://www.miramo.com/download/documentation/mmComposerReferenceGuide.pdf"
+        scope="external" format="html">Miramo mmComposer Reference Guide (PDF)</xref> for more
+      information about the MiramoXML simple markup.</p>
     <p>See the <xref href="https://www.youtube.com/channel/UCp-_zSBd1oJUKVx7jeAd10g"
-      scope="external" format="html">MiramoDesigner videos on the Miramo Datazone YouTube</xref> channel for more information
-      about MiramoDesigner</p>
+        scope="external" format="html">MiramoDesigner videos on the Miramo Datazone YouTube</xref>
+      channel for more information about MiramoDesigner</p>
     <p>Check our website at:<xref href="http://www.miramo.com" scope="external" format="html">
         http://www.miramo.com </xref>or phone us on +353 64 66 28964.</p>
-    <p>And you are always welcome to email <xref href="mailto:miramo@datazone.com" scope="external" format="html"
-        >miramo@datazone.com</xref> with comments, criticisms and questions - your feedback would be
-      much appreciated.</p>
+    <p>And you are always welcome to email <xref href="mailto:miramo@datazone.com" scope="external"
+        format="html">miramo@datazone.com</xref> with comments, criticisms and questions - your
+      feedback would be much appreciated.</p>
   </conbody>
 </concept>

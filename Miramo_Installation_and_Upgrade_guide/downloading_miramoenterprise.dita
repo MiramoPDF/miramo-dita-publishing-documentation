@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="downloading">
+    <title id="DownloadingMiramo">Downloading</title>
+    <body>
+        <p><xref href="http://miramo.com/secure-download" format="html" scope="external"
+                    ><ph keyref="MiramoPDF"/></xref> is available for Windows Desktop and macOS.</p>
+        <p><xref href="http://miramo.com/secure-download/?enterprise" format="html" scope="external"
+            ><ph keyref="MiramoEnterprise"/></xref> is available for Windows Server and Linux.</p>
+        <p>A link to the following download form and a download code will be supplied by email
+            according to the license purchased. <image href="screenshots/downloadform.png"
+                placement="inline" id="image_mh4_yrg_wpb" width="80mm" outputclass="float-right"
+            /></p>       
+    </body>
+</topic>

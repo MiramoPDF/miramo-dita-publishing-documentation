@@ -11,13 +11,13 @@
             <topicref href="creating-using-new-language-variable.dita"/>
         </topicref>
         <topicref href="configuring-supported-xml-lang-values-langlist-xml.dita">
-          <topicref href="adding_a_new_language.dita">
-          <topicref href="reusing_pdf2_language_variables.dita"/>
-          <topicref href="reusing_generated_text_strings.dita" />
-          <topicref href="creating_a_new_miramopdf_language_file.dita"/>
+            <topicref href="adding_a_new_language.dita">
+                <topicref href="reusing_pdf2_language_variables.dita"/>
+                <topicref href="reusing_generated_text_strings.dita"/>
+                <topicref href="creating_a_new_miramopdf_language_file.dita"/>
 
-          <topicref href="xml-lang-to-miramoxml-mapping.dita"/>
-          </topicref>
+                <topicref href="xml-lang-to-miramoxml-mapping.dita"/>
+            </topicref>
         </topicref>
     </topicref>
 </map>

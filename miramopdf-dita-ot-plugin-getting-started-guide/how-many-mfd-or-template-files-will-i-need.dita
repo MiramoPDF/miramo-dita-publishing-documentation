@@ -4,11 +4,18 @@
 <concept xml:lang="en-us" id="how-many-mfd-or-template-files-will-i-need">
 	<title>How many MFD or template files will I need?</title>
 	<conbody>
-		<p>The choice of font used for publishing is a key consideration for multilingual publishing: no single font supports all unicode characters, and some languages (eg Traditional vs Simplified Chinese) require different fonts, as the same unicode number may be rendered as a radically different glyph in the different languages.</p>
-		<p>For example, here is the same phrase published in Simplified Chinese, Traditional Chinese and Japanese:</p>
+		<p>The choice of font used for publishing is a key consideration for multilingual
+			publishing: no single font supports all unicode characters, and some languages (eg
+			Traditional vs Simplified Chinese) require different fonts, as the same unicode number
+			may be rendered as a radically different glyph in the different languages.</p>
+		<p>For example, here is the same phrase published in Simplified Chinese, Traditional Chinese
+			and Japanese:</p>
 		<fig id="fig_dc4_c43_ghb">
 			<image href="img-chinese-japanese-text.jpeg" alt="???" id="image_wjp_c43_ghb"/>
 		</fig>
-		<p>Generally, it is usually appropriate to use one MFD template for 'latin' languages (eg Italian, French, English, Spanish, Dutch) and a separate MFD template file for each other language which would require a different base font (eg Simplified Chinese, Arabic, Hebrew).</p>
+		<p>Generally, it is usually appropriate to use one MFD template for 'latin' languages (eg
+			Italian, French, English, Spanish, Dutch) and a separate MFD template file for each
+			other language which would require a different base font (eg Simplified Chinese, Arabic,
+			Hebrew).</p>
 	</conbody>
 </concept>

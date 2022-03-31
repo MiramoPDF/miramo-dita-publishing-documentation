@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="adding_a_new_language">
-    <title>Modifying langlist.xml to add a new language</title>
-    <body>
+  <title>Modifying langlist.xml to add a new language</title>
+  <body>
     <note>This assumes you are working on a copy of the 'strings' folder, either in a customization
       or a folder located using the 'mmpdf:localization-strings.dir' build parameter.</note>
-      <p>To add a support for a new xml:lang value which is not in the DITA-OT by default, first
+    <p>To add a support for a new xml:lang value which is not in the DITA-OT by default, first
       create a new language localization files in the strings folder, and register them by adding
       &lt;lang> entries to the langlist.xml file. This section describes adding support for Tamil,
       language code 'ta' but the principle can be applied to any language supported by the MiramoPDF
       composition engine.</p>
-    </body>
+  </body>
 </topic>

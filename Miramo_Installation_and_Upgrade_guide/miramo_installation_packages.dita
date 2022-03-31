@@ -1,28 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="miramo_installation_packages">
-    <title>Miramo installation packages</title>
-    <body>
-        <p>
-      <ul id="ul_rkj_v3g_wpb">
-        <li>Windows Desktop:
-          <p><codeph id="MiramoPDF_PKG"><ph keyref="MiramoPDF"/><ph keyref="version"
-        />p<i>NNN</i>setup.exe</codeph></p></li>
-        <li product="MiramoEnterprise" platform="windows">Windows Server: <p><codeph
-                         id="MiramoEnterprise_PKG"
-                         ><ph
-                         keyref="MiramoEnterprise"
-                         /><ph keyref="version"
-                         />p<i>NNN</i>.zip</codeph></p></li>
-        <li platform="linux">Linux RH (CentOS 7, Amazon Linux 2, Oracle Linux R7-U7): <p><codeph id="LinuxRH_PKG"><ph
-                keyref="MiramoPDF"/>-RH-<ph keyref="version"/>p<i>NNN</i>.tar.gz</codeph></p></li>
-        <li platform="linux">Linux RHD (Fedora 33):<p><codeph id="LinuxRHD_PKG"><ph keyref="MiramoPDF"/>-RHD-<ph
-                keyref="version"/>p<i>NNN</i>.tar.gz</codeph></p></li>
-        <li platform="linux">Linux DB (Debian, Ubuntu 20):<p><codeph id="LinuxDB_PKG"><ph keyref="MiramoPDF"
-                />-DBD-<ph keyref="version"/>p<i>NNN</i>.tar.gz</codeph></p></li>
-        <li platform="mac">MacOSX (Catalina):<p><codeph><ph keyref="MiramoPDF"/>-OSX-<ph keyref="version"
-                />p<i>NNN</i>.pkg</codeph></p></li>
-      </ul>
-    </p>
-    </body>
-</topic>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="miramo_installation_packages">
+        <title>Miramo distribution packages</title>
+        <conbody>
+                <p>Miramo is available for Windows, Linux, and macOS. The distribution packages for
+                        each platform are listed below and referenced throughout this document.</p>
+                <p>If you are looking for <ph keyref="MiramoEnterprise"/> on another platform please
+                        contact us (email: <xref href="mailto:miramo@datazone.com" format="html"/>).</p>
+                <!--<xref href="mailto:miramo@datazone.com" format="html"/>
+                <xref href="miramo@datazone.com" format="mail"/>-->
+                <section id="section_mzs_kxy_lqb" product="MiramoEnterprise"> 
+                        <title><ph keyref="MiramoEnterprise"/> for Windows Server (setup.exe): </title>
+                       <p><codeph id="MiramoEnterprise_PKG"><ph
+                                                  keyref="MiramoEnterprise"/>-win-<ph
+                                                  keyref="version"/>p<i>NNN</i>.zip</codeph></p>
+
+
+                </section>
+                <section>
+                        <title><ph keyref="MiramoPDF"/> for Windows Desktop
+                                (setup.exe)</title>  
+                        <p><codeph id="MiramoDesktop_PKG"><ph
+                                keyref="MiramoPDF"/>-win-<ph keyref="version"
+                                />p<i>NNN</i>.zip</codeph></p>
+                        
+                </section>
+                <section id="section_ux2_nxy_lqb" platform="linux">
+                        <title><ph keyref="MiramoEnterprise"/> for Linux: </title>
+                                        <p>
+                                                <codeph><ph keyref="MiramoEnterprise"/>-CentOS7-<ph
+                                                  keyref="version"/>p<i>NNN</i>.tar.gz</codeph></p>
+                                        <p>
+                                                <codeph><ph keyref="MiramoEnterprise"/>-Fedora30-<ph
+                                                  keyref="version"/>p<i>NNN</i>.tar.gz</codeph></p>
+                                        <p>
+                                                <codeph><ph keyref="MiramoEnterprise"/>-Ubuntu18-<ph
+                                                  keyref="version"/>p<i>NNN</i>.tar.gz</codeph></p>
+                </section>
+                <section id="section_htd_qxy_lqb" platform="mac">
+                        <title><ph keyref="MiramoPDF"/> for macOS (Catalina): </title>
+                        <p><codeph><ph keyref="MiramoPDF"/>-macOS-<ph
+                                                  keyref="version"/>p<i>NNN</i>.pkg</codeph></p>
+                </section>
+        </conbody>
+</concept>

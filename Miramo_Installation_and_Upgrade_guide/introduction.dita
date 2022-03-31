@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="introduction">
     <title>Introduction</title>
     <body>
-        <p>This guide documents how to install and upgrade <ph keyref="Product"/> and the DITA-OT plugin, for both server and desktop versions.</p>
-        <p>Note that the installation or upgrade of the <ph keyref="plugin"/> requires <ph keyref="Product"/> to be pre-installed.</p>
+        <p>This guide documents how to download, install and upgrade <ph keyref="Product"/>
+            publishing software and the <ph keyref="MiramoPDF"/> DITA-OT plugin, for <ph
+                product="MiramoEnterprise">Server (Windows/Linux) and </ph>Desktop (Windows/macOS)
+            versions.</p>
+        <p product="MiramoPDFDesktop">It also includes information about downloading and installing
+            a trial version of <ph keyref="MiramoEnterprise"/> for Linux.</p>
+        <p>Note that the installation or upgrade of the <ph keyref="plugin"/> requires <ph
+                keyref="Product"/> publishing software to be pre-installed.</p>
     </body>
 </topic>

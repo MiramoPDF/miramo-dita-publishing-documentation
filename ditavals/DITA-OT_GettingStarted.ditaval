@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+    <prop att="product" val="MiramoEnterprise" action="include"/>
+    <prop att="product" val="MiramoPDFDesktop" action="exclude"/>
+    <prop att="product" val="GettingStarted" action="include"/>
+    <prop att="platform" val="windows" action="include"/>
+    <prop att="platform" val="mac" action="include"/>
+    <prop att="platform" val="linux" action="include"/>
+</val>

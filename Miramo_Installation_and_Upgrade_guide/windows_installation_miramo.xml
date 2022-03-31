@@ -1,8 +1,63 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com" xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish"><VarDef varDef="pluginVersion">200p021</VarDef><VarDef varDef="lang-figure">Figure</VarDef><VarDef varDef="lang-table">Table</VarDef><VarDef varDef="lang-chapter">Chapter</VarDef><VarDef varDef="lang-appendix">Appendix</VarDef><VarDef varDef="lang-page">page</VarDef><VarDef varDef="lang-optional">Optional:</VarDef><VarDef varDef="lang-required">Required:</VarDef><VarDef varDef="lang-glossary"/><VarDef varDef="lang-listoftables"/><VarDef varDef="lang-listoffigures"/><VarDef varDef="lang-onpage">on page</VarDef><VarDef varDef="lang-prereq">Before you begin</VarDef><VarDef varDef="lang-postreq">What to do next</VarDef><VarDef varDef="lang-example">Example</VarDef><VarDef varDef="lang-context">About this task</VarDef><VarDef varDef="lang-procedure">Procedure</VarDef><VarDef varDef="lang-procedure-unordered">Procedure</VarDef><VarDef varDef="lang-results">Results</VarDef><VarDef varDef="lang-note">Note</VarDef><VarDef varDef="lang-preface">Preface</VarDef><VarDef varDef="lang-notices">Notice</VarDef><VarDef varDef="lang-notes">Notes</VarDef><VarDef varDef="lang-tip">Tip</VarDef><VarDef varDef="lang-fastpath">Fastpath</VarDef><VarDef varDef="lang-notice">Notice</VarDef><VarDef varDef="lang-important">Important</VarDef><VarDef varDef="lang-attention">Attention</VarDef><VarDef varDef="lang-caution">CAUTION</VarDef><VarDef varDef="lang-danger">DANGER</VarDef><VarDef varDef="lang-remember">Remember</VarDef><VarDef varDef="lang-other">[other]</VarDef><VarDef varDef="lang-trouble">Trouble</VarDef><VarDef varDef="lang-restriction">Restriction</VarDef><VarDef varDef="lang-warning">Warning</VarDef><VarDef varDef="lang-contents">Contents</VarDef><VarDef varDef="lang-index">Index</VarDef><VarDef varDef="lang-listoftables">List of Tables</VarDef><VarDef varDef="lang-listoffigures">List of Figures</VarDef><VarDef varDef="lang-glossary">Glossary</VarDef><VarDef varDef="lang-obsolete">Obsolete:</VarDef><VarDef varDef="lang-deprecated">Deprecated:</VarDef><VarDef varDef="lang-default">Default:</VarDef><VarDef varDef="lang-low">Low:</VarDef><VarDef varDef="lang-normal">Normal:</VarDef><VarDef varDef="lang-high">High:</VarDef><VarDef varDef="lang-recommended">Recommended:</VarDef><VarDef varDef="lang-urgent">Urgent:</VarDef><VarDef varDef="metadata-separator">, </VarDef><VarDef varDef="lang-note-separator">: </VarDef><!--STARTSECTION $outputclass=[]--><!--topic/title parent topic count= outputclass=--><!--STARTSECTION $outputclass=[]--><P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#windows_installation">Windows installation</P>
-        <P paraDef="body">This section includes information on system requirements and installation information for
-      both the Desktop and Server versions of .</P>
-        <P paraDef="body">This section includes information on
-            system requirements and installation
-            for the 
-            desktop version.</P>
-    </MiramoXML>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MiramoXML xmlns:miramo="http://ExternalFunction.miramo.com"
+  xmlns:mm="http://www.miramo.com/XSL/Transform" language="usEnglish">
+  <VarDef varDef="pluginVersion">200p021</VarDef>
+  <VarDef varDef="lang-figure">Figure</VarDef>
+  <VarDef varDef="lang-table">Table</VarDef>
+  <VarDef varDef="lang-chapter">Chapter</VarDef>
+  <VarDef varDef="lang-appendix">Appendix</VarDef>
+  <VarDef varDef="lang-page">page</VarDef>
+  <VarDef varDef="lang-optional">Optional:</VarDef>
+  <VarDef varDef="lang-required">Required:</VarDef>
+  <VarDef varDef="lang-glossary"/>
+  <VarDef varDef="lang-listoftables"/>
+  <VarDef varDef="lang-listoffigures"/>
+  <VarDef varDef="lang-onpage">on page</VarDef>
+  <VarDef varDef="lang-prereq">Before you begin</VarDef>
+  <VarDef varDef="lang-postreq">What to do next</VarDef>
+  <VarDef varDef="lang-example">Example</VarDef>
+  <VarDef varDef="lang-context">About this task</VarDef>
+  <VarDef varDef="lang-procedure">Procedure</VarDef>
+  <VarDef varDef="lang-procedure-unordered">Procedure</VarDef>
+  <VarDef varDef="lang-results">Results</VarDef>
+  <VarDef varDef="lang-note">Note</VarDef>
+  <VarDef varDef="lang-preface">Preface</VarDef>
+  <VarDef varDef="lang-notices">Notice</VarDef>
+  <VarDef varDef="lang-notes">Notes</VarDef>
+  <VarDef varDef="lang-tip">Tip</VarDef>
+  <VarDef varDef="lang-fastpath">Fastpath</VarDef>
+  <VarDef varDef="lang-notice">Notice</VarDef>
+  <VarDef varDef="lang-important">Important</VarDef>
+  <VarDef varDef="lang-attention">Attention</VarDef>
+  <VarDef varDef="lang-caution">CAUTION</VarDef>
+  <VarDef varDef="lang-danger">DANGER</VarDef>
+  <VarDef varDef="lang-remember">Remember</VarDef>
+  <VarDef varDef="lang-other">[other]</VarDef>
+  <VarDef varDef="lang-trouble">Trouble</VarDef>
+  <VarDef varDef="lang-restriction">Restriction</VarDef>
+  <VarDef varDef="lang-warning">Warning</VarDef>
+  <VarDef varDef="lang-contents">Contents</VarDef>
+  <VarDef varDef="lang-index">Index</VarDef>
+  <VarDef varDef="lang-listoftables">List of Tables</VarDef>
+  <VarDef varDef="lang-listoffigures">List of Figures</VarDef>
+  <VarDef varDef="lang-glossary">Glossary</VarDef>
+  <VarDef varDef="lang-obsolete">Obsolete:</VarDef>
+  <VarDef varDef="lang-deprecated">Deprecated:</VarDef>
+  <VarDef varDef="lang-default">Default:</VarDef>
+  <VarDef varDef="lang-low">Low:</VarDef>
+  <VarDef varDef="lang-normal">Normal:</VarDef>
+  <VarDef varDef="lang-high">High:</VarDef>
+  <VarDef varDef="lang-recommended">Recommended:</VarDef>
+  <VarDef varDef="lang-urgent">Urgent:</VarDef>
+  <VarDef varDef="metadata-separator">, </VarDef>
+  <VarDef varDef="lang-note-separator">: </VarDef>
+  <!--STARTSECTION $outputclass=[]-->
+  <!--topic/title parent topic count= outputclass=-->
+  <!--STARTSECTION $outputclass=[]-->
+  <P xmlns:svg="http://www.w3.org/2000/svg" paraDef="topic_title" id="#windows_installation">Windows
+    installation</P>
+  <P paraDef="body">This section includes information on system requirements and installation
+    information for both the Desktop and Server versions of .</P>
+  <P paraDef="body">This section includes information on system requirements and installation for
+    the desktop version.</P>
+</MiramoXML>

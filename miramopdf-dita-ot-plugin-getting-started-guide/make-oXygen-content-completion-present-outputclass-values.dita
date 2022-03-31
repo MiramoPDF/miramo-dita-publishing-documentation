@@ -1,46 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept
-  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept xml:lang="en-us" id="make-oXygen-content-completion-present-outputclass-values">
-  <title>Make oXygen's content completion present the @outputclass values</title>
-  <conbody>
-    <p>To configure oXygen's content completion, it is necessary to copy and paste the match
-      elements contained in the cc_config_miramo.xml file supplied to the DITA framework you are
-      using.</p>
-    <p>The cc_config_miramo.xml file is located here:</p>
-    <p><filepath>[oxygen_install_dir]/frameworks/dita/DITA-OT3.x/plugins/com.miramo.mmpdf/integration/oxygen/
-      cc_config_miramo.xml</filepath></p>
-    <p>and contains entries like this:</p>
-    <codeblock>&lt;match elementName="p" attributeName="outputclass">
-	&lt;items action="append">
-		&lt;item value="mmpdf:span" annotation="Spans title across all columns in multi-column document"/>
-		&lt;item value="mmpdf:pageBreak" annotation="breaks page before title/p/note paragraph"/>
-		&lt;item value="mmpdf:columnBreak" annotation="force title/p/note paragraph to top of next column 
-		    (or page, for singlecolumn documents)"/>
-		&lt;item value="mmpdf:section:name" annotation="start new section using SectionDef 'name'. 
-		    SectionDef is defined in the MFD template"/>
-	&lt;/items>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-us" id="make-oXygen-content-completion-present-outputclass-values">
+  <title>Configuring <ph keyref="DitaTool"/>'s content completion to present <ph keyref="MiramoPDF"
+    /> @outputclass values</title>
+  <taskbody>
+    <context>
+      <p>The <ph keyref="plugin"/> includes a file named <codeph>cc_config_miramo.xml</codeph>. This
+        file contains entries like this:</p>
+      <codeblock>&lt;match elementName="p" attributeName="outputclass">
+  &lt;items action="append">
+    &lt;item value="mmpdf:span" annotation="Spans title across all columns in multi-column document"/>
+    &lt;item value="mmpdf:pageBreak" annotation="breaks page before title/p/note paragraph"/>
+    &lt;item value="mmpdf:columnBreak" annotation="force title/p/note paragraph to top of next column 
+        (or page, for singlecolumn documents)"/>
+    &lt;item value="mmpdf:section:name" annotation="start new section using SectionDef 'name'. 
+        SectionDef is defined in the MFD template"/>
+  &lt;/items>
 &lt;/match></codeblock>
-    <p>Inside your DITA framework there is a configuration file named cc_config.xml. If you are
-      using the built-in DITA framework then this file is located at
-      [OXYGEN_INSTALL_DIR]/frameworks/dita/resources/cc_config.xml.</p>
-    <p>If you don't know exactly what framework you are using or where it is located then you can
-      find out like this: </p>
-    <ol id="ol_fqs_zw3_ghb">
-      <li> Go to <menucascade>
-          <uicontrol>Window</uicontrol>
-          <uicontrol>Show view</uicontrol>
-        </menucascade> and open the Properties view.</li>
-      <li>Open a DITA topic.</li>
-      <li>Look inside the Properties view at the Document type name. Now you know the name of your
-        framework.</li>
-      <li>Go to <menucascade>
-          <uicontrol>Options</uicontrol>
-          <uicontrol>Preferences...</uicontrol>
-        </menucascade>
-      </li>
-      <li>On the Document Type Associations page, identify and edit the framework with the
-        previously discovered name. The Storage field will reveal its location.</li>
-    </ol>
-  </conbody>
-</concept>
+      <p>These <xmlelement>match</xmlelement> entries allow content completion for the MiramoPDF
+        @outputclass values.</p><p>To configure <ph keyref="DitaTool"/>'s content completion, it is necessary to copy and paste the
+          <xmlelement>match</xmlelement> elements contained in this file to the <codeph>cc_config.xml</codeph> file
+        within the <ph keyref="oxygen"/> DITA framework.</p>
+      <p>This file is usually located in
+          <codeph><i>[OXYGEN_INSTALL_DIR]</i>/frameworks/dita/resources/cc_config.xml</codeph>.</p>
+      <note>Some implementations require a custom framework extension. In this case, you should paste
+        the <xmlelement>match</xmlelement> element into the <codeph>cc_config.xml</codeph> file
+        within the custom framework extension.</note></context>
+    <steps id="steps_ev2_2kz_lqb">
+      <step>
+        <cmd>Open the <codeph>cc_config_miramo.xml</codeph> file.</cmd>
+        <info><p>The <codeph>cc_config_miramo.xml</codeph> file is located
+            here:</p><filepath>[oxygen_install_dir]/frameworks/dita/DITA-OT3.x/plugins/com.miramo.mmpdf/integration/oxygen/
+            cc_config_miramo.xml</filepath></info>
+      </step>
+      <step>
+        <cmd>Copy the entries inside the <codeph>&lt;config&gt;</codeph> root element.</cmd>
+      </step>
+      <step>
+        <cmd>Paste the entries at the beginning of the <ph keyref="oxygen"> </ph>DITA framework
+            <codeph>cc_config.xml</codeph> file.</cmd>
+        <info>
+          <p>This file is located at
+              <codeph><i>[OXYGEN_INSTALL_DIR]</i>/frameworks/dita/resources/cc_config.xml</codeph>.</p>
+        </info>
+      </step>
+    </steps>
+    <postreq id="postreq_wjr_mkz_lqb">
+      <note id="note_gpx_hm5_3qb">It may be necessary to repeat this process when the <ph
+          keyref="plugin"/> is upgraded if new outputclass values are introduced.</note>
+      <p>See <xref
+          href="https://www.oxygenxml.com/doc/versions/23.1/ug-editor/topics/configuring-content-completion-proposals.html"
+          format="html" scope="external">www.oxygenxml.com</xref> for more information on content
+        completion.</p>
+    </postreq>
+  </taskbody>
+</task>

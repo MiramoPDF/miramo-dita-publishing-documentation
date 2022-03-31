@@ -1,13 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="linux_upgrade">
-    <title>Linux uninstall and upgrade</title>
-    <body>
-        <p>Manually uninstall the current version
-                <xref href="linux_uninstall.dita"
-            /> and follow the instructions given
-            in <xref
-                href="linux_installation.dita"/>
-            to install the new ve</p>
-    </body>
-</topic>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="linux_uninstall">
+    <title>Upgrading <ph keyref="MiramoEnterprise"/> on Linux</title>
+    <taskbody>
+        <prereq id="prereq_nb1_mnz_lqb">
+            <p>Log in as the administrator user (root).</p>
+            <p>Download the appropriate Linux installation package (<xref
+                    href="miramo_installation_packages.dita"/>).</p>
+        </prereq>
+        <steps id="steps_tcx_3nz_lqb">
+            <step>
+                <cmd>Uninstall <ph keyref="Product"/>:</cmd>
+                <substeps id="substeps_cdf_pnz_lqb">
+                    <substep>
+                        <cmd>Remove the current /opt/miramo-n.n.n folder.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Remove symbolic links <codeph>/usr/local/bin/miramo</codeph> and
+                                <codeph>/usr/local/bin/miramo-n.n.n</codeph>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Install the new version according to the instructions given in <xref
+                        href="linux_installation.dita"/>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -5,12 +5,12 @@
   <title>Creating a new MFD file</title>
   <conbody>
     <p>Use <menucascade>
-      <uicontrol>File</uicontrol>
-      <uicontrol>SaveAs</uicontrol>
-    </menucascade> to save your MFD file to the <filepath>com.miramo.mmpdf/mmtemplates</filepath>
+        <uicontrol>File</uicontrol>
+        <uicontrol>SaveAs</uicontrol>
+      </menucascade> to save your MFD file to the <filepath>com.miramo.mmpdf/mmtemplates</filepath>
       folder under a new name, eg myTemplate.mfd.</p>
     <p>Start MiramoDesigner and either browse to the default.mfd located in
-      <filepath>com.miramo.mmpdf/mmtemplates</filepath>, or click <uicontrol>New
+        <filepath>com.miramo.mmpdf/mmtemplates</filepath>, or click <uicontrol>New
         template</uicontrol> and choose the DITA template page size which suits best:</p>
     <fig id="fig_bkl_s23_ghb">
       <image href="img-new-template.jpeg" alt="???" id="image_vvm_s23_ghb"/>

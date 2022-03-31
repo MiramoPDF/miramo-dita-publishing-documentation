@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_gyp_rgz_lqb">
+    <title>Installing the <ph keyref="plugin"/> in Oxygen using the setup.exe [Windows only]</title>
+    <taskbody>
+ <!--       <prereq id="prereq_pbm_jfz_lqb">
+            <p>See <xref href="system-requirements.dita"/>.</p>
+            <p>The <ph keyref="Product"/> publishing software must already be installed.</p>
+        </prereq>-->
+        <context>
+            <p>These instructions refer to <ph keyref="oxygen"/> (version 20 and above).</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Double-click on the MiramoDITA-OTplugin&lt;vs&gt;setup.exe.</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to the built-in DITA-OT folder located in (for example)
+                        <filepath>[oxygen_install_dir]/frameworks/dita/DITA-OT3.x</filepath>.</cmd>
+                <info>
+                    <p>This folder corresponds to the oXygen DITA Open Toolkit 'Built-in DITA-OT
+                        3.x' location preference shown here (<menucascade>
+                            <uicontrol>Options</uicontrol>
+                            <uicontrol>Preferences</uicontrol>
+                            <uicontrol>DITA</uicontrol>
+                        </menucascade>):</p>
+                    <fig id="fig_csb_2v3_ghb">
+                        <image href="img-oxygen-ot-location-pref.jpeg" alt="???"
+                            id="image_h5k_p3h_ghb"/>
+                    </fig>
+                    <p>If you choose a different folder you will have to set the
+                                <codeph>dita.dir</codeph> variable in the MiramoPDF transformation
+                            scenarios before publishing, or change the oXygen DITA-OT configured
+                            install folder in the preferences.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Install</uicontrol>.</cmd>
+                <stepresult>
+                    <p>The MiramoDITA-OT plugin (including samples, command scripts and templates)
+                        is installed in the <filepath>plugins</filepath> directory of the DITA OT
+                        you selected. It is in a folder named <filepath>com.miramo.mmpdf</filepath>.
+                        For example:</p>
+                    <p><filepath>C:\Program Files
+                            (x86)\dita-ot-3.6.1\plugins\com.miramo.mmpdf</filepath></p>
+                    <p>The <ph keyref="plugin"/> installer will run the DITA-OT integrator and will
+                        append the com.miramo.mmpdf folder to the <codeph>PATH</codeph> environment
+                        variable.</p>
+                </stepresult>
+            </step>
+        </steps>
+        <result id="result_ozq_nfz_lqb">
+            <p>The plugin is now ready to use - it may be necessary to restart your DITA editing
+                tool or CCMS output generator to ensure the new <codeph>PATH</codeph> takes
+                effect.</p>
+        </result>
+    </taskbody>
+</task>

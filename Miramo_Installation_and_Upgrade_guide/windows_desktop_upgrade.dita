@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="windows_desktop_upgrade">
-    <title>Windows Desktop Upgrade</title>
-    <body>
-        <p></p>
-    </body>
-</topic>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="windows_desktop_upgrade">
+    <title>Upgrading <ph keyref="MiramoPDF"/> on Windows Desktop</title>
+    <taskbody>
+   <!--     <context/> -->
+        <steps id="steps_ukq_4mz_lqb">
+            <step>
+                <cmd>Download the Windows Desktop installation package as described in <xref
+                        href="windows_desktop_installation.dita"/>.</cmd>
+            </step>
+            <step>
+                <cmd>Double-click on the <filepath>setup.exe</filepath> and follow the
+                    instructions.</cmd>
+                <info>Choose default options and answer <uicontrol>Yes</uicontrol> when prompted
+                    whether to uninstall existing versions.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

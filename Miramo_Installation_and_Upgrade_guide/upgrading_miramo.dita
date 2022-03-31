@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="upgrading_miramo">
     <title>Upgrading <ph keyref="Product"/></title>
 
     <conbody>
-        <p>For Windows desktop versions of MiramoPDF, and Windows Desktop or Server versions of the
-            MiramoPDF DITA-OT plugin, simply double-click on the setup.exe and follow the
-            instructions, choosing default options and answering 'Yes' when prompted whether to
-            uninstall existing versions.</p>
-        <p>To upgrade <ph keyref="Product"/>, first uninstall as described below then install the
-            new version according to the instructions given in <xref href="installing_miramo.dita"/>
-            and <xref href="windows_upgrade.dita"/>.</p>
+        <p>This section describes how to upgrade <ph keyref="Product"/> publishing software on
+            Windows, Linux and macOS.</p>
+        <p>For information on upgrading the <ph keyref="plugin"/>, see <xref
+                href="../miramopdf-dita-ot-plugin-getting-started-guide/upgrading-miramo-dita-ot-plugin.dita"
+            />. </p>
+        <p>If necessary, upgrade <ph keyref="Product"/> before upgrading the <ph keyref="plugin"
+            />.</p>
     </conbody>
 </concept>

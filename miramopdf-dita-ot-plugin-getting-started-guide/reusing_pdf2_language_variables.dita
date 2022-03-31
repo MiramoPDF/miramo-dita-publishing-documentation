@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_yvj_vz3_5nb">
-    <title>Reusing existing localization variables from org.dita.pdf2</title>
-    <body>
+  <title>Reusing existing localization variables from org.dita.pdf2</title>
+  <body>
     <p>If you have already created a PDF2 localization variables file for the new language 'ta.xml'
       located in the DITA-OT/plugins/org.dita.pdf2/common/vars folder, you can reuse it by copying
       it to a 'ta-dita-vars.xml' file in the target strings folder, alongside the 'langlist.xml'
@@ -11,5 +11,5 @@
     <p>To register the 'ta-dita-vars.xml' file add the following entry to the end of the
       'langlist.xml'
       file:<codeblock> &lt;lang xml:lang="ta" filename="ta-dita-vars.xml"/></codeblock></p>
-    </body>
+  </body>
 </topic>

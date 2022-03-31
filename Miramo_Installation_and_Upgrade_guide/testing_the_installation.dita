@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="testing_the_installation">
+    <title>Testing the installation</title>
+    <taskbody>
+        <context/>
+        <steps id="steps_okv_k2z_lqb">
+            <step>
+                <cmd>Create a file <codeph>test.xml</codeph> in a temporary folder, containing the
+                    following MiramoXML markup:</cmd>
+                <stepxmp>
+                    <codeblock id="codeblock_vkh_gwt_3qb">&lt;MiramoXML>
+&lt;P>Hello World!&lt;/P>
+&lt;/MiramoXML></codeblock>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Start a command window, change to the folder containing
+                        <codeph>test.xml</codeph> and enter the following command:</cmd>
+                <stepxmp>
+                    <codeblock id="codeblock_otj_kwt_3qb">miramo -Opdf test.pdf test.xml</codeblock>
+                </stepxmp>
+                <stepresult>
+                    <p>If successful, the following message will be displayed:</p>
+                    <codeblock id="codeblock_mh5_mwt_3qb">mmComposer: 1 : Completed 0 error(s) and 0 warning(s)</codeblock>
+                    <p>and the <codeph>test.pdf</codeph> file will have been created containing
+                        'Hello World!'.</p>
+                </stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>
