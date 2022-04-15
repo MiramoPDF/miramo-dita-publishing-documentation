@@ -8,7 +8,7 @@
       but in some cases it may be necessary to create a custom plugin which overrides or adds to
       some of the features supported by the standard plugin. If so, <b>do not</b> modify the files
       in the default <ph keyref="plugin"/> installation folder
-          (<filepath>DITA-OT3.x\plugins\<abbreviated-form keyref="com.miramo.mmpdf"/></filepath>),
+          (<filepath>DITA-OT3.x\plugins\com.miramo.mmpdf</filepath>),
       because these files will be overwritten when you install a new version of the <ph
         keyref="plugin"/> Create a custom <ph keyref="plugin"/> instead.</p>
     <p>This chapter explains how to create a new custom plugin <ph keyref="com.abc.mmpdf"/>

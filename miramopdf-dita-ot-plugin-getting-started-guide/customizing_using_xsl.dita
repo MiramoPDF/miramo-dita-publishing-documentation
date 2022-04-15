@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="modifying-dita2mmpdf-default-transformation">
+	<title>Customizing the <ph keyref="com.abc.mmpdf"/> using XSL</title>
+	<conbody>
+    <p>The standard <ph keyref="plugin"/> maps from DITA elements to MiramoXML<fn> (See the <xref
+          conkeyref="xrefs/see_mmcomposerRefGuide"/> for a detailed description of the MiramoXML
+        file format).</fn> document objects (such as tables, paragraphs, cross-references) whose
+      appearance is controlled by a GUI template, created and maintained using <ph keyref="Designer"
+      />.</p>
+<p>This section describes how to use snippets of XSL stylesheet coding to customize to this built-in
+      mapping, for example to add support for whole new features, or override aspects of the default
+      mapping to support unusual formatting requirements.</p>
+    <p>There are two XSL files located in the <codeph>cfg/xsl</codeph> folder which may be used for
+      this purpose:<ul id="ul_shr_f41_dtb">
+        <li><codeph>custom.xsl</codeph> - add XSL code to make changes to the default mapping of
+          DITA to MiramoXML document objects<p>for example, you might wish to change the formatting
+            of &lt;note> elements to use a table, rather than a paragraph. </p></li>
+        <li><codeph>functionstubs.xsl</codeph> - make changes here to add to or override <ph
+            keyref="Designer"/> format definitions such as &lt;ColorDef>s, &lt;VarDef>s,
+          &lt;DateDef>s on the basis of document language, or product. This is also where
+          &lt;MapChar>s can be added to support rendering glyphs which are not available, or
+          incorrectly rendered, in the default document font.</li>
+      </ul></p>
+	  <p>Examples of these changes are covered in the following topics.</p>
+	</conbody>
+</concept>

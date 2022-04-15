@@ -13,7 +13,13 @@
             </topicref>
             <topicref href="com-example-my-mmpdf-files-and-folders.dita"/>
             <topicref href="setting-default-parameter-values.dita"/>
-            <topicref href="modifying-dita2mmpdf-default-transformation.dita"/>
+            <topicref href="customizing_using_xsl.dita">
+        <topicref
+          href="miramopdf-dita-ot-plugin-getting-started-guide/making_changes_to_custom_xsl.dita"/>
+        <topicref href="making_changes_to_functionstubs_xsl.dita">
+          <topicref href="functionstubs_mapchar.dita"/>
+        </topicref>
+      </topicref>
         </topicref>
     </topicref>
 </map>

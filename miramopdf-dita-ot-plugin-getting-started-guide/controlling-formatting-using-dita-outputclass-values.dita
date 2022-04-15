@@ -21,8 +21,8 @@
           </row>
         </thead>
         <tbody valign="top">
-          <row>
-            <entry align="left" valign="middle" namest="c1" nameend="c3" outputclass="subheading"
+          <row outputclass="subheading">
+            <entry align="left" valign="middle" namest="c1" nameend="c3" 
               >Column spanning and page-breaking control</entry>
           </row>
           <row>
@@ -80,8 +80,8 @@
               <p>set withPrevious to 'Y' or 'N' to set the paragraph keep with previous property</p>
             </entry>
           </row>
-          <row>
-            <entry align="left" valign="top" namest="c1" nameend="c3" outputclass="subheading"
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3" 
               >Paragraph and text formatting</entry>
           </row>
           <row>
@@ -110,8 +110,8 @@
                 paragraph names.</p><p>default: orderedlistitem (<codeph>&lt;ol&gt;</codeph>) or
                   unorderedlistitem(<codeph>&lt;ul&gt;</codeph>)</p></entry>
           </row>
-          <row>
-            <entry align="left" valign="top" namest="c1" nameend="c3" outputclass="subheading"
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3" 
               >Tables</entry>
           </row>
           <row>
@@ -200,8 +200,8 @@
                 for cell fill color (ignored unless mmpdf:colorDef:name used) </p>
               <p>default: from TblDef</p></entry>
           </row>
-          <row>
-            <entry align="left" valign="middle" namest="c1" nameend="c3" outputclass="subheading"
+          <row outputclass="subheading">
+            <entry align="left" valign="middle" namest="c1" nameend="c3" 
               >Cross-references</entry>
           </row>
           <row>
@@ -210,8 +210,8 @@
             <entry align="left" valign="middle"><p>Use XRefDef <i>name</i> for this cross
                 reference</p></entry>
           </row>
-          <row>
-            <entry align="left" valign="middle" outputclass="subheading" namest="c1" nameend="c3"
+          <row  outputclass="subheading">
+            <entry align="left" valign="middle" namest="c1" nameend="c3"
               >Vertical spacing</entry>
           </row>
           <row>
@@ -226,8 +226,8 @@
               image</entry>
             <entry align="left" valign="middle">set spaceBelow</entry>
           </row>
-          <row>
-            <entry align="left" valign="top" namest="c1" nameend="c3" outputclass="subheading">Page
+          <row  outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">Page
               layout sequences</entry>
           </row>
           <row>
@@ -267,8 +267,8 @@
                 subsequent pages.</p><p>Ignored if mmpdf:includeIndex is set to N, or document
                 contains no indexterms. default: indexSection</p></entry>
           </row>
-          <row>
-            <entry align="left" valign="top" namest="c1" nameend="c3" outputclass="subheading">Math
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3" >Math
               equation formatting</entry>
           </row>
           <row>
@@ -278,8 +278,8 @@
             <entry align="left" valign="middle">Use MathMLDef <i>name</i> for formatting this
               equation</entry>
           </row>
-          <row>
-            <entry align="left" valign="top" namest="c1" nameend="c3" outputclass="subheading"
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3" 
               >Chapter and page numbering</entry>
           </row>
           <row>

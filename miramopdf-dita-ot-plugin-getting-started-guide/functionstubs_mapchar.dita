@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_cd3_fy1_dtb">
+    <title>Rendering unsupported unicode glyphs</title>
+    <body>
+        <p>Certain specialized unicode glyphs may not be available in your chosen font. For example,
+      the arrow characters shown below are not available in Noto Sans, and would appear as ? in the
+      resulting PDF by default:</p>
+    <p> up ▲ down ▼ left ◄ right ► </p>
+    <p>To address this, the following code is added to the
+        <codeph>mm:customMakeDocumentFormatDefs</codeph> template in
+      functionstubs.xsl:<codeblock id="codeblock_pwm_ty1_dtb">    &lt;!-- Define new fontDef (could also be created in MFD template) which includes support for left pointing
+      arrow, and renders the glyph in a different color (DocumentColor1) -->
+    &lt;FontDef fontDef="arrowFont" fontFamily="Arial" fontWeight="Regular" fontAngle="Regular" textColor="DocumentColor1"/>
+    &lt;!-- Map instances of unicode arrow characters to equivalent code points in Arial font -->
+    &lt;MapChar id="#x25C4">&lt;Font fontDef="arrowFont" >&amp;#x25C4;&lt;/Font>&lt;/MapChar>
+    &lt;MapChar id="#x25BA">&lt;Font fontDef="arrowFont" >&amp;#x25BA;&lt;/Font>&lt;/MapChar>
+    &lt;MapChar id="#x25B2">&lt;Font fontDef="arrowFont" >&amp;#x25B2;&lt;/Font>&lt;/MapChar>
+    &lt;MapChar id="#x25BC">&lt;Font fontDef="arrowFont" >&amp;#x25BC;&lt;/Font>&lt;/MapChar>
+</codeblock></p>
+    </body>
+</topic>

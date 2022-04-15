@@ -2072,7 +2072,7 @@
 	 objId="782"/>
 <ParaDef
 	 paraDef="codeblock"
-	 fontFamily="Courier New"
+	 fontFamily="Courier Prime"
 	 fontWeight="Regular"
 	 fontAngle="Regular"
 	 textSize="10.00pt"
@@ -2116,17 +2116,17 @@
 	 pd_displayParaBelow="body"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="784"><leader objId="785">.</leader><counter numberStyle="hidden" objId="786"/></ListLabel>codeblock sample text</ParaDef>
 <FontDef
 	 fontDef="codeph"
-	 fontFamily="Cutive Mono"
+	 fontFamily="Courier Prime"
 	 fontWeight="Regular"
 	 fontAngle="Regular"
 	 objId="959"/>
 <FontDef
 	 fontDef="userinput"
-	 fontFamily="Courier New"
+	 fontFamily="Courier Prime"
 	 objId="960"/>
 <FontDef
 	 fontDef="filepath"
-	 fontFamily="Courier New"
+	 fontFamily="Courier Prime"
 	 fontWeight="Regular"
 	 fontAngle="Regular"
 	 objId="991"/>
@@ -2185,7 +2185,7 @@
 	 objId="1022"/>
 <FontDef
 	 fontDef="uicontrol"
-	 fontFamily="Courier New"
+	 fontFamily="Courier Prime"
 	 fontWeight="Bold"
 	 textSpread="0.000000"
 	 letterSpacing="N"
@@ -2967,7 +2967,7 @@
 	 pd_displayParaBelow="entry">sample text<ListLabel type="runin" labelIndent="0.00in" seriesLabel="" objId="1396"><leader objId="1397">.</leader><counter numberStyle="hidden" objId="1398"/></ListLabel></ParaDef>
 <ParaDef
 	 paraDef="lines"
-	 fontFamily="Courier New"
+	 fontFamily="Courier Prime"
 	 fontWeight="Regular"
 	 fontAngle="Regular"
 	 textSize="8.000000pt"
@@ -3629,7 +3629,7 @@
 	 objId="329985"/>
 <FontDef
 	 fontDef="msgph"
-	 fontFamily="Courier New"
+	 fontFamily="Courier Prime"
 	 objId="330154"/>
 <ParaDef
 	 paraDef="area"
@@ -4657,7 +4657,7 @@
 	 objId="682019"/>
 <FontDef
 	 fontDef="option"
-	 fontFamily="Courier New"
+	 fontFamily="Courier Prime"
 	 textSize="8.5pt"
 	 objId="682756"/>
 <ParaDef
@@ -4885,7 +4885,7 @@
 	 pd_displayParaBelow="orderedlistitem1"><ListLabel type="runin" labelIndent="0.000000in" seriesLabel="" objId="686265"><leader objId="686263">.</leader><counter numberStyle="hidden" objId="686264"/></ListLabel>dt sample text</ParaDef>
 <FontDef
 	 fontDef="synph"
-	 fontFamily="Courier New"
+	 fontFamily="Courier Prime"
 	 textSize="8.5pt"
 	 objId="686294"/>
 <ParaDef
@@ -6114,7 +6114,7 @@
 	 objId="851893"/>
 <FontDef
 	 fontDef="tt"
-	 fontFamily="Courier New"
+	 fontFamily="Courier Prime"
 	 objId="852098"/>
 <ParaDef
 	 paraDef="orderedlistitem2_tbl"

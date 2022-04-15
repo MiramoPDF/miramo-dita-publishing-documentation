@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="making_changes_to_custom_xsl">
+    <title>Making changes to custom.xsl</title>
+    <body>
+      <p>Edit the <codeph>cfg/xsl/custom.xsl</codeph> stylesheet to add
+        <codeph>&lt;xsl:template&gt;</codeph> matches to achieve the required mapping from DITA
+      elements and attributes to MiramoXML elements and attributes. (See the <xref
+        conkeyref="xrefs/see_mmcomposerRefGuide"/> for a detailed description of the MiramoXML file
+      format).</p>
+      <p><codeph>&lt;xsl:template&gt;</codeph>s added here may either override or add to the
+        <codeph>&lt;xsl:template&gt;</codeph>s defined in the default DITA to MiramoXML
+        stylesheets located in the  <ph keyref="com.miramo.mmpdf"/>/xsl folder,  for
+        example<codeph> map2miramo.xsl</codeph>,  <codeph>topic2miramo.xsl</codeph> and
+        <codeph>utilities.xsl</codeph>. </p>
+    <p>In particular, there is a set of standard extension templates defined in
+        <codeph>utilities.xsl</codeph> which provides a convenient route for adding MiramoXML
+      attributes to change the appearance of the output, for example on the basis of the DITA
+      element context, or @outputclass values. These are empty by default, but may be overridden in
+      custom.xsl as required:</p>
+      <codeblock outputclass="language-xml"><![CDATA[<xsl:template name="addCustomParagraphAttributes"/>
+<xsl:template name="addCustomTblAttributes"/>
+<xsl:template name="addCustomCellAttributes"/>
+<xsl:template name="addCustomRowAttributes"/>
+<xsl:template name="addCustomFontAttributes"/>
+<xsl:template name="addCustomMetaData"/>
+<xsl:template name="addCustomImageAttributes"/>
+<xsl:template name="addCustomAFrameAttributes"/>
+<xsl:template name="addCustomFigAttributes"/>
+<xsl:template name="addCustomXRefAttributes"/>
+<xsl:template name="addCustomMathMLAttributes"/>
+<xsl:template name="addCustomChapterAttributes"/>]]>
+      </codeblock>
+      <p>Here is a simple example where a &lt;note> element with @type set to 'other' is mapped to
+        a 'callout' ParaDef:</p>
+      <codeblock>&lt;xsl:template match="*[contains(@class, ' topic/note ') and @type='other']">
+	&lt;P paraDef="callout">&lt;xsl:apply-templates/>&lt;/P>
+&lt;/xsl:template></codeblock>
+      <p>A slightly more complex example is shown below, which adds support for a &lt;row> element
+      @outputclass value of '<codeph>subheading</codeph>' to allow insertion of subheading rows
+      within a table. The customization below is used to produce this PDF, an example of the
+      resulting subheadings is shown in <xref conkeyref="xrefs/see_outputclass"
+      />:<codeblock id="codeblock_uyz_fjy_jqb">  &lt;!-- Support for &lt;row> @outputclass='subhead': provide overrides for 
+    addCustomRowAttributes (handles keep with next) and 
+    addCustomCellAttributes (applies custom table cell formatting)
+  MiramoXML attribute names and values are specified in the mmComposer Reference Guide
+  -->
+ 
+  &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+  &lt;!-- Override addCustomRowAttributes extension point to check for @outputclass=subheading to set keepWithNext property
+    to prevent orphaned subheading rows -->
+  &lt;xsl:template name="addCustomRowAttributes">
+      &lt;xsl:if test="*[@outputclass='subheading']">
+        &lt;xsl:attribute name="withNext">Y&lt;/xsl:attribute>
+      &lt;/xsl:if>
+      &lt;xsl:apply-templates/>
+  &lt;/xsl:template>
+   
+  &lt;!-- Override addCustomRowAttributes extension point to check for @outputclass=subheading on parent to set cell formatting attributes -->
+  &lt;xsl:template name="addCustomCellAttributes">
+    &lt;xsl:if test="contains(../@outputclass, 'subheading')">
+      &lt;xsl:attribute name="paraDef">tableHeader&lt;/xsl:attribute>
+      &lt;xsl:attribute name="fillColor">none&lt;/xsl:attribute>
+      &lt;xsl:attribute name="topRule">Very Thin&lt;/xsl:attribute>
+      &lt;xsl:attribute name="bottomRule">Very Thin&lt;/xsl:attribute>
+      &lt;xsl:attribute name="topMargin">8pt&lt;/xsl:attribute>     
+    &lt;/xsl:if>
+  &lt;/xsl:template></codeblock></p>
+    </body>
+</topic>
