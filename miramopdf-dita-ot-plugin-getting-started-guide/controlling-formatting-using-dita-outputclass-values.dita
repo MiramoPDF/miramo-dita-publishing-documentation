@@ -158,6 +158,19 @@
             </entry>
           </row>
           <row>
+            <entry align="left" valign="top">
+              <p>mmpdf:tblContinuationDef:<i>name</i></p>
+            </entry>
+            <entry align="left" valign="middle">
+              <p>fig, table,</p>
+              <p>simpletable, reltable</p>
+            </entry>
+            <entry align="left" valign="top">
+              <p>use tblContinuationDef <i>name</i> to append  continuation text to a table title
+                for multi-page tables.</p>
+            </entry>
+          </row>
+          <row>
             <entry align="left" valign="middle"><p>mmpdf:maximumHeight:<i>dim</i>
               </p></entry>
             <entry align="left" valign="middle"><p>row, strow</p></entry>
