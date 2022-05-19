@@ -167,7 +167,7 @@
             </entry>
             <entry align="left" valign="top">
               <p>append TblContinuationDef <i>name</i> to a table title to include continuation text
-                for multi-page tables. Ignored if the table &lt;title> contains a instance of the
+                for multi-page tables<fn>Note that table continuation text can be applied to all tables by setting the DocDef @tblContinuationDef attribute in the MFD template, or setting @tblContinuationDef on specific TblDef format definitions, as required.</fn>. Ignored if the table &lt;title> contains a instance of the
                   <codeph>&lt;ph @outputclass="mmpdf:tblContinuation:<i>name</i>"/></codeph></p>
             </entry>
           </row>
