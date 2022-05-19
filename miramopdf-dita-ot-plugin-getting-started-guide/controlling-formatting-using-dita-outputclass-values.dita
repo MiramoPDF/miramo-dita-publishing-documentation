@@ -161,14 +161,22 @@
             <entry align="left" valign="top">
               <p>mmpdf:tblContinuationDef:<i>name</i></p>
             </entry>
-            <entry align="left" valign="middle">
+            <entry align="left" valign="top">
               <p>fig, table,</p>
               <p>simpletable, reltable</p>
             </entry>
             <entry align="left" valign="top">
-              <p>use tblContinuationDef <i>name</i> to append  continuation text to a table title
-                for multi-page tables.</p>
+              <p>append TblContinuationDef <i>name</i> to a table title to include continuation text
+                for multi-page tables. Ignored if the table &lt;title> contains a instance of the
+                  <codeph>&lt;ph @outputclass="mmpdf:tblContinuation:<i>name</i>"/></codeph></p>
             </entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:tblContinuation:<i>name</i></p></entry>
+            <entry>ph</entry>
+            <entry align="left" valign="middle">insert TblContinuationDef <i>name</i> in a table
+              title or header row to include continuation text for multi-page tables.</entry>
+            <entry align="left" valign="top"/>
           </row>
           <row>
             <entry align="left" valign="middle"><p>mmpdf:maximumHeight:<i>dim</i>
