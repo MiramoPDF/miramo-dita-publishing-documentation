@@ -5,7 +5,7 @@
 
     <conbody>
         <p>This section describes how to upgrade <ph keyref="Product"/> publishing software on
-            Windows, Linux and macOS.</p>
+      Windows and Linux.</p>
         <p>For information on upgrading the <ph keyref="plugin"/>, see <xref
                 href="../miramopdf-dita-ot-plugin-getting-started-guide/upgrading-miramo-dita-ot-plugin.dita"
             />. </p>

@@ -8,13 +8,13 @@
                 <li>Download the appropriate package from the download site:
                             <p>
                                 <codeph><ph keyref="MiramoEnterprise"/>-CentOS7-<ph keyref="version"
-                                        />p<i>NNN</i>.tar.gz</codeph></p>
+                                        />.tar.gz</codeph></p>
                             <p>
                                 <codeph><ph keyref="MiramoEnterprise"/>-Fedora30-<ph
-                                        keyref="version"/>p<i>NNN</i>.tar.gz</codeph></p>
+                                        keyref="version"/>.tar.gz</codeph></p>
                             <p>
                                 <codeph><ph keyref="MiramoEnterprise"/>-Ubuntu18-<ph
-                                        keyref="version"/>p<i>NNN</i>.tar.gz</codeph></p>
+                                        keyref="version"/>.tar.gz</codeph></p>
                         </li>
 
                 <li>Log in to the target server as an admin user.</li>
@@ -38,8 +38,8 @@
                 <cmd>Extract files from the downloaded distribution package.</cmd>
                 <stepxmp>
                     <p>For example:</p>
-                    <codeblock>tar -xzof <ph keyref="MiramoEnterprise"/>-CentOS7-<ph keyref="version"/>p<i>NNN</i>.tar.gz<i>NNN</i>.tar.gz</codeblock>
-                    <p>to create <codeph>/opt/miramo/MiramoPDF-2.0.0p<i>NNN</i></codeph>.</p>
+                    <codeblock>tar -xzof <ph keyref="MiramoEnterprise"/>-CentOS7-<ph keyref="version"/>p<i>NNN</i>.tar.gz</codeblock>
+                    <p>to create <codeph>/opt/miramo/MiramoEnterprise-2.0.0p<i>NNN</i></codeph>.</p>
                     <p>This is the Miramo installation folder.</p>
                 </stepxmp>
             </step>
@@ -47,7 +47,7 @@
                 <cmd>Change directory to the installation folder.</cmd>
                 <stepxmp>
                     <p>For example:</p>
-                    <codeblock>cd /opt/miramo/MiramoPDF-2.0.0p<i>NNN</i></codeblock>
+                    <codeblock>cd /opt/miramo/MiramoEnterprise-2.0.0p<i>NNN</i></codeblock>
                 </stepxmp>
             </step>
             <step>

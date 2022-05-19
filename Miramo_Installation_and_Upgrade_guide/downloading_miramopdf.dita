@@ -3,10 +3,10 @@
 <topic id="downloading">
     <title id="DownloadingMiramo">Downloading <ph keyref="MiramoPDF"/> installation files</title>
     <body>
-        <p><ph keyref="MiramoPDF"/> is available for Windows Desktop and macOS. <ph
-                keyref="MiramoPDF"/> includes a desktop version of <ph keyref="Designer"/>, the GUI
-            template design tool, together with a desktop version of <ph keyref="MiramoComposer"/>,
-            the composition engine which renders XML to PDF.</p>
+        <p><ph keyref="MiramoPDF"/> is available for Windows Desktop. <ph keyref="MiramoPDF"/>
+      includes a desktop version of <ph keyref="Designer"/>, the GUI template design tool, together
+      with a desktop version of <ph keyref="MiramoComposer"/>, the composition engine which renders
+      XML to PDF.</p>
         <p>Trial versions of <ph keyref="MiramoPDF"/> (which includes MiramoDesigner) and <ph
                 keyref="MiramoEnterprise"/> for Linux are available for download from <xref
                 href="https://miramo.com/english/overview/dp_download.html" format="html"

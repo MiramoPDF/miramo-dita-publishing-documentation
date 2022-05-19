@@ -28,9 +28,9 @@
 </change-historylist>
 </prolog>
 <body>
-    <note id="license_key_note">Currently a license key is not required to use <ph keyref="Product"/> on Windows Desktop,
-        Linux or macOS, simply install and start using the software. Licensing information is
-        maintained by <ph keyref="Datazone"/> referencing the serial number allocated and
-        recorded at the time of purchase.</note>
+    <note id="license_key_note">Currently a license key is not required to use <ph keyref="Product"
+      /> on Windows Desktop or Linux, simply install and start using the software. Licensing
+      information is maintained by <ph keyref="Datazone"/> referencing the serial number allocated
+      and recorded at the time of purchase.</note>
 </body>
 </topic>

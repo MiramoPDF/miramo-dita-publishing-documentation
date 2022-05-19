@@ -4,9 +4,8 @@
     <title>Introduction</title>
     <body>
         <p>This guide documents how to download, install and upgrade <ph keyref="Product"/>
-            publishing software and the <ph keyref="MiramoPDF"/> DITA-OT plugin, for <ph
-                product="MiramoEnterprise">Server (Windows/Linux) and </ph>Desktop (Windows/macOS)
-            versions.</p>
+      publishing software and the <ph keyref="MiramoPDF"/> DITA-OT plugin, for <ph
+        product="MiramoEnterprise">Server (Windows/Linux) and </ph> Windows Desktop versions.</p>
         <p product="MiramoPDFDesktop">It also includes information about downloading and installing
             a trial version of <ph keyref="MiramoEnterprise"/> for Linux.</p>
         <p>Note that the installation or upgrade of the <ph keyref="plugin"/> requires <ph

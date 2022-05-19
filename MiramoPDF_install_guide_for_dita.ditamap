@@ -38,7 +38,6 @@
   <chapter href="Miramo_Installation_and_Upgrade_guide/installing_miramo.dita" format="dita">
     <topicref href="Miramo_Installation_and_Upgrade_guide/windows_desktop_installation.dita"
       format="dita"/>
-    <topicref href="Miramo_Installation_and_Upgrade_guide/macOS_installation.dita" format="dita"/>
     <topicref href="Miramo_Installation_and_Upgrade_guide/linux_installation.dita" format="dita"/>
     <topicref href="Miramo_Installation_and_Upgrade_guide/testing_the_installation.dita"/>
 
@@ -71,7 +70,6 @@
   </chapter>
   <chapter href="Miramo_Installation_and_Upgrade_guide/upgrading_miramo.dita" format="dita">
     <topicref href="Miramo_Installation_and_Upgrade_guide/windows_desktop_upgrade.dita"/>
-    <topicref href="Miramo_Installation_and_Upgrade_guide/macOS_upgrade.dita"/>
     <topicref href="Miramo_Installation_and_Upgrade_guide/linux_upgrade.dita"/>
 
   </chapter>

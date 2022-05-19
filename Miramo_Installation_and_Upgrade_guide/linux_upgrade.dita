@@ -13,12 +13,12 @@
                 <cmd>Uninstall <ph keyref="Product"/>:</cmd>
                 <substeps id="substeps_cdf_pnz_lqb">
                     <substep>
-                        <cmd>Remove the current /opt/miramo-n.n.n folder.</cmd>
-                    </substep>
+            <cmd>Remove the current <codeph>/opt/miramo/MiramoEnterprise-<i>n.n.npnn</i></codeph>
+              folder.</cmd>
+          </substep>
                     <substep>
-                        <cmd>Remove symbolic links <codeph>/usr/local/bin/miramo</codeph> and
-                                <codeph>/usr/local/bin/miramo-n.n.n</codeph>.</cmd>
-                    </substep>
+            <cmd>Remove symbolic links <codeph>/usr/local/bin/miramo</codeph>.</cmd>
+          </substep>
                 </substeps>
             </step>
             <step>

@@ -4,7 +4,7 @@
     <title>Installing <ph keyref="Product"/></title>
     <body>
         <p>This section gives installation instructions for <ph keyref="Product"/> on Windows
-            (Desktop<ph product="MiramoEnterprise"> and/or Server</ph>), Linux (Server), and macOS (Desktop).</p>
+        (Desktop<ph product="MiramoEnterprise"> and/or Server</ph>), and Linux (Server).</p>
         <p product="MiramoEnterprise">For <ph keyref="MiramoEnterprise"/> on Windows Server you will
             to need apply a license key. See <xref href="obtaining_a_windows_server_license.dita"/>
             for more information.</p>

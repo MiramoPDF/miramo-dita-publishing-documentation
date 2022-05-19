@@ -3,8 +3,8 @@
 <topic id="downloading">
     <title id="DownloadingMiramo">Downloading</title>
     <body>
-        <p><xref href="http://miramo.com/secure-download" format="html" scope="external"
-                    ><ph keyref="MiramoPDF"/></xref> is available for Windows Desktop and macOS.</p>
+        <p><xref href="http://miramo.com/secure-download" format="html" scope="external"><ph
+          keyref="MiramoPDF"/></xref> is available for Windows Desktop.</p>
         <p><xref href="http://miramo.com/secure-download/?enterprise" format="html" scope="external"
             ><ph keyref="MiramoEnterprise"/></xref> is available for Windows Server and Linux.</p>
         <p>A link to the following download form and a download code will be supplied by email

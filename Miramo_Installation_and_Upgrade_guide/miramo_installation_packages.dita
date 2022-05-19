@@ -3,7 +3,7 @@
 <concept id="miramo_installation_packages">
         <title>Miramo distribution packages</title>
         <conbody>
-                <p>Miramo is available for Windows, Linux, and macOS. The distribution packages for
+                <p>Miramo is available for Windows and Linux. The distribution packages for
                         each platform are listed below and referenced throughout this document.</p>
                 <p>If you are looking for <ph keyref="MiramoEnterprise"/> on another platform please
                         contact us (email: <xref href="mailto:miramo@datazone.com" format="html"/>).</p>

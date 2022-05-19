@@ -4,6 +4,6 @@
     <prop att="product" val="MiramoPDFDesktop" action="exclude"/>
     <prop att="product" val="GettingStarted" action="include"/>
     <prop att="platform" val="windows" action="include"/>
-    <prop att="platform" val="mac" action="include"/>
+    <prop att="platform" val="mac" action="exclude"/>
     <prop att="platform" val="linux" action="include"/>
 </val>

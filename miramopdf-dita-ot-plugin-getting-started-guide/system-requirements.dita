@@ -15,7 +15,7 @@
     <ul>
       <li>Windows 8.1 (64 bit only)</li>
       <li>Windows 10</li>
-      <li>macOS (Catalina)</li>
+      <li product="mac">macOS (Catalina)</li>
     </ul>
     <p><ph keyref="MiramoEnterprise"/> Server is available on Windows Server and Linux operating
       systems. <ph product="MiramoDesktop">Contact us (miramo@datazone.com) for more information.</ph></p>
