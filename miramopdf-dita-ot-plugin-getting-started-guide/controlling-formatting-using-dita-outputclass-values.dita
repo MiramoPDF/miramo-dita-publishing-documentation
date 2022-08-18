@@ -48,7 +48,7 @@
               <p>mmpdf:keepTogether:<i>bool</i></p>
             </entry>
             <entry align="left" valign="top">
-              <p>table, title, p, note, cmd</p>
+              <p>fig, table, simpletable, reltable, title, p, note, cmd</p>
             </entry>
             <entry align="left" valign="middle">
               <p>set <codeph>keepTogether</codeph> to '<codeph>Y</codeph>' to prevent page or column
@@ -104,6 +104,13 @@
               items</p></entry>
           </row>
           <row>
+            <entry align="left" valign="top">mmpdf:includeInContents:N</entry>
+            <entry align="left" valign="top">title, p</entry>
+            <entry align="left" valign="middle"><p>if TOC is generated (<xref
+                  href="table-of-contents-tocs.dita#table-of-contents-tocs/IncludingTOCs"/>),
+                prevent this paragraph from being included in the TOC</p></entry>
+          </row>
+          <row>
             <entry align="left" valign="top"><p>mmpdf:listName:<i>name</i></p></entry>
             <entry align="left" valign="top"><p>ol, ul</p></entry>
             <entry align="left" valign="middle"><p>specify basename for generating listItem
@@ -112,20 +119,62 @@
           </row>
           <row outputclass="subheading">
             <entry align="left" valign="top" namest="c1" nameend="c3" 
-              >Tables</entry>
+              >Images</entry>
+          </row>
+          <row>
+            <entry align="left" valign="top">
+              <p>mmpdf:maximumWidth:<i>dim</i></p>
+            </entry>
+            <entry align="left" valign="top">image</entry>
+            <entry align="left" valign="top">
+              <p>set maximum width for image</p>
+              <p>ignored if @width specified</p>
+            </entry>
+          </row>
+          <row>
+            <entry align="left" valign="top">
+              <p>mmpdf:maximumHeight:<i>dim</i></p>
+            </entry>
+            <entry align="left" valign="top">image</entry>
+            <entry align="left" valign="top">
+              <p>set maximum height for image</p>
+              <p>ignored if @height specified</p>
+            </entry>
+          </row>
+          
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3" 
+              >Definition lists</entry>
+          </row>
+          <row>
+            <entry align="left" valign="top"><p>mmpdf:formatDefinitionsAsTable:<i>bool</i></p></entry>
+            <entry align="left" valign="top">dl</entry>
+            <entry align="left" valign="top"><p>set to Y to format definitions list as table, N to
+              format as list of paragraphs</p><p>default: from <codeph>mmpdf:formatDefinitionsAsTable</codeph> build parameter</p></entry>
+          </row>
+          <row>
+            <entry align="left" valign="top">mmpdf:definitionsPerRow::<i>int</i></entry>
+            <entry align="left" valign="top">dl</entry>
+            <entry align="left" valign="top"><p>if &lt;dl> is formatted as a table (<codeph>mmpdf:formatDefinitionsAsTable</codeph> is 'Y'),
+                choose number of definitions per row.</p>
+            <p>default: 1</p></entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">Tables, hazardstatements and
+              figures</entry>
           </row>
           <row>
             <entry align="left" valign="top"><p>mmpdf:tblDef:<i>name</i></p></entry>
-            <entry align="left" valign="middle"><p>fig, table,</p><p>simpletable, reltable,
-                hazardstatement</p></entry>
+            <entry align="left" valign="middle">fig, table, simpletable, reltable,
+              hazardstatement</entry>
             <entry align="left" valign="top"><p>use tblDef <i>name</i> for rendering table, figure
                 or hazardstatement</p></entry>
           </row>
           <row>
             <entry align="left" valign="top"><p id="mmpdf-topRule-name"
                 >mmpdf:topRule:<i>name</i></p><p>mmpdf:bottomRule:<i>name</i></p><p>mmpdf:startRule:<i>name</i></p><p>mmpdf:endRule:<i>name</i></p></entry>
-            <entry align="left" valign="top"><p>fig, table,</p><p>simpletable, reltable,
-                hazardstatement, row, strow, entry, stentry</p></entry>
+            <entry align="left" valign="top">fig, table, simpletable, reltable hazardstatement, row,
+              strow, entry, stentry</entry>
             <entry align="left" valign="middle"><p>set top, bottom, start or end rule to ruleDef
                   <i>name</i>.</p><p>If applied to a <codeph>&lt;fig&gt;</codeph>,
                   <codeph>&lt;table&gt;</codeph>, <codeph>&lt;simpletable&gt;</codeph>,
@@ -142,8 +191,7 @@
               <p>mmpdf:svgDef:<i>name</i></p>
             </entry>
             <entry align="left" valign="top">
-              <p>fig, table,</p>
-              <p>simpletable, reltable, hazardstatement, row, strow, entry, stentry</p>
+              <p>fig, table, simpletable, reltable, hazardstatement, row, strow, entry, stentry</p>
             </entry>
             <entry align="left" valign="middle">
               <p>set background SVG fill to svgDef <i>name</i>.</p>
@@ -172,8 +220,22 @@
             </entry>
           </row>
           <row>
+            <entry align="left" valign="top">mmpdf:minimumRows:<i>int</i></entry>
+            <entry align="left" valign="top">tbl, simpletable, reltable</entry>
+            <entry align="left" valign="middle">set @minimumRows (minimum number of widow/orphan
+              rows) for this table instance</entry>
+          </row>
+          <row>
+            <entry align="left" valign="top">mmpdf:splitRows:<i>bool</i></entry>
+            <entry align="left" valign="top">fig, tbl, simpletable, reltable</entry>
+            <entry align="left" valign="middle">
+              <p>set to Y to allow page or column breaks within rows, N to prevent page breaks
+                within a table rows.</p>
+              <p>default: from TblDef</p>
+            </entry>
+          </row>
+          <row>
             <entry align="left" valign="top"><p>mmpdf:tblContinuation:<i>name</i></p></entry>
-            <entry>ph</entry>
             <entry align="left" valign="middle">insert TblContinuationDef <i>name</i> in a table
               title or header row to include continuation text for multi-page tables.</entry>
             <entry align="left" valign="top"/>
@@ -189,17 +251,6 @@
               </p></entry>
             <entry align="left" valign="middle"><p>row, strow</p></entry>
             <entry align="left" valign="middle"><p>set minimum row height</p></entry>
-          </row>
-          <row>
-            <entry align="left" valign="middle">mmpdf:splitRow:<i>bool</i></entry>
-            <entry align="left" valign="middle">row, strow</entry>
-            <entry align="left" valign="middle">allow page or column breaks within row</entry>
-          </row>
-          <row>
-            <entry align="left" valign="middle">mmpdf:splitStraddledRow:<i>bool</i></entry>
-            <entry align="left" valign="middle">row, strow</entry>
-            <entry align="left" valign="middle">allow page or column breaks between straddled
-              rows</entry>
           </row>
           <row>
             <entry align="left" valign="middle"><p>mmpdf:colorDef:<i>name</i></p></entry>

@@ -20,7 +20,7 @@
         <stepxmp>
           <p>For example:</p>
           <codeblock>cd <i>tmpdir</i>
-<i>dita-ot-installdir</i>/bin/dita -install <ph keyref="com.miramo.mmpdf"/>-2.0.0<ph keyref="patchLevel"/>.zip  </codeblock>
+<i>dita-ot-installdir</i>/bin/dita -install <ph keyref="com.miramo.mmpdf"/>-3.0.0<ph keyref="patchLevel"/>.zip  </codeblock>
         </stepxmp>
         <stepresult>
           <p>This creates a new folder</p>

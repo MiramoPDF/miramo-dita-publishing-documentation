@@ -159,6 +159,12 @@
               "px" (default) "pt" "mm" "pc" "cm" "dd" "cc" </entry>
           </row>
           <row>
+            <entry>mmpdf:definitionsPerRow</entry>
+            <entry>1</entry>
+            <entry>Number of definitions per table row, when mmpdf:formatDefinitionsAsTable is set
+              to Y</entry>
+          </row>
+          <row>
             <entry>mmpdf:docTitle</entry>
             <entry>fromDITA</entry>
             <entry>
@@ -176,14 +182,15 @@
           <row>
             <entry>mmpdf:formatDefinitionsAsTable</entry>
             <entry>N</entry>
-            <entry>Set to Y to format definitions list as table rather than paragraphs Allowed
-              values: "N" (default) "Y" </entry>
+            <entry><p>Set to Y to format definitions list as table rather than paragraphs by default - can be overridden using @outputclass = mmpdf:foramtDefinitionsAsTable</p><p>Allowed
+              values: "N" (default) "Y"</p>
+            </entry>
           </row>
           <row>
             <entry>mmpdf:formatGlossaryAsTable</entry>
             <entry>N</entry>
-            <entry>Set to Y to format glossary as table rather than paragraphs Allowed values: "N"
-              (default) "Y" </entry>
+            <entry><p>Set to Y to format glossary as table rather than paragraphs</p><p>Allowed values: "N"
+              (default) "Y"</p></entry>
           </row>
           <row>
             <entry>mmpdf:formatSectionTitleAsTopicTitle</entry>

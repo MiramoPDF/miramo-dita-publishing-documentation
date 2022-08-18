@@ -17,7 +17,7 @@
   <keydef keys="version">
     <topicmeta>
       <keywords>
-        <keyword>2.0.0</keyword>
+        <keyword>3.0.0</keyword>
       </keywords>
     </topicmeta>
   </keydef>
@@ -67,7 +67,7 @@
   <keydef keys="oxygenVersion">
     <topicmeta>
       <keywords>
-        <keyword>23</keyword>
+        <keyword>24</keyword>
       </keywords>
     </topicmeta>    
   </keydef>
@@ -130,7 +130,7 @@
   <keydef keys="patchLevel">
     <topicmeta>
       <keywords>
-        <keyword>p017</keyword>
+        <keyword>p009</keyword>
       </keywords>
     </topicmeta>
   </keydef>
@@ -138,7 +138,7 @@
   <keydef keys="DesktopWindowsInstallFolder">
     <topicmeta>
       <keywords>
-        <keyword>C:\Program Files\Miramo\MiramoPDF 2.0.0</keyword>
+        <keyword>C:\Program Files\Miramo\MiramoPDF 3.0.0</keyword>
       </keywords>
     </topicmeta>
   </keydef>

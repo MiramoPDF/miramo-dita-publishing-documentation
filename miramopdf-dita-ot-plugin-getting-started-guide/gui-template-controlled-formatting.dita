@@ -9,7 +9,7 @@
         <b>MiramoDesigner</b> (MiramoDesigner.exe), the GUI template design tool component of
         <b>MiramoPDF</b>.</p>
     <fig id="fig_kc5_sbh_ghb">
-      <image href="img-gui-template.jpeg" alt="???" id="image_x4v_sbh_ghb"/>
+      <image href="img-gui-template.jpeg" alt="???" id="image_x4v_sbh_ghb" />
     </fig>
     <p>The default template (default.mfd) supplied with the plugin provides a single-column layout
       for rendering MiramoXML to PDF. </p>
