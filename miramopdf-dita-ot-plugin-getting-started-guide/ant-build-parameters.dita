@@ -105,9 +105,8 @@
             <entry>transtype</entry>
             <entry>mmpdf</entry>
             <entry>
-              <p>Name of transformation type, modify only if</p>
-              <p>using a customization of the</p>
-              <p>com.miramo.mmpdf plugin</p>
+              <p>Name of transformation type, modify only if using a customization of the
+                com.miramo.mmpdf plugin</p>
             </entry>
           </row>
           <row>
@@ -115,6 +114,12 @@
             <entry>chapterTOC</entry>
             <entry>Set ContentsDef to use for formatting chapter TOC (miniTOC) - ignored unless
               mmpdf:includeChapterTOC = 'Y' </entry>
+          </row>
+          <row>
+            <entry>mmpdf:clean-map-preprocess</entry>
+            <entry>Y</entry>
+            <entry>Set to N to skip the DITA-OT clean.map preprocess step to preserve submap titles
+              and metadata in the PDF output (may have unwanted side effects)</entry>
           </row>
           <row>
             <entry>mmpdf:contentsDef</entry>
@@ -143,8 +148,8 @@
           <row>
             <entry>mmpdf:defaultCellVerticalAlignment</entry>
             <entry>middle</entry>
-            <entry>Set default vertical aligment of table cell contents Allowed values: "" (default)
-              "top" "middle" "bottom" </entry>
+            <entry>Set default vertical aligment of table cell contents Allowed values: "fromTblDef"
+              (default), "top" "middle" "bottom" </entry>
           </row>
           <row>
             <entry>mmpdf:defaultImageAlignment</entry>
