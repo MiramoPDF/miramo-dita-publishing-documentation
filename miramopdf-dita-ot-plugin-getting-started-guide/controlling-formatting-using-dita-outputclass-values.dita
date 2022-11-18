@@ -122,6 +122,15 @@
               >Images</entry>
           </row>
           <row>
+            <entry align="left" valign="top">mmpdf:jobOptionsDef:<i>name</i></entry>
+            <entry align="left" valign="top">image</entry>
+            <entry align="left" valign="top"><p>override jobOptionsDef specified using ant build
+              parameter <codeph>mmpdf:jobOptionsDef</codeph> - ignored unless<codeph>
+                mmpdf:jobOptions</codeph> build parameter set to Y.</p><p>Use
+                <codeph>mmpdf:jobOptionsDef:none</codeph> to turn off compression for this
+                  image.</p></entry>
+          </row>
+          <row>
             <entry align="left" valign="top">
               <p>mmpdf:maximumWidth:<i>dim</i></p>
             </entry>
@@ -150,7 +159,7 @@
             <entry align="left" valign="top"><p>mmpdf:formatDefinitionsAsTable:<i>bool</i></p></entry>
             <entry align="left" valign="top">dl</entry>
             <entry align="left" valign="top"><p>set to Y to format definitions list as table, N to
-              format as list of paragraphs</p><p>default: from <codeph>mmpdf:formatDefinitionsAsTable</codeph> build parameter</p></entry>
+              format as list of paragraphs</p><p>default: from <codeph>mmpdf:formatDefinitionsAsTable</codeph> build parameter </p></entry>
           </row>
           <row>
             <entry align="left" valign="top">mmpdf:definitionsPerRow::<i>int</i></entry>

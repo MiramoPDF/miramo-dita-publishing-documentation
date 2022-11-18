@@ -187,7 +187,7 @@
           <row>
             <entry>mmpdf:formatDefinitionsAsTable</entry>
             <entry>N</entry>
-            <entry><p>Set to Y to format definitions list as table rather than paragraphs by default - can be overridden using @outputclass = mmpdf:foramtDefinitionsAsTable</p><p>Allowed
+            <entry><p>Set to Y to format definitions list as table rather than paragraphs</p><p>Allowed
               values: "N" (default) "Y"</p>
             </entry>
           </row>
@@ -261,6 +261,19 @@
               <p><i>MiramoEnterprise only: </i>unique identifier</p>
               <p>for queued job as viewed in mmVisor</p>
             </entry>
+          </row>
+          <row>
+            <entry>mmpdf:jobOptions</entry>
+            <entry>N</entry>
+            <entry>Set to Y to apply JobOptionsDef compression options set by
+                <codeph>mmpdf:jobOptionsDef</codeph> build parameter<p>Allowed values: "N" (default)
+                "Y"</p></entry>
+          </row>
+          <row>
+            <entry id="mmpdf_joboptionsdef">mmpdf:jobOptionsDef</entry>
+            <entry>standard</entry>
+            <entry>Set JobOptionsDef to use for image compression - ignored unless
+                <codeph>mmpdf:jobOptions</codeph> set to Y</entry>
           </row>
           <row>
             <entry id="mmpdf-localization-strings-dir">mmpdf:localization-strings.dir</entry>

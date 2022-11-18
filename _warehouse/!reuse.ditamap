@@ -4,7 +4,7 @@
   <topicmeta>
     <author type="contributor">Pieterjan Vandenweghe</author>
     <critdates>
-      <revised modified="2021/07/22"/>
+      <revised modified="2022/11/03"/>
     </critdates>
   </topicmeta>
   <keydef keys="Product">
@@ -130,7 +130,7 @@
   <keydef keys="patchLevel">
     <topicmeta>
       <keywords>
-        <keyword>p009</keyword>
+        <keyword>p016</keyword>
       </keywords>
     </topicmeta>
   </keydef>
@@ -138,7 +138,7 @@
   <keydef keys="DesktopWindowsInstallFolder">
     <topicmeta>
       <keywords>
-        <keyword>C:\Program Files\Miramo\MiramoPDF 3.0.0</keyword>
+        <keyword>C:\Program Files\Miramo\MiramoPDF-3.0.0</keyword>
       </keywords>
     </topicmeta>
   </keydef>
