@@ -11,12 +11,8 @@
       <li><ph keyref="MiramoPDF"/> Desktop or <ph keyref="MiramoEnterprise"/> vs <ph
           keyref="version"/> or above</li>
     </ul>
-    <p><ph keyref="MiramoPDF"/> Desktop edition runs on the following operating systems:</p>
-    <ul>
-      <li>Windows 8.1 (64 bit only)</li>
-      <li>Windows 10</li>
-      <li product="mac">macOS (Catalina)</li>
-    </ul>
+    <p><ph keyref="MiramoPDF"/> Desktop edition runs on Windows x64 platforms and includes <ph
+        keyref="Designer"/>.</p>
     <p><ph keyref="MiramoEnterprise"/> Server is available on Windows Server and Linux operating
       systems. <ph product="MiramoDesktop">Contact us (miramo@datazone.com) for more information.</ph></p>
   </conbody>

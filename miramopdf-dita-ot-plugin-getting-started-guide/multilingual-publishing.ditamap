@@ -3,7 +3,7 @@
 <map id="multilingual-publishing-map" xml:lang="en-us">
     <title>Multilingual publishing</title>
     <topicref href="multilingual-publishing.dita">
-        <topicref href="how-many-mfd-or-template-files-will-i-need.dita"/>
+        <topicref href="multilingual-fonts.dita"/>
         <topicref href="language-specific-variables.dita">
             <topicref href="changing-localization-text.dita"/>
             <topicref href="example-extract-from-the-cfg-strings-fr-xml-file.dita"/>

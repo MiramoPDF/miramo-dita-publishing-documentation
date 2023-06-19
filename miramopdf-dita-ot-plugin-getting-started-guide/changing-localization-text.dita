@@ -7,7 +7,7 @@
     <p>By default, localization text strings are located in the plugin folder's
         <filepath>cfg/strings/*.xml</filepath> files. If you wish to keep a copy of the strings
       folder elsewhere, copy the folder and set the<xref
-        href="ant-build-parameters.dita#ant-build-parameters/mmpdf-localization-strings-dir"
+        href="ant-build-parameters.dita#ant-build-parameters/mmpdf:localization-strings.dir"
         >mmpdf:localization-strings.dir</xref> ant build parameter to the new location.</p>
     <note type="important">Do not change the localization text in the original
         <filepath>com.miramo.mmpdf/cfg/strings</filepath> folder, the changes will be overwritten if

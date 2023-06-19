@@ -18,7 +18,7 @@
       <prodname>MiramoEnterprise</prodname>
       <vrmlist>
         <vrm version="1.6"/>
-        <vrm version="2.0.0"/>
+        <vrm version="3.0.0"/>
       </vrmlist>
     </prodinfo>
   </bookmeta>
@@ -30,6 +30,7 @@
     <mapref href="_warehouse/_warehouse.ditamap" format="ditamap" processing-role="resource-only"/>
   </frontmatter>
    <chapter href="Miramo_Installation_and_Upgrade_guide/introduction.dita" format="dita">
+    <topicref keyref="MiramoComposer"/>
     <topicref href="Miramo_Installation_and_Upgrade_guide/downloading_miramoenterprise.dita"/>
     <topicref href="Miramo_Installation_and_Upgrade_guide/miramo_installation_packages.dita"/>
     <topicref href="Miramo_Installation_and_Upgrade_guide/plugin_installation_packages.dita"/>

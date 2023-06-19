@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+
+  <title>User Guide</title>
+    <data name="logo" product="T"><image id="image_ixy_w4m_lz_alt" width="2cm" href="logos/T.png"/></data>
+    <data name="url" product="T">www.teknix.com</data>
+    <data name="logo" product="Z"><image id="image_ixy_w4m_lz" width="2cm" href="logos/Z.png" /></data>
+    <data name="url" product="Z">www.zigs.com</data>
+    <data name="brandName"><term conkeyref="productname_variables/ph_companyname"/>
+    <term conkeyref="productname_variables/ph_prodname"/></data>
+    <data name="brandTagLine">Best for business</data>
+    <data name="url">www.mizuho.com</data>
+  <mapref
+    href="topics/keydefs-topics.ditamap"/>
+  <mapref href="keydefs-external-web-sites.ditamap"/>
+  <topicgroup product="STA" processing-role="resource-only">
+    <mapref
+      href="Images/images-keys.ditamap"/>
+    <keydef keys="productname_variables" href="topics/r_productname_variables.dita"
+        processing-role="resource-only"/>    
+      <keydef keys="image_warehouse" href="topics/r_image_warehouse.dita"  processing-role="resource-only"
+      />   
+  </topicgroup>
+  <topicgroup product="STB" processing-role="resource-only">
+    <mapref
+      href="Images2/images2-keys.ditamap"/>
+    <keydef keys="productname_variables" href="topics/r_productname_variables_2.dita" type="topic"
+      />    
+    <keydef keys="image_warehouse" href="topics/r_image_warehouse_2.dita" type="topic"
+      />   
+  </topicgroup>
+  <topicref keys="introduction" keyref="c_introduction">
+        <topicref keys="mv_about_mobileview" keyref="c_mv_about_mobileview">
+            <topicref keys="mv_about_guide" keyref="c_mv_about_guide"/>
+            <topicref keys="mv_organization" keyref="c_mv_organization"/>
+        </topicref>
+    </topicref>
+    <topicref keys="getting_started" keyref="c_getting_started">
+        <topicref keys="architecture_combined" keyref="c_architecture_combined"/>
+        <topicref keys="mv_logging_on" keyref="t_mv_logging_on"/>
+        <topicref keys="mv_workspace_tab" keyref="c_mv_workspace_tab"/>
+        <topicref keys="mv_performance_tab" keyref="c_mv_performance_tab"/>
+        <topicref keys="mv_diagnostics_tab" keyref="c_mv_diagnostics_tab"/>
+        <topicref
+      keys="faq"
+      keyref="c_FAQ"/>
+    </topicref>
+    <topicref keys="common_tasks" keyref="c_common_tasks">
+        <topicref keys="mv_managing_messages" keyref="c_mv_managing_messages"/>
+        <topicref keys="mv_customize_views" keyref="c_mv_customize_views">
+            <topicref keys="cluster_capacity" keyref="c_cluster_capacity"/>
+            <topicref keys="mv_generating_data_views" keyref="t_mv_generating_data_views"/>
+            <topicref keys="mv_query_filters" keyref="r_mv_query_filters"/>
+        </topicref>
+        <topicref keys="mv_troubleshooting_clusters" keyref="t_mv_troubleshooting_clusters"/>
+        <topicref keys="mv_query_messages" keyref="r_mv_query_messages"/>
+        <topicref keys="mv_system_notifications" keyref="r_mv_system_notifications"/>
+        <topicref keys="mv_quickref_dataview" keyref="r_mv_quickref_dataview"/>
+        <topicref keys="mv_quickref_health_indicators" keyref="r_mv_quickref_health_indicators"/>
+ </topicref>
+    <topicref href="https://www.miramo.com/MiramoPDF/mechanical_drawings.pdf" format="pdf" navtitle="Mechanical drawings"
+        scope="external"/>
+    
+    <reltable title="See Also">
+        <relheader>
+            <relcolspec>
+              <topicmeta>
+                <navtitle>See Also</navtitle>
+              </topicmeta>
+            </relcolspec>
+            <relcolspec>
+              <topicmeta>
+                <navtitle>See Also</navtitle>
+              </topicmeta>
+            </relcolspec>
+        </relheader>
+         <relrow>
+            <relcell>
+                <topicref keyref="cluster_capacity"/>
+            </relcell>
+            <relcell>
+                <topicref keyref="mv_troubleshooting_clusters"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref keyref="cluster_capacity"/>
+            </relcell>
+            <relcell>
+                <topicref keyref="mv_quickref_dataview"/>
+            </relcell>
+        </relrow>
+        <relrow>
+            <relcell>
+                <topicref keyref="mv_generating_data_views"/>
+            </relcell>
+            <relcell>
+                <topicref keyref="mv_query_messages"/>
+            </relcell>
+        </relrow>
+    </reltable>
+</map>

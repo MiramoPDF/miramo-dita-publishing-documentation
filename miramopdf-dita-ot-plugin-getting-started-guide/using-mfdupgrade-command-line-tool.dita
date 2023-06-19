@@ -4,9 +4,8 @@
 <task xml:lang="en-us" id="using-mfdupgrade-command-line-tool">
   <title>Using the 'mfdupgrade' command line tool [windows only]</title>
   <taskbody>
-    <context><p>The 'mfdupgrade.cmd' script is installed in <filepath>c:\Program Files\Miramo\MiramoPDF
-        </filepath><ph keyref="version"/> which is added to the <codeph>PATH</codeph> environment
-      variable by the installer.</p></context>
+    <context><p>The 'mfdupgrade.cmd' script is installed in <codeph><ph keyref="DesktopWindowsInstallFolder"/></codeph> which is
+        added to the <codeph>PATH</codeph> environment variable by the installer.</p></context>
     <steps-unordered id="steps_mq2_bqz_lqb">
       <step>
         <cmd>To upgrade your MFD file, start a new DOS command window and enter the following

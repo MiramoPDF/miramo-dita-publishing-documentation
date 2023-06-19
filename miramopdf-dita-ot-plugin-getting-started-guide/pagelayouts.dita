@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="cover-pages">
+  <title>Page layouts</title>
+  <conbody>
+    <p><ph keyref="MiramoPDF"/> supports two format definitions which are used to control page
+      layouts:</p>
+    <ol id="ol_xqd_csw_txb">
+      <li><codeph>PageDef</codeph>: allow individual pages to be designed with referenced graphics,
+        running headers and footers, and text frames (body text areas). Examples are
+          <codeph>Cover</codeph>, <codeph>Right</codeph>, <codeph>Left</codeph> and
+          <codeph>Landscape</codeph> PageDefs</li>
+      <li><codeph>SectionDef</codeph>: configures a page layout sequence, which references one or
+        more PageDef format Definitions. </li>
+    </ol>
+    <p><xref href="#cover-pages/fig_lqd_tqw_txb"/> illustrates the PageDef and SectionDef  in <ph
+        keyref="Designer"/>, and <xref href="#cover-pages/fig_e5b_mqq_5xb"/> shows the cover page
+      produced.</p>
+    <fig id="fig_lqd_tqw_txb">
+      <title>MiramoDesigner coverSection and Cover PageDef</title>
+      <image placement="break" href="graphics/CoverSectionDef.png" id="image_mqd_tqw_txb"/>
+    </fig>
+    <fig id="fig_e5b_mqq_5xb">
+      <title>Default cover page in PDF</title>
+      <image placement="break" href="graphics/coverpage_in_pdf.png" id="image_f5b_mqq_5xb"/>
+    </fig>
+    <p>By default, the <ph keyref="plugin"/> automatically applies SectionDefs to lay out sections
+      of the published PDF, as appropriate to the DITA content. </p>
+    <table
+        frame="all" id="simpletable_bh5_h5w_txb">
+      <title><ph keyref="plugin"/> SectionDefs for bookmap publishing</title>
+        <tgroup cols="3">
+        <colspec colname="c1" colwidth="1*"/>
+        <colspec colname="c2" colwidth="1*"/>
+        <colspec colname="newCol3" colwidth="1*"/>
+        <thead>
+          <row>
+            <entry>bookmap element</entry>
+            <entry>SectionDef</entry>
+            <entry>Condition</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><codeph>&lt;bookmap&gt;</codeph></entry>
+            <entry><codeph>coverSection</codeph></entry>
+            <entry><xref href="ant-build-parameters.dita#ant-build-parameters/mmpdf:includeCover"
+                >mmpdf:includeCover</xref> is set to 'Y' </entry>
+          </row>
+          <row>
+            <entry morerows="1"><codeph>&lt;toc&gt;</codeph></entry>
+            <entry><codeph>contentsSection</codeph></entry>
+            <entry><xref href="ant-build-parameters.dita#ant-build-parameters/mmpdf:includeTOC"
+                >mmpdf:includeTOC</xref> is set to 'Y' </entry>
+          </row>
+          <row>
+            <entry><i>name</i></entry>
+            <entry><xref href="ant-build-parameters.dita#ant-build-parameters/mmpdf:includeTOC"
+                >mmpdf:contentsDef</xref> is set to <i>name</i></entry>
+          </row>
+          <row>
+            <entry morerows="1"><codeph>&lt;indexlist&gt;</codeph></entry>
+            <entry><codeph>indexSection</codeph></entry>
+            <entry><xref href="ant-build-parameters.dita#ant-build-parameters/mmpdf:includeTOC"
+                >mmpdf:includeIndex</xref> is set to 'Y'</entry>
+          </row>
+          <row>
+            <entry><i>name</i></entry>
+            <entry><xref href="ant-build-parameters.dita#ant-build-parameters/mmpdf:includeTOC"
+                >mmpdf:indexDef</xref> is set to <i>name</i></entry>
+          </row>
+          <row>
+            <entry><codeph>&lt;chapter&gt;</codeph></entry>
+            <entry><codeph>firstSection</codeph></entry>
+            <entry/>
+          </row>
+          <row>
+            <entry><codeph>&lt;glossarylist&gt;</codeph></entry>
+            <entry><codeph>glossarylistSection</codeph></entry>
+            <entry/>
+          </row>
+          <row>
+            <entry>(end of bookmap)</entry>
+            <entry><codeph>backCoverSection</codeph></entry>
+            <entry><xref
+                href="ant-build-parameters.dita#ant-build-parameters/mmpdf:includeBackCover"
+                >mmpdf:includeBackCover</xref> = 'Y'</entry>
+          </row>
+        </tbody>
+      </tgroup>
+      </table>
+    <table frame="all" rowsep="1" colsep="1" id="table_fgc_rvk_5xb">
+      <title><ph keyref="plugin"/> SectionDefs for map publishing</title>
+      <tgroup cols="2">
+        <colspec colname="c1" colnum="1" colwidth="1*"/>
+        <colspec colname="c2" colnum="2" colwidth="1*"/>
+        <thead>
+          <row>
+            <entry>SectionDef</entry>
+            <entry>Condition</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><codeph>coverSection</codeph></entry>
+            <entry><xref href="ant-build-parameters.dita#ant-build-parameters/mmpdf:includeCover"
+                >mmpdf:includeCover</xref> is set to 'Y' and <codeph>&lt;map></codeph> contains
+                <codeph>@title</codeph> attribute or <codeph>&lt;title> </codeph>element</entry>
+          </row>
+          <row>
+            <entry><codeph>firstSection</codeph></entry>
+            <entry>always applied </entry>
+          </row>
+          <row>
+            <entry><codeph>backCoverSection</codeph></entry>
+            <entry><xref
+                href="ant-build-parameters.dita#ant-build-parameters/mmpdf:includeBackCover"
+                >mmpdf:includeBackCover</xref> = 'Y'</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>For standalone DITA topics the <ph keyref="plugin"/> applys <codeph>firstSection</codeph> to
+      the topic content, which applies the First PageDef to the first page of the topic content,
+      then reverts to Right/Left pages:</p>
+    <p>
+      <fig id="fig_tfd_4sq_5xb">
+        <title>MiramoDesigner firstSection and First PageDef</title>
+        <image placement="break" href="graphics/firstSection.png" id="image_ufd_4sq_5xb"/>
+      </fig>
+    </p>
+    <p>See <xref
+        href="outputclass-values.dita#controlling-formatting-outputclass/outputclass-pagelayouts">outputclass values for controlling page layouts</xref>
+      for information on overriding sectionDefs using @outputclass values. </p>
+  </conbody>
+  <related-links>
+    <link
+      keyref="webinar-glamuppdf"
+      format="html"
+      scope="external"/>
+    <link
+      keyref="MiramoXMLReference_SectionDef"
+      format="pdf" scope="external"/>
+    <link
+      keyref="MiramoXMLReference_Section"
+      format="pdf" scope="external"/>
+  </related-links>
+</concept>

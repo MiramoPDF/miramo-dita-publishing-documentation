@@ -35,7 +35,7 @@
 								<null/>
 							</field>
 							<field name="ditavalFilePath">
-								<String>file:/C:/ap/Dita-OTI/docs/miramo_guides/ditavals/DITA-OT_GettingStarted.ditaval</String>
+								<String>file:/C:/dev/MiramoPDF/miramopdf-dita-ot-plugin-getting-started-guide/ditavals/DITA-OT_GettingStarted.ditaval</String>
 							</field>
 							<field name="simpleFiltersList">
 								<list/>
@@ -266,7 +266,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>C:\ap\Dita-OTI\docs\miramo_guides/mmtemplates</String>
+									<String>c:\dev\MiramoPDF\miramopdf-dita-ot-plugin-getting-started-guide/mmtemplates</String>
 								</field>
 								<field name="defaultValue">
 									<String></String>

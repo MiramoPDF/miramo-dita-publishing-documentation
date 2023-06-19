@@ -4,22 +4,19 @@
     <title>Customization</title>
     <mapref href="../_warehouse/!reuse.ditamap" format="ditamap" processing-role="resource-only"/>
     <mapref href="../_warehouse/_warehouse_gettingstarted.ditamap" format="ditamap" processing-role="resource-only"/>
-    <topicref href="customization.dita">
-   
-        <topicref href="customizing-com-miramo-mmpdf-plugin.dita">
-            <topicref href="creating-a-custom-plugin-with-oxygen.dita"/>
-            <topicref href="manually-creating-new-custom-plugin.dita">
-                <topicref href="running-dita-ot-integration-tool.dita"/>
-            </topicref>
-            <topicref href="com-example-my-mmpdf-files-and-folders.dita"/>
-            <topicref href="setting-default-parameter-values.dita"/>
-            <topicref href="customizing_using_xsl.dita">
-        <topicref
-          href="miramopdf-dita-ot-plugin-getting-started-guide/making_changes_to_custom_xsl.dita"/>
-        <topicref href="making_changes_to_functionstubs_xsl.dita">
-          <topicref href="functionstubs_mapchar.dita"/>
+    <topicref href="creating-a-custom-plugin.dita">
+        <topicref href="creating-a-custom-plugin-with-oxygen.dita"/>
+        <topicref href="manually-creating-new-custom-plugin.dita">
+            <topicref href="running-dita-ot-integration-tool.dita"/>
         </topicref>
-      </topicref>
+        <topicref href="com-example-my-mmpdf-files-and-folders.dita"/>
+        <topicref href="setting-default-parameter-values.dita"/>
+        <topicref href="customizing_using_xsl.dita">
+            <topicref
+                href="miramopdf-dita-ot-plugin-getting-started-guide/making_changes_to_custom_xsl.dita"/>
+            <topicref href="making_changes_to_functionstubs_xsl.dita">
+                <topicref href="functionstubs_mapchar.dita"/>
+            </topicref>
         </topicref>
     </topicref>
 </map>

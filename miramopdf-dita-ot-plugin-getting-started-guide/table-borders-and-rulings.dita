@@ -7,10 +7,10 @@
     <p>The <xref href="ant-build-parameters.dita#ant-build-parameters/mmpdf:tableBorders">
         mmpdf:tableBorders</xref> ant build parameter value controls whether table rulings are
       controlled by the MFD template (mmpdf:tableBorders = 'fromTblDef') or whether they can be
-      overridden via the DITA @frame, @colsep and @rulesep parameters (mmpdf:tableBorders =
-      'fromDITA') as illustrated in the tables below. The appearance of the 'all', 'none', 'topbot',
-      'sides', 'top', 'bottom' and 'Very Thin' is controlled by the MFD template &lt;RuleDef&gt;
-      settings.</p>
+      overridden via the DITA @frame, @colsep and @rulesep parameters (<codeph>mmpdf:tableBorders =
+        'fromDITA'</codeph>) as illustrated in the tables below. The appearance of the 'all',
+      'none', 'topbot', 'sides', 'top', 'bottom' and 'Very Thin' is controlled by the MFD template
+      &lt;RuleDef&gt; settings.</p>
     <table>
       <title>&lt;table&gt; @frame attribute to MiramoXML &lt;Tbl&gt; RuleDef mapping
         [mmpdf:tableBorders = fromDITA]</title>
@@ -125,11 +125,11 @@
       </tgroup>
     </table>
     <p>Additional @outputclass values such as <xref
-        href="controlling-formatting-using-dita-outputclass-values.dita#controlling-formatting-outputclass/mmpdf-topRule-name"
-        >mmpdf:topRule:name</xref>may be specified to override top, bottom, start and end rulings on
-      a table, row, or entry (cell), regardless of the value set for mmpdf:tableBorders, or the
+        href="outputclass-values.dita#controlling-formatting-outputclass/outputclass-topRule"
+        >mmpdf:topRule:name</xref> may be specified to override top, bottom, start and end rulings
+      on a table, row, or entry (cell), regardless of the value set for mmpdf:tableBorders, or the
       value of the @frame, @colsep or @rowsep attributes.</p>
-    <p>See <xref href="controlling-formatting-using-dita-outputclass-values.dita"/> for further
+    <p>See <xref href="outputclass-values.dita"/> for further
       information.</p>
   </conbody>
 </concept>

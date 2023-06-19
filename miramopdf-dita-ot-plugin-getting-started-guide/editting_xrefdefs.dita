@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="editting_xrefdefs">
+    <title>Editting Cross-reference formats using MiramoDesigner</title>
+    <body>
+        <p>MiramoDesigner &lt;XRefDef>s are editted via the 'Manage Cross-reference formats' dialog
+            which is accessible through the 'More' button at the bottom of the format definitions
+            pane:</p>
+            <p><menucascade>
+                <uicontrol><image href="graphics/more_button.png" width="3cm" placement="inline" id="image_ngb_14k_sxb"
+                    />
+                </uicontrol><uicontrol><image href="graphics/more_xrefdef.png" width="3cm" id="image_ecc_1pk_sxb"
+                    /></uicontrol>
+            </menucascade></p>
+        <p>The default <codeph>xref</codeph> XRefDef includes a mix of language independent
+            variables (<codeph>$lang-onpage</codeph>) and building blocks which include the
+            paragraph text (<codeph>&lt;paragraphText></codeph>) and page number
+                (<codeph>&lt;pageNumber></codeph>) of the target element:</p>
+        <p>
+            <image href="graphics/xrefdef.png" width="85mm" id="image_eyl_bnk_sxb" placement="break"/>
+        </p>
+        <p>A FontDef (eg <codeph>xreflink</codeph>) may be applied to all or part of the XRefDef
+            contents by selecting text and/or building blocks, then using right-click to bring up
+            the FontFormat context menu. The first image below shows the 'xreflink' FontDef applied
+            to the <codeph>$l</codeph><codeph>ang-onpage &lt;pageNumber> </codeph>components of the
+            XRefDef format, the image on the right shows how the xreflink FontDef is defined:</p>
+        <simpletable frame="all" relcolwidth="1* 1*" id="simpletable_b1y_v3r_sxb">
+            <strow>
+                <stentry>
+                    <image placement="break" width="60mm" href="graphics/xrefdef_font_format.png"
+                        id="image_eml_xwk_sxb"/>
+                </stentry>
+                <stentry>
+                    <image placement="break" width="60mm" href="graphics/xreflink_fontdef.png"
+                        id="image_vcf_z3r_sxb"/>
+                </stentry>
+            </strow>
+        </simpletable>
+        <p>Here's an example of a DITA cross-reference in an XML editor: <image placement="break"
+                href="graphics/default_xref_oxygen.png" id="image_hmf_t1r_sxb"/></p>
+        <p>This is the same cross-reference, shown as DITA XML:</p>
+        <codeblock id="codeblock_jps_zxq_sxb">&lt;xref href="all_about_xrefs.dita"/></codeblock>
+        <p>And here is how that cross-reference might be expressed in the temporary MiramoXML file
+            produced by the DITA-OT plugin as part of the publishing process:</p>
+        <p>
+            <codeblock id="codeblock_u13_cvk_sxb">&lt;XRef id="all_about_xrefs" xRefDef="xref"/></codeblock>
+        </p>
+        <p>When a cross-reference instance referencing this format definition is encountered: the
+            composition engine constructs the clickable link text by expanding the building blocks
+            and language variables appropriate to the target element. This is what the resulting PDF
+            looks like, in the production and development (showProperties = Y) versions:<simpletable
+                frame="all" relcolwidth="1* 1*" id="simpletable_fbp_bbr_sxb">
+                <strow>
+                    <stentry>
+                        <image placement="break" href="graphics/default_xref.png"
+                            id="image_bqm_2br_sxb"/>
+                    </stentry>
+                    <stentry>
+                        <image placement="break" href="graphics/default_xref_tooltips.png"
+                            id="image_tkc_gbr_sxb" width="6cm"/>
+                    </stentry>
+                </strow>
+            </simpletable></p>
+    </body>
+</topic>

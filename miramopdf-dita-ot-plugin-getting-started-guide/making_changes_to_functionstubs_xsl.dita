@@ -7,18 +7,21 @@
         name="mm:customMakeDocumentFormatDefs"></codeph>, which is where you can add or override
       custom format definitions.</p>
     <p>For example, the following code could be added to override the default
-        <codeph>lang-date</codeph> &lt;DateDef/> format definition for different languages:<codeblock id="codeblock_g5g_w1b_dtb"><![CDATA[    <!--  
+        <codeph>lang-date</codeph> &lt;DateDef/> format definition for different languages:<codeblock id="codeblock_g5g_w1b_dtb">    &lt;!--  
       Create lang-date DataDef formatted as appropriate for document language:
       
       For English, the definition must be: monthName dayNumber, year
       For German, the definition must be: dayNumber. monthName year
       For Japanese, the definition must be: year/monthNumber01/dayNumber01
     -->
-    <xsl:choose>
-      <xsl:when test="starts-with($documentXmlLang , 'de')"><DateDef dateDef="lang-date" language="newGerman"><dayNumber/>.<monthName/>.<year/></DateDef></xsl:when>
-      <xsl:when test="starts-with($documentXmlLang, 'ja')"><DateDef dateDef="lang-date" language="Japanese"><year/>/<monthNumber01/><dayNumber01/></DateDef></xsl:when>
-      <xsl:otherwise><!-- use default defined in MFD template --></xsl:otherwise>
-    </xsl:choose>
-]]>    </codeblock></p>
+    &lt;xsl:choose>
+      &lt;xsl:when test="starts-with($documentXmlLang , 'de')">&lt;DateDef dateDef="lang-date" language="newGerman">&lt;dayNumber/>.&lt;monthName/>.&lt;year/>&lt;/DateDef>&lt;/xsl:when>
+      &lt;xsl:when test="starts-with($documentXmlLang, 'ja')">&lt;DateDef dateDef="lang-date" language="Japanese">&lt;year/>/&lt;monthNumber01/>&lt;dayNumber01/>&lt;/DateDef>&lt;/xsl:when>
+      &lt;xsl:otherwise>&lt;!-- use default defined in MFD template -->&lt;/xsl:otherwise>
+    &lt;/xsl:choose>
+    </codeblock></p>
+    <p>More examples can be found in <codeph>functionstubs_examples.txt</codeph>, located in
+        <codeph>com.miramo.mmpdf\com.example.my-mmpdf\cfg\xsl</codeph> and copied to the custom
+      plugin alongside custom.xsl.</p>
     </body>
 </topic>

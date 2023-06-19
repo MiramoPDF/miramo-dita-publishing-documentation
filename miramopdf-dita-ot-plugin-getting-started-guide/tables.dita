@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="tables">
+    <title>Tables</title>
+    <conbody>
+        <p>The <ph keyref="MiramoPDF"/>
+            <codeph>TblDef</codeph> format definition is used to control the formatting of
+            tables.</p>
+        <p><xref href="#tables/tbl_in_pdf"/> shows an example of a table in PDF, and <xref
+                href="#tables/tbl_in_designer"/> shows how this table is configured using <ph
+                keyref="Designer"/>.</p>
+                <fig id="tbl_in_designer">
+                    <title>Editting the table TblDef in MiramoDesigner</title>
+                    <image placement="break" href="graphics/TblDef.png" id="image_bfq_qkd_5xb"/>
+                    <p>The TblColumnDef dialog allows default values to be set for column widths,
+                paragraph formats and rulings. Column widths set here will be ignored if the table
+                instance includes an indication of column widths (<codeph>&lt;colspecs></codeph>).
+                The number of columns is always driven from the DITA table instance.</p>
+                    <image placement="break" href="graphics/TblColumnDef.png" />
+                </fig>
+        <fig id="tbl_in_pdf">
+            <title>Example showing default table formatting</title>
+            <image placement="break" href="graphics/TblDef_in_pdf.png" id="image_qlx_jkd_5xb"/>
+        </fig>
+        
+        
+    </conbody>
+    <related-links>
+        <link
+            keyref="webinar-fancytables"
+            format="html"
+            scope="external"/>
+        <link
+            keyref="MiramoXMLReference_TblDef"
+            format="pdf" scope="external"/>
+        <link
+            keyref="MiramoXMLReference_Tbl"
+            format="pdf" scope="external"/>
+    </related-links>
+    
+</concept>

@@ -48,7 +48,7 @@
 			used to set default font characteristics (font family, pointsize and text color) for
 			&lt;mathml&gt; equations, as well as spacing and positioning properties. </p>
 		<p>See <xref
-				href="controlling-formatting-using-dita-outputclass-values.dita#controlling-formatting-outputclass/outputclass-mathmldef"
+				href="outputclass-values.dita#controlling-formatting-outputclass/outputclass-mathmldef"
 			/> for information on applying custom formatting via the @outputclass
 				mmpdf:MathMLDef:<i>name</i> attribute.</p>
 	</conbody>

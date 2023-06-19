@@ -26,14 +26,17 @@
           </row>
         </thead>
         <tbody valign="top">
-          <row>
-            <entry>args.input</entry>
-            <entry>${cf}</entry>
-            <entry>Path to the source content being published.</entry>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3"><p id="standard-dita-ot">Standard DITA-OT parameters</p></entry>
           </row>
           <row>
-            <entry>args.draft</entry>
-            <entry>no</entry>
+            <entry><p>args.input</p></entry>
+            <entry><p>${cf}</p></entry>
+            <entry><p>Path to the source content being published.</p></entry>
+          </row>
+          <row>
+            <entry><p>args.draft</p></entry>
+            <entry><p>no</p></entry>
             <entry>
               <p>Set to ’yes’ to include draft comments as ’comment’ paragraphs in the PDF. If
                 @author</p>
@@ -43,207 +46,171 @@
             </entry>
           </row>
           <row>
-            <entry>args.filter</entry>
+            <entry><p>args.filter</p></entry>
             <entry/>
             <entry>Specifies a filter file to be used to include, exclude, or flag content, as part
               of the DITAOT<p>preprocessing</p></entry>
           </row>
           <row>
-            <entry>args.rellinks</entry>
+            <entry><p>args.rellinks</p></entry>
             <entry/>
-            <entry>Specifies which links to include in the output. Allowed values: "none" - No links
+            <entry><p>Specifies which links to include in the output. Allowed values: "none" - No links
               are included. "all" - All links are included. "noparent" - Parent links are not
               included. "nofamily" - Parent, child, next, and previous links are not included.
-            </entry>
+            </p></entry>
           </row>
           <row>
-            <entry>clean.temp</entry>
-            <entry>yes</entry>
+            <entry><p>clean.temp</p></entry>
+            <entry><p>yes</p></entry>
             <entry><p>Specifies whether to remove temporary</p><p>intermediate files from
                 ${dita.temp.dir} Useful for debugging/development, merged DITA content is located in
                 ${dita.temp.dir}.</p>Allowed values: "yes" (default) "no" </entry>
           </row>
           <row>
-            <entry>dita.dir</entry>
-            <entry>${configured.ditaot.dir}</entry>
+            <entry><p>dita.dir</p></entry>
+            <entry><p>${configured.ditaot.dir}</p></entry>
             <entry>
               <p>Absolute path to the DITA Open Toolkit that is</p>
               <p>being used.</p>
             </entry>
           </row>
           <row>
-            <entry>dita.temp.dir</entry>
-            <entry>${cfd}/mmtmp</entry>
+            <entry><p>dita.temp.dir</p></entry>
+            <entry><p>${cfd}/mmtmp</p></entry>
             <entry>
               <p>Specifies temporary folder for intermediate</p>
               <p>files.</p>
             </entry>
           </row>
           <row>
-            <entry>miramopath</entry>
-            <entry>miramo</entry>
-            <entry>Miramo composer executable name or path - use default value unless you wish to
-              run multiple concurrent versions of the composition engine</entry>
-          </row>
-          <row>
-            <entry>output.dir</entry>
-            <entry>${cfd}</entry>
+            <entry><p>output.dir</p></entry>
+            <entry><p>${cfd}</p></entry>
             <entry>
               <p>Path to folder containing output PDF</p>
               <p>${pdf.file}.</p>
             </entry>
           </row>
           <row>
-            <entry>pdf.file</entry>
+            <entry><p>pdf.file</p></entry>
             <entry>
               <p>input file with file extension</p>
               <p>replaced by .pdf</p>
             </entry>
-            <entry>Name of PDF file to be created in ${output.dir}.</entry>
+            <entry><p>Name of PDF file to be created in ${output.dir}.</p></entry>
           </row>
           <row>
-            <entry>transtype</entry>
-            <entry>mmpdf</entry>
+            <entry><p>transtype</p></entry>
+            <entry><p>mmpdf</p></entry>
             <entry>
-              <p>Name of transformation type, modify only if</p>
-              <p>using a customization of the</p>
-              <p>com.miramo.mmpdf plugin</p>
+              <p>Name of transformation type, modify only if using a customization of the
+                com.miramo.mmpdf plugin</p>
+            </entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">
+              <p>MiramoPDF configuration</p>
             </entry>
           </row>
           <row>
-            <entry>mmpdf:chapterContentsDef</entry>
-            <entry>chapterTOC</entry>
-            <entry>Set ContentsDef to use for formatting chapter TOC (miniTOC) - ignored unless
-              mmpdf:includeChapterTOC = 'Y' </entry>
-          </row>
-          <row>
-            <entry>mmpdf:contentsDef</entry>
-            <entry>contents1</entry>
-            <entry>Set ContentsDef to use for formatting TOC - ignored if mmpdf:includeTOC = 'N'
+            <entry>
+              <p>miramopath</p>
+            </entry>
+            <entry>
+              <p>miramo</p>
+            </entry>
+            <entry>
+              <p>Miramo composer executable name or path - use default value unless you wish to run
+                multiple concurrent versions of the composition engine</p>
             </entry>
           </row>
           <row>
-            <entry>mmpdf:copyImagesToOutput</entry>
-            <entry>Y</entry>
-            <entry>Set to Y to enable copy-image preprocessing step which copies image files to
-              $output.dir Allowed values: "Y" (default) "N" </entry>
-          </row>
-          <row>
-            <entry>mmpdf:cropMarks</entry>
-            <entry>N</entry>
-            <entry>Set to Y to include cropmarks in PDF output Allowed values: "N" (default) "Y"
+            <entry>
+              <p id="mmpdf:fontPath">mmpdf:fontPath</p>
+            </entry>
+            <entry>
+              <p>default</p>
+            </entry>
+            <entry>
+              <p>Set folder or folders to search for fonts in addition to system fonts (default):
+                use path separator ';' (windows) or ':' (linux/mac)</p>
             </entry>
           </row>
           <row>
-            <entry>mmpdf:cwd</entry>
-            <entry>${cfd}</entry>
-            <entry>Current working directory for running MiramoPDF, defaults to folder containing
-              dita input </entry>
+            <entry>
+              <p id="mmpdf:clean-map-preprocess">mmpdf:clean-map-preprocess</p>
+            </entry>
+            <entry>
+              <p>Y</p>
+            </entry>
+            <entry>
+              <p>Set to N to skip the DITA-OT clean.map preprocess step to preserve submap titles
+                and metadata in the PDF output (may have unwanted side effects)</p>
+            </entry>
           </row>
           <row>
-            <entry>mmpdf:defaultCellVerticalAlignment</entry>
-            <entry>middle</entry>
-            <entry>Set default vertical aligment of table cell contents Allowed values: "" (default)
-              "top" "middle" "bottom" </entry>
+            <entry>
+              <p id="mmpdf:copyImagesToOutput">mmpdf:copyImagesToOutput</p>
+            </entry>
+            <entry>
+              <p>Y</p>
+            </entry>
+            <entry>
+              <p>Set to Y to enable copy-image preprocessing step which copies image files to
+                $output.dir Allowed values: "Y" (default) "N" </p>
+            </entry>
           </row>
           <row>
-            <entry>mmpdf:defaultImageAlignment</entry>
-            <entry/>
-            <entry>Set default horizontal aligment for images Allowed values: "" (default) "start"
-              "center" "end" </entry>
+            <entry>
+              <p id="mmpdf:cwd">mmpdf:cwd</p>
+            </entry>
+            <entry>
+              <p>${cfd}</p>
+            </entry>
+            <entry>
+              <p>Current working directory for running MiramoPDF, defaults to folder containing dita
+                input </p>
+            </entry>
           </row>
           <row>
-            <entry>mmpdf:defaultImageUnits</entry>
-            <entry>px</entry>
-            <entry>Default units for image width/height values if none specified. Allowed values:
-              "px" (default) "pt" "mm" "pc" "cm" "dd" "cc" </entry>
-          </row>
-          <row>
-            <entry>mmpdf:docTitle</entry>
-            <entry>fromDITA</entry>
+            <entry>
+              <p id="mmpdf:docTitle">mmpdf:docTitle</p>
+            </entry>
+            <entry>
+              <p>fromDITA</p>
+            </entry>
             <entry>
               <p>Set PDF document metadata title: fromDITA (default, use DITA document title),
                 fromPDF (use PDF file name), or custom value (specify a custom string)</p>
-              <p>Allowed values: "fromDITA" (default) "fromPDF"  "my custom document title"</p>
+              <p>Allowed values: "fromDITA" (default) "fromPDF" "my custom document title"</p>
             </entry>
           </row>
           <row>
-            <entry>mmpdf:fontPath</entry>
-            <entry>default</entry>
-            <entry>Set folder or folders to search for fonts in addition to system fonts (default):
-              use path separator ';' (windows) or ':' (linux/mac)</entry>
-          </row>
-          <row>
-            <entry>mmpdf:formatDefinitionsAsTable</entry>
-            <entry>N</entry>
-            <entry>Set to Y to format definitions list as table rather than paragraphs Allowed
-              values: "N" (default) "Y" </entry>
-          </row>
-          <row>
-            <entry>mmpdf:formatGlossaryAsTable</entry>
-            <entry>N</entry>
-            <entry>Set to Y to format glossary as table rather than paragraphs Allowed values: "N"
-              (default) "Y" </entry>
-          </row>
-          <row>
-            <entry>mmpdf:formatSectionTitleAsTopicTitle</entry>
-            <entry>Y</entry>
-            <entry>Set to N to format section title elements as section_title* paragraphs, set to Y
-              to format section title elements as topic_title* paragraphs</entry>
-          </row>
-          <row>
-            <entry>mmpdf:inlineImageVerticalShift</entry>
-            <entry>0pt</entry>
-            <entry>Set default vertical shift for inline images - positive value moves image
-              baseline down, percentage is relative to image height</entry>
-          </row>
-          <row>
-            <entry>mmpdf:images.dir</entry>
             <entry>
-              <p>${dita.dir}\plugins\com.mira</p>
-              <p>mo.mmpdf\images</p>
+              <p>mmpdf:formatSectionTitleAsTopicTitle</p>
             </entry>
-            <entry>Folder containing images for notes, defaults to
-              ${dita.dir}/plugins/com.miramo.mmpdf/images </entry>
+            <entry>
+              <p>Y</p>
+            </entry>
+            <entry>
+              <p>Set to N to format section title elements as section_title* paragraphs, set to Y to
+                format section title elements as topic_title* paragraphs</p>
+            </entry>
           </row>
           <row>
-            <entry>mmpdf:images.suffix</entry>
-            <entry>svg</entry>
-            <entry>File extension for images for notes, defaults to svg</entry>
+            <entry>
+              <p id="mmpdf:cropMarks">mmpdf:cropMarks</p>
+            </entry>
+            <entry>
+              <p>N</p>
+            </entry>
+            <entry>
+              <p>Set to Y to include cropmarks in PDF output Allowed values: "N" (default) "Y" </p>
+            </entry>
           </row>
           <row>
-            <entry>mmpdf:includeBackCover</entry>
-            <entry>N</entry>
-            <entry>Set to Y to include back cover </entry>
-          </row>
-          <row>
-            <entry>mmpdf:includeChapterTOC</entry>
-            <entry>N</entry>
-            <entry>Set to Y to include chapter level TOC (minitoc)</entry>
-          </row>
-          <row>
-            <entry>mmpdf:includeCover</entry>
-            <entry>Y</entry>
-            <entry>Set to Y to include cover page, N to suppress cover generation </entry>
-          </row>
-          <row>
-            <entry>mmpdf:includeIndex</entry>
-            <entry>Y</entry>
-            <entry>Set to N to suppress index generation </entry>
-          </row>
-          <row>
-            <entry>mmpdf:includeTOC</entry>
-            <entry>Y</entry>
-            <entry>Set to N to suppress Table of Contents generation </entry>
-          </row>
-          <row>
-            <entry>mmpdf:indexDef</entry>
-            <entry>index1</entry>
-            <entry>Set IndexDef to use for formatting index - ignored if no indexterms or
-              mmpdf:includeIndex = 'N' </entry>
-          </row>
-          <row>
-            <entry>mmpdf:jobID</entry>
+            <entry>
+              <p id="mmpdf:jobID">mmpdf:jobID</p>
+            </entry>
             <entry/>
             <entry>
               <p><i>MiramoEnterprise only: </i>unique identifier</p>
@@ -251,53 +218,9 @@
             </entry>
           </row>
           <row>
-            <entry id="mmpdf-localization-strings-dir">mmpdf:localization-strings.dir</entry>
-            <entry>${plugin.dir}/cfg/strings</entry>
-            <entry>Location of strings folder containing langlist.xml and *.xml language
-              files</entry>
-          </row>
-          <row>
-            <entry>mmpdf:logMetrics</entry>
-            <entry>N</entry>
-            <entry>Set to Y to create a metrics report detailing format definitions which are used
-              but not defined in the specified MFD template Allowed values: "N" (default) "Y"
-            </entry>
-          </row>
-          <row>
-            <entry>mmpdf:maxMemory</entry>
-            <entry>1GB</entry>
-            <entry>Set maximum memory usage for Miramo composer</entry>
-          </row>
-          <row>
-            <entry>mmpdf:metadataprecedence</entry>
-            <entry>map</entry>
-            <entry>Set to 'topic' to allow topic metadata data element values to override equivalent
-              map metadata data element values. Default is 'map', where topic metadata is only used
-              where no equivalent map data is defined Allowed values: "" (default) "map" "topic"
-            </entry>
-          </row>
-          <row>
-            <entry>mmpdf:mfd.dir</entry>
             <entry>
-              <p>${dita.dir}\plugins\com.mira</p>
-              <p>mo.mmpdf\mmtemplates</p>
+              <p id="mmpdf:processGroup">mmpdf:processGroup</p>
             </entry>
-            <entry>Folder containing Miramo MFD template file, defaults to
-              ${dita.dir}/plugins/com.miramo.mmpdf/mmtemplates </entry>
-          </row>
-          <row>
-            <entry>mmpdf:mfd.file</entry>
-            <entry>default.mfd</entry>
-            <entry>Miramo MFD template file, located in ${mfd.dir}, eg default.mfd</entry>
-          </row>
-          <row>
-            <entry>mmpdf:pdfType</entry>
-            <entry>untagged</entry>
-            <entry>Set to UA to create structured PDF. Allowed values: "untagged" (default) "UA"
-            </entry>
-          </row>
-          <row>
-            <entry>mmpdf:processGroup</entry>
             <entry/>
             <entry>
               <p><i>MiramoEnterprise only:</i> Name or number of MiramoEnterprise processing group
@@ -305,52 +228,363 @@
             </entry>
           </row>
           <row>
-            <entry>mmpdf:showStatus</entry>
-            <entry>N</entry>
-            <entry>Set to Y to highlight @status attributes; N for production Allowed values: "N"
-              (default) "Y" </entry>
+            <entry>
+              <p id="mmpdf:logMetrics">mmpdf:logMetrics</p>
+            </entry>
+            <entry>
+              <p>N</p>
+            </entry>
+            <entry>
+              <p>Set to Y to create a metrics report detailing format definitions which are used but
+                not defined in the specified MFD template Allowed values: "N" (default) "Y" </p>
+            </entry>
           </row>
           <row>
-            <entry>mmpdf:showProperties</entry>
-            <entry>N</entry>
-            <entry>Set to Y to include PDF tooltips showing Miramo format definitions; N for
-              production Allowed values: "Y" (default) "N" </entry>
+            <entry>
+              <p id="mmpdf:maxMemory">mmpdf:maxMemory</p>
+            </entry>
+            <entry>
+              <p>1GB</p>
+            </entry>
+            <entry>
+              <p>Set maximum memory usage for Miramo composer</p>
+            </entry>
           </row>
           <row>
-            <entry>mmpdf:shrinkImagesToFit</entry>
-            <entry>N</entry>
-            <entry>Set to Y to shrink overlarge images with no @width or @height to fit container
-              width/height Allowed values: "N" (default) "Y" </entry>
+            <entry>
+              <p id="mmpdf:metadataprecedence">mmpdf:metadataprecedence</p>
+            </entry>
+            <entry>
+              <p>map</p>
+            </entry>
+            <entry>
+              <p>Set to 'topic' to allow topic metadata data element values to override equivalent
+                map metadata data element values. Default is 'map', where topic metadata is only
+                used where no equivalent map data is defined Allowed values: "" (default) "map"
+                "topic" </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p id="mmpdf:showStatus">mmpdf:showStatus</p>
+            </entry>
+            <entry>
+              <p>N</p>
+            </entry>
+            <entry>
+              <p>Set to Y to highlight @status attributes; N for production Allowed values: "N"
+                (default) "Y" </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p id="mmpdf:whiteSpaceMode">mmpdf:whiteSpaceMode</p>
+            </entry>
+            <entry>
+              <p>trimLeadingNewlines</p>
+            </entry>
+            <entry>
+              <p>By default, leading newline characters in paragraph text sections are trimmed; set
+                to 'preserve' to treat as whitespace</p>
+            </entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">MiramoDesigner template (MFD)
+              format definitions</entry>
+          </row>
+          <row>
+            <entry>
+              <p  id="mmpdf:mfd.dir">mmpdf:mfd.dir</p>
+            </entry>
+            <entry>
+              <p>${dita.dir}\plugins\com.mira</p>
+              <p>mo.mmpdf\mmtemplates</p>
+            </entry>
+            <entry>
+              <p>Folder containing Miramo MFD template file, defaults to
+                ${dita.dir}/plugins/com.miramo.mmpdf/mmtemplates </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p id="mmpdf:mfd.file">mmpdf:mfd.file</p>
+            </entry>
+            <entry>
+              <p>default.mfd</p>
+            </entry>
+            <entry>
+              <p>Miramo MFD template file, located in ${mfd.dir}, eg default.mfd</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p id="mmpdf:showProperties">mmpdf:showProperties</p>
+            </entry>
+            <entry>
+              <p>N</p>
+            </entry>
+            <entry>
+              <p>Set to Y to include PDF tooltips showing Miramo format definitions; N for
+                production Allowed values: "Y" (default) "N" </p>
+            </entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">
+              <p id="cover_pages">Cover pages</p>
+            </entry>
+          </row>
+          <row>
+            <entry id="mmpdf:includeBackCover">mmpdf:includeBackCover</entry>
+            <entry>
+              <p>N</p>
+            </entry>
+            <entry>
+              <p>Set to Y to include back cover </p>
+            </entry>
+          </row>
+          <row>
+            <entry id="mmpdf:includeCover">mmpdf:includeCover</entry>
+            <entry>
+              <p>Y</p>
+            </entry>
+            <entry>
+              <p>Set to Y to include cover page, N to suppress cover generation </p>
+            </entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">
+              <p id="tocs">TOCs</p>
+            </entry>
+          </row>
+          <row>
+            <entry id="mmpdf:includeTOC">mmpdf:includeTOC</entry>
+            <entry>
+              <p>Y</p>
+            </entry>
+            <entry>
+              <p>Set to N to suppress Table of Contents generation </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p id="mmpdf:contentsDef">mmpdf:contentsDef</p>
+            </entry>
+            <entry>
+              <p>contents1</p>
+            </entry>
+            <entry>
+              <p>Set ContentsDef to use for formatting TOC - ignored if mmpdf:includeTOC = 'N' </p>
+            </entry>
+          </row>
+          <row>
+            <entry id="mmpdf:includeChapterTOC">mmpdf:includeChapterTOC</entry>
+            <entry>
+              <p>N</p>
+            </entry>
+            <entry>
+              <p>Set to Y to include chapter level TOC (minitoc)</p>
+            </entry>
+          </row>
+          <row>
+            <entry id="mmpdf:chapterContentsDef">mmpdf:chapterContentsDef</entry>
+            <entry><p>chapterTOC</p></entry>
+            <entry><p>Set ContentsDef to use for formatting chapter TOC (miniTOC) - ignored unless
+              mmpdf:includeChapterTOC = 'Y' </p></entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">
+              <p id="indexes">Indexes</p>
+            </entry>
+          </row>
+          <row>
+            <entry ><p id="mmpdf:includeIndex">mmpdf:includeIndex</p></entry>
+            <entry>
+              <p>Y</p>
+            </entry>
+            <entry>
+              <p>Set to N to suppress index generation </p>
+            </entry>
+          </row>
+          <row>
+            <entry id="mmpdf:indexDef">mmpdf:indexDef</entry>
+            <entry>
+              <p>index1</p>
+            </entry>
+            <entry>
+              <p>Set IndexDef to use for formatting index - ignored if no indexterms or
+                mmpdf:includeIndex = 'N' </p>
+            </entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">
+              <p id="tables">Tables</p>
+            </entry>
+          </row>
+          <row>
+            <entry><p id="mmpdf:defaultCellVerticalAlignment">mmpdf:defaultCellVerticalAlignment</p></entry>
+            <entry><p>middle</p></entry>
+            <entry><p>Set default vertical aligment of table cell contents Allowed values: "fromTblDef"
+              (default), "top" "middle" "bottom" </p></entry>
           </row>
           <row>
             <entry id="mmpdf:tableBorders">mmpdf:tableBorders</entry>
-            <entry>fromDITA</entry>
-            <entry>Set table border properties fromDITA (support @frame, @colsep and @rowsep) or
-              fromTblDef (use TblDef rulings) </entry>
+            <entry>
+              <p>fromDITA</p>
+            </entry>
+            <entry>
+              <p>Set table border properties fromDITA (support @frame, @colsep and @rowsep) or
+                fromTblDef (use TblDef rulings) </p>
+            </entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">
+              <p id="deflists-and-glossary">Definitions lists and glossary</p>
+            </entry>
           </row>
           <row>
-            <entry>mmmpdf:treatFirstNoteParaAsContent</entry>
-            <entry>N</entry>
-            <entry>For &lt;note> elements containing only &lt;p> children, set to Y to output the
-              contents of the first &lt;p> on the first line of the resulting note paragraph,
-              immediately after the image and warning text. Set to N for legacy treatment (as oXygen
-              and PDF2) where each chil &lt;p> is mapped to new paragraph</entry>
+            <entry><p id="mmpdf:definitionsPerRow">mmpdf:definitionsPerRow</p></entry>
+            <entry><p>1</p></entry>
+            <entry><p>Number of definitions per table row, when mmpdf:formatDefinitionsAsTable is set
+              to Y</p></entry>
           </row>
           <row>
-            <entry>mmpdf:userVariable1</entry>
+            <entry><p id="mmpdf:formatDefinitionsAsTable">mmpdf:formatDefinitionsAsTable</p></entry>
+            <entry><p>N</p></entry>
+            <entry><p>Set to Y to format definitions list as table rather than paragraphs</p><p>Allowed
+              values: "N" (default) "Y"</p>
+            </entry>
+          </row>
+          <row>
+            <entry><p id="mmpdf:formatGlossaryAsTable">mmpdf:formatGlossaryAsTable</p></entry>
+            <entry><p>N</p></entry>
+            <entry><p>Set to Y to format glossary as table rather than paragraphs</p><p>Allowed values: "N"
+              (default) "Y"</p></entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">
+              <p id="notes">Notes </p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p id="mmpdf:treatFirstNoteParaAsContent">mmpdf:treatFirstNoteParaAsContent</p>
+            </entry>
+            <entry>
+              <p>N</p>
+            </entry>
+            <entry>
+              <p>For &lt;note> elements containing only &lt;p> children, set to Y to output the
+                contents of the first &lt;p> on the first line of the resulting note paragraph,
+                immediately after the image and warning text. Set to N for legacy treatment (as
+                oXygen and PDF2) where each chil &lt;p> is mapped to new paragraph</p>
+            </entry>
+          </row>
+          <row>
+            <entry id="mmpdf:images.dir">mmpdf:images.dir</entry>
+            <entry>
+              <p>${dita.dir}\plugins\com.miramo.mmpdf\images</p>
+            </entry>
+            <entry><p>Folder containing images for notes, defaults to
+              ${dita.dir}/plugins/com.miramo.mmpdf/images </p></entry>
+          </row>
+          <row>
+            <entry id="mmpdf:images.suffix">mmpdf:images.suffix</entry>
+            <entry><p>svg</p></entry>
+            <entry><p>File extension for images for notes, defaults to svg</p></entry>
+          </row>
+          <row>
+            <entry>
+              <p id="mmpdf:inlineImageVerticalShift">mmpdf:inlineImageVerticalShift</p>
+            </entry>
+            <entry>
+              <p>0pt</p>
+            </entry>
+            <entry>
+              <p>Set default vertical shift for inline images - positive value moves image baseline
+                down, percentage is relative to image height</p>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <p id="mmpdf:defaultImageAlignment">mmpdf:defaultImageAlignment</p>
+            </entry>
             <entry/>
-            <entry>Set xslt user variable value 'userVariable1' for use in customizations</entry>
+            <entry>
+              <p>Set default horizontal aligment for images Allowed values: "" (default) "start"
+                "center" "end" </p>
+            </entry>
           </row>
           <row>
-            <entry>mmpdf:userVariable2</entry>
+            <entry>
+              <p id="mmpdf:defaultImageUnits">mmpdf:defaultImageUnits</p>
+            </entry>
+            <entry>
+              <p>px</p>
+            </entry>
+            <entry>
+              <p>Default units for image width/height values if none specified. Allowed values: "px"
+                (default) "pt" "mm" "pc" "cm" "dd" "cc" </p>
+            </entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3"><p id="language-variables">Generated text (language
+              independent variables)</p></entry>
+          </row>
+          <row>
+            <entry id="mmpdf:localization-strings.dir">mmpdf:localization-strings.dir</entry>
+            <entry><p>${plugin.dir}/cfg/strings</p></entry>
+            <entry><p>Location of strings folder containing langlist.xml and *.xml language
+              files</p></entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3"><p id="image-downsampling">Image downsampling</p></entry>
+          </row>
+          <row>
+            <entry>
+              <p id="mmpdf:jobOptions">mmpdf:jobOptions</p>
+            </entry>
+            <entry>
+              <p>N</p>
+            </entry>
+            <entry>Set to Y to apply JobOptionsDef compression options set by
+                <codeph>mmpdf:jobOptionsDef</codeph> build parameter<p>Allowed values: "N" (default)
+                "Y"</p></entry>
+          </row>
+          <row>
+            <entry id="mmpdf:joboptionsdef">mmpdf:jobOptionsDef</entry>
+            <entry>
+              <p>standard</p>
+            </entry>
+            <entry>Set JobOptionsDef to use for image compression - ignored unless
+                <codeph>mmpdf:jobOptions</codeph> set to Y</entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">Structured PDF</entry>
+          </row>
+          <row>
+            <entry><p id="mmpdf:pdfType">mmpdf:pdfType</p></entry>
+            <entry><p>untagged</p></entry>
+            <entry><p>Set to UA to create structured PDF. Allowed values: "untagged" (default) "UA"
+            </p></entry>
+          </row>
+          <row>
+            <entry><p id="mmpdf:shrinkImagesToFit">mmpdf:shrinkImagesToFit</p></entry>
+            <entry><p>N</p></entry>
+            <entry><p>Set to Y to shrink overlarge images with no @width or @height to fit container
+              width/height Allowed values: "N" (default) "Y" </p></entry>
+          </row>
+          <row outputclass="subheading">
+            <entry align="left" valign="top" namest="c1" nameend="c3">Custom plugin</entry>
+          </row>
+          <row>
+            <entry><p id="mmpdf:userVariable1">mmpdf:userVariable1</p></entry>
             <entry/>
-            <entry>Set xslt user variable value 'userVariable2' for use in customizations</entry>
+            <entry><p>Set xslt user variable value 'userVariable1' for use in customizations</p></entry>
           </row>
           <row>
-            <entry>mmpdf:whiteSpaceMode</entry>
-            <entry>trimLeadingNewlines</entry>
-            <entry>By default, leading newline characters in paragraph text sections are trimmed;
-              set to 'preserve' to treat as whitespace</entry>
+            <entry><p id="mmpdf:userVariable2">mmpdf:userVariable2</p></entry>
+            <entry/>
+            <entry><p>Set xslt user variable value 'userVariable2' for use in customizations</p></entry>
           </row>
         </tbody>
       </tgroup>

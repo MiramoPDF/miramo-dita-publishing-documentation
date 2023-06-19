@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    
+    <title>Guidelines for DITA publishing</title>
+    <mapref href="../_warehouse/!reuse.ditamap" format="ditamap" processing-role="resource-only"/>
+    <mapref href="../_warehouse/_warehouse_gettingstarted.ditamap" format="ditamap"
+        processing-role="resource-only"/>
+    <topicref href="guidelines_for_dita_publishing.dita">
+        <topicref href="pagelayouts.dita">
+            <topicref href="coverpages.dita"/>
+            <topicref href="running_headers_and_footers.dita"/>
+        </topicref>
+        <topicref href="table-of-contents-tocs.dita"/>
+        <topicref href="indexes.dita"/>
+        <topicref href="tables.dita">
+        <topicref href="table-borders-and-rulings.dita"/>
+        </topicref>
+        <topicref href="metadata-elements-to-vardef-mapping.dita"/>
+        <topicref href="cross-references-and-hyperlinks.dita">
+            <topicref href="internal_cross_references_xrefdef.dita">
+                <topicref href="editting_xrefdefs.dita"/>
+            </topicref>
+            <topicref href="external_cross_references_hypercmd.dita"/>
+        </topicref>
+        <topicref href="notes.dita">
+            <topicref href="note_formatting.dita"/>
+            <topicref href="note_icons.dita"/>
+        </topicref>
+        <topicref href="adobe-acrobat-pdf-properties-populated-from-dita-elements.dita"/>
+        <topicref href="dita-equation-domain-mathml-support.dita"/>
+    </topicref>
+    
+</map>

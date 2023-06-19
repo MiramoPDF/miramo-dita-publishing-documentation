@@ -4,14 +4,29 @@
 <concept xml:lang="en-us" id="publishing-dita-content-with-pdf-tooltips-enabled">
 	<title>Publishing DITA content with PDF tooltips enabled</title>
 	<conbody>
-		<p>Set the ant build parameter mmpdf:mfd.file to the name of the template (eg
-			myTemplate.mfd) and the mmpdf:showProperties build parameter to 'Y' to include PDF
-			tooltips in the generated output, as allowed by your CMS or authoring tool. For example,
-			If using oXygen, make a copy of the MiramoPDF - Dev output transformation, change the
-			mmpdf:mfd.file parameter to 'myTemplate.mfd'</p>
+		<p>Set the ant build parameter <xref
+				href="ant-build-parameters.dita#ant-build-parameters/mmpdf:mfd.file"
+				>mmpdf:mfd.file</xref> to the name of the template (eg
+				<codeph>myTemplate.mfd</codeph>) and the <xref
+				href="ant-build-parameters.dita#ant-build-parameters/mmpdf:showProperties"
+				>mmpdf:showProperties</xref> build parameter to 'Y' to include PDF tooltips in the
+			generated output, as allowed by your CMS or authoring tool. </p>
+		<p>For example, If using <ph keyref="DitaTool"/>, make a copy of the <codeph>MiramoPDF -
+				Dev</codeph> output transformation, change the <xref
+				href="ant-build-parameters.dita#ant-build-parameters/mmpdf:mfd.file">mmpdf:mfd.file</xref> parameter to <codeph>myTemplate.mfd</codeph></p>
+		<p>
+			<fig id="fig_bfc_ttx_5xb">
+				<title>Publishing DITA content with myTemplate.mfd</title>
+				<image placement="break" href="graphics/oxygen_transformation_scenarios.png"
+					id="image_cfc_ttx_5xb"/>
+			</fig>
+		</p>
 		<p>Publish your DITA content to produce a PDF with tooltips which indicate which format are
-			applied, here's an example showing the 'article_title' &lt;ParaDef&gt; properties:</p>
-		<draft-comment author="whitel">Needs image</draft-comment>
+				applied.<fig id="fig_hbr_s2x_5xb">
+				<title>PDF tooltips showing formatting information</title>
+				<image placement="break" href="graphics/coverpage_in_pdf.png" id="image_ibr_s2x_5xb"
+				/>
+			</fig></p>
 		<p>Once you have reviewed the PDF and decided which format definitions require updating
 			you're ready to edit the MiramoDesigner template and republish.</p>
 	</conbody>

@@ -18,19 +18,20 @@
       attributes to change the appearance of the output, for example on the basis of the DITA
       element context, or @outputclass values. These are empty by default, but may be overridden in
       custom.xsl as required:</p>
-      <codeblock outputclass="language-xml"><![CDATA[<xsl:template name="addCustomParagraphAttributes"/>
-<xsl:template name="addCustomTblAttributes"/>
-<xsl:template name="addCustomCellAttributes"/>
-<xsl:template name="addCustomRowAttributes"/>
-<xsl:template name="addCustomFontAttributes"/>
-<xsl:template name="addCustomMetaData"/>
-<xsl:template name="addCustomImageAttributes"/>
-<xsl:template name="addCustomAFrameAttributes"/>
-<xsl:template name="addCustomFigAttributes"/>
-<xsl:template name="addCustomXRefAttributes"/>
-<xsl:template name="addCustomMathMLAttributes"/>
-<xsl:template name="addCustomChapterAttributes"/>]]>
-      </codeblock>
+      <codeblock outputclass="language-xml">&lt;xsl:template name="addCustomParagraphAttributes"/>
+&lt;xsl:template name="addCustomTblAttributes"/>
+&lt;xsl:template name="addCustomCellAttributes"/>
+&lt;xsl:template name="addCustomRowAttributes"/>
+&lt;xsl:template name="addCustomFontAttributes"/>
+&lt;xsl:template name="addCustomMetaData"/>
+&lt;xsl:template name="addCustomImageAttributes"/>
+&lt;xsl:template name="addCustomAFrameAttributes"/>
+&lt;xsl:template name="addCustomFigAttributes"/>
+&lt;xsl:template name="addCustomXRefAttributes"/>
+&lt;xsl:template name="addCustomMathMLAttributes"/>
+&lt;xsl:template name="addCustomChapterAttributes"/>
+&lt;xsl:template name="addCustomPdfImportAttributes"/></codeblock>
+
       <p>Here is a simple example where a &lt;note> element with @type set to 'other' is mapped to
         a 'callout' ParaDef:</p>
       <codeblock>&lt;xsl:template match="*[contains(@class, ' topic/note ') and @type='other']">
@@ -50,7 +51,7 @@
   &lt;!-- Override addCustomRowAttributes extension point to check for @outputclass=subheading to set keepWithNext property
     to prevent orphaned subheading rows -->
   &lt;xsl:template name="addCustomRowAttributes">
-      &lt;xsl:if test="*[@outputclass='subheading']">
+      &lt;xsl:if test="@outputclass = 'subheading'">
         &lt;xsl:attribute name="withNext">Y&lt;/xsl:attribute>
       &lt;/xsl:if>
       &lt;xsl:apply-templates/>
@@ -66,5 +67,19 @@
       &lt;xsl:attribute name="topMargin">8pt&lt;/xsl:attribute>     
     &lt;/xsl:if>
   &lt;/xsl:template></codeblock></p>
+      <p>For advanced users, the mapping between note attributes and note icons may be modified by
+      overriding the <codeph>addNoteImage</codeph> xsl template. The default is shown here, where
+      the icon is placed in the <codeph>note</codeph> ParaDef listlabel
+      area:<codeblock id="codeblock_hwc_dxz_5xb">&lt;xsl:template name="addNoteImage">
+   &lt;xsl:param name="note_type">&lt;xsl:value-of select="@type"/>&lt;/xsl:param>
+   &lt;!-- Output ListLabel using image derived from type, or whether its a hazard -->
+   &lt;xsl:variable name="imageFileBaseName">&lt;xsl:value-of select="$note_type"/>&lt;/xsl:variable>
+   &lt;ListLabel>&lt;Image file="{concat($images.dir, '/', $imageFileBaseName, '.', $images.suffix)}"/>&lt;/ListLabel>
+&lt;/xsl:template></codeblock></p>
+    <p>More examples can be found in <codeph>custom_examples.txt</codeph>, located in
+        <codeph>com.miramo.mmpdf\com.example.my-mmpdf\cfg\xsl</codeph> and copied to the custom
+      plugin alongside custom.xsl.</p>
+      
     </body>
+
 </topic>

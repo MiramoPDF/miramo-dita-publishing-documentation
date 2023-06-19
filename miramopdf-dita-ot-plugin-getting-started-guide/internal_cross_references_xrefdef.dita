@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="internal_cross_references_xrefdef">
+    <title>Internal cross-references - &lt;XRefDef></title>
+    <body>
+        <p>The appearance of a DITA &lt;xref> element which references a target within the published
+            PDF (i.e. an internal cross-reference) is controlled via an &lt;XRefDef> format
+            definition, configured within the MiramoDesigner template. The XRefDef format definition
+            can be configured to include different building blocks (eg paragraph text, paragraph
+            number) whose value is derived from the cross-reference target, along with language
+            independent variables and/or fixed text. Font formatting may be applied to all or part
+            of the XRefDef - see <xref href="editting_xrefdefs.dita"/> for more information.</p>
+        <p>The name of the &lt;XRefDef> applied is determined by the set of &lt;xref> attribute
+            values applied, and/or the &lt;xref> target and contents:</p>
+        <table frame="all" rowsep="1" colsep="1" id="table_cql_kqk_sxb">
+            <title>DITA &lt;xref> to MiramoXML &lt;XRef> default mapping</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1.47*"/>
+                <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                <colspec colname="c2" colnum="3" colwidth="2.1*"/>
+                <thead>
+                    <row>
+                        <entry>DITA &lt;xref> attribute</entry>
+                        <entry>value</entry>
+                        <entry>&lt;MiramoXML> @xRefDef </entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><codeph>@outputclass</codeph></entry>
+                        <entry><codeph>mmpdf:xRefDef:<i>name</i></codeph></entry>
+                        <entry><codeph>&lt;XRef xRefDef="<i>name</i>"/></codeph></entry>
+                    </row>
+                    <row>
+                        <entry><codeph>@type</codeph></entry>
+                        <entry><codeph>fig</codeph></entry>
+                        <entry><codeph>&lt;XRef xRefDef="fig"/></codeph></entry>
+                    </row>
+                    <row>
+                        <entry><codeph>@type</codeph></entry>
+                        <entry><codeph>table</codeph></entry>
+                        <entry><codeph>&lt;XRef xRefDef="table"/></codeph></entry>
+                    </row>
+                    <row>
+                        <entry><codeph>@type</codeph></entry>
+                        <entry><codeph>step</codeph></entry>
+                        <entry><codeph>&lt;XRef xRefDef="step"/></codeph></entry>
+                    </row>
+                    <row>
+                        <entry><codeph>@type</codeph></entry>
+                        <entry><codeph>glossentry</codeph></entry>
+                        <entry><codeph>&lt;XRef xRefDef="glossentry"/></codeph></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>If none of the above conditions are satisfied, the &lt;xref> is mapped as follows:</p>
+
+            <table frame="all" rowsep="1" colsep="1" id="table_zrx_33l_sxb">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c3" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>DITA &lt;xref> properties</entry>
+                            <entry>&lt;MiramoXML> @xRefDef </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>target is &lt;fn> element</entry>
+                            <entry><codeph>&lt;XRef xRefDef="footnote"/></codeph></entry>
+                        </row>
+                        <row>
+                            <entry>&lt;xref> contains text</entry>
+                            <entry><codeph>&lt;XRef >&lt;Font fontDef="ulink"><i>xref
+                                    contents</i>&lt;/Font>&lt;/XRef></codeph></entry>
+                        </row>
+                        <row>
+                            <entry>&lt;xref> is empty</entry>
+                            <entry><codeph>&lt;XRef xRefDef="xref"/></codeph></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        
+    </body>
+</topic>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="guidelines_for_dita_publishing">
+    <title id="design-guidelines">DITA publishing design guidelines</title>
+    <conbody>
+        <p>This chapter covers some general rules for the default mapping of DITA elements to PDF
+            document objects and format definitions, and gives examples of using <ph
+                keyref="Designer"/> to control how the PDF is formatted.</p>
+        <p>To override aspects of the default mapping which can't be achieved using ant build
+            parameters, MFD template changes or @outputclass values, it may be necessary to create a
+            customized plugin - see <xref href="creating-a-custom-plugin.dita"/> for more
+            information.</p>
+    </conbody>
+</concept>

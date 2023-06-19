@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="customizing-com-miramo-mmpdf-plugin">
+  <title id="creating_a_plugin">Creating a custom DITA-OT plugin</title>
+  <conbody>
+    <p>The <ph keyref="com.miramo.mmpdf"/> plugin is intended to cover most formatting requirements,
+      but in some cases it may be necessary to create a custom plugin which overrides or adds to
+      some of the features supported by the standard plugin. If so, <b>do not</b> modify the files
+      in the default <ph keyref="plugin"/> installation folder
+          (<filepath>DITA-OT3.x\plugins\com.miramo.mmpdf</filepath>),
+      because these files will be overwritten when you install a new version of the <ph
+        keyref="plugin"/> Create a custom <ph keyref="plugin"/> instead.</p>
+    <p>This chapter explains how to create a new custom plugin <ph keyref="com.abc.mmpdf"/>
+      for a company called <codeph>abc</codeph>, which supports a transformation type
+        <codeph>abc-mmpdf</codeph>, as  shown here:</p>
+    <fig id="fig_uwd_vpl_k3b">
+      <image href="graphics/default_miramo_dita-ot_plugin.png" outputclass="fmdpi:240"
+        id="image_xlf_nfz_fjb"/>
+      <image href="graphics/custom_miramo_dita-ot_plugin.png" id="image_hc4_wpl_k3b"
+        outputclass="fmdpi:240"/>
+      <dl>
+        <dlentry>
+          <dt>A</dt>
+          <dd><b>Default</b>
+            <ph keyref="plugin"/> folder <codeph><ph keyref="com.miramo.mmpdf"/></codeph></dd>
+        </dlentry>
+        <dlentry>
+          <dt>B</dt>
+          <dd><b>Custom</b>
+            <ph keyref="plugin"/> folder <codeph><ph keyref="com.abc.mmpdf"/></codeph></dd>
+        </dlentry>
+      </dl>
+    </fig>
+    <p>If you have access to <ph keyref="DitaTool"/> see <xref
+        href="creating-a-custom-plugin-with-oxygen.dita"/>, otherwise follow the instructions in
+      <xref href="manually-creating-new-custom-plugin.dita"/>.</p>
+    <p>The chapter also includes a simple example of working with the new plugin (<ph
+        keyref="com.abc.mmpdf"/>) to make changes to localization text, default ant build parameters
+      parameter values, and includes some XSLT stylesheet customizations which change the behaviour
+      of the default <ph keyref="com.miramo.mmpdf"/> plugin styling.</p>
+  </conbody>
+</concept>

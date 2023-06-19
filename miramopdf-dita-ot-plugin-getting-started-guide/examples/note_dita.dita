@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="note_dita">
+    <title>note.dita</title>
+    <body>
+        <note>First note</note>
+        <note type="warning">Second warning note</note>
+        <note type="other" othertype="Other type of note">Third othertype note</note>
+        
+    </body>
+</topic>

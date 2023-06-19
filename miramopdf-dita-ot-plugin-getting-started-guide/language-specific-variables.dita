@@ -69,9 +69,9 @@
       com.miramo.mmpdf/cfg/strings/ *.xml files, as these changes will be overwritten if you
       upgrade. Always make changes to a copy of the strings folder, either by manually copying the
       folder to a new location outside the com.miramo.mmpdf and setting the ant build parameter
-        <xref href="ant-build-parameters.dita#ant-build-parameters/mmpdf-localization-strings-dir"
+        <xref href="ant-build-parameters.dita#ant-build-parameters/mmpdf:localization-strings.dir"
         >mmpdf:localization-strings.dir</xref> to the new folder, or add a new custom plugin (<xref
-        href="customizing-com-miramo-mmpdf-plugin.dita"/>) and change the strings in the
+        href="creating-a-custom-plugin.dita"/>) and change the strings in the
         <filepath>cfg/strings</filepath> folder within the new plugin.</note>
   </conbody>
 </concept>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="external_cross_references_hypercmd">
+    <title>External cross references - HyperCmd</title>
+    <body>
+        <p>External cross-references where the &lt;xref> element as <codeph>@scope</codeph> set to
+            'external' are mapped to the MiramoXML HyperCmd element. The text within the &lt;xref>
+            element is displayed as the clickable link text. By default this is formatted using the
+                <codeph>ulink</codeph> FontDef.</p>
+        <p>Consider this example:</p>
+        <p>Check out <xref scope="external" href="https://www.miramo.com"/> for more information</p>
+        <p>Here's the corresponding DITA content:</p>
+        <codeblock id="codeblock_fqj_sfk_sxb">&lt;p>Check out &lt;xref scope="external" href="https://www.miramo.com"/> for more information&lt;/p></codeblock>
+        <p>This maps to the following MiramoXML markup:</p>
+        <codeblock id="codeblock_wqf_c3k_sxb">&lt;P paraDef="body">Check out &lt;HyperCmd fontDef="ulink" openURL="https://www.miramo.com">https://www.miramo.com&lt;/HyperCmd> for more information&lt;/P></codeblock>
+        <p>
+            <table frame="all" rowsep="1" colsep="1" id="table_iyr_t2k_sxb">
+                <title>DITA &lt;xref> to MiramoXML &lt;HyperCmd> default mapping </title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c3" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>&lt;xref></entry>
+                            <entry>maps to MiramoXML</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>&lt;xref> <codeph>@scope = 'external'</codeph></entry>
+                            <entry><codeph>&lt;HyperCmd></codeph> element</entry>
+                        </row>
+                        <row>
+                            <entry>
+                                <p>&lt;xref> <codeph>@href, @keyref</codeph></p>
+                            </entry>
+                            <entry>
+                                <p>&lt;HyperCmd> <codeph>@openURL</codeph> attribute</p>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>&lt;xref> element contents</entry>
+                            <entry>link text formatted using <codeph>ulink</codeph> FontDef</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </body>
+</topic>

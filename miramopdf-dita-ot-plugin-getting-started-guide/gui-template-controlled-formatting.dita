@@ -9,13 +9,13 @@
         <b>MiramoDesigner</b> (MiramoDesigner.exe), the GUI template design tool component of
         <b>MiramoPDF</b>.</p>
     <fig id="fig_kc5_sbh_ghb">
-      <image href="img-gui-template.jpeg" alt="???" id="image_x4v_sbh_ghb"/>
+      <image href="graphics/gui_template_designer.png" alt="???" id="image_x4v_sbh_ghb" />
     </fig>
     <p>The default template (default.mfd) supplied with the plugin provides a single-column layout
       for rendering MiramoXML to PDF. </p>
-    <p>Here is the result of publishing the taskbook.ditamap sample located in the <ph
-        keyref="com.miramo.mmpdf"/>/samples/taskbook folder: <xref
-        href="https://www.miramo.com/download/documentation/taskbook_default_2.0.0.pdf" format="pdf"
+    <p>The result of publishing the taskbook.ditamap sample located in the <ph
+        keyref="com.miramo.mmpdf"/>/samples/taskbook folder can be viewed by clicking on this link: <xref
+        href="https://www.miramo.com/download/documentation/taskbook_default_3.0.0.pdf" format="pdf"
         scope="external">taskbook.pdf</xref></p>
   </conbody>
 </concept>

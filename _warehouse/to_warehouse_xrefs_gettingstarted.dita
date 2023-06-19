@@ -26,18 +26,17 @@
 <change-summary></change-summary>
 </change-item>
 </change-historylist>
-</prolog>
-<body>
+</prolog><body>
     <p><xref id="see_gettingstarted" href="https://www.miramo.com/download/documentation/Miramo_DITA-OT_GettingStarted_2.0.pdf" scope="external" format="pdf" >MiramoPDF 2.0 DITA-OT plugin Getting Started Guide</xref></p>
     <p><xref id="see_mmcomposerRefGuide" href="https://www.miramo.com/download/documentation/mmComposerReferenceGuide2.0.pdf" scope="external" format="pdf" >mmComposer Reference Guide</xref></p>
     <p><xref id="see_ant_build_params" 
         href="../miramopdf-dita-ot-plugin-getting-started-guide/ant-build-parameters.dita#ant-build-parameters/antbuildparams"
     /></p>
     <p><xref id="see_outputclass" 
-                href="../miramopdf-dita-ot-plugin-getting-started-guide/controlling-formatting-using-dita-outputclass-values.dita"
+                href="../miramopdf-dita-ot-plugin-getting-started-guide/outputclass-values.dita"
     /></p> 
     <p><xref id="see_customizing" 
-                href="../miramopdf-dita-ot-plugin-getting-started-guide/customizing-com-miramo-mmpdf-plugin.dita#customizing-com-miramo-mmpdf-plugin/customizing_the_plugin"
+                href="../miramopdf-dita-ot-plugin-getting-started-guide/creating-a-custom-plugin.dita#customizing-com-miramo-mmpdf-plugin/creating_a_plugin"
             /></p>
 </body>
 </topic>

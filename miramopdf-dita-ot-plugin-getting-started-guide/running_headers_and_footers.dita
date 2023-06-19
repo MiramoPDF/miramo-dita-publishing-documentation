@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="running_headers_and_footers">
+    <title>Running headers and footers</title>
+    <body>
+        <p>Headers and footers are added to a PageDef in the <ph keyref="Designer"/> page design
+            view. </p>
+        <p>The default Right PageDef includes two background text frames for header and footer text,
+            and a foreground text frame which is where the document content is placed.</p>
+        <fig id="fig_qkl_fqj_5xb">
+            <title>Right PageDef showing background and foreground text frames</title>
+            <image placement="break" href="graphics/RightPageDef.png" id="image_rkl_fqj_5xb"/>
+        </fig>
+        <p>Fixed text and placeholder variables (&lt;Var>, &lt;RunningText>, &lt;Date>) can be added
+            to a background text frame by double-clicking to locate the cursor in the background
+            text frame, then right-click to bring up the context menu.</p>
+        <fig id="fig_gjp_tqj_5xb">
+            <title>Placeholder variables inserted in background text frame</title>
+            <image placement="break" href="graphics/running_hf_right.png" id="image_hjp_tqj_5xb"/>
+        </fig>
+    </body>
+    <related-links>
+        <link
+            keyref="webinar-running-header-footers"
+            format="html"
+            scope="external"/>
+        <link
+            keyref="MiramoXMLReference_RunningTextDef"
+            format="pdf" scope="external"/>
+        <link
+            keyref="MiramoXMLReference_RunningText"
+            format="pdf" scope="external"/>
+        <link
+            keyref="MiramoXMLReference_RunningTextMarker"
+            format="pdf" scope="external"/>    </related-links>
+</topic>

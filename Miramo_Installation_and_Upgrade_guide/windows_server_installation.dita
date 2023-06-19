@@ -4,11 +4,11 @@
   <title>Installing  <ph keyref="MiramoEnterprise"/>  on Windows Server</title>
   <taskbody>
     <context><ph keyref="MiramoEnterprise"/> job queuing, scheduling and processing is handled by a
-      Windows service, mmServer, which for security reasons runs in the context of a designated
-      'runAs' user, with standard (non-administrator) privileges. During installation you will be
-      prompted for the name and password of the Miramo Server 'runAs' user (default is mmUser); if
-      the user does not already exist it will be created. The specified user may not have
-      administrative privileges.<p>To install, right-click on the <codeph>MiramoEnterprise<ph
+      Windows service, <ph keyref="mmServer"/>, which for security reasons runs in the context of a
+      designated 'runAs' user, with standard (non-administrator) privileges. During installation you
+      will be prompted for the name and password of the Miramo Server 'runAs' user (default is
+      mmUser); if the user does not already exist it will be created. The specified user may not
+      have administrative privileges.<p>To install, right-click on the <codeph>MiramoEnterprise<ph
             keyref="version"/>p<i>NNN</i>setup.exe</codeph> extracted from the downloaded ZIP
         distribution package, and select ’RunAs Administrator’, then follow the instructions given.
         </p><p>When prompted for the Miramo runAs user, specify ’mmUser’ (or a user name of your

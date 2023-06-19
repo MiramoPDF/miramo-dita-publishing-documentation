@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept
+  PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-us" id="how-many-mfd-or-template-files-will-i-need">
+	<title>Choosing fonts</title>
+  <conbody>
+    <p>The choice of font used for publishing is a key consideration for multilingual publishing: no
+      single font supports all unicode characters, and some languages (eg Traditional vs Simplified
+      Chinese) require different fonts, as the same unicode number may be rendered as a radically
+      different glyph in the different languages.</p>
+    <p>For example, here is the same phrase published in Simplified Chinese, Traditional Chinese and
+      Japanese:</p>
+    <fig id="fig_dc4_c43_ghb">
+      <image href="img-chinese-japanese-text.jpeg" alt="???" id="image_wjp_c43_ghb"/>
+    </fig>
+    <p><ph keyref="Product"/>
+      <ph keyref="version"/> includes support for composite fonts which allow language specific
+      fonts to be configured from within <ph keyref="Designer"/>. The language specific font is
+      automatically switched in to apply to text items on the basis of the xml:lang value in
+      effect.</p>
+    <p>Support for compositeFontDef is enabled through the preferences dialog (<menucascade>
+        <uicontrol>Edit</uicontrol>
+        <uicontrol>Preferences</uicontrol>
+      </menucascade>): </p>
+    <fig id="fig_z4k_vdm_45b">
+      <title>Enabling composite fonts through the preferences dialog</title>
+      <image href="compositefont_preferences.png" id="image_qgn_p2m_45b" width="5cm"/>
+    </fig>
+    <p>Composite fonts are configured using the <codeph>CompositeFontDef</codeph> dialog (accessible
+      through the 'More' button at the bottom of the Format Definitions area) where font mappings
+      can be configured for different language groups.</p>
+    <fig>
+        <title>Configuring composite font defs through the CompositeFontDef dialog</title>
+        <image href="compositefont_dialog.png" id="image_z1h_zfm_45b"/>
+      </fig>
+      <p>ParaDefs and FontDefs include a new @compositeFontDef attribute, where the language specific font settings configured using the CompositeFontDef dialog are applied on the basis for the DITA language context. If the CompositeFontDef is not configured for the DITA content language, the standard ParaDef or FontDef font attributes are applied by default.</p>
+      <fig id="fig_dfg_pfm_45b">
+        <title>Applying a composite font through the @compositeFontDef attribute</title>
+        <image href="compositefont_attribute.png" id="image_egx_pfm_45b"/>
+      </fig>
+  </conbody>
+</concept>

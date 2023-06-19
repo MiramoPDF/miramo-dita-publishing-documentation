@@ -41,8 +41,7 @@
                         is installed in the <filepath>plugins</filepath> directory of the DITA OT
                         you selected. It is in a folder named <filepath>com.miramo.mmpdf</filepath>.
                         For example:</p>
-                    <p><filepath>C:\Program Files
-                            (x86)\dita-ot-3.6.1\plugins\com.miramo.mmpdf</filepath></p>
+                    <codeblock><ph keyref="plugin-installdir-example"/></codeblock>
                     <p>The <ph keyref="plugin"/> installer will run the DITA-OT integrator and will
                         append the com.miramo.mmpdf folder to the <codeph>PATH</codeph> environment
                         variable.</p>

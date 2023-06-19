@@ -4,7 +4,7 @@
   <topicmeta>
     <author type="contributor">Pieterjan Vandenweghe</author>
     <critdates>
-      <revised modified="2021/07/22"/>
+      <revised modified="2022/11/03"/>
     </critdates>
   </topicmeta>
   <keydef keys="Product">
@@ -17,7 +17,14 @@
   <keydef keys="version">
     <topicmeta>
       <keywords>
-        <keyword>2.0.0</keyword>
+        <keyword>3.0.0</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="plugin-installdir-example">
+    <topicmeta>
+      <keywords>
+        <keyword>C:\dita-ot-3.7.4\plugins\com.miramo.mmpdf</keyword>
       </keywords>
     </topicmeta>
   </keydef>
@@ -25,6 +32,13 @@
     <topicmeta>
       <keywords>
         <keyword>MiramoDesigner</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  <keydef keys="mmServer">
+    <topicmeta>
+      <keywords>
+        <keyword>mmServerx</keyword>
       </keywords>
     </topicmeta>
   </keydef>
@@ -56,6 +70,14 @@
       </keywords>
     </topicmeta>
   </keydef>
+  <keydef keys="DITA-OT">
+    <topicmeta>
+      <keywords>
+        <keyword>DITA-OT</keyword>
+      </keywords>
+    </topicmeta>
+  </keydef>
+  
   <keydef keys="oxygen">
     <topicmeta>
       <keywords>
@@ -67,7 +89,7 @@
   <keydef keys="oxygenVersion">
     <topicmeta>
       <keywords>
-        <keyword>23</keyword>
+        <keyword>24</keyword>
       </keywords>
     </topicmeta>    
   </keydef>
@@ -127,10 +149,172 @@
       </keywords>
     </topicmeta>
   </keydef>
+  <keydef keys="MiramoXMLReference">
+    <topicmeta>
+      <keywords>
+        <keyword>https://www.miramo.com/download/documentation/mmComposerReferenceGuide3.0.pdf</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>
+  <keydef keys="MiramoXMLReference_SectionDef">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#SectionDef.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>
+  <keydef keys="MiramoXMLReference_Section">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#Section.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>
+  <keydef keys="MiramoXMLReference_TblDef">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#TblDef.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="MiramoXMLReference_Tbl">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#Tbl.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="MiramoXMLReference_VarDef">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#VarDef.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="MiramoXMLReference_Var">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#Var.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="MiramoXMLReference_XRefDef">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#XRefDef.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="MiramoXMLReference_XRef">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#XRef.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>    
+  <keydef keys="MiramoXMLReference_RunningTextDef">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#RunningTextDef.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="MiramoXMLReference_RunningText">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#RunningText.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>    
+  <keydef keys="MiramoXMLReference_RunningTextMarker">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#RunningTextMarker.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>    
+  <keydef keys="MiramoXMLReference_IndexDef">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#IndexDef.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="MiramoXMLReference_Index">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#Index.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="MiramoXMLReference_IX">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#IX.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="MiramoXMLReference_ContentsDef">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#ContentsDef.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="MiramoXMLReference_Contents">
+    <topicmeta>
+      <keywords>
+        <keyword>https://tinyurl.com/MiramoXMLReference#Contents.element.start</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  
+  <keydef keys="webinar-glamuppdf">
+    <topicmeta>
+      <keywords>
+        <keyword>https://youtu.be/CZGU9HInBqU</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="webinar-fancytables">
+    <topicmeta>
+      <keywords>
+        <keyword>https://youtu.be/3x8ZT2kWJ8U</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="webinar-lovelylists">
+    <topicmeta>
+      <keywords>
+        <keyword>https://youtu.be/5WB2wn4W7Eo</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="webinar-customplugin">
+    <topicmeta>
+      <keywords>
+        <keyword>https://youtu.be/K8iFCaZzZj8</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="webinar-tocs-and-indexes">
+    <topicmeta>
+      <keywords>
+        <keyword>https://youtu.be/PbVYwQxJ3s0</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>  
+  <keydef keys="webinar-running-header-footers">
+    <topicmeta>
+      <keywords>
+        <keyword>https://youtu.be/QYc16Re-10k</keyword>
+      </keywords>
+    </topicmeta>   
+  </keydef>    
   <keydef keys="patchLevel">
     <topicmeta>
       <keywords>
-        <keyword>p017</keyword>
+        <keyword>p023</keyword>
       </keywords>
     </topicmeta>
   </keydef>
@@ -138,7 +322,7 @@
   <keydef keys="DesktopWindowsInstallFolder">
     <topicmeta>
       <keywords>
-        <keyword>C:\Program Files\Miramo\MiramoPDF 2.0.0</keyword>
+        <keyword>C:\Program Files\Miramo\MiramoPDF-3.0.0</keyword>
       </keywords>
     </topicmeta>
   </keydef>

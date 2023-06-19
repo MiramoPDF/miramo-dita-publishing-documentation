@@ -2,16 +2,75 @@
 <!DOCTYPE concept
   PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept xml:lang="en-us" id="table-of-contents-tocs">
-	<title>Table of Contents (TOC)s</title>
+	<title id="IncludingTOCs">Table of Contents (TOC)</title>
 	<conbody>
-		<p>By default, TOCs are included under the following condition:</p>
-		<p>bookmap: bookmap element contains a &lt;booklists&gt; &lt;toc&gt; element, for
-			example:</p>
-		<codeblock>&lt;frontmatter>
-   &lt;booklists>
-      &lt;toc/>
-   &lt;/booklists></codeblock>
-		<p>To suppress TOC generation in the above case, set <b>mmpdf:includeTOC=N</b>
-		</p>
+		<p>The <ph keyref="MiramoPDF"/>
+			<codeph>ContentsDef</codeph> format definition is used to control the formatting the
+			table of contents levels, and to configure which paragraphs are to be used to populate
+			the table of contents.</p>
+		<p><xref href="#table-of-contents-tocs/toc_in_pdf"/> shows a TOC published to PDF using the
+			default ContentsDef illustrated in <xref href="#table-of-contents-tocs/toc_in_designer"
+			/>.</p>
+	
+			<fig id="toc_in_pdf">
+				<title >Example showing default TOC formatting</title>
+				<image placement="inline" href="graphics/contents_pdf.png" id="image_yhc_m3c_5xb"/>
+			</fig>
+
+			<fig id="toc_in_designer">
+				<title >Editting the contents1 ContentsDef in
+					MiramoDesigner</title>
+				<image placement="inline" href="graphics/ContentsDef.png" id="image_slc_kfc_5xb"/>
+			</fig>
+			<table frame="all" rowsep="1" colsep="1" id="table_w1c_pfc_5xb">
+				<title>DITA element to ContentsDef mapping</title>
+				<tgroup cols="3">
+					<colspec colname="c1" colnum="1" colwidth="1*"/>
+					<colspec colname="c2" colnum="2" colwidth="1*"/>
+					<colspec colname="newCol3" colnum="3" colwidth="1*"/>
+					<thead>
+						<row>
+							<entry>DITA element</entry>
+							<entry>ContentsDef</entry>
+							<entry>Notes</entry>
+						</row>
+					</thead>
+					<tbody>
+						<row>
+							<entry>&lt;toc></entry>
+							<entry>contents1</entry>
+							<entry>Suppressed by setting mmpdf:includeTOC = N</entry>
+						</row>
+						<row>
+							<entry>&lt;figurelist></entry>
+							<entry>figurelist</entry>
+							<entry/>
+						</row>
+						<row>
+							<entry>&lt;tablelist></entry>
+							<entry>tablelist</entry>
+							<entry/>
+						</row>
+						<row>
+							<entry>&lt;chapter></entry>
+							<entry>chapterTOC</entry>
+							<entry>Automatically added if mmpdf:chapterTOC = Y</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+
 	</conbody>
+	<related-links>
+		<link
+			keyref="webinar-tocs-and-indexes"
+			format="html"
+			scope="external"/>
+		<link
+			keyref="MiramoXMLReference_ContentsDef"
+			format="pdf" scope="external"/>
+		<link
+			keyref="MiramoXMLReference_Contents"
+			format="pdf" scope="external"/>
+	</related-links>
 </concept>

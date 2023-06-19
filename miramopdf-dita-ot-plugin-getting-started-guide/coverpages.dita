@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="default_sectiondefs">
+    <title>Cover pages</title>
+    <body>
+        <p>Front cover pages are added as a result of applying the <codeph>coverSection</codeph>
+            SectionDef under the following conditions: </p>
+        <ul id="ul_gdd_ph3_ghb">
+            <li>map: map element has @title attribute or child &lt;title&gt; element </li>
+            <li>bookmap: bookmap element contains child &lt;booktitle&gt; element</li>
+        </ul>
+        <p>To apply a non-standard coverSection (for example, when using a single DITA map to
+            describe products with very different cover designs) set the ant build parameter
+            mmpdf:coverSection=name.</p>
+        <p>To suppress cover generation in the above cases, <b>set mmpdf:includeCover=N</b></p>
+        <p>Back cover pages may be added to the PDF generated from a map or bookmap if and only if
+            the ant build parameter mmpdf:includeBackCover is set to Y. In this case the
+                <codeph>backCoverSection</codeph> SectionDef is applied to the end of the generated
+            PDF.</p>
+    </body>
+
+</topic>

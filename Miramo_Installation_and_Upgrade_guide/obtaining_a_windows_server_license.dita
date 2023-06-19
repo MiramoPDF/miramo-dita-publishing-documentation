@@ -29,13 +29,13 @@
               <uicontrol>Apply license key</uicontrol>
             </menucascade> from the main mmVisor menu. <image href="screenshots/applyLicenseKey.png"
               id="image_vxb_bhh_wpb" outputclass="float-right"/></p>
-          <p>If mmServer is running, you will be prompted to stop mmServer before applying the
-            license key: click Yes to proceed.</p>
+          <p>If <ph keyref="mmServer"/> is running, you will be prompted to stop <ph
+              keyref="mmServer"/> before applying the license key: click Yes to proceed.</p>
           <p>When prompted to enter license key, copy and paste the license key provided by email
             into the dialog box, and click ’OK’:<image href="screenshots/enterlicensekey.png"
               id="image_m3p_ghh_wpb" outputclass="float-right" width="90mm"/></p>
-          <p>When prompted, click on ’Yes’ to start mmServer with the new license:<image
-              href="screenshots/startMmServerNow.png" id="image_zwx_jhh_wpb"
+          <p>When prompted, click on ’Yes’ to start <ph keyref="mmServer"/> with the new
+              license:<image href="screenshots/startMmServerNow.png" id="image_zwx_jhh_wpb"
               outputclass="float-right"/></p>
         </li>
       </ol>

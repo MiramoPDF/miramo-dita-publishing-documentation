@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="topic_emh_2r2_sxb">
+    <title>Cross-references and hyperlinks</title>
+    <conbody>
+        <p>The &lt;xref> element is rendered using either a MiramoXML <codeph>&lt;XRefDef></codeph>
+            format definition (for cross-references to targets within the same publication, i.e.
+            internal cross-references) or using the <codeph>&lt;HyperCmd></codeph> element (for
+            external links to other PDFs or URLs, where the @scope attribute is set to 'external' or
+            @format is 'html' or 'pdf').</p>
+        <p id="external-xref-example">Cross-reference targets may be specified using either <xref
+                href="https://www.oxygenxml.com/dita/1.3/specs/archSpec/base/dita-linking.html#dita-linking__uri"
+                format="html" scope="external">URI based addressing (@href) </xref>or indirect <xref
+                href="https://www.oxygenxml.com/dita/1.3/specs/archSpec/base/dita-linking.html#dita-linking__keys"
+                format="html" scope="external">key-based addressing</xref> (@keyref). </p>
+        <p>For internal cross references, setting the <codeph>mmpdf:showProperties</codeph> build
+            parameter to Y will display the name of the XRefDef used to render the &lt;xref> element
+            to PDF. </p>
+        <p>The default mapping of the &lt;xref> element may be overridden in a custom plugin - see  <xref
+                href="customizing_using_xsl.dita"/> and in particular the
+                <codeph>addCustomXRefDefAttributes</codeph> extension template for more
+            information.</p>
+    </conbody>
+    <related-links>
+        <link
+            keyref="MiramoXMLReference_XRefDef"
+            format="pdf" scope="external"/>
+        <link
+            keyref="MiramoXMLReference_XRef"
+            format="pdf" scope="external"/>
+        
+    </related-links>
+</concept>

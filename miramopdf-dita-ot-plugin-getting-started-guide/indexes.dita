@@ -4,6 +4,21 @@
 <concept xml:lang="en-us" id="indexes">
 	<title>Indexes</title>
 	<conbody>
+		<p>The <ph keyref="MiramoPDF"/>
+			<codeph>IndexDef</codeph> format definition is used to control the formatting of index
+			entries.</p>
+		<p><xref href="#indexes/index_in_pdf"/> shows an index published to PDF using the  IndexDef
+			illustrated in <xref href="#indexes/index_in_designer"/>.</p>
+		<fig id="index_in_designer">
+			<title>Editting the default index1 IndexDef in MiramoDesigner</title>
+			<image placement="break" href="graphics/IndexDef.png" id="image_llp_w1d_5xb"/>
+		</fig>
+		<fig id="index_in_pdf">
+			<title>Example showing default Index formatting</title>
+			<image placement="break" href="graphics/IndexDef_pdf.png" id="image_f4d_z1d_5xb"/>
+		</fig>
+
+		
 		<p>By default, Indexes are included under the following conditions:</p>
 		<ul id="ul_oxv_nh3_ghb">
 			<li>DITA source contains one or more &lt;indexterm&gt; elements</li>
@@ -14,7 +29,24 @@
    &lt;booklists>
       &lt;indexlist/>
    &lt;/booklists></codeblock>
-		<p>To suppress index generation in the above cases, set <b>mmpdf:includeIndex=N</b>
-		</p>
+		<p>To suppress index generation in the above cases, set <xref
+				href="ant-build-parameters.dita#ant-build-parameters/mmpdf:includeIndex"
+				>mmpdf:includeIndex</xref>=N </p>
 	</conbody>
+	<related-links>
+		<link
+			keyref="webinar-tocs-and-indexes"
+			format="html"
+			 scope="external"/>
+		<link
+			keyref="MiramoXMLReference_IndexDef"
+			format="pdf" scope="external"/>
+		<link
+			keyref="MiramoXMLReference_Index"
+			format="pdf" scope="external"/>
+		<link
+			keyref="MiramoXMLReference_IX"
+			format="pdf" scope="external"/>
+		
+	</related-links>
 </concept>

@@ -10,7 +10,7 @@
       <p>
          <codeblock id="codeblock_cp2_qyg_wpb">Usage: mmaccess [-dir dirname] [-user username] [-y] [-remove]
 
-Grant or remove mmServer runAs user access permission for folder
+Grant or remove <ph keyref="mmServer"/> runAs user access permission for folder
 
 Options:
    -dir dirname
@@ -20,7 +20,7 @@ Options:
       specify file name
    -user username
       specify username
-      default is mmServer runAs user [.\mmUser]
+      default is <ph keyref="mmServer"/> runAs user [.\mmUser]
    -y
       apply changes without prompting
    -allowadmin

@@ -6,14 +6,24 @@
 	<conbody>
 		<p>The workflow for developing a GUI template for customized PDFs is as follows:</p>
 		<ol>
-			<li>Create a new DITA template (MFD) in the com.miramo.mmpdf/mmtemplates folder</li>
-			<li>Publish DITA content using the new MFD file with PDF tooltips enabled
-				[showProperties=Y]</li>
+			<li><xref href="creating-new-mfd-file.dita">Create a new DITA template (MFD) in the
+					com.miramo.mmpdf/mmtemplates folder</xref></li>
+			<li><xref href="publishing-dita-content-with-pdf-tooltips-enabled.dita">Publish DITA content
+					using the new MFD file with PDF tooltips enabled </xref></li>
 			<li>Review the PDF tooltips and decide which format definitions you would like to
 				change</li>
-			<li>Use MiramoDesigner to modify the format definitions in the MFD template</li>
+			<li><xref href="guidelines_for_dita_publishing.dita">Use MiramoDesigner to modify the format
+					definitions in the MFD template</xref></li>
 			<li>Repeat steps 2 to 5 until you're happy with the output</li>
 			<li>Publish to production PDF with tooltips disabled [showProperties=N]</li>
 		</ol>
+		<p>Once you are happy with your initial MFD template design it is <b>strongly recommended</b> that
+			you <xref
+				href="creating-a-custom-plugin.dita#customizing-com-miramo-mmpdf-plugin/creating_a_plugin"
+				>create a custom plugin</xref> and move the MFD to the custom plugin. This is good
+			practice as it allows the plugin to be shared easily, and for new versions of the <ph
+				keyref="DITA-OT"/> and the <ph keyref="plugin"/> to be installed without changes to
+			the custom plugin, for ease of ongoing maintenance.</p>
+		
 	</conbody>
 </concept>

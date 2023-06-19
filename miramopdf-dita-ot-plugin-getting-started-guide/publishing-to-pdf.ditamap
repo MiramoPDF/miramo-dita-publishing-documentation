@@ -8,16 +8,6 @@
         <topicref href="publishing-dita-content-with-pdf-tooltips-enabled.dita"/>
         <topicref href="editing-mfd-template-using-miramodesigner.dita"/>
         <topicref href="ant-build-parameters.dita"/>
-        <topicref href="controlling-formatting-using-dita-outputclass-values.dita"/>
-        <topicref href="mapping-dita-elements-to-pdf-document-objects.dita">
-            <topicref href="cover-pages.dita"/>
-            <topicref href="table-of-contents-tocs.dita"/>
-            <topicref href="indexes.dita"/>
-            <topicref href="table-borders-and-rulings.dita"/>
-            <topicref href="metadata-elements-to-vardef-mapping.dita"/>
-            <topicref href="adobe-acrobat-pdf-properties-populated-from-dita-elements.dita"/>
-            <topicref href="dita-equation-domain-mathml-support.dita"/>
-        </topicref>
-        <topicref href="further-information-or-help.dita"/>
+        <topicref href="outputclass-values.dita"/>
     </topicref>
 </map>

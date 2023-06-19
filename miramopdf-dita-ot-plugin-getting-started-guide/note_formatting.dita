@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="configuring_note_formatting_using_miramodesigner">
+    <title>Note formatting using MiramoDesigner</title>
+    <body>
+        <p>By default, DITA &lt;note> elements are formatted using the <codeph>note</codeph> and
+                <codeph>note_tbl </codeph>(for &lt;note> elements within a table) ParaDef format
+            definitions, configured using MiramoDesigner.</p>
+        <p>To illustrate how MiramoDesigner can be used to control note formatting consider the
+            following three &lt;note> examples:</p>
+        <simpletable frame="all" relcolwidth="1* 1*" id="simpletable_zlr_gys_sxb">
+            <sthead>
+                <stentry>Notes in XML editor</stentry>
+                <stentry><p id="default_pdf_note">MiramoPDF default.mfd formatting</p></stentry>
+            </sthead>
+            <strow>
+                <stentry>
+                    <image placement="break" href="graphics/note_oxygen.png" id="image_mv2_kxs_sxb"
+                    />
+                </stentry>
+                <stentry>
+                    <image placement="break" href="graphics/note_pdf.png" id="image_qkl_dys_sxb"/>
+                </stentry>
+            </strow>
+        </simpletable>
+        <p>The DITA source for the three notes shown above is shown here:</p>
+        <codeblock id="codeblock_dx5_dxs_sxb">&lt;note>First note&lt;/note>
+&lt;note type="warning">Second warning note&lt;/note>
+&lt;note type="other" othertype="Other type of note">Third othertype note&lt;/note></codeblock>
+        <p>When MiramoPDF renders a &lt;note> element it constructs a note paragraph from the
+            following components, illustrated here:</p>
+        <p><image placement="inline" href="graphics/note_components.png" id="image_rqb_pwy_sxb"
+        /></p>
+        <p>
+            <dl id="dl_fzf_lvy_sxb">
+                <dlentry>
+                    <dt>Note icon</dt>
+                    <dd>The DITA-OT automatically populates the note ParaDef label with the
+                        appropriate icon, where the name of the note icon graphic is derived from
+                        the note @type attribute, eg <codeph>warning.svg</codeph> The icon graphic
+                        file is located in the folder <codeph>mmpdf:images.dir</codeph> folder, with
+                        the file suffix given by the <codeph>mmpdf:images</codeph>.suffix build
+                        parameter. By default, the <codeph>noteimage</codeph> FontDef is applied to
+                        the image, which allows the baseline of the icon to be adjusted via the
+                        noteimage FontDef properties.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Language specific variable</dt>
+                    <dd>The language specific variable corresponding to the given note type is
+                        automatically inserted at the beginning of the note paragraph text, followed
+                        by the language specific separator lang-separator (for most languages, this
+                        defaults to the ':' character). The <codeph>notetext</codeph> FontDef is
+                        applied to this prefix text, allowing the text to be distinguished from the
+                        note element content. See <xref href="language-specific-variables.dita"
+                        />.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Note element contents</dt>
+                    <dd>The contents of the note element are rendered using the
+                            <codeph>note</codeph> or <codeph>note_tbl</codeph> ParaDef
+                        properties.</dd>
+                </dlentry>
+            </dl>
+        </p>
+        <p>The temporary intermediate MiramoXML markup produced by the DITA-OT plugin corresponding
+            to the second warning note looks like
+            this:<codeblock id="codeblock_jbz_5hz_sxb">&lt;P paraDef="note">
+&lt;ListLabel>&lt;Image file="<i>images.dir</i>/warning.svg"/>&lt;/ListLabel>
+&lt;Font fontDef="notetext">Warning&lt;Var varDef="lang-note-separator"/>&lt;/Font>
+Second warning note
+&lt;/P></codeblock></p>
+        
+    </body>
+</topic>

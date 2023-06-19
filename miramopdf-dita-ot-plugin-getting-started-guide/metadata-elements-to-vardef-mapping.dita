@@ -2,14 +2,29 @@
 <!DOCTYPE concept
   PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept xml:lang="en-US" id="metadata-elements-to-vardef-mapping">
-  <title>Metadata elements to &lt;VarDef&gt; mapping</title>
+  <title>Working with metadata and variables</title>
   <conbody>
     <p>Metadata elements in the DITA are mapped to MiramoXML &lt;VarDef&gt; elements which are used
-      to populate MiramoDesigner variable placeholders inserted in background (running header
-      footer) text frames in the MFD template. The variables listed in<xref
+      to populate MiramoDesigner variable placeholders which can be inserted in background (running
+      header footer) text frames, paragraph list labels and cross-reference formats in the MFD
+      template. The variables listed in<xref
         href="#metadata-elements-to-vardef-mapping/MiramoDesigner-metadata-variables" format="dita"
       /> are available in the default template and are populated from metadata elements, if present
-      and not empty.</p>
+      and not empty.</p><fig id="fig_szp_ww3_5xb">
+        <title>Working with variables in MiramoDesigner</title>
+        <image placement="break" href="graphics/vardef_on_coverpage.png" id="image_tzp_ww3_5xb"/>
+        <p>Right-clicking inside a background text frame displays a context menu with options for managing VarDefs and other types of placeholder variables:</p>
+        <image placement="break" href="graphics/textframe_context_menu.png" />
+      </fig>
+    <p>MiramoDesigner &lt;VarDef>s can also be editted via the 'Manage user variables' dialog
+      which is accessible through the 'More' button at the bottom of the format definitions
+      pane:</p>
+    <p><menucascade>
+      <uicontrol><image href="graphics/more_button.png" width="3cm" placement="inline" id="image_ngb_14k_sxb"
+      />
+      </uicontrol><uicontrol><image href="graphics/more_vardef.png" width="3cm" id="image_ecc_1pk_sxb"
+      /></uicontrol>
+    </menucascade></p>
     <p>In addition, certain DITA metadata elements are mapped to MiramoXML &lt;MetaData&gt; elements
       which are used to populate PDF metadata.</p>
     <p>For example, the following DITA &lt;author&gt; element:</p>
@@ -128,4 +143,17 @@
       </tgroup>
     </table>
   </conbody>
+  <related-links>
+    <link
+      keyref="webinar-glamuppdf"
+      format="html"
+      scope="external"/>
+    <link
+      keyref="MiramoXMLReference_VarDef"
+      format="pdf" scope="external"/>
+    <link
+      keyref="MiramoXMLReference_Var"
+      format="pdf" scope="external"/>
+    
+  </related-links>
 </concept>

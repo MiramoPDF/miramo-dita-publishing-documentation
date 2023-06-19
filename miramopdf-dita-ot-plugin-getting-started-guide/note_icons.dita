@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="note_icons">
+    <title>Note icons</title>
+    <body>
+        <p>By default the DITA-OT plugin populates the 'note' ParaDef listLabel with the note icon
+            corresponding to the note type.</p>
+        <p>The location of the folder containing note icons is controlled via the
+                <codeph>mmpdf:images.dir</codeph> build parameter, and the icon file type may be set
+            to any value (eg 'svg' or 'png') via the<codeph> mmpdf:images.suffix</codeph> build
+            parameter. See <xref href="ant-build-parameters.dita"/></p>
+        <p>The baseline offset of the note image may be adjusted by modifying the noteimage FontDef,
+            which defaults to a downshift of 20% of the note ParaDef fontsize, as  shown here:
+                <image placement="inline" href="graphics/noteimage_fontdef.png"
+                id="image_tvd_t5y_sxb" outputclass="float-right" width="4cm"/></p>
+
+            <p outputclass="mmpdf:skipFloats:Y">Note icons may be suppressed by unchecking the
+            @listLabel attribute in the note or note_tbl ParaDef: <image placement="inline"
+                href="graphics/note_paradef_listlabel.png" id="image_i2g_5fz_sxb"
+                outputclass="float-right" width="60mm"/></p>
+        <p outputclass="mmpdf:skipFloats:Y">The size and positioning of the note icon is controlled through a combination of the
+                ParaDef firstLineIndent, and the listLabel indent and width:</p>
+            <image placement="break" href="graphics/note_listlabel.png" width="90mm" id="image_wdb_qjz_sxb"/>
+            <p>This could produce a custom 'mynote' paragraph which looks like this (with @paraFrame
+                properties applied to the mynote ParaDef):</p>
+            <p><image placement="break" href="graphics/note_listlabel_annotated.png"
+                    id="image_i5z_wkz_sxb"/>The properties of the icon graphic inserted may be
+                overridden in a custom plugin by overriding the <codeph>addNoteImage</codeph> XSL
+                template - see <xref href="customizing_using_xsl.dita"/>.</p>
+        
+    </body>
+</topic>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+  <booktitle>
+    <mainbooktitle>Installation Guide</mainbooktitle>
+    <booktitlealt>for DITA publishing</booktitlealt>
+  </booktitle>
+  <bookmeta>
+    <author>Corinna Kinchin</author>
+    <publisherinformation>
+      <organization>Datazone Ltd</organization>
+      <printlocation>Kenmare, Kerry, Ireland</printlocation>
+      <data name="phone" value="+353 64 66 289 64"/>
+      <data name="email" value="miramo@datazone.com"/>
+      <data name="url" value="www.miramo.com"/>
+    </publisherinformation>
+    <prodinfo>
+      <prodname>MiramoPDF</prodname>
+      <vrmlist>
+        <vrm version="1.6"/>
+        <vrm version="3.0.0"/>
+      </vrmlist>
+    </prodinfo>
+  </bookmeta>
+  <frontmatter>
+    <booklists>
+      <toc/>
+    </booklists>
+    <mapref href="_warehouse/!reuse.ditamap" format="ditamap" processing-role="resource-only"/>
+    <mapref href="_warehouse/_warehouse.ditamap" format="ditamap" processing-role="resource-only"/>
+  </frontmatter>
+ 
+  <chapter href="Miramo_Installation_and_Upgrade_guide/introduction.dita" format="dita">
+    <topicref href="Miramo_Installation_and_Upgrade_guide/miramo_installation_packages.dita"/>
+    <topicref href="Miramo_Installation_and_Upgrade_guide/plugin_installation_packages.dita"/>
+    <topicref href="Miramo_Installation_and_Upgrade_guide/downloading_miramopdf.dita"/>
+  </chapter>
+  <chapter href="Miramo_Installation_and_Upgrade_guide/installing_miramo.dita" format="dita">
+    <topicref href="Miramo_Installation_and_Upgrade_guide/windows_desktop_installation.dita"
+      format="dita"/>
+    <topicref href="Miramo_Installation_and_Upgrade_guide/linux_installation.dita" format="dita"/>
+    <topicref href="Miramo_Installation_and_Upgrade_guide/testing_the_installation.dita"/>
+
+  </chapter>
+  <chapter href="miramopdf-dita-ot-plugin-getting-started-guide/installing.dita" format="dita">
+    <topicref href="miramopdf-dita-ot-plugin-getting-started-guide/system-requirements.dita"/>
+    <topicref
+      href="miramopdf-dita-ot-plugin-getting-started-guide/installing-Miramo-dita-ot-plugin-for-first-time.dita">
+      <topicref href="miramopdf-dita-ot-plugin-getting-started-guide/installing-from-setup-exe.dita"/>
+      <topicref
+        href="miramopdf-dita-ot-plugin-getting-started-guide/installing-from-setup-exe-oxygen_lww.dita"/>
+      <topicref href="miramopdf-dita-ot-plugin-getting-started-guide/installing-from-archive.dita"/>
+      <topicref href="miramopdf-dita-ot-plugin-getting-started-guide/integrating-with-oxygen.dita">
+        <topicref
+          href="miramopdf-dita-ot-plugin-getting-started-guide/import-miramopdf-transformation-scenarios-oxygen.dita"/>
+        <topicref
+          href="miramopdf-dita-ot-plugin-getting-started-guide/make-oXygen-content-completion-present-outputclass-values.dita"
+        />
+      </topicref>
+      <!--<topicref href="miramopdf-dita-ot-plugin-getting-started-guide/installing-integrating-plugin-with-xmetal.dita">
+        <topicref href="miramopdf-dita-ot-plugin-getting-started-guide/installing-from-setup-exe-xmetal.dita"/>
+        <topicref href="miramopdf-dita-ot-plugin-getting-started-guide/files-and-folders-xref.dita"/>
+        <topicref href="miramopdf-dita-ot-plugin-getting-started-guide/configuring-xmetal.dita">
+          <topicref href="miramopdf-dita-ot-plugin-getting-started-guide/create-miramopdf-deliverable-types-in-xmetal.dita"/>
+        </topicref>
+        <topicref href="miramopdf-dita-ot-plugin-getting-started-guide/test-integration-xmetal.dita"/>
+      </topicref>-->
+    </topicref>
+    <topicref href="miramopdf-dita-ot-plugin-getting-started-guide/files-and-folders.dita"/>
+  </chapter>
+  <chapter href="Miramo_Installation_and_Upgrade_guide/upgrading_miramo.dita" format="dita">
+    <topicref href="Miramo_Installation_and_Upgrade_guide/windows_desktop_upgrade.dita"/>
+    <topicref href="Miramo_Installation_and_Upgrade_guide/linux_upgrade.dita"/>
+
+  </chapter>
+  <chapter
+    href="miramopdf-dita-ot-plugin-getting-started-guide/upgrading-miramo-dita-ot-plugin.dita"
+    format="dita">
+    <topicref
+      href="miramopdf-dita-ot-plugin-getting-started-guide/upgrading-oxygen-transformation-scenarios.dita"/>
+    <topicref
+      href="miramopdf-dita-ot-plugin-getting-started-guide/upgrading-existing-mfd-files.dita"/>
+    <topicref
+      href="miramopdf-dita-ot-plugin-getting-started-guide/using-oxygen-miramopdf-mfd-upgrade-transformation.dita"/>
+    <topicref
+      href="miramopdf-dita-ot-plugin-getting-started-guide/using-mfdupgrade-command-line-tool.dita"
+    />
+  </chapter>
+</bookmap>

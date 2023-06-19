@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="xref_to_all_about_xrefs_dita">
+    <title>Testing cross-references</title>
+    <body>
+        <p>See <xref href="all_about_xrefs.dita"/>.</p>
+        <p></p>
+        <p/>
+    </body>
+    <related-links>
+        <link href="all_about_xrefs.dita"/>
+    </related-links>
+</topic>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="notes_and_hazards">
+    <title>Notes</title>
+
+    <conbody>
+        <p>The appearance of &lt;note> elements is controlled by the <codeph>note</codeph> or
+                <codeph>note_tbl</codeph> ParaDef, configured in the MiramoDesigner template. The
+            ParaDef listLabel properties control the inclusion, size and location of the
+            corresponding note icon.</p>
+        <p>The default mapping of the &lt;note> element may be overridden in a custom plugin - see
+                <xref href="customizing_using_xsl.dita"/> and in particular the
+                <codeph>addCustomParagraphAttributes</codeph> and <codeph>addNoteImage</codeph>
+            extension templates.</p></conbody>
+</concept>
