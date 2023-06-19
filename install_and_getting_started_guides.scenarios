@@ -11,6 +11,9 @@
 					<field name="useAntennaHouse">
 						<Boolean>false</Boolean>
 					</field>
+					<field name="useDITAScript">
+						<Boolean>false</Boolean>
+					</field>
 					<field name="baseDir">
 						<String>${cfd}</String>
 					</field>
@@ -71,6 +74,40 @@
 					</field>
 					<field name="ditaParams">
 						<list>
+							<ditaParameter>
+								<field name="name">
+									<String>args.rellinks</String>
+								</field>
+								<field name="description">
+									<null/>
+								</field>
+								<field name="value">
+									<String>nofamily</String>
+								</field>
+								<field name="defaultValue">
+									<null/>
+								</field>
+								<field name="type">
+									<Integer>4</Integer>
+								</field>
+								<field name="possibleValues">
+									<String-array>
+										<String>none</String>
+										<String>all</String>
+										<String>noparent</String>
+										<String>nofamily</String>
+										<null/>
+									</String-array>
+								</field>
+								<field name="possibleValuesDescriptions">
+									<String-array>
+										<String>No links are included.</String>
+										<String>All links are included.</String>
+										<String>Ancestor and parent links are not included.</String>
+										<String>Parent, ancestor, child, descendant, sibling, next, previous, and cousin links are not included.</String>
+									</String-array>
+								</field>
+							</ditaParameter>
 							<ditaParameter>
 								<field name="name">
 									<String>clean.temp</String>
@@ -266,7 +303,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>c:\dev\MiramoPDF\miramopdf-dita-ot-plugin-getting-started-guide/mmtemplates</String>
+									<String>c:\dev\MiramoPDF\miramo-dita-publishing-documentation/mmtemplates</String>
 								</field>
 								<field name="defaultValue">
 									<String></String>
@@ -534,7 +571,7 @@
 						<null/>
 					</field>
 					<field name="name">
-						<String>MiramoPDF - Install and Getting Started Guide (v2)</String>
+						<String>MiramoPDF - Install and Getting Started Guide (v3)</String>
 					</field>
 					<field name="baseURL">
 						<null/>
